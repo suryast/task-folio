@@ -1,4 +1,4 @@
-import OpenAI from 'openai'
+import Anthropic from '@anthropic-ai/sdk'
 import { findBestMatch, type OnetOccupation } from '@/lib/onet'
 
 export type TaskFrequency = 'daily' | 'weekly' | 'monthly' | 'quarterly'
@@ -15,17 +15,16 @@ export interface DecompositionResult {
   onetMatch: { socCode: string; title: string } | null
 }
 
-// Simple in-memory cache keyed by normalized job title
 const cache = new Map<string, DecompositionResult>()
 
 function normalizeTitle(title: string): string {
   return title.toLowerCase().trim().replace(/\s+/g, ' ')
 }
 
-function getClient(): OpenAI {
-  const apiKey = process.env.OPENAI_API_KEY
-  if (!apiKey) throw new Error('OPENAI_API_KEY environment variable is not set')
-  return new OpenAI({ apiKey })
+function getClient(): Anthropic {
+  const apiKey = process.env.ANTHROPIC_API_KEY
+  if (!apiKey) throw new Error('ANTHROPIC_API_KEY environment variable is not set')
+  return new Anthropic({ apiKey })
 }
 
 function buildPrompt(
@@ -34,16 +33,12 @@ function buildPrompt(
   onetMatch: OnetOccupation | null
 ): string {
   const onetContext = onetMatch
-    ? `
-O*NET baseline tasks for this role (${onetMatch.title}):
-${onetMatch.tasks.map((t) => `- ${t.name} [${t.category}]`).join('\n')}
-
-Use these as a starting point. Refine, merge, or supplement with additional tasks specific to the role.`
+    ? `\nO*NET baseline tasks for this role (${onetMatch.title}):\n${onetMatch.tasks.map((t) => '- ' + t.name + ' [' + t.category + ']').join('\n')}\n\nUse these as a starting point. Refine, merge, or supplement with additional tasks specific to the role.`
     : ''
 
   const input = jobDescription
-    ? `Job description:\n${jobDescription.slice(0, 3000)}`
-    : `Job title: ${jobTitle}`
+    ? 'Job description:\n' + jobDescription.slice(0, 3000)
+    : 'Job title: ' + jobTitle
 
   return `You are a workforce analyst. Decompose the following job into a structured list of tasks.
 
@@ -91,22 +86,26 @@ export async function decomposeJob(params: {
   const onetMatch = jobTitle ? findBestMatch(jobTitle) : null
   const client = getClient()
 
-  const response = await client.chat.completions.create({
-    model: 'gpt-4o-mini',
+  const response = await client.messages.create({
+    model: 'claude-haiku-4-5-20250401',
+    max_tokens: 2048,
     messages: [
       {
         role: 'user',
         content: buildPrompt(jobTitle, jobDescription, onetMatch),
       },
     ],
-    response_format: { type: 'json_object' },
     temperature: 0.3,
   })
 
-  const content = response.choices[0]?.message?.content
+  const textBlock = response.content.find((b) => b.type === 'text')
+  const content = textBlock?.type === 'text' ? textBlock.text : null
   if (!content) throw new Error('Empty response from LLM')
 
-  const parsed = JSON.parse(content) as { tasks: DecomposedTask[] }
+  const jsonMatch = content.match(/\{[\s\S]*\}/)
+  if (!jsonMatch) throw new Error('No JSON found in LLM response')
+
+  const parsed = JSON.parse(jsonMatch[0]) as { tasks: DecomposedTask[] }
 
   if (!Array.isArray(parsed.tasks)) {
     throw new Error('Invalid response structure: missing tasks array')

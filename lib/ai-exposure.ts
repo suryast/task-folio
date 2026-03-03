@@ -1,18 +1,18 @@
-import OpenAI from 'openai'
+import Anthropic from '@anthropic-ai/sdk'
 import type { DecomposedTask, TaskFrequency } from '@/lib/decompose'
 
 export type AITimeframe = 'now' | '1-2y' | '3-5y' | 'unlikely'
 
 export interface TaskExposureScore {
   taskName: string
-  exposureScore: number // 0-100
+  exposureScore: number
   reasoning: string
   timeframe: AITimeframe
 }
 
 export interface JobExposureResult {
   taskScores: TaskExposureScore[]
-  jobExposureScore: number // weighted average 0-100
+  jobExposureScore: number
   summary: string
 }
 
@@ -23,15 +23,15 @@ const FREQUENCY_WEIGHT: Record<TaskFrequency, number> = {
   quarterly: 1,
 }
 
-function getClient(): OpenAI {
-  const apiKey = process.env.OPENAI_API_KEY
-  if (!apiKey) throw new Error('OPENAI_API_KEY environment variable is not set')
-  return new OpenAI({ apiKey })
+function getClient(): Anthropic {
+  const apiKey = process.env.ANTHROPIC_API_KEY
+  if (!apiKey) throw new Error('ANTHROPIC_API_KEY environment variable is not set')
+  return new Anthropic({ apiKey })
 }
 
 function buildScoringPrompt(tasks: DecomposedTask[]): string {
   const taskList = tasks
-    .map((t, i) => `${i + 1}. "${t.name}": ${t.description} [${t.category}]`)
+    .map((t, i) => (i + 1) + '. "' + t.name + '": ' + t.description + ' [' + t.category + ']')
     .join('\n')
 
   return `You are an AI automation analyst. Score each task for AI automation potential based on current AI capabilities (GPT-4, Claude, AI agents, robotic process automation).
@@ -45,25 +45,25 @@ For each task, return a JSON object with this exact structure:
     {
       "taskName": "exact task name from input",
       "exposureScore": 75,
-      "reasoning": "Why this score — what AI can and cannot do here (1-2 sentences)",
+      "reasoning": "Why this score (1-2 sentences)",
       "timeframe": "now|1-2y|3-5y|unlikely"
     }
   ]
 }
 
 Scoring guide:
-- 90-100: AI can fully automate this task today (data entry, simple text generation, rule-based decisions)
-- 70-89: AI can do most of this task with minimal human oversight
-- 50-69: AI can significantly assist but human judgment is still required
+- 90-100: AI can fully automate this task today
+- 70-89: AI can do most of this with minimal human oversight
+- 50-69: AI can significantly assist but human judgment still required
 - 30-49: AI provides tools/assistance but human remains central
-- 10-29: AI has limited applicability; task is highly contextual or relational
-- 0-9: AI cannot meaningfully assist (requires physical presence, deep empathy, or novel judgment)
+- 10-29: AI has limited applicability; highly contextual or relational
+- 0-9: AI cannot meaningfully assist
 
 Timeframe guide:
 - "now": AI can do this today
-- "1-2y": Will be automatable within 2 years with current trajectory
-- "3-5y": Requires AI advances but plausible within 5 years
-- "unlikely": Requires AGI-level capabilities; not plausible near-term
+- "1-2y": Automatable within 2 years
+- "3-5y": Requires advances but plausible within 5 years
+- "unlikely": Requires AGI-level capabilities
 
 Return only valid JSON, no explanation. Return scores in the same order as input tasks.`
 }
@@ -77,36 +77,37 @@ export async function scoreTaskExposure(
 
   const client = getClient()
 
-  const response = await client.chat.completions.create({
-    model: 'gpt-4o-mini',
+  const response = await client.messages.create({
+    model: 'claude-haiku-4-5-20250401',
+    max_tokens: 2048,
     messages: [
       {
         role: 'user',
         content: buildScoringPrompt(tasks),
       },
     ],
-    response_format: { type: 'json_object' },
     temperature: 0.2,
   })
 
-  const content = response.choices[0]?.message?.content
+  const textBlock = response.content.find((b) => b.type === 'text')
+  const content = textBlock?.type === 'text' ? textBlock.text : null
   if (!content) throw new Error('Empty response from LLM')
 
-  const parsed = JSON.parse(content) as { scores: TaskExposureScore[] }
+  const jsonMatch = content.match(/\{[\s\S]*\}/)
+  if (!jsonMatch) throw new Error('No JSON found in LLM response')
+
+  const parsed = JSON.parse(jsonMatch[0]) as { scores: TaskExposureScore[] }
 
   if (!Array.isArray(parsed.scores)) {
     throw new Error('Invalid response: missing scores array')
   }
 
-  // Validate scores are in range
   const taskScores = parsed.scores.map((s) => ({
     ...s,
     exposureScore: Math.max(0, Math.min(100, Math.round(s.exposureScore))),
   }))
 
-  // Weighted average by task frequency
   const jobExposureScore = computeJobScore(tasks, taskScores)
-
   const summary = generateSummary(jobExposureScore)
 
   return { taskScores, jobExposureScore, summary }

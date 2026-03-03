@@ -2,43 +2,40 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import type { DecomposedTask } from '@/lib/decompose'
 
 const mockCreate = vi.fn().mockResolvedValue({
-  choices: [
+  content: [
     {
-      message: {
-        content: JSON.stringify({
-          scores: [
-            {
-              taskName: 'Write and review code',
-              exposureScore: 55,
-              reasoning: 'AI can assist with code generation but human review is critical.',
-              timeframe: '1-2y',
-            },
-            {
-              taskName: 'Collaborate in code reviews',
-              exposureScore: 30,
-              reasoning: 'Code review requires contextual understanding and team dynamics.',
-              timeframe: '3-5y',
-            },
-            {
-              taskName: 'Write technical documentation',
-              exposureScore: 75,
-              reasoning: 'AI tools excel at drafting structured technical documentation.',
-              timeframe: 'now',
-            },
-          ],
-        }),
-      },
+      type: 'text',
+      text: JSON.stringify({
+        scores: [
+          {
+            taskName: 'Write and review code',
+            exposureScore: 55,
+            reasoning: 'AI can assist with code generation but human review is critical.',
+            timeframe: '1-2y',
+          },
+          {
+            taskName: 'Collaborate in code reviews',
+            exposureScore: 30,
+            reasoning: 'Code review requires contextual understanding and team dynamics.',
+            timeframe: '3-5y',
+          },
+          {
+            taskName: 'Write technical documentation',
+            exposureScore: 75,
+            reasoning: 'AI tools excel at drafting structured technical documentation.',
+            timeframe: 'now',
+          },
+        ],
+      }),
     },
   ],
 })
 
-vi.mock('openai', () => {
+vi.mock('@anthropic-ai/sdk', () => {
   return {
-    default: class MockOpenAI {
-      chat = {
-        completions: {
-          create: mockCreate,
-        },
+    default: class MockAnthropic {
+      messages = {
+        create: mockCreate,
       }
     },
   }
@@ -55,7 +52,7 @@ const sampleTasks: DecomposedTask[] = [
   },
   {
     name: 'Collaborate in code reviews',
-    description: 'Review teammates\' code and provide feedback.',
+    description: "Review teammates' code and provide feedback.",
     category: 'interpersonal',
     frequency: 'daily',
   },
@@ -69,7 +66,7 @@ const sampleTasks: DecomposedTask[] = [
 
 describe('AI exposure scoring', () => {
   beforeEach(() => {
-    process.env.OPENAI_API_KEY = 'test-key'
+    process.env.ANTHROPIC_API_KEY = 'test-key'
     mockCreate.mockClear()
   })
 

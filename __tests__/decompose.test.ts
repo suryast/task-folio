@@ -1,49 +1,46 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 
 const mockCreate = vi.fn().mockResolvedValue({
-  choices: [
+  content: [
     {
-      message: {
-        content: JSON.stringify({
-          tasks: [
-            {
-              name: 'Write and review code',
-              description: 'Design, write, and review software code to build product features.',
-              category: 'cognitive',
-              frequency: 'daily',
-            },
-            {
-              name: 'Collaborate in code reviews',
-              description: 'Review teammates\' code and provide constructive feedback.',
-              category: 'interpersonal',
-              frequency: 'daily',
-            },
-            {
-              name: 'Write technical documentation',
-              description: 'Document systems, APIs, and decisions for team knowledge sharing.',
-              category: 'cognitive',
-              frequency: 'weekly',
-            },
-            {
-              name: 'Attend planning meetings',
-              description: 'Participate in sprint planning and estimation.',
-              category: 'interpersonal',
-              frequency: 'weekly',
-            },
-          ],
-        }),
-      },
+      type: 'text',
+      text: JSON.stringify({
+        tasks: [
+          {
+            name: 'Write and review code',
+            description: 'Design, write, and review software code to build product features.',
+            category: 'cognitive',
+            frequency: 'daily',
+          },
+          {
+            name: 'Collaborate in code reviews',
+            description: "Review teammates' code and provide constructive feedback.",
+            category: 'interpersonal',
+            frequency: 'daily',
+          },
+          {
+            name: 'Write technical documentation',
+            description: 'Document systems, APIs, and decisions for team knowledge sharing.',
+            category: 'cognitive',
+            frequency: 'weekly',
+          },
+          {
+            name: 'Attend planning meetings',
+            description: 'Participate in sprint planning and estimation.',
+            category: 'interpersonal',
+            frequency: 'weekly',
+          },
+        ],
+      }),
     },
   ],
 })
 
-vi.mock('openai', () => {
+vi.mock('@anthropic-ai/sdk', () => {
   return {
-    default: class MockOpenAI {
-      chat = {
-        completions: {
-          create: mockCreate,
-        },
+    default: class MockAnthropic {
+      messages = {
+        create: mockCreate,
       }
     },
   }
@@ -53,7 +50,7 @@ import { decomposeJob } from '@/lib/decompose'
 
 describe('Task decomposition', () => {
   beforeEach(() => {
-    process.env.OPENAI_API_KEY = 'test-key'
+    process.env.ANTHROPIC_API_KEY = 'test-key'
     mockCreate.mockClear()
   })
 
@@ -99,8 +96,6 @@ describe('Task decomposition', () => {
 
   it('returns onetMatch for known job titles', async () => {
     const result = await decomposeJob({ jobTitle: 'Software Developer match test' })
-    // Cache is per session so use fresh title; onet should match "Software Developer" 
-    // We just verify the field exists
     expect(result).toHaveProperty('onetMatch')
   })
 
@@ -115,7 +110,6 @@ describe('Task decomposition', () => {
     await decomposeJob({ jobTitle: cacheTitle })
     await decomposeJob({ jobTitle: cacheTitle })
 
-    // Second call should use cache — LLM only called once
     expect(mockCreate).toHaveBeenCalledTimes(1)
   })
 })
