@@ -32,7 +32,7 @@ AI is reshaping knowledge work, but workers have no tools to understand their pe
 
 | Layer | Choice |
 |-------|--------|
-| Frontend | Next.js 14 (App Router, TypeScript) |
+| Frontend | Next.js 16 (App Router, TypeScript) |
 | Styling | Tailwind CSS |
 | ORM | Drizzle |
 | Database | PostgreSQL (Neon) |
