@@ -148,3 +148,10 @@ For more details, see README.md and docs/QUICKSTART.md.
 - If push fails, resolve and retry until it succeeds
 
 <!-- END BEADS INTEGRATION -->
+
+## Task Tracking (MANDATORY)
+- Use `bd ready` to find next actionable tasks
+- `bd update <id> --claim` before starting work
+- `bd update <id> --status closed` when done
+- Never work on tasks without claiming them first
+- Check `bd list` to avoid conflicts with other agents
