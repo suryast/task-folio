@@ -1,7 +1,7 @@
 export type Bindings = {
   DB: D1Database
   CACHE: KVNamespace
-  BUCKET: R2Bucket
+  BUCKET?: R2Bucket
   ANTHROPIC_API_KEY: string
 }
 

@@ -11,9 +11,10 @@ database_id = "b2d32382-c287-4308-afaa-d33b3fdd87ee"
 binding = "CACHE"
 id = "f2651745e2124560b5fe84f3e765c6bd"
 
-[[r2_buckets]]
-binding = "BUCKET"
-bucket_name = "taskfolio-data"
+# R2 bucket (not used yet)
+# [[r2_buckets]]
+# binding = "BUCKET"
+# bucket_name = "taskfolio-data"
 
 [vars]
 ENVIRONMENT = "production"
