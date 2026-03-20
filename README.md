@@ -132,6 +132,55 @@ flowchart LR
 
 **Exit criteria:** 361 occupations, 4,000-5,000 tasks, all with economic primitives in D1.
 
+---
+
+## Data Pipeline Methodology
+
+### ANZSCO → O*NET Mapping Challenge
+
+**Problem:** Australian (ANZSCO) and US (O*NET) occupation taxonomies use different naming conventions. Example:
+
+| ANZSCO | O*NET | Match? |
+|---|---|---|
+| Registered Nurses | Registered Nurses | ✅ 1.0 |
+| Software and Applications Programmers | Software Developers, Applications | ✅ 0.86 |
+| Chefs | **Chemists** | ❌ 0.62 (garbage) |
+| Police | **Producers** | ❌ 0.53 (garbage) |
+
+**Solution:** Fuzzy string matching (`difflib.SequenceMatcher`) with confidence filtering.
+
+### Two-Tier Data Strategy
+
+**Tier 1 — High Confidence Matches (147 occupations)**
+- Confidence >0.7 threshold
+- Use Anthropic Economic Index data (backed by 1M real conversations)
+- Get research-grade metrics: automation %, success rate, time savings, economic primitives
+
+**Tier 2 — Low Confidence / Unmapped (214 occupations)**
+- Confidence <0.7 or no match found
+- Generate tasks using Claude Sonnet 4.5
+- Australian-specific context (regulations, industry structure, geography)
+- 15-20 tasks per occupation with AI impact scoring
+
+### Why Not Force-Fit Poor Matches?
+
+Using "Chemists" tasks for "Chefs" would pollute the dataset with:
+- Wrong task descriptions (chemistry lab work vs kitchen operations)
+- Incorrect AI exposure scores (lab automation vs culinary creativity)
+- Misleading timeframes and success rates
+
+**Trade-off:** Tier 2 tasks are AI-generated templates rather than research-backed, but they're **occupation-specific** and **Australian-context-aware** — better than wrong O*NET data.
+
+### Final Dataset
+
+| Source | Occupations | Tasks | Quality |
+|---|---|---|---|
+| **Anthropic Economic Index** | 147 | 3,074 | Research-grade (1M conversations) |
+| **Claude Sonnet Generated** | 214 | 3,616 | AI templates (Australian context) |
+| **Total** | **361** | **6,690** | Mixed quality, 100% coverage |
+
+---
+
 ### S3 — Frontend
 
 **Shape:** D3.js treemap landing page (fork ychua's proven UX) + task breakdown detail view + custom job input form. Mobile responsive, dark mode, Australian context.
