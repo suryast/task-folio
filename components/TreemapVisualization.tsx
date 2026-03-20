@@ -14,6 +14,18 @@ interface Occupation {
   source: string
 }
 
+interface TreemapNode extends d3.HierarchyRectangularNode<any> {
+  x0: number
+  y0: number
+  x1: number
+  y1: number
+  data: {
+    name: string
+    value: number
+    data: Occupation
+  }
+}
+
 interface TreemapProps {
   occupations: Occupation[]
 }
@@ -62,21 +74,22 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
       .domain([1, 0]) // Reversed: high exposure = red, low = green
 
     // Create cells
+    const leaves = root.leaves() as unknown as TreemapNode[]
     const cell = svg.selectAll('g')
-      .data(root.leaves())
+      .data(leaves)
       .join('g')
-      .attr('transform', d => `translate(${d.x0},${d.y0})`)
+      .attr('transform', (d: TreemapNode) => `translate(${d.x0},${d.y0})`)
       .style('cursor', 'pointer')
-      .on('click', (event, d: any) => {
+      .on('click', (event, d: TreemapNode) => {
         const code = d.data.data.anzsco_code
         router.push(`/occupations/${code}`)
       })
 
     // Add rectangles
     cell.append('rect')
-      .attr('width', d => d.x1 - d.x0)
-      .attr('height', d => d.y1 - d.y0)
-      .attr('fill', (d: any) => {
+      .attr('width', (d: TreemapNode) => d.x1 - d.x0)
+      .attr('height', (d: TreemapNode) => d.y1 - d.y0)
+      .attr('fill', (d: TreemapNode) => {
         const exposure = d.data.data.ai_exposure || 0
         return colorScale(exposure)
       })
@@ -97,7 +110,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
     cell.append('text')
       .attr('x', 4)
       .attr('y', 14)
-      .attr('font-size', (d: any) => {
+      .attr('font-size', (d: TreemapNode) => {
         const width = d.x1 - d.x0
         const height = d.y1 - d.y0
         return Math.min(width / 6, height / 3, 11)
@@ -105,14 +118,14 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
       .attr('fill', '#000')
       .attr('opacity', 0.8)
       .attr('pointer-events', 'none')
-      .text((d: any) => {
+      .text((d: TreemapNode) => {
         const width = d.x1 - d.x0
         const height = d.y1 - d.y0
         // Only show text if cell is large enough
         if (width < 60 || height < 30) return ''
         return d.data.name
       })
-      .each(function(d: any) {
+      .each(function(d: TreemapNode) {
         const self = d3.select(this)
         const width = d.x1 - d.x0
         const text = self.text()
@@ -123,7 +136,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
 
     // Add title tooltips
     cell.append('title')
-      .text((d: any) => {
+      .text((d: TreemapNode) => {
         const occ = d.data.data
         return `${occ.title}\n` +
                `Employment: ${(occ.employment || 0).toLocaleString()}\n` +

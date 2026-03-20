@@ -1,74 +1,36 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { decomposeJob } from '@/lib/decompose'
-import { scoreTaskExposure } from '@/lib/ai-exposure'
+
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
 
 export interface AnalyzeRequest {
   jobTitle?: string
   jobDescription?: string
 }
 
-export interface AnalyzeResponse {
-  onetMatch: { socCode: string; title: string } | null
-  tasks: Array<{
-    name: string
-    description: string
-    category: string
-    frequency: string
-    aiExposureScore: number
-    aiReasoning: string
-    aiTimeframe: string
-  }>
-  jobExposureScore: number
-  summary: string
-}
-
-export async function POST(request: NextRequest): Promise<NextResponse> {
+export async function POST(request: NextRequest) {
   try {
-    const body = (await request.json()) as AnalyzeRequest
+    const body = await request.json()
 
-    if (!body.jobTitle && !body.jobDescription) {
-      return NextResponse.json(
-        { error: 'Either jobTitle or jobDescription is required' },
-        { status: 400 }
-      )
-    }
-
-    // Decompose into tasks
-    const decomposition = await decomposeJob({
-      jobTitle: body.jobTitle,
-      jobDescription: body.jobDescription,
+    const res = await fetch(`${API_BASE}/api/analyze`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
     })
 
-    // Score AI exposure
-    const exposure = await scoreTaskExposure(decomposition.tasks)
-
-    // Merge tasks with their scores
-    const tasks = decomposition.tasks.map((task, i) => {
-      const score = exposure.taskScores.find((s) => s.taskName === task.name)
-        ?? exposure.taskScores[i]
-
-      return {
-        name: task.name,
-        description: task.description,
-        category: task.category,
-        frequency: task.frequency,
-        aiExposureScore: score?.exposureScore ?? 0,
-        aiReasoning: score?.reasoning ?? '',
-        aiTimeframe: score?.timeframe ?? 'unlikely',
-      }
-    })
-
-    const response: AnalyzeResponse = {
-      onetMatch: decomposition.onetMatch,
-      tasks,
-      jobExposureScore: exposure.jobExposureScore,
-      summary: exposure.summary,
+    const data = await res.json()
+    
+    if (!res.ok) {
+      return NextResponse.json(data, { status: res.status })
     }
-
-    return NextResponse.json(response)
-  } catch (err) {
-    const message = err instanceof Error ? err.message : 'Internal server error'
-    console.error('[/api/analyze]', err)
-    return NextResponse.json({ error: message }, { status: 500 })
+    
+    return NextResponse.json(data)
+  } catch (error) {
+    console.error('API analyze error:', error)
+    return NextResponse.json(
+      { error: 'Failed to analyze job' },
+      { status: 500 }
+    )
   }
 }
