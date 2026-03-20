@@ -15,6 +15,18 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 
 ## How It Works
 
+```mermaid
+flowchart LR
+    A[🔍 Enter job title] --> B[📋 Decompose into\n8-15 tasks]
+    B --> C[🤖 Score each task\nfor AI exposure]
+    C --> D[📊 View your\nexposure profile]
+
+    style A fill:#4a9eff,color:#fff,stroke:none
+    style B fill:#6366f1,color:#fff,stroke:none
+    style C fill:#f59e0b,color:#fff,stroke:none
+    style D fill:#10b981,color:#fff,stroke:none
+```
+
 1. **Browse** 361 ANZSCO occupations on the treemap, or **enter any job title**
 2. **TaskFolio decomposes** the role into 8–15 core tasks using O\*NET data + AI
 3. **Each task gets scored** with economic primitives: exposure, success rate, speedup, timeframe
@@ -49,6 +61,26 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 
 ## Sprint Plan
 
+```mermaid
+gantt
+    title TaskFolio Sprint Roadmap
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section S1 ✅
+    Core Engine (O*NET + API)        :done, s1, 2026-03-01, 14d
+
+    section S2 ⏳
+    Data Pipeline                     :active, s2a, 2026-03-21, 7d
+    Anthropic Integration             :s2b, after s2a, 7d
+
+    section S3
+    Treemap + UI                      :s3, after s2b, 14d
+
+    section S4
+    SEO + Launch 🚀                  :s4, after s3, 14d
+```
+
 | Sprint | Focus | Shape | Status |
 |---|---|---|---|
 | **S1** | Core Engine | O\*NET data + decomposition + scoring + API | ✅ Done |
@@ -74,6 +106,22 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 ### S2 — Data Expansion (Next)
 
 **Shape:** Integrate Anthropic Economic Index for research-backed primitives. Expand 101 → 361 occupations. Migrate to Cloudflare D1.
+
+```mermaid
+flowchart LR
+    A["🗂️ ANZSCO\n361 occupations"] --> B["🔗 Fuzzy Match\nto O*NET"]
+    B --> C["📊 Merge Anthropic\n6 CSV datasets"]
+    C --> D["🤖 Generate tasks\n~100 unmapped"]
+    D --> E["🗄️ Import\nto D1"]
+    E --> F["⏱️ Timeframe\npredictions"]
+
+    style A fill:#4a9eff,color:#fff,stroke:none
+    style B fill:#6366f1,color:#fff,stroke:none
+    style C fill:#8b5cf6,color:#fff,stroke:none
+    style D fill:#d946ef,color:#fff,stroke:none
+    style E fill:#f59e0b,color:#fff,stroke:none
+    style F fill:#10b981,color:#fff,stroke:none
+```
 
 **Stories:**
 1. ANZSCO → O\*NET fuzzy mapping (361 occupations, confidence >0.7)
@@ -137,6 +185,43 @@ task-folio/
 └── AGENTS.md                             # Agent instructions + bd workflow
 ```
 
+## Architecture
+
+```mermaid
+graph TB
+    subgraph CF["☁️ Cloudflare Edge"]
+        Pages["📄 Pages\nNext.js 16\nTreemap + UI"]
+        Workers["⚡ Workers\nHono API"]
+        D1["🗄️ D1\nSQLite"]
+        KV["💾 KV\nCache"]
+        R2["📦 R2\nStorage"]
+    end
+
+    User["👤 User"] --> Pages
+    Pages --> Workers
+    Workers --> D1
+    Workers --> KV
+    Workers --> R2
+    Workers --> Anthropic["🤖 Anthropic\nClaude Haiku 4.5"]
+
+    subgraph Data["📊 Data Sources"]
+        ONET["O*NET\n20K tasks"]
+        AEI["Anthropic\nEconomic Index"]
+        JSA["Jobs & Skills\nAustralia"]
+    end
+
+    D1 -.->|populated from| Data
+
+    style CF fill:#f8fafc,stroke:#e2e8f0
+    style Data fill:#fefce8,stroke:#fde68a
+    style Anthropic fill:#d946ef,color:#fff,stroke:none
+    style Pages fill:#4a9eff,color:#fff,stroke:none
+    style Workers fill:#f59e0b,color:#fff,stroke:none
+    style D1 fill:#10b981,color:#fff,stroke:none
+    style KV fill:#6366f1,color:#fff,stroke:none
+    style R2 fill:#8b5cf6,color:#fff,stroke:none
+```
+
 ## Tech Stack
 
 | Layer | Choice |
@@ -155,6 +240,46 @@ task-folio/
 - [Jobs and Skills Australia](https://www.jobsandskills.gov.au/) — Employment and wage data
 - [O\*NET](https://www.onetonline.org/) — 20,000 pre-classified occupational tasks
 - [ychua/jobs](https://github.com/ychua/jobs) — ANZSCO occupation pipeline (OSS)
+
+## Request Flow
+
+```mermaid
+sequenceDiagram
+    participant U as 👤 User
+    participant P as 📄 Pages
+    participant W as ⚡ Worker
+    participant C as 💾 KV Cache
+    participant D as 🗄️ D1
+    participant A as 🤖 Claude
+
+    U->>P: Browse treemap
+    P->>W: GET /api/occupations
+    W->>C: Check cache
+    C-->>W: Cache hit ✅
+    W-->>P: 361 occupations
+    P-->>U: Render treemap
+
+    U->>P: Click "Software Developer"
+    P->>W: GET /api/tasks/2611
+    W->>C: Check cache
+    C-->>W: Cache miss
+    W->>D: SELECT tasks
+    D-->>W: 12 tasks + primitives
+    W->>C: Store (24h TTL)
+    W-->>P: Task breakdown
+    P-->>U: Render results
+
+    U->>P: Enter "DevOps Engineer"
+    P->>W: POST /api/analyze
+    W->>C: Check cache
+    C-->>W: Cache miss
+    W->>A: Decompose + score
+    A-->>W: 10 tasks + scores
+    W->>D: Store analysis
+    W->>C: Store (7d TTL)
+    W-->>P: Custom breakdown
+    P-->>U: Render results
+```
 
 ## API Endpoints
 
