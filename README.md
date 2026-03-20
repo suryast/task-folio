@@ -94,6 +94,7 @@ Requires `ANTHROPIC_API_KEY` in `.env` for LLM features. Copy `.env.example` to 
 
 - [Project Overview](docs/PROJECT_OVERVIEW.md) — Full spec, competitive analysis, budget, risks
 - [Sprint Plan](docs/SPRINT_PLAN.md) — Sprint execution with stories, acceptance criteria, scripts
+- [Architecture](docs/ARCHITECTURE.md) — System design, API routes, Cloudflare stack, cost analysis, ADRs
 
 ## Attribution
 
