@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 
+export const runtime = 'edge'
+
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
 
 export async function GET() {
