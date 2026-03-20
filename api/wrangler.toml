@@ -1,0 +1,22 @@
+name = "taskfolio-au-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "taskfolio-au"
+database_id = "" # TODO: fill after `wrangler d1 create taskfolio-au`
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "" # TODO: fill after `wrangler kv namespace create CACHE`
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "taskfolio-data"
+
+[vars]
+ENVIRONMENT = "production"
+
+# Secrets (set via: wrangler secret put ANTHROPIC_API_KEY)
+# ANTHROPIC_API_KEY

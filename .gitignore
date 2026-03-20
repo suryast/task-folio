@@ -43,3 +43,13 @@ next-env.d.ts
 # Dolt database files (added by bd init)
 .dolt/
 *.db
+
+# Pipeline output (large generated data)
+data/pipeline/output/
+
+# API worker
+api/node_modules/
+api/.wrangler/
+
+# SQL import files (generated)
+sql/import_*.sql
