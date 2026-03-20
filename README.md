@@ -1,368 +1,280 @@
 # TaskFolio 📋
 
-**See exactly which parts of your job AI will affect — task by task, with timeframes and success rates backed by 1M real conversations.**
+**See exactly which parts of your job AI will affect — task by task, with timeframes backed by 1M real conversations.**
 
-TaskFolio is the first task-level AI exposure analysis tool for the Australian job market, helping 14.4M workers understand which specific parts of their job AI will affect — and when.
+Task-level AI exposure analysis for 361 Australian occupations. Built with Cloudflare D1, Anthropic Economic Index, and Claude Sonnet 4.5.
 
-## The Problem
-
-Existing tools show occupation-level AI exposure ("Software Developer: 9/10") with no actionable breakdown. Workers need to know:
-
-- **Which specific tasks** in their job are changing
-- **How soon** each task will be affected (0-2 years, 2-5 years, 10+ years)
-- **How reliable** AI is for each task (success rates from real usage)
-- **What to do** — learn, automate, or delegate
-
-## How It Works
-
-```mermaid
-flowchart LR
-    A[🔍 Enter job title] --> B[📋 Decompose into\n8-15 tasks]
-    B --> C[🤖 Score each task\nfor AI exposure]
-    C --> D[📊 View your\nexposure profile]
-
-    style A fill:#4a9eff,color:#fff,stroke:none
-    style B fill:#6366f1,color:#fff,stroke:none
-    style C fill:#f59e0b,color:#fff,stroke:none
-    style D fill:#10b981,color:#fff,stroke:none
-```
-
-1. **Browse** 361 ANZSCO occupations on the treemap, or **enter any job title**
-2. **TaskFolio decomposes** the role into 8–15 core tasks using O\*NET data + AI
-3. **Each task gets scored** with economic primitives: exposure, success rate, speedup, timeframe
-4. **See your exposure profile** — which tasks are safe, which are changing, and when
-
-## Example: "Software Developer"
-
-| Task | Exposure | Timeframe | Success Rate |
-|---|---|---|---|
-| Write production code | 85/100 | 0-2 years | 61% |
-| Debug complex systems | 70/100 | 0-2 years | 65% |
-| Design system architecture | 60/100 | 2-5 years | 55% |
-| Mentor junior developers | 30/100 | 10+ years | 40% |
-
-## Features
-
-- ✅ O\*NET integration — 101 occupations with validated task breakdowns
-- ✅ ANZSCO mapping for Australian job titles
-- ✅ AI-powered decomposition for any role (Claude Haiku 4.5)
-- ✅ Per-task AI exposure scoring with reasoning and timeframes
-- ✅ Frequency-weighted job-level exposure score
-- ✅ Task validation by users (agree/disagree/edit)
-- ✅ 25 tests (decompose, AI exposure, O\*NET)
-- 🔜 Anthropic Economic Index integration (1M real conversations)
-- 🔜 361 ANZSCO occupations (treemap landing page)
-- 🔜 Economic primitives (success rate, speedup, autonomy)
-- 🔜 Shareable task portfolio links
-- 🔜 SEO pages for top 50 job titles
-- 🔜 Employer dashboard (B2B)
+🌐 **Live:** Coming soon (Sprint 4)  
+🔗 **API:** `taskfolio-au-api.hello-bb8.workers.dev`  
+📊 **Data:** 361 ANZSCO occupations • 6,690 tasks • 100% timeframe coverage
 
 ---
 
-## Sprint Plan
+## What It Does
 
-```mermaid
-gantt
-    title TaskFolio Sprint Roadmap
-    dateFormat YYYY-MM-DD
-    axisFormat %b %d
+**Problem:** Existing AI job impact tools show occupation-level scores ("Software Developer: 9/10") with no actionable breakdown.
 
-    section S1 ✅
-    Core Engine (O*NET + API)        :done, s1, 2026-03-01, 14d
-
-    section S2 ⏳
-    Data Pipeline                     :active, s2a, 2026-03-21, 7d
-    Anthropic Integration             :s2b, after s2a, 7d
-
-    section S3
-    Treemap + UI                      :s3, after s2b, 14d
-
-    section S4
-    SEO + Launch 🚀                  :s4, after s3, 14d
-```
-
-| Sprint | Focus | Shape | Status |
-|---|---|---|---|
-| **S1** | Core Engine | O\*NET data + decomposition + scoring + API | ✅ Done |
-| **S2** | Data Expansion | Anthropic Economic Index + 361 occupations + D1 | ⏳ Next |
-| **S3** | Frontend | Treemap + task breakdown UI + mobile + dark mode | Not started |
-| **S4** | Launch | SEO + analytics + legal + go live | Not started |
-
-### S1 — Core Engine ✅
-
-**Shape:** Build the decomposition pipeline — any job title in, scored task breakdown out.
-
-**Delivered:**
-- `lib/onet.ts` — O\*NET occupation lookup + task retrieval (101 occupations, 4.6MB dataset)
-- `lib/decompose.ts` — Claude Haiku task decomposition for any job title
-- `lib/ai-exposure.ts` — Per-task AI exposure scoring (0-100) with reasoning + timeframes
-- `app/api/analyze/route.ts` — POST endpoint: job title → scored task breakdown
-- `app/api/occupations/search/route.ts` — Search O\*NET occupations by title
-- `app/api/occupations/[socCode]/route.ts` — Get occupation details
-- `db/schema/index.ts` — Drizzle schema (users, job_profiles, tasks, task_validations)
-- `scripts/import-onet.py` — O\*NET data import pipeline
-- `__tests__/` — 25 tests across 3 test files
-
-### S2 — Data Expansion (Next)
-
-**Shape:** Integrate Anthropic Economic Index for research-backed primitives. Expand 101 → 361 occupations. Migrate to Cloudflare D1.
-
-```mermaid
-flowchart LR
-    A["🗂️ ANZSCO\n361 occupations"] --> B["🔗 Fuzzy Match\nto O*NET"]
-    B --> C["📊 Merge Anthropic\n6 CSV datasets"]
-    C --> D["🤖 Generate tasks\n~100 unmapped"]
-    D --> E["🗄️ Import\nto D1"]
-    E --> F["⏱️ Timeframe\npredictions"]
-
-    style A fill:#4a9eff,color:#fff,stroke:none
-    style B fill:#6366f1,color:#fff,stroke:none
-    style C fill:#8b5cf6,color:#fff,stroke:none
-    style D fill:#d946ef,color:#fff,stroke:none
-    style E fill:#f59e0b,color:#fff,stroke:none
-    style F fill:#10b981,color:#fff,stroke:none
-```
-
-**Stories:**
-1. ANZSCO → O\*NET fuzzy mapping (361 occupations, confidence >0.7)
-2. Merge 6 Anthropic CSV datasets (tasks, automation, primitives, usage, wages, employment)
-3. Generate tasks for ~100 unmapped occupations via Claude Haiku
-4. Import to Cloudflare D1 with economic primitives
-5. Timeframe predictions + TaskFolio composite scores
-
-**Exit criteria:** 361 occupations, 4,000-5,000 tasks, all with economic primitives in D1.
+**Solution:** TaskFolio breaks jobs into 8-20 specific tasks and scores each one:
+- **Which tasks** AI will affect
+- **When** (now, 1-2y, 3-5y, 5-10y, 10y+)
+- **How much** (automation %, augmentation %, speedup)
+- **Economic primitives** from Anthropic's 1M real AI conversations
 
 ---
 
-## Data Pipeline Methodology
+## Example: Software Developer (ANZSCO 2613)
 
-### ANZSCO → O*NET Mapping Challenge
+| Task | Timeframe | Auto | Aug | Source |
+|---|---|---|---|---|
+| Write production code | now | 73% | 27% | Anthropic |
+| Debug systems | 1-2y | 68% | 32% | Anthropic |
+| Code review | 1-2y | 0% | 100% | Anthropic |
+| Mentor juniors | 10y+ | 5% | 45% | Anthropic |
+| System architecture | 3-5y | 0% | 85% | Anthropic |
 
-**Problem:** Australian (ANZSCO) and US (O*NET) occupation taxonomies use different naming conventions. Example:
+_12 more tasks..._
 
-| ANZSCO | O*NET | Match? |
-|---|---|---|
-| Registered Nurses | Registered Nurses | ✅ 1.0 |
-| Software and Applications Programmers | Software Developers, Applications | ✅ 0.86 |
-| Chefs | **Chemists** | ❌ 0.62 (garbage) |
-| Police | **Producers** | ❌ 0.53 (garbage) |
+---
 
-**Solution:** Fuzzy string matching (`difflib.SequenceMatcher`) with confidence filtering.
+## Data Pipeline
 
-### Two-Tier Data Strategy
+### Sprint 2: Data Expansion ✅ Complete
+
+Built a two-tier pipeline to map 361 Australian (ANZSCO) occupations to economic primitives:
 
 **Tier 1 — High Confidence Matches (147 occupations)**
-- Confidence >0.7 threshold
-- Use Anthropic Economic Index data (backed by 1M real conversations)
-- Get research-grade metrics: automation %, success rate, time savings, economic primitives
+- ANZSCO → O*NET fuzzy matching (confidence >0.7)
+- Merged Anthropic Economic Index (6 CSV datasets, 1M conversations)
+- **3,074 research-backed tasks** with automation %, success rate, speedup
 
-**Tier 2 — Low Confidence / Unmapped (214 occupations)**
-- Confidence <0.7 or no match found
-- Generate tasks using Claude Sonnet 4.5
-- Australian-specific context (regulations, industry structure, geography)
-- 15-20 tasks per occupation with AI impact scoring
+**Tier 2 — Unmapped Occupations (214 occupations)**
+- Generated tasks with Claude Sonnet 4.5 (13 parallel subagent batches, 4 min)
+- Australian-specific context (regulations, SME adoption, geography)
+- **3,616 AI-generated tasks** with timeframe predictions
 
-### Why Not Force-Fit Poor Matches?
+**Final Dataset:**
+- **361 ANZSCO occupations** (100% Australian labour market coverage)
+- **6,690 tasks** with economic primitives
+- **100% timeframe coverage** (now: 23.5%, 1-2y: 31%, 3-5y: 31.4%, 5-10y: 10.9%, 10y+: 3.3%)
+- **1.6MB D1 database** (Sydney region)
 
-Using "Chemists" tasks for "Chefs" would pollute the dataset with:
-- Wrong task descriptions (chemistry lab work vs kitchen operations)
-- Incorrect AI exposure scores (lab automation vs culinary creativity)
-- Misleading timeframes and success rates
+### Why Two Tiers?
 
-**Trade-off:** Tier 2 tasks are AI-generated templates rather than research-backed, but they're **occupation-specific** and **Australian-context-aware** — better than wrong O*NET data.
+Fuzzy matching `difflib.SequenceMatcher` produced garbage for 214 occupations:
+- "Chefs" → "Chemists" (0.62 confidence) ❌
+- "Police" → "Producers" (0.53) ❌
+- "Kitchenhands" → "Mapping Technicians" (0.52) ❌
 
-### Final Dataset
-
-| Source | Occupations | Tasks | Quality |
-|---|---|---|---|
-| **Anthropic Economic Index** | 147 | 3,074 | Research-grade (1M conversations) |
-| **Claude Sonnet Generated** | 214 | 3,616 | AI templates (Australian context) |
-| **Total** | **361** | **6,690** | Mixed quality, 100% coverage |
+**Trade-off:** Claude-generated tasks are templates (not research-backed), but they're **occupation-specific** and **Australian-context-aware** — better than wrong O*NET data.
 
 ---
-
-### S3 — Frontend
-
-**Shape:** D3.js treemap landing page (fork ychua's proven UX) + task breakdown detail view + custom job input form. Mobile responsive, dark mode, Australian context.
-
-### S4 — Launch
-
-**Shape:** SEO pages for top 50 occupations, Cloudflare Web Analytics, legal (privacy, terms, CC-BY attribution), launch content for HN/Reddit/AU tech press.
-
-**Target:** 1,000 unique visitors, 100+ custom analyses, HN front page.
-
----
-
-## Project Artifacts
-
-```
-task-folio/
-├── app/
-│   ├── page.tsx                          # Landing page
-│   ├── layout.tsx                        # Root layout
-│   ├── globals.css                       # Tailwind styles
-│   └── api/
-│       ├── analyze/route.ts              # POST — decompose + score job
-│       └── occupations/
-│           ├── search/route.ts           # GET — search by title
-│           └── [socCode]/route.ts        # GET — occupation details
-├── lib/
-│   ├── onet.ts                           # O*NET data access (101 occupations)
-│   ├── decompose.ts                      # Claude Haiku task decomposition
-│   └── ai-exposure.ts                    # AI exposure scoring engine
-├── db/
-│   ├── index.ts                          # Drizzle client
-│   ├── schema/index.ts                   # Tables: users, job_profiles, tasks, task_validations
-│   └── migrations/                       # SQL migrations
-├── data/
-│   ├── onet/occupations.json             # O*NET occupation data
-│   └── onet-full.json                    # Full O*NET dataset (4.6MB)
-├── scripts/
-│   └── import-onet.py                    # Data import pipeline
-├── __tests__/
-│   ├── onet.test.ts                      # O*NET lookup tests
-│   ├── decompose.test.ts                 # Decomposition tests
-│   └── ai-exposure.test.ts              # Scoring tests
-├── docs/
-│   ├── PROJECT_OVERVIEW.md               # Full spec, competitive analysis, budget
-│   ├── SPRINT_PLAN.md                    # Sprint execution details
-│   └── ARCHITECTURE.md                   # System design, Cloudflare stack, ADRs
-├── .beads/                               # Issue tracking (bd)
-├── package.json                          # Next.js 16, Drizzle, Anthropic SDK
-├── drizzle.config.ts                     # Drizzle ORM config
-├── vitest.config.ts                      # Test runner config
-└── AGENTS.md                             # Agent instructions + bd workflow
-```
 
 ## Architecture
 
-```mermaid
-graph TB
-    subgraph CF["☁️ Cloudflare Edge"]
-        Pages["📄 Pages\nNext.js 16\nTreemap + UI"]
-        Workers["⚡ Workers\nHono API"]
-        D1["🗄️ D1\nSQLite"]
-        KV["💾 KV\nCache"]
-        R2["📦 R2\nStorage"]
-    end
-
-    User["👤 User"] --> Pages
-    Pages --> Workers
-    Workers --> D1
-    Workers --> KV
-    Workers --> R2
-    Workers --> Anthropic["🤖 Anthropic\nClaude Haiku 4.5"]
-
-    subgraph Data["📊 Data Sources"]
-        ONET["O*NET\n20K tasks"]
-        AEI["Anthropic\nEconomic Index"]
-        JSA["Jobs & Skills\nAustralia"]
-    end
-
-    D1 -.->|populated from| Data
-
-    style CF fill:#f8fafc,stroke:#e2e8f0
-    style Data fill:#fefce8,stroke:#fde68a
-    style Anthropic fill:#d946ef,color:#fff,stroke:none
-    style Pages fill:#4a9eff,color:#fff,stroke:none
-    style Workers fill:#f59e0b,color:#fff,stroke:none
-    style D1 fill:#10b981,color:#fff,stroke:none
-    style KV fill:#6366f1,color:#fff,stroke:none
-    style R2 fill:#8b5cf6,color:#fff,stroke:none
+```
+┌─────────────────────────────────────────────────┐
+│  Cloudflare Pages (Next.js 16)                 │
+│  • D3.js treemap (361 occupations)             │
+│  • Task breakdown detail pages                 │
+│  • Responsive, dark mode                       │
+└──────────────────┬──────────────────────────────┘
+                   │ REST API
+┌──────────────────▼──────────────────────────────┐
+│  Cloudflare Workers (Hono)                     │
+│  • /api/occupations → list all                 │
+│  • /api/tasks/{code} → task breakdown          │
+│  • /api/analyze → custom job input (future)    │
+└──────────────────┬──────────────────────────────┘
+                   │
+┌──────────────────▼──────────────────────────────┐
+│  Cloudflare D1 (SQLite, Sydney region)         │
+│  • occupations (361 rows, 50KB)                │
+│  • tasks (6,690 rows, 1.5MB)                   │
+│  • KV cache (24h TTL)                          │
+└─────────────────────────────────────────────────┘
 ```
 
-## Tech Stack
+**Tech Stack:**
+- Frontend: Next.js 16, React 19, Tailwind, D3.js
+- API: Hono (Cloudflare Workers)
+- Database: Cloudflare D1 (SQLite)
+- Cache: Cloudflare KV
+- LLM: Claude Sonnet 4.5 (for task generation)
 
-| Layer | Choice |
-|-------|--------|
-| Framework | Next.js 16 (App Router, TypeScript) |
-| Styling | Tailwind CSS |
-| Visualization | D3.js (treemap, S3) |
-| ORM | Drizzle |
-| Database | PostgreSQL (Neon) → Cloudflare D1 (S2) |
-| LLM | Anthropic Claude Haiku 4.5 |
-| Deployment | Cloudflare Pages + Workers (S2+) |
+---
 
-## Data Sources
+## Sprint Status
 
-- [Anthropic Economic Index](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report) (CC-BY) — 1M real AI conversations classified by economic task
-- [Jobs and Skills Australia](https://www.jobsandskills.gov.au/) — Employment and wage data
-- [O\*NET](https://www.onetonline.org/) — 20,000 pre-classified occupational tasks
-- [ychua/jobs](https://github.com/ychua/jobs) — ANZSCO occupation pipeline (OSS)
+| Sprint | Goal | Status | Deliverable |
+|---|---|---|---|
+| **S1** | Core Engine | ✅ Complete | O*NET integration, decomposition API, 25 tests |
+| **S2** | Data Expansion | ✅ Complete | 361 occupations, 6,690 tasks, D1 database |
+| **S3** | Frontend UI | ⏳ 60% | Treemap + detail pages deployed, needs adapter config |
+| **S4** | Launch | Not started | SEO, analytics, legal, go live |
 
-## Request Flow
+### Sprint 2 Details (Complete)
 
-```mermaid
-sequenceDiagram
-    participant U as 👤 User
-    participant P as 📄 Pages
-    participant W as ⚡ Worker
-    participant C as 💾 KV Cache
-    participant D as 🗄️ D1
-    participant A as 🤖 Claude
+**Delivered:**
+- ✅ S2.1: ANZSCO → O*NET fuzzy mapping (147 high-confidence matches)
+- ✅ S2.2: Anthropic Economic Index integration (3,074 tasks)
+- ✅ S2.3: Claude-generated tasks for 214 unmapped occupations (3,616 tasks)
+- ✅ S2.4: Cloudflare D1 database setup (1.6MB, Sydney region)
+- ✅ S2.5: 100% timeframe coverage (13 subagent batches, 4 min)
 
-    U->>P: Browse treemap
-    P->>W: GET /api/occupations
-    W->>C: Check cache
-    C-->>W: Cache hit ✅
-    W-->>P: 361 occupations
-    P-->>U: Render treemap
+**Methodology doc:** [Data Pipeline](docs/SPRINT_PLAN.md#sprint-2-anthropic-economic-index--data-expansion)
 
-    U->>P: Click "Software Developer"
-    P->>W: GET /api/tasks/2611
-    W->>C: Check cache
-    C-->>W: Cache miss
-    W->>D: SELECT tasks
-    D-->>W: 12 tasks + primitives
-    W->>C: Store (24h TTL)
-    W-->>P: Task breakdown
-    P-->>U: Render results
+### Sprint 3 Details (In Progress)
 
-    U->>P: Enter "DevOps Engineer"
-    P->>W: POST /api/analyze
-    W->>C: Check cache
-    C-->>W: Cache miss
-    W->>A: Decompose + score
-    A-->>W: 10 tasks + scores
-    W->>D: Store analysis
-    W->>C: Store (7d TTL)
-    W-->>P: Custom breakdown
-    P-->>U: Render results
+**Delivered:**
+- ✅ S3.1: Interactive D3 treemap landing page (361 occupations)
+- ✅ S3.2: Task breakdown detail pages (grouped by timeframe)
+- ✅ Worker API deployed: `taskfolio-au-api.hello-bb8.workers.dev`
+- ⚠️ Pages deployed: `taskfolio-au.pages.dev` (needs `@cloudflare/next-on-pages` adapter)
+
+**Remaining:**
+- S3.3: Configure Cloudflare Pages adapter for Next.js
+- S3.4: Custom job input form (optional)
+
+---
+
+## Deployment
+
+### Current Status
+
+| Component | URL | Status |
+|---|---|---|
+| **Worker API** | `taskfolio-au-api.hello-bb8.workers.dev` | ✅ Live |
+| **D1 Database** | `taskfolio-au` (OC/Sydney) | ✅ Live (6,690 tasks) |
+| **KV Cache** | `CACHE` namespace | ✅ Configured |
+| **Pages (Next.js)** | `taskfolio-au.pages.dev` | ⚠️ Needs adapter |
+
+### Test API
+
+```bash
+# List all occupations
+curl https://taskfolio-au-api.hello-bb8.workers.dev/api/occupations
+
+# Get tasks for Software Developer (ANZSCO 2613)
+curl https://taskfolio-au-api.hello-bb8.workers.dev/api/tasks/2613
 ```
 
-## API Endpoints
+### Known Issues
 
-```
-POST /api/analyze              — Decompose job + score AI exposure
-GET  /api/occupations/search   — Search O*NET occupations
-GET  /api/occupations/[code]   — Get occupation details + tasks
-```
+1. **Pages deployment broken** — Raw `.next` output deployed without `@cloudflare/next-on-pages` adapter
+2. **Custom domain** — Not configured yet (recommend `taskfolio.au`)
+3. **Analytics** — Not set up yet (use Cloudflare Web Analytics in S4)
+
+---
 
 ## Development
 
 ```bash
+# Install dependencies
 pnpm install
-pnpm dev       # Start dev server at localhost:3000
-pnpm test      # Run tests (25 tests)
-pnpm build     # Production build
+
+# Start Worker API (local)
+cd api && pnpm dev
+# → http://localhost:8787
+
+# Start Next.js frontend (local)
+pnpm dev
+# → http://localhost:3000
+
+# Build for production
+pnpm build
+
+# Deploy Worker
+cd api && wrangler deploy
+
+# Deploy Pages (needs adapter fix)
+# TODO: Configure @cloudflare/next-on-pages
 ```
 
-Requires `ANTHROPIC_API_KEY` in `.env` for LLM features. Copy `.env.example` to `.env.local`.
+### Environment Variables
 
-## Documentation
+```bash
+# .env.local (development)
+NEXT_PUBLIC_API_URL=http://localhost:8787
 
-- [Project Overview](docs/PROJECT_OVERVIEW.md) — Full spec, competitive analysis, budget, risks
-- [Sprint Plan](docs/SPRINT_PLAN.md) — Sprint execution with stories, acceptance criteria, scripts
-- [Architecture](docs/ARCHITECTURE.md) — System design, API routes, Cloudflare stack, cost analysis, ADRs
+# .env.production (production)
+NEXT_PUBLIC_API_URL=https://taskfolio-au-api.hello-bb8.workers.dev
+```
+
+---
+
+## Data Sources
+
+- **[Anthropic Economic Index](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report)** (CC-BY) — 1M real AI conversations, 6 CSV datasets
+- **[O*NET](https://www.onetonline.org/)** — 20,000 occupational tasks, 974 SOC codes
+- **[Jobs and Skills Australia](https://www.jobsandskills.gov.au/)** — ANZSCO taxonomy, employment data
+- **[ychua/jobs](https://github.com/ychua/jobs)** — Treemap inspiration (OSS, MIT)
+
+---
+
+## Project Structure
+
+```
+task-folio/
+├── app/                      # Next.js app (treemap + detail pages)
+├── components/               # React components (TreemapVisualization)
+├── api/                      # Cloudflare Worker (Hono API)
+│   ├── src/
+│   │   ├── index.ts         # Routes: /api/occupations, /api/tasks
+│   │   ├── lib/db.ts        # D1 queries
+│   │   └── lib/cache.ts     # KV cache layer
+│   └── wrangler.toml        # Worker config + D1/KV bindings
+├── data/pipeline/            # Data processing scripts
+│   ├── step1_build_anzsco_mapping.py
+│   ├── step2_integrate_anthropic_data.py
+│   ├── step3_decompose_unmapped.py     # 13 subagent batches
+│   ├── step4_import_to_d1.py
+│   └── output/
+│       └── taskfolio_master_data.json  # 6,690 tasks (6.8MB)
+├── sql/schema.sql            # D1 schema (occupations, tasks, user_analyses)
+├── docs/                     # Sprint plans, architecture, overview
+└── package.json              # Next.js 16, D3, pnpm workspace
+```
+
+---
+
+## Cost Analysis
+
+**Current (Free Tier):**
+- Cloudflare D1: 5GB storage, 5M rows read/day (using <0.1%)
+- Cloudflare Workers: 100k requests/day (using <1%)
+- Cloudflare Pages: Unlimited bandwidth
+- **Total: $0/month** up to ~10k visitors/day
+
+**At Scale (100k visitors/month):**
+- D1: ~$5/month (10M reads)
+- Workers: Free (within limits)
+- Pages: Free
+- **Total: ~$5/month**
+
+---
 
 ## Attribution
 
-Task data sourced from the [Anthropic Economic Index](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report) (CC-BY). Employment and wage data from [Jobs and Skills Australia](https://www.jobsandskills.gov.au/).
+Task data sourced from:
+- **Anthropic Economic Index** (CC-BY) — Automation/augmentation percentages, success rates, economic primitives
+- **O*NET** — Occupational task descriptions
+- **Jobs and Skills Australia** — ANZSCO taxonomy, employment data
 
-## Research Basis
+Built on the "jobs as bundles of tasks" framework (Autor, Zweig).
 
-Built on the "jobs as bundles of tasks" framework (Autor, Zweig). O\*NET provides the occupational taxonomy. AI exposure scoring uses the Anthropic Economic Index as the baseline.
+---
 
 ## License
 
 MIT
+
+---
+
+## Next Steps
+
+1. **S3.3:** Configure `@cloudflare/next-on-pages` adapter
+2. **S4:** SEO meta tags, sitemap, analytics
+3. **Launch:** HN, Reddit, AU tech press
+4. **Domain:** Register `taskfolio.au`
+
+See [SPRINT_PLAN.md](docs/SPRINT_PLAN.md) for detailed roadmap.
