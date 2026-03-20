@@ -1,121 +1,161 @@
 """
-Step 4: Import occupation and task data into Cloudflare D1.
-Generates SQL and executes via wrangler CLI.
+Step 4: Import master data to Cloudflare D1.
+Loads taskfolio_master_data.json and inserts 361 occupations + 6,690 tasks.
+
+Usage:
+  cd ~/projects/task-folio/data/pipeline
+  python3 step4_import_to_d1.py
 """
 
 import json
 import subprocess
+import tempfile
 from pathlib import Path
-import pandas as pd
+from collections import defaultdict
 
 OUTPUT_DIR = Path(__file__).parent / 'output'
-SQL_DIR = Path(__file__).parent.parent.parent / 'sql'
-DB_NAME = 'taskfolio-au'
+MASTER_DATA = OUTPUT_DIR / 'taskfolio_master_data.json'
+YCHUA_DATA = Path.home() / 'projects' / 'ychua-jobs' / 'site' / 'data.json'
+MAPPING_FILE = OUTPUT_DIR / 'anzsco_onet_mapping.csv'
 
 
-def escape_sql(val: str) -> str:
-    return val.replace("'", "''") if val else ''
-
-
-def import_occupations():
-    print("Importing occupations...")
-    df = pd.read_json(OUTPUT_DIR / 'taskfolio_master_data.json')
-
-    # Load JSA stats
-    ychua_path = Path(__file__).parent.parent.parent / 'ychua-jobs' / 'site' / 'data.json'
-    jsa = {}
-    if ychua_path.exists():
-        with open(ychua_path) as f:
-            jsa = {o['code']: o for o in json.load(f)}
-
-    stmts = []
-    for code, group in df.groupby('anzsco_code'):
-        title = group['anzsco_title'].iloc[0]
-        onet = group.get('onet_soc_code', pd.Series([None])).iloc[0]
-        conf = group.get('confidence', pd.Series([None])).iloc[0]
-        source = group.get('source', pd.Series(['anthropic'])).iloc[0]
-        j = jsa.get(code, {})
-
-        emp = j.get('employment', 'NULL')
-        pay = j.get('median_pay', 'NULL')
-        outlook = escape_sql(j.get('outlook', ''))
-        education = escape_sql(j.get('education', ''))
-
-        stmts.append(
-            f"INSERT OR IGNORE INTO occupations "
-            f"(anzsco_code, title, employment, median_pay_aud, outlook, education, onet_code, mapping_confidence, source) "
-            f"VALUES ('{code}', '{escape_sql(title)}', {emp}, {pay}, '{outlook}', '{education}', "
-            f"'{onet or ''}', {conf or 'NULL'}, '{source}');"
-        )
-
-    sql_file = SQL_DIR / 'import_occupations.sql'
-    sql_file.write_text('\n'.join(stmts))
-    print(f"  Generated {len(stmts)} INSERT statements")
-
-    result = subprocess.run(
-        ['wrangler', 'd1', 'execute', DB_NAME, f'--file={sql_file}'],
-        capture_output=True, text=True
-    )
-    if result.returncode == 0:
-        print(f"  ✅ Imported {len(stmts)} occupations")
-    else:
-        print(f"  ❌ {result.stderr[:500]}")
-
-
-def import_tasks():
-    print("Importing tasks...")
-    df = pd.read_json(OUTPUT_DIR / 'taskfolio_master_data.json')
-
-    # Get occupation IDs from D1 (need mapping)
-    # For now, generate SQL that looks up by anzsco_code
-    stmts = []
-    for _, row in df.iterrows():
-        desc = escape_sql(str(row.get('task_description', row.get('description', ''))))
-        code = row['anzsco_code']
-        source = row.get('source', 'anthropic')
-
-        cols = ['occupation_id', 'description', 'source']
-        vals = [f"(SELECT id FROM occupations WHERE anzsco_code = '{code}')", f"'{desc}'", f"'{source}'"]
-
-        # Add optional fields
-        for field in ['automation_pct', 'augmentation_pct', 'success_rate',
-                      'human_time_without_ai', 'human_time_with_ai', 'speedup_factor',
-                      'human_education_years', 'ai_autonomy', 'usage_frequency',
-                      'taskfolio_score']:
-            if field in row and pd.notna(row[field]):
-                cols.append(field)
-                vals.append(str(row[field]))
-
-        if 'frequency' in row and pd.notna(row['frequency']):
-            cols.append('frequency')
-            vals.append(f"'{row['frequency']}'")
-        if 'timeframe' in row and pd.notna(row['timeframe']):
-            cols.append('timeframe')
-            vals.append(f"'{row['timeframe']}'")
-
-        stmts.append(f"INSERT INTO tasks ({', '.join(cols)}) VALUES ({', '.join(vals)});")
-
-    # Write in batches (D1 has limits)
-    batch_size = 500
-    for i in range(0, len(stmts), batch_size):
-        batch = stmts[i:i + batch_size]
-        sql_file = SQL_DIR / f'import_tasks_{i // batch_size}.sql'
-        sql_file.write_text('\n'.join(batch))
-
-        result = subprocess.run(
-            ['wrangler', 'd1', 'execute', DB_NAME, f'--file={sql_file}'],
-            capture_output=True, text=True
-        )
-        status = '✅' if result.returncode == 0 else '❌'
-        print(f"  {status} Batch {i // batch_size}: {len(batch)} tasks")
-
-    print(f"\n✅ Total: {len(stmts)} tasks imported")
+def escape_sql(s):
+    """Escape single quotes for SQL."""
+    if s is None:
+        return 'NULL'
+    return "'" + str(s).replace("'", "''") + "'"
 
 
 def main():
-    import_occupations()
-    import_tasks()
-    print("\nVerify: wrangler d1 execute taskfolio-au --command='SELECT COUNT(*) FROM occupations'")
+    print("Loading data...")
+    
+    # Load master task data
+    with open(MASTER_DATA) as f:
+        tasks = json.load(f)
+    print(f"  {len(tasks)} tasks loaded")
+    
+    # Load ANZSCO metadata
+    with open(YCHUA_DATA) as f:
+        anzsco_data = json.load(f)
+    anzsco_meta = {o['slug'].split('-')[0]: o for o in anzsco_data}
+    
+    # Load mapping for O*NET codes and confidence
+    import pandas as pd
+    mapping = pd.read_csv(MAPPING_FILE)
+    mapping_dict = {str(row['anzsco_code']): (row['onet_soc_code'], row['confidence']) 
+                    for _, row in mapping.iterrows()}
+    
+    # Group tasks by occupation
+    tasks_by_occ = defaultdict(list)
+    for task in tasks:
+        code = str(task['anzsco_code'])
+        tasks_by_occ[code].append(task)
+    
+    print(f"  {len(tasks_by_occ)} unique occupations")
+    
+    # Generate SQL
+    sql_lines = []
+    
+    # Insert occupations
+    print("\nGenerating occupation inserts...")
+    for code, occ_tasks in sorted(tasks_by_occ.items()):
+        title = occ_tasks[0]['anzsco_title']
+        meta = anzsco_meta.get(code, {})
+        onet_code, confidence = mapping_dict.get(code, (None, None))
+        source = occ_tasks[0].get('source', 'unknown')
+        
+        employment = meta.get('jobs', 0)
+        pay = meta.get('pay', 0)
+        outlook = meta.get('outlook_desc', '')
+        education = meta.get('education', '')
+        
+        sql_lines.append(
+            f"INSERT INTO occupations (anzsco_code, title, employment, median_pay_aud, "
+            f"outlook, education, onet_code, mapping_confidence, source) VALUES ("
+            f"{escape_sql(code)}, {escape_sql(title)}, {employment}, {pay}, "
+            f"{escape_sql(outlook)}, {escape_sql(education)}, "
+            f"{escape_sql(onet_code)}, {confidence if confidence else 'NULL'}, "
+            f"{escape_sql(source)});"
+        )
+    
+    # Insert tasks
+    print("Generating task inserts...")
+    for code, occ_tasks in sorted(tasks_by_occ.items()):
+        for task in occ_tasks:
+            desc = task.get('task_description', '').replace('\n', ' ')
+            automation = task.get('automation_pct')
+            augmentation = task.get('augmentation_pct')
+            frequency = task.get('frequency', 'as_needed')
+            timeframe = task.get('timeframe', 'unknown')
+            ai_exposure = task.get('ai_exposure_estimate', 50)
+            task_type = task.get('task_type', 'Core')
+            source = task.get('source', 'unknown')
+            onet_task_id = task.get('task_id')
+            
+            # Frequency weight mapping
+            freq_weight_map = {
+                'daily': 1.0,
+                'weekly': 0.5,
+                'monthly': 0.2,
+                'as_needed': 0.1
+            }
+            freq_weight = freq_weight_map.get(frequency, 0.3)
+            
+            sql_lines.append(
+                f"INSERT INTO tasks (occupation_id, onet_task_id, description, "
+                f"automation_pct, augmentation_pct, frequency, frequency_weight, "
+                f"timeframe, taskfolio_score, source) VALUES ("
+                f"(SELECT id FROM occupations WHERE anzsco_code = {escape_sql(code)}), "
+                f"{escape_sql(onet_task_id)}, {escape_sql(desc)}, "
+                f"{automation if automation is not None else 'NULL'}, "
+                f"{augmentation if augmentation is not None else 'NULL'}, "
+                f"{escape_sql(frequency)}, {freq_weight}, "
+                f"{escape_sql(timeframe)}, {ai_exposure}, "
+                f"{escape_sql(source)});"
+            )
+    
+    print(f"\nGenerated {len(sql_lines)} SQL statements")
+    
+    # Write to temp file (D1 doesn't support explicit transactions)
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.sql', delete=False) as f:
+        f.write('\n'.join(sql_lines))
+        temp_path = f.name
+    
+    print(f"Wrote SQL to {temp_path}")
+    
+    # Execute via wrangler
+    print("\nExecuting import...")
+    result = subprocess.run([
+        'bash', '-c',
+        f'cd ~/projects/task-folio/api && '
+        f'CLOUDFLARE_API_TOKEN=$(pass cloudflare/api-token) '
+        f'wrangler d1 execute taskfolio-au --file={temp_path} --remote'
+    ], capture_output=True, text=True)
+    
+    if result.returncode != 0:
+        print("❌ Error:")
+        print(result.stderr)
+        return 1
+    
+    print(result.stdout)
+    
+    # Verify
+    print("\nVerifying import...")
+    verify_sql = "SELECT COUNT(*) as count FROM occupations; SELECT COUNT(*) as count FROM tasks;"
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.sql', delete=False) as f:
+        f.write(verify_sql)
+        verify_path = f.name
+    
+    result = subprocess.run([
+        'bash', '-c',
+        f'cd ~/projects/task-folio/api && '
+        f'CLOUDFLARE_API_TOKEN=$(pass cloudflare/api-token) '
+        f'wrangler d1 execute taskfolio-au --file={verify_path} --remote'
+    ], capture_output=True, text=True)
+    
+    print(result.stdout)
+    
+    print("\n✅ Import complete!")
 
 
 if __name__ == '__main__':

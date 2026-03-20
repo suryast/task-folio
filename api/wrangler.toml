@@ -5,11 +5,11 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "taskfolio-au"
-database_id = "" # TODO: fill after `wrangler d1 create taskfolio-au`
+database_id = "b2d32382-c287-4308-afaa-d33b3fdd87ee"
 
 [[kv_namespaces]]
 binding = "CACHE"
-id = "" # TODO: fill after `wrangler kv namespace create CACHE`
+id = "f2651745e2124560b5fe84f3e765c6bd"
 
 [[r2_buckets]]
 binding = "BUCKET"
