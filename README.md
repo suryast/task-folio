@@ -37,6 +37,7 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 - ✅ Per-task AI exposure scoring with reasoning and timeframes
 - ✅ Frequency-weighted job-level exposure score
 - ✅ Task validation by users (agree/disagree/edit)
+- ✅ 25 tests (decompose, AI exposure, O\*NET)
 - 🔜 Anthropic Economic Index integration (1M real conversations)
 - 🔜 361 ANZSCO occupations (treemap landing page)
 - 🔜 Economic primitives (success rate, speedup, autonomy)
@@ -44,25 +45,109 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 - 🔜 SEO pages for top 50 job titles
 - 🔜 Employer dashboard (B2B)
 
+---
+
 ## Sprint Plan
 
-| Sprint | Focus | Status |
-|---|---|---|
-| **S1** | Core engine — O\*NET, decomposition, scoring, API | ✅ Done |
-| **S2** | Data expansion — Anthropic Economic Index, 361 occupations | ⏳ Next |
-| **S3** | Frontend — Treemap, task breakdown UI, mobile, dark mode | Not started |
-| **S4** | Launch — SEO, analytics, legal, go live | Not started |
+| Sprint | Focus | Shape | Status |
+|---|---|---|---|
+| **S1** | Core Engine | O\*NET data + decomposition + scoring + API | ✅ Done |
+| **S2** | Data Expansion | Anthropic Economic Index + 361 occupations + D1 | ⏳ Next |
+| **S3** | Frontend | Treemap + task breakdown UI + mobile + dark mode | Not started |
+| **S4** | Launch | SEO + analytics + legal + go live | Not started |
+
+### S1 — Core Engine ✅
+
+**Shape:** Build the decomposition pipeline — any job title in, scored task breakdown out.
+
+**Delivered:**
+- `lib/onet.ts` — O\*NET occupation lookup + task retrieval (101 occupations, 4.6MB dataset)
+- `lib/decompose.ts` — Claude Haiku task decomposition for any job title
+- `lib/ai-exposure.ts` — Per-task AI exposure scoring (0-100) with reasoning + timeframes
+- `app/api/analyze/route.ts` — POST endpoint: job title → scored task breakdown
+- `app/api/occupations/search/route.ts` — Search O\*NET occupations by title
+- `app/api/occupations/[socCode]/route.ts` — Get occupation details
+- `db/schema/index.ts` — Drizzle schema (users, job_profiles, tasks, task_validations)
+- `scripts/import-onet.py` — O\*NET data import pipeline
+- `__tests__/` — 25 tests across 3 test files
+
+### S2 — Data Expansion (Next)
+
+**Shape:** Integrate Anthropic Economic Index for research-backed primitives. Expand 101 → 361 occupations. Migrate to Cloudflare D1.
+
+**Stories:**
+1. ANZSCO → O\*NET fuzzy mapping (361 occupations, confidence >0.7)
+2. Merge 6 Anthropic CSV datasets (tasks, automation, primitives, usage, wages, employment)
+3. Generate tasks for ~100 unmapped occupations via Claude Haiku
+4. Import to Cloudflare D1 with economic primitives
+5. Timeframe predictions + TaskFolio composite scores
+
+**Exit criteria:** 361 occupations, 4,000-5,000 tasks, all with economic primitives in D1.
+
+### S3 — Frontend
+
+**Shape:** D3.js treemap landing page (fork ychua's proven UX) + task breakdown detail view + custom job input form. Mobile responsive, dark mode, Australian context.
+
+### S4 — Launch
+
+**Shape:** SEO pages for top 50 occupations, Cloudflare Web Analytics, legal (privacy, terms, CC-BY attribution), launch content for HN/Reddit/AU tech press.
+
+**Target:** 1,000 unique visitors, 100+ custom analyses, HN front page.
+
+---
+
+## Project Artifacts
+
+```
+task-folio/
+├── app/
+│   ├── page.tsx                          # Landing page
+│   ├── layout.tsx                        # Root layout
+│   ├── globals.css                       # Tailwind styles
+│   └── api/
+│       ├── analyze/route.ts              # POST — decompose + score job
+│       └── occupations/
+│           ├── search/route.ts           # GET — search by title
+│           └── [socCode]/route.ts        # GET — occupation details
+├── lib/
+│   ├── onet.ts                           # O*NET data access (101 occupations)
+│   ├── decompose.ts                      # Claude Haiku task decomposition
+│   └── ai-exposure.ts                    # AI exposure scoring engine
+├── db/
+│   ├── index.ts                          # Drizzle client
+│   ├── schema/index.ts                   # Tables: users, job_profiles, tasks, task_validations
+│   └── migrations/                       # SQL migrations
+├── data/
+│   ├── onet/occupations.json             # O*NET occupation data
+│   └── onet-full.json                    # Full O*NET dataset (4.6MB)
+├── scripts/
+│   └── import-onet.py                    # Data import pipeline
+├── __tests__/
+│   ├── onet.test.ts                      # O*NET lookup tests
+│   ├── decompose.test.ts                 # Decomposition tests
+│   └── ai-exposure.test.ts              # Scoring tests
+├── docs/
+│   ├── PROJECT_OVERVIEW.md               # Full spec, competitive analysis, budget
+│   ├── SPRINT_PLAN.md                    # Sprint execution details
+│   └── ARCHITECTURE.md                   # System design, Cloudflare stack, ADRs
+├── .beads/                               # Issue tracking (bd)
+├── package.json                          # Next.js 16, Drizzle, Anthropic SDK
+├── drizzle.config.ts                     # Drizzle ORM config
+├── vitest.config.ts                      # Test runner config
+└── AGENTS.md                             # Agent instructions + bd workflow
+```
 
 ## Tech Stack
 
 | Layer | Choice |
 |-------|--------|
-| Frontend | Next.js 16 (App Router, TypeScript) |
+| Framework | Next.js 16 (App Router, TypeScript) |
 | Styling | Tailwind CSS |
-| Visualization | D3.js (treemap) |
+| Visualization | D3.js (treemap, S3) |
 | ORM | Drizzle |
-| Database | PostgreSQL (Neon) |
+| Database | PostgreSQL (Neon) → Cloudflare D1 (S2) |
 | LLM | Anthropic Claude Haiku 4.5 |
+| Deployment | Cloudflare Pages + Workers (S2+) |
 
 ## Data Sources
 
