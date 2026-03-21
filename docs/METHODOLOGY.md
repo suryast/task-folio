@@ -833,4 +833,4 @@ If you use this methodology in research, please cite:
 ## Contact
 
 - **Issues:** [GitHub Issues](https://github.com/suryast/task-folio/issues)
-- **Email:** suryast@pm.me
+- **Contact:** [setiyaputra.me](https://setiyaputra.me)
