@@ -40,6 +40,8 @@ export function ThemeToggle() {
       document.documentElement.classList.remove('dark')
       document.documentElement.classList.add('light')
     }
+    // Dispatch event for components that need to re-render (like D3 visualizations)
+    window.dispatchEvent(new CustomEvent('themechange', { detail: { theme: newTheme } }))
   }
 
   // Avoid hydration mismatch

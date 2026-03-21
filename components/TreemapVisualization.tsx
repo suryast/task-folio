@@ -61,6 +61,16 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
   const svgRef = useRef<SVGSVGElement>(null)
   const router = useRouter()
   const [sortBy, setSortBy] = useState<SortOption>('category')
+  const [themeKey, setThemeKey] = useState(0) // Force re-render on theme change
+
+  // Listen for theme changes to re-render D3 visualization
+  useEffect(() => {
+    const handleThemeChange = () => {
+      setThemeKey(k => k + 1)
+    }
+    window.addEventListener('themechange', handleThemeChange)
+    return () => window.removeEventListener('themechange', handleThemeChange)
+  }, [])
 
   useEffect(() => {
     if (!svgRef.current || occupations.length === 0) return
@@ -289,7 +299,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
                `Median Pay: $${(occ.median_pay_aud || 0).toLocaleString()}`
       })
 
-  }, [occupations, router, sortBy])
+  }, [occupations, router, sortBy, themeKey])
 
   return (
     <div className="card-brutal p-3 sm:p-4" role="region" aria-label="Interactive treemap of Australian occupations">
