@@ -1,8 +1,118 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import Link from 'next/link'
 import { Footer } from '@/components/Footer'
+
+function ShareButton({ title, exposureScore }: { title: string; exposureScore: number }) {
+  const [copied, setCopied] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+
+  const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
+  const shareText = `${title}: ${exposureScore}% AI exposure. See which tasks AI will affect → `
+
+  const handleCopy = useCallback(async () => {
+    try {
+      await navigator.clipboard.writeText(`${shareText}${shareUrl}`)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // Fallback for older browsers
+      const textarea = document.createElement('textarea')
+      textarea.value = `${shareText}${shareUrl}`
+      document.body.appendChild(textarea)
+      textarea.select()
+      document.execCommand('copy')
+      document.body.removeChild(textarea)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }
+    setShowMenu(false)
+  }, [shareText, shareUrl])
+
+  const handleShare = useCallback(async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: `${title} - AI Job Exposure`,
+          text: shareText,
+          url: shareUrl,
+        })
+      } catch {
+        // User cancelled or share failed, show menu instead
+        setShowMenu(true)
+      }
+    } else {
+      setShowMenu(!showMenu)
+    }
+  }, [title, shareText, shareUrl, showMenu])
+
+  const shareToTwitter = () => {
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`,
+      '_blank'
+    )
+    setShowMenu(false)
+  }
+
+  const shareToLinkedIn = () => {
+    window.open(
+      `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`,
+      '_blank'
+    )
+    setShowMenu(false)
+  }
+
+  const shareToThreads = () => {
+    window.open(
+      `https://www.threads.net/intent/post?text=${encodeURIComponent(`${shareText}${shareUrl}`)}`,
+      '_blank'
+    )
+    setShowMenu(false)
+  }
+
+  return (
+    <div className="relative">
+      <button
+        onClick={handleShare}
+        className="px-4 py-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] transition-all text-xs sm:text-sm font-bold flex items-center gap-2 shrink-0"
+        aria-label="Share this occupation"
+      >
+        <span aria-hidden="true">📤</span>
+        {copied ? 'Copied!' : 'Share'}
+      </button>
+      
+      {showMenu && (
+        <div className="absolute right-0 mt-2 w-48 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-50">
+          <button
+            onClick={handleCopy}
+            className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+          >
+            📋 Copy link
+          </button>
+          <button
+            onClick={shareToTwitter}
+            className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+          >
+            𝕏 Share on X
+          </button>
+          <button
+            onClick={shareToLinkedIn}
+            className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+          >
+            💼 Share on LinkedIn
+          </button>
+          <button
+            onClick={shareToThreads}
+            className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2"
+          >
+            🧵 Share on Threads
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
 
 interface Task {
   description: string
@@ -168,10 +278,13 @@ export default function OccupationClient() {
           </Link>
         </nav>
         
-        {/* Title */}
-        <h1 className="text-xl sm:text-3xl lg:text-4xl font-extrabold mt-4 sm:mt-6 text-black tracking-tight leading-tight">
-          {occupation.title.toUpperCase()}
-        </h1>
+        {/* Title + Share */}
+        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mt-4 sm:mt-6">
+          <h1 className="text-xl sm:text-3xl lg:text-4xl font-extrabold text-black tracking-tight leading-tight">
+            {occupation.title.toUpperCase()}
+          </h1>
+          <ShareButton title={occupation.title} exposureScore={exposureScore} />
+        </div>
         
         {/* Metric Cards Row */}
         <section aria-label="Key metrics" className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-4 sm:mt-6">

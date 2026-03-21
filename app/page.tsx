@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
+import { useRouter } from 'next/navigation'
 import { TreemapVisualization } from '@/components/TreemapVisualization'
 import { Footer } from '@/components/Footer'
 
@@ -15,9 +16,12 @@ interface Occupation {
 }
 
 export default function Home() {
+  const router = useRouter()
   const [occupations, setOccupations] = useState<Occupation[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [showDropdown, setShowDropdown] = useState(false)
 
   useEffect(() => {
     const API_URL = 'https://taskfolio-au-api.hello-bb8.workers.dev'
@@ -32,6 +36,23 @@ export default function Home() {
         setLoading(false)
       })
   }, [])
+
+  const filteredOccupations = useMemo(() => {
+    if (!searchQuery.trim()) return []
+    const query = searchQuery.toLowerCase()
+    return occupations
+      .filter(o => 
+        o.title.toLowerCase().includes(query) || 
+        o.anzsco_code.includes(query)
+      )
+      .slice(0, 8)
+  }, [searchQuery, occupations])
+
+  const handleSelect = (code: string) => {
+    setSearchQuery('')
+    setShowDropdown(false)
+    router.push(`/occupations/${code}`)
+  }
 
   if (loading) {
     return (
@@ -65,6 +86,52 @@ export default function Home() {
           <p className="mt-2 sm:mt-3 text-sm sm:text-lg font-medium text-black">
             See exactly which parts of your job AI will affect — task by task, with timeframes.
           </p>
+          
+          {/* Search */}
+          <div className="mt-4 relative">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value)
+                setShowDropdown(true)
+              }}
+              onFocus={() => setShowDropdown(true)}
+              onBlur={() => setTimeout(() => setShowDropdown(false), 200)}
+              placeholder="Search occupations... (e.g. Software Developer, Nurse)"
+              className="w-full sm:w-96 px-4 py-2 text-sm sm:text-base border-2 border-black bg-white rounded-none focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
+              aria-label="Search occupations"
+              aria-expanded={showDropdown && filteredOccupations.length > 0}
+              aria-controls="search-results"
+            />
+            {showDropdown && filteredOccupations.length > 0 && (
+              <ul 
+                id="search-results"
+                className="absolute z-50 w-full sm:w-96 mt-1 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] max-h-80 overflow-auto"
+                role="listbox"
+              >
+                {filteredOccupations.map((o) => (
+                  <li key={o.anzsco_code}>
+                    <button
+                      onClick={() => handleSelect(o.anzsco_code)}
+                      className="w-full px-4 py-3 text-left hover:bg-main/30 focus:bg-main/30 focus:outline-none border-b border-black/10 last:border-b-0"
+                      role="option"
+                    >
+                      <div className="font-bold text-sm">{o.title}</div>
+                      <div className="text-xs text-black/60 flex gap-2 mt-1">
+                        <span>{o.anzsco_code}</span>
+                        <span>•</span>
+                        <span className={o.ai_exposure > 0.6 ? 'text-red-600' : o.ai_exposure > 0.3 ? 'text-yellow-600' : 'text-green-600'}>
+                          {Math.round(o.ai_exposure * 100)}% AI exposure
+                        </span>
+                      </div>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+
           <div className="mt-3 sm:mt-4 flex flex-wrap gap-2" aria-live="polite">
             <span className="badge-brutal bg-white text-[10px] sm:text-xs">
               {occupations.length} occupations
