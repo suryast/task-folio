@@ -153,6 +153,40 @@ export default function AttributionPage() {
               </div>
             </section>
 
+            {/* Inspiration */}
+            <section className="card-brutal p-5" style={{ backgroundColor: 'rgba(182, 172, 228, 0.15)' }}>
+              <div className="flex items-start gap-3">
+                <span className="badge-brutal shrink-0">INSPIRED BY</span>
+                <div>
+                  <h2 className="text-xl font-bold text-black">Prior Art</h2>
+                  <ul className="mt-3 space-y-2">
+                    <li className="text-black/70 text-sm">
+                      <a 
+                        href="https://karpathy.ai/jobs" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="link-brutal"
+                      >
+                        Andrej Karpathy&apos;s US Job Market Visualizer
+                      </a>
+                      {' '}— Original treemap visualization concept
+                    </li>
+                    <li className="text-black/70 text-sm">
+                      <a 
+                        href="https://ychua.github.io/jobs/" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="link-brutal"
+                      >
+                        ychua&apos;s Australian adaptation
+                      </a>
+                      {' '}— Australian ANZSCO version with LLM-powered AI exposure scoring
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
             {/* Methodology */}
             <section className="card-brutal p-5">
               <h2 className="text-xl font-bold text-black mb-3">METHODOLOGY</h2>

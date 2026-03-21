@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "TaskFolio - Task-level AI exposure for Australian jobs",
     description: "See which specific tasks in your job AI will automate, and when. 361 occupations, 6,690 tasks analyzed.",
     type: "website",
-    url: "https://taskfolio-au.pages.dev",
+    url: "https://ai-job-exposure.setiyaputra.me",
     images: [
       {
         url: "/preview.png",
@@ -55,9 +55,18 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script
-          defer
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token": "placeholder"}'
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QFQSVC8FCK"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QFQSVC8FCK');
+            `,
+          }}
         />
       </head>
       <body

@@ -232,6 +232,8 @@ cd api && pnpm dev
 - [O*NET Program](https://www.onetonline.org/) (US Dept of Labor/ETA) for task descriptions
 - [Jobs and Skills Australia](https://www.jobsandskills.gov.au/) for ANZSCO taxonomy and employment data
 - [David Autor et al.](https://economics.mit.edu/sites/default/files/publications/The%20Skill%20Content%20of%20Recent%20Technological%20Change.pdf) for the "jobs as tasks" framework
+- [@karpathy](https://github.com/karpathy) for the original [US Job Market Visualizer](https://karpathy.ai/jobs)
+- [@ychua](https://github.com/ychua) for the [Australian adaptation](https://github.com/ychua/jobs) with LLM-powered scoring pipeline
 - [Cloudflare](https://www.cloudflare.com/) for infrastructure
 
 ---
