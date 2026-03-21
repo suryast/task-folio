@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import Link from 'next/link'
 import { Footer } from '@/components/Footer'
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 function ShareButton({ title, exposureScore }: { title: string; exposureScore: number }) {
   const [copied, setCopied] = useState(false)
@@ -360,11 +361,12 @@ export default function OccupationClient() {
   return (
     <main className="min-h-screen bg-bg">
       <div className="max-w-5xl mx-auto px-3 py-4 sm:px-4 sm:py-8">
-        {/* Back navigation */}
-        <nav aria-label="Breadcrumb">
+        {/* Back navigation + theme toggle */}
+        <nav aria-label="Breadcrumb" className="flex justify-between items-center">
           <Link href="/" className="btn-brutal-neutral text-xs sm:text-sm focus-brutal">
             <span aria-hidden="true">←</span> Back
           </Link>
+          <ThemeToggle />
         </nav>
         
         {/* Title + Share */}

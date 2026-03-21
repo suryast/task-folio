@@ -52,8 +52,34 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Theme script - runs before React to prevent flash */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var d = document.documentElement;
+                  var theme = localStorage.getItem('theme');
+                  if (theme === 'dark') {
+                    d.classList.add('dark');
+                    d.classList.remove('light');
+                  } else if (theme === 'light') {
+                    d.classList.add('light');
+                    d.classList.remove('dark');
+                  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    d.classList.add('dark');
+                    d.classList.remove('light');
+                  } else {
+                    d.classList.add('light');
+                    d.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-QFQSVC8FCK"

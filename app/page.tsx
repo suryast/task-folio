@@ -4,6 +4,7 @@ import { useEffect, useState, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { TreemapVisualization } from '@/components/TreemapVisualization'
 import { Footer } from '@/components/Footer'
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 interface Occupation {
   anzsco_code: string
@@ -80,9 +81,12 @@ export default function Home() {
       <div className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-8 lg:px-8">
         {/* Hero Header */}
         <header className="mb-4 sm:mb-8 card-brutal p-4 sm:p-6 bg-main">
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-black">
-            TASKFOLIO
-          </h1>
+          <div className="flex justify-between items-start">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-black">
+              TASKFOLIO
+            </h1>
+            <ThemeToggle />
+          </div>
           <p className="mt-2 sm:mt-3 text-sm sm:text-lg font-medium text-black">
             See exactly which parts of your job AI will affect — task by task, with timeframes.
           </p>
