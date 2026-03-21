@@ -1,0 +1,6 @@
+api/
+data/
+sql/
+docs/
+.git/
+node_modules/
