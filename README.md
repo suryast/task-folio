@@ -166,15 +166,38 @@ pie title AI Impact Timeframes (6,690 tasks)
 
 ---
 
-## Methodology
+## Methodology (V1.1)
 
 Full methodology: [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
+
+### Core Metrics
 
 | Metric | Definition |
 |--------|------------|
 | **AI Exposure** | Weighted average of task-level automation + augmentation (0-100%) |
 | **Half-Life** | Estimated years until AI can perform ~50% of occupation tasks |
 | **Future-Proof Index** | Composite of AI exposure (40%), pay risk (30%), employment outlook (30%) |
+
+### V1.1 Additions
+
+Inspired by [AI Work Index](https://aiworkindex.pages.dev/) (Singapore) by [@kirso](https://github.com/kirso):
+
+| Metric | Definition |
+|--------|------------|
+| **Impact Type** | 2×2 classification: At Risk, Augmented, Stable, or Mixed |
+| **Displacement Score** | `exposure × (1 - bottleneck)` — how much AI replaces |
+| **Augmentation Score** | `exposure × bottleneck` — how much AI amplifies |
+| **Risk Band** | 5-tier scale: Very Low → Low → Moderate → High → Very High |
+| **Data Confidence** | High/Medium/Low based on empirical vs synthetic task ratio |
+
+**Impact Type Matrix:**
+
+|  | Low Augmentation | High Augmentation |
+|--|------------------|-------------------|
+| **High Displacement** | At Risk | Mixed |
+| **Low Displacement** | Stable | Augmented |
+
+The bottleneck factor is calculated from the ratio of augmentation-oriented vs automation-oriented tasks in each occupation.
 
 ---
 
@@ -234,6 +257,7 @@ cd api && pnpm dev
 - [David Autor et al.](https://economics.mit.edu/sites/default/files/publications/The%20Skill%20Content%20of%20Recent%20Technological%20Change.pdf) for the "jobs as tasks" framework
 - [@karpathy](https://github.com/karpathy) for the original [US Job Market Visualizer](https://karpathy.ai/jobs)
 - [@ychua](https://github.com/ychua) for the [Australian adaptation](https://github.com/ychua/jobs) with LLM-powered scoring pipeline
+- [@kirso](https://github.com/kirso) for [AI Work Index](https://aiworkindex.pages.dev/) (Singapore) — V1.1 methodology inspiration (2×2 impact classification, risk bands, confidence scoring)
 - [Cloudflare](https://www.cloudflare.com/) for infrastructure
 
 ---

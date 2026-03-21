@@ -174,6 +174,92 @@ function calculateCompositeIndex(
   return { score, label, badgeClass }
 }
 
+// Calculate displacement vs augmentation (inspired by AI Work Index methodology)
+// displacement = exposure × (1 - bottleneck) — AI replaces
+// augmentation = exposure × bottleneck — AI amplifies
+function calculateImpactType(
+  tasks: Task[],
+  exposure: number
+): { 
+  displacement: number
+  augmentation: number
+  impactType: 'AT_RISK' | 'AUGMENTED' | 'STABLE' | 'MIXED'
+  impactLabel: string
+  badgeClass: string
+} {
+  // Calculate bottleneck from task augmentation vs automation ratios
+  const totalAug = tasks.reduce((sum, t) => sum + (t.augmentation_pct || 0), 0)
+  const totalAuto = tasks.reduce((sum, t) => sum + (t.automation_pct || 0), 0)
+  const bottleneck = totalAug + totalAuto > 0 
+    ? totalAug / (totalAug + totalAuto) 
+    : 0.5 // default to 50% if no data
+
+  const displacement = exposure * (1 - bottleneck)
+  const augmentation = exposure * bottleneck
+
+  // 2x2 classification
+  const highDisplacement = displacement >= 0.25
+  const highAugmentation = augmentation >= 0.12
+
+  let impactType: 'AT_RISK' | 'AUGMENTED' | 'STABLE' | 'MIXED'
+  let impactLabel: string
+  let badgeClass: string
+
+  if (highDisplacement && highAugmentation) {
+    impactType = 'MIXED'
+    impactLabel = 'Mixed Signals'
+    badgeClass = 'badge-purple'
+  } else if (highDisplacement) {
+    impactType = 'AT_RISK'
+    impactLabel = 'At Risk'
+    badgeClass = 'badge-danger'
+  } else if (highAugmentation) {
+    impactType = 'AUGMENTED'
+    impactLabel = 'AI Augmented'
+    badgeClass = 'badge-success'
+  } else {
+    impactType = 'STABLE'
+    impactLabel = 'Stable'
+    badgeClass = 'badge-main'
+  }
+
+  return { displacement, augmentation, impactType, impactLabel, badgeClass }
+}
+
+// Calculate confidence based on data sources
+function calculateConfidence(
+  tasks: Task[]
+): { level: 'HIGH' | 'MEDIUM' | 'LOW'; label: string; badgeClass: string } {
+  const sources = tasks.map(t => t.source)
+  const anthropicCount = sources.filter(s => s === 'anthropic').length
+  const onetCount = sources.filter(s => s === 'onet').length
+  const syntheticCount = sources.filter(s => s === 'synthetic' || s === 'llm').length
+  const total = tasks.length
+
+  // High: >50% from Anthropic/O*NET empirical data
+  // Medium: Mixed sources
+  // Low: >50% synthetic
+  const empiricalRatio = (anthropicCount + onetCount) / Math.max(total, 1)
+  const syntheticRatio = syntheticCount / Math.max(total, 1)
+
+  if (empiricalRatio >= 0.5) {
+    return { level: 'HIGH', label: 'High', badgeClass: 'badge-success' }
+  } else if (syntheticRatio >= 0.5) {
+    return { level: 'LOW', label: 'Low', badgeClass: 'badge-warning' }
+  } else {
+    return { level: 'MEDIUM', label: 'Medium', badgeClass: 'badge-main' }
+  }
+}
+
+// Risk band (Very Low to Very High) - uses design system colors
+function getRiskBand(exposure: number): { band: string; badgeClass: string; position: number } {
+  if (exposure < 0.05) return { band: 'Very Low', badgeClass: 'badge-success', position: 0 }
+  if (exposure < 0.15) return { band: 'Low', badgeClass: 'badge-success', position: 1 }
+  if (exposure < 0.30) return { band: 'Moderate', badgeClass: 'badge-warning', position: 2 }
+  if (exposure < 0.50) return { band: 'High', badgeClass: 'badge-warning', position: 3 }
+  return { band: 'Very High', badgeClass: 'badge-danger', position: 4 }
+}
+
 const API_URL = 'https://taskfolio-au-api.hello-bb8.workers.dev'
 
 export default function OccupationClient() {
@@ -261,6 +347,9 @@ export default function OccupationClient() {
   const exposureScore = Math.round((occupation.ai_exposure_weighted || 0) * 100)
   const halfLife = Math.round(2 + (1 - (occupation.ai_exposure_weighted || 0)) * 18)
   const composite = calculateCompositeIndex(occupation, projection)
+  const impact = calculateImpactType(tasks, occupation.ai_exposure_weighted || 0)
+  const confidence = calculateConfidence(tasks)
+  const riskBand = getRiskBand(occupation.ai_exposure_weighted || 0)
 
   const getExposureBadge = () => {
     if (exposureScore >= 80) return 'badge-danger'
@@ -344,23 +433,152 @@ export default function OccupationClient() {
           </article>
         </section>
 
+        {/* Impact Analysis Row - NEW */}
+        <section aria-label="Impact analysis" className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-3 sm:mt-4">
+          {/* Impact Type 2x2 */}
+          <article className="card-brutal p-4 sm:p-5">
+            <div className="flex items-center justify-between mb-3">
+              <span className="text-xs sm:text-sm font-bold text-black/70">IMPACT TYPE</span>
+              <span className={`${impact.badgeClass} text-[10px] sm:text-xs`}>
+                {impact.impactLabel}
+              </span>
+            </div>
+            
+            {/* 2x2 Matrix Visual */}
+            <div className="grid grid-cols-2 gap-1 mt-2">
+              <div 
+                className="p-2 text-center text-[10px] font-bold border-2"
+                style={{ 
+                  backgroundColor: impact.impactType === 'MIXED' ? 'var(--purple)' : 'var(--bg-alt)',
+                  borderColor: impact.impactType === 'MIXED' ? 'var(--black)' : 'var(--black)',
+                  opacity: impact.impactType === 'MIXED' ? 1 : 0.5
+                }}
+              >
+                Mixed
+              </div>
+              <div 
+                className="p-2 text-center text-[10px] font-bold border-2"
+                style={{ 
+                  backgroundColor: impact.impactType === 'AUGMENTED' ? 'var(--success)' : 'var(--bg-alt)',
+                  borderColor: impact.impactType === 'AUGMENTED' ? 'var(--black)' : 'var(--black)',
+                  opacity: impact.impactType === 'AUGMENTED' ? 1 : 0.5
+                }}
+              >
+                Augmented
+              </div>
+              <div 
+                className="p-2 text-center text-[10px] font-bold border-2"
+                style={{ 
+                  backgroundColor: impact.impactType === 'AT_RISK' ? 'var(--danger)' : 'var(--bg-alt)',
+                  borderColor: impact.impactType === 'AT_RISK' ? 'var(--black)' : 'var(--black)',
+                  opacity: impact.impactType === 'AT_RISK' ? 1 : 0.5
+                }}
+              >
+                At Risk
+              </div>
+              <div 
+                className="p-2 text-center text-[10px] font-bold border-2"
+                style={{ 
+                  backgroundColor: impact.impactType === 'STABLE' ? 'var(--main)' : 'var(--bg-alt)',
+                  borderColor: impact.impactType === 'STABLE' ? 'var(--black)' : 'var(--black)',
+                  opacity: impact.impactType === 'STABLE' ? 1 : 0.5
+                }}
+              >
+                Stable
+              </div>
+            </div>
+            
+            {/* Displacement vs Augmentation bar */}
+            <div className="mt-3">
+              <div className="flex justify-between text-[10px] font-medium text-black/60 mb-1">
+                <span>Displacement: {Math.round(impact.displacement * 100)}%</span>
+                <span>Augmentation: {Math.round(impact.augmentation * 100)}%</span>
+              </div>
+              <div className="h-3 rounded-full overflow-hidden flex border-2 border-black" style={{ backgroundColor: 'var(--bg-alt)' }}>
+                <div 
+                  className="h-full" 
+                  style={{ width: `${impact.displacement * 100}%`, backgroundColor: 'var(--danger)' }}
+                />
+                <div 
+                  className="h-full" 
+                  style={{ width: `${impact.augmentation * 100}%`, backgroundColor: 'var(--success)' }}
+                />
+              </div>
+            </div>
+          </article>
+
+          {/* Confidence & Risk Band */}
+          <article className="card-brutal p-4 sm:p-5">
+            <div className="flex items-center justify-between mb-3">
+              <span className="text-xs sm:text-sm font-bold text-black/70">DATA CONFIDENCE</span>
+              <span className={`${confidence.badgeClass} text-[10px] sm:text-xs`}>
+                {confidence.label}
+              </span>
+            </div>
+            
+            {/* Confidence breakdown */}
+            <div className="space-y-2 mb-4">
+              <div className="flex justify-between items-center">
+                <span className="text-[10px] font-medium text-black/60">Empirical (Anthropic + O*NET)</span>
+                <span className="text-[10px] font-bold">
+                  {tasks.filter(t => t.source === 'anthropic' || t.source === 'onet').length}/{tasks.length} tasks
+                </span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-[10px] font-medium text-black/60">Synthetic (LLM-generated)</span>
+                <span className="text-[10px] font-bold">
+                  {tasks.filter(t => t.source === 'synthetic' || t.source === 'llm').length}/{tasks.length} tasks
+                </span>
+              </div>
+            </div>
+
+            {/* Risk Band */}
+            <div className="pt-3 border-t border-black/20">
+              <div className="flex items-center justify-between">
+                <span className="text-xs sm:text-sm font-bold text-black/70">RISK BAND</span>
+                <span className={`${riskBand.badgeClass} text-[10px] sm:text-xs`}>
+                  {riskBand.band}
+                </span>
+              </div>
+              {/* Risk band scale - uses CSS vars */}
+              <div className="flex gap-0.5 mt-2">
+                {[0, 1, 2, 3, 4].map((i) => (
+                  <div 
+                    key={i}
+                    className={`flex-1 h-2 border border-black ${i === 0 ? 'rounded-l' : ''} ${i === 4 ? 'rounded-r' : ''}`}
+                    style={{ 
+                      backgroundColor: i < 2 ? 'var(--success)' : i === 2 ? 'var(--warning)' : 'var(--danger)',
+                      opacity: riskBand.position === i ? 1 : 0.4,
+                      boxShadow: riskBand.position === i ? '0 0 0 2px var(--black)' : 'none'
+                    }}
+                  />
+                ))}
+              </div>
+              <div className="flex justify-between text-[8px] text-black/40 mt-1">
+                <span>Very Low</span>
+                <span>Very High</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
         {/* Quick Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mt-3 sm:mt-4">
-          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: '#e8f4fa' }}>
+          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: 'var(--bg-alt)' }}>
             <span className="text-[10px] sm:text-xs font-bold text-black/60">EMPLOYMENT</span>
-            <p className="text-sm sm:text-lg font-bold text-black">{occupation.employment?.toLocaleString() || 'N/A'}</p>
+            <p className="text-sm sm:text-lg font-bold">{occupation.employment?.toLocaleString() || 'N/A'}</p>
           </div>
-          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: '#e8f4fa' }}>
+          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: 'var(--bg-alt)' }}>
             <span className="text-[10px] sm:text-xs font-bold text-black/60">MEDIAN PAY</span>
-            <p className="text-sm sm:text-lg font-bold text-black">${occupation.median_pay_aud?.toLocaleString() || 'N/A'}</p>
+            <p className="text-sm sm:text-lg font-bold">${occupation.median_pay_aud?.toLocaleString() || 'N/A'}</p>
           </div>
-          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: '#e8f4fa' }}>
+          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: 'var(--bg-alt)' }}>
             <span className="text-[10px] sm:text-xs font-bold text-black/60">TASKS</span>
-            <p className="text-sm sm:text-lg font-bold text-black">{tasks.length}</p>
+            <p className="text-sm sm:text-lg font-bold">{tasks.length}</p>
           </div>
-          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: '#e8f4fa' }}>
-            <span className="text-[10px] sm:text-xs font-bold text-black/60">SOURCE</span>
-            <p className="text-sm sm:text-lg font-bold text-black">ABS+Anthropic</p>
+          <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: 'var(--bg-alt)' }}>
+            <span className="text-[10px] sm:text-xs font-bold text-black/60">CONFIDENCE</span>
+            <p className="text-sm sm:text-lg font-bold">{confidence.level}</p>
           </div>
         </div>
 
