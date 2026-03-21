@@ -4,7 +4,7 @@
 **Last Updated:** 2026-03-21  
 **Author:** Surya Setiyaputra
 
-This document details the complete methodology for TaskFolio's task-level AI exposure analysis. The pipeline transforms raw occupation data into actionable AI impact predictions for 361 Australian occupations and 6,690 individual tasks.
+This document details the complete methodology for TaskFolio's task-level AI exposure analysis. The pipeline transforms raw occupation data into actionable AI impact predictions for 361 Australian occupations and 6,329 individual tasks.
 
 ---
 
@@ -220,7 +220,7 @@ Indicates the quality of underlying data:
               └──────┬──────┘
                      │
               ┌──────▼──────┐
-              │ 6,690 Tasks │
+              │ 6,329 Tasks │
               │ 361 Occup.  │
               │ 100% coverage│
               └─────────────┘
@@ -758,10 +758,9 @@ Tasks include a `source` field indicating data provenance:
 
 | Source | Confidence | Count |
 |--------|------------|-------|
-| `anthropic` | High | 3,074 |
-| `onet_matched` | Medium-High | 1,847 |
-| `generated` | Medium | 3,616 |
-| `estimated` | Low | 153 |
+| `anthropic` | High | 1,597 |
+| `regenerated_v1.2` | High | 1,116 |
+| `claude_generated` | Medium | 3,616 |
 
 ### Validation Approach
 
