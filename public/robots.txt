@@ -1,0 +1,5 @@
+# robots.txt for TaskFolio
+User-agent: *
+Allow: /
+
+Sitemap: https://taskfolio-au.pages.dev/sitemap.xml
