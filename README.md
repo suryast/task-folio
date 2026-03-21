@@ -43,7 +43,7 @@ graph TB
     end
     
     subgraph "Data Pipeline"
-        B1[Fuzzy Matching<br/>ANZSCO → O*NET]
+        B1[ISCO Triangulation<br/>ANZSCO → ISCO-08 → SOC]
         B2[Task Generation<br/>Unmapped occupations]
         B3[Timeframe Prediction<br/>AU regulatory context]
         B4[AI Exposure Scoring<br/>Weighted average]
@@ -95,10 +95,11 @@ flowchart LR
         A[361 ANZSCO<br/>Occupations]
         B[O*NET<br/>19,000+ tasks]
         C[Anthropic Index<br/>3,074 tasks]
+        I[ISCO-08<br/>ILO Crosswalk]
     end
     
     subgraph Processing
-        D[Fuzzy Match<br/>147 mapped<br/>214 unmapped]
+        D[ISCO Triangulation<br/>92 high-confidence<br/>55 unmapped]
         E[Merge Anthropic<br/>Data]
         F[Generate Tasks<br/>Claude Sonnet 4.5<br/>3,616 tasks]
         G[Predict Timeframes<br/>AU context]
@@ -166,7 +167,7 @@ pie title AI Impact Timeframes (6,690 tasks)
 
 ---
 
-## Methodology (V1.1)
+## Methodology (V1.2)
 
 Full methodology: [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
 
@@ -188,7 +189,23 @@ Inspired by [AI Work Index](https://aiworkindex.pages.dev/) (Singapore) by [@kir
 | **Displacement Score** | `exposure × (1 - bottleneck)` — how much AI replaces |
 | **Augmentation Score** | `exposure × bottleneck` — how much AI amplifies |
 | **Risk Band** | 5-tier scale: Very Low → Low → Moderate → High → Very High |
-| **Data Confidence** | High/Medium/Low based on empirical vs synthetic task ratio |
+| **Data Confidence** | High/Medium/Low based on mapping method |
+
+### V1.2: ISCO Triangulation
+
+Improved occupation mapping using official international crosswalks:
+
+```
+ANZSCO (AU) ──→ ISCO-08 (ILO) ──→ SOC (US/O*NET)
+    │              │                │
+    └──ABS─────────┴──BLS───────────┘
+       concordance    crosswalk
+```
+
+| Mapping Method | Occupations | Confidence |
+|----------------|-------------|------------|
+| ISCO Triangulation | 92 (62.6%) | High |
+| Fuzzy Title Match | 55 (37.4%) | Low |
 
 **Impact Type Matrix:**
 
@@ -209,6 +226,9 @@ The bottleneck factor is calculated from the ratio of augmentation-oriented vs a
 | [O*NET Database](https://www.onetonline.org/) | US occupational task descriptions (Public Domain) |
 | [Jobs and Skills Australia](https://www.jobsandskills.gov.au/) | ANZSCO taxonomy, employment data, wages |
 | [JSA Employment Projections](https://www.jobsandskills.gov.au/data/employment-projections) | 10-year employment growth forecasts (May 2025 → May 2035) |
+| [ISCO-08](https://www.ilo.org/public/english/bureau/stat/isco/isco08/) | ILO International Standard Classification of Occupations |
+| [ABS ANZSCO-ISCO Concordance](https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022) | Official ANZSCO → ISCO-08 mapping |
+| [BLS SOC-ISCO Crosswalk](https://www.bls.gov/soc/soccrosswalks.htm) | Official SOC → ISCO-08 mapping |
 
 ---
 

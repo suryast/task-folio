@@ -1,6 +1,6 @@
 # TaskFolio Methodology
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Last Updated:** 2026-03-21  
 **Author:** Surya Setiyaputra
 
@@ -13,7 +13,7 @@ This document details the complete methodology for TaskFolio's task-level AI exp
 1. [Overview](#overview)
 2. [Data Sources](#data-sources)
 3. [Pipeline Architecture](#pipeline-architecture)
-4. [Step 1: ANZSCO-O*NET Fuzzy Matching](#step-1-anzsco-onet-fuzzy-matching)
+4. [Step 1: ISCO-08 Triangulation](#step-1-isco-08-triangulation) *(V1.2)*
 5. [Step 2: Anthropic Economic Index Integration](#step-2-anthropic-economic-index-integration)
 6. [Step 3: Task Generation for Unmapped Occupations](#step-3-task-generation-for-unmapped-occupations)
 7. [Step 4: Timeframe Prediction](#step-4-timeframe-prediction)
@@ -228,21 +228,68 @@ Indicates the quality of underlying data:
 
 ---
 
-## Step 1: ANZSCO-O*NET Fuzzy Matching
+## Step 1: ISCO-08 Triangulation
 
-**Script:** `data/pipeline/step1_build_anzsco_mapping.py`
+**Script:** `data/crosswalks/build_isco_crosswalk.py` (V1.2)
 
 ### Problem
 
-Australian occupations use ANZSCO codes; Anthropic's data uses US O*NET SOC codes. We need to map between them.
+Australian occupations use ANZSCO codes; Anthropic's data uses US O*NET SOC codes. Direct fuzzy matching produces poor results (e.g., "Fencers" → "Dancers" at 71% confidence).
 
-### Approach
+### Solution: ISCO-08 Triangulation
 
-1. **Exact title matching** — Direct string comparison
-2. **Fuzzy matching** — FuzzyWuzzy library with token_sort_ratio
-3. **Manual review** — Ambiguous matches verified manually
+Both ANZSCO and SOC have official mappings to ISCO-08 (ILO's International Standard Classification). We triangulate through ISCO:
+
+```
+ANZSCO (AU) ──→ ISCO-08 (ILO) ──→ SOC (US/O*NET)
+    │              │                │
+    └──ABS─────────┴──BLS───────────┘
+       concordance    crosswalk
+```
+
+### Data Sources
+
+| Source | File | Records |
+|--------|------|---------|
+| [ABS ANZSCO-ISCO Concordance](https://www.abs.gov.au/) | `anzsco_to_isco08.csv` | 1,272 mappings |
+| BLS SOC-ISCO Crosswalk | `soc_to_isco08.csv` | 453 mappings |
 
 ### Algorithm
+
+```python
+def triangulate_anzsco_to_soc(anzsco_code):
+    """Map ANZSCO to SOC via ISCO-08."""
+    # Step 1: ANZSCO → ISCO (official ABS concordance)
+    isco_codes = anzsco_to_isco[anzsco_code]
+    
+    # Step 2: ISCO → SOC (official BLS crosswalk)
+    soc_codes = []
+    for isco in isco_codes:
+        if isco in isco_to_soc:
+            soc_codes.extend(isco_to_soc[isco])
+    
+    return soc_codes  # May return multiple valid SOC matches
+```
+
+### Results (V1.2)
+
+| Method | Occupations | Confidence |
+|--------|-------------|------------|
+| ISCO Triangulation | 92 (62.6%) | High (official crosswalks) |
+| Fuzzy Fallback | 55 (37.4%) | Low (title matching) |
+
+### Improvement Examples
+
+| ANZSCO | Title | Old SOC (Fuzzy) | New SOC (ISCO) |
+|--------|-------|-----------------|----------------|
+| 8213 | Fencers | 27-2031 Dancers (71%) | 47-2051 Cement Masons |
+| 5616 | Switchboard Operators | 53-5022 Motorboat Operators (70%) | 43-5032 Dispatchers |
+| 5321 | Keyboard Operators | 53-7031 Dredge Operators (71%) | 43-9022 Word Processors |
+| 4521 | Fitness Instructors | 33-2021 Fire Inspectors (71%) | 39-9031 Fitness Trainers |
+
+### Legacy: Fuzzy Matching (V1.0-V1.1)
+
+For unmapped occupations, we fall back to fuzzy title matching:
 
 ```python
 from fuzzywuzzy import fuzz
@@ -253,13 +300,10 @@ def match_occupation(anzsco_title: str, onet_occupations: list) -> tuple:
     best_score = 0
     
     for onet in onet_occupations:
-        # Token sort handles word order differences
-        # "Software Developer" vs "Developer, Software"
         score = fuzz.token_sort_ratio(
             anzsco_title.lower(),
             onet['title'].lower()
         )
-        
         if score > best_score:
             best_score = score
             best_match = onet
@@ -267,27 +311,7 @@ def match_occupation(anzsco_title: str, onet_occupations: list) -> tuple:
     return best_match, best_score / 100
 ```
 
-### Confidence Thresholds
-
-| Score | Action | Example |
-|-------|--------|---------|
-| ≥0.90 | Auto-accept | "Accountant" → "Accountants" |
-| 0.70-0.89 | Review | "ICT Manager" → "Computer and Information Systems Managers" |
-| <0.70 | Reject | No reliable match found |
-
-### Results
-
-- **147 occupations** mapped with confidence ≥0.70
-- **214 occupations** unmapped (require task generation)
-- **Average confidence:** 0.84
-
-### Edge Cases Handled
-
-| ANZSCO Title | O*NET Match | Notes |
-|--------------|-------------|-------|
-| "Barristers" | "Lawyers" | AU-specific legal term |
-| "General Practitioners" | "Family Medicine Physicians" | Healthcare terminology |
-| "Shearers" | No match | AU-specific agricultural role |
+Fuzzy matches below 70% confidence are marked as "unmapped" and use LLM-generated tasks.
 
 ---
 
@@ -825,6 +849,7 @@ If you use this methodology in research, please cite:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.2 | 2026-03-21 | ISCO-08 triangulation for occupation mapping. 92 occupations now have official crosswalk matches (vs fuzzy). Fixes bad matches like Fencers→Dancers. |
 | 1.1 | 2026-03-21 | Added Impact Type (2×2 classification), Risk Bands, Data Confidence. Inspired by AI Work Index. |
 | 1.0 | 2026-03-21 | Initial release |
 
