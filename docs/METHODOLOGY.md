@@ -1,6 +1,6 @@
 # TaskFolio Methodology
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Last Updated:** 2026-03-21  
 **Author:** Surya Setiyaputra
 
@@ -42,6 +42,9 @@ Existing AI exposure tools provide occupation-level scores ("Software Developer:
 | **AI Exposure** | Weighted average of task-level automation + augmentation | 0-100% |
 | **Half-Life** | Estimated years until AI can perform ~50% of occupation tasks | 2-20 years |
 | **Future-Proof Index** | Composite score: `100 - (AI_exposure × 40) - pay_risk - outlook_risk` | 0-100 |
+| **Impact Type** | 2×2 classification based on displacement vs augmentation | At Risk / Augmented / Stable / Mixed |
+| **Risk Band** | 5-tier exposure scale | Very Low / Low / Moderate / High / Very High |
+| **Data Confidence** | Source quality indicator | High / Medium / Low |
 
 ### Future-Proof Index Formula
 
@@ -69,6 +72,73 @@ Score = 100 - AI_exposure_risk - pay_risk - outlook_risk
 | 50-69 | ADAPTABLE | Moderate risk, skills transfer possible |
 | 30-49 | AT RISK | High exposure or declining demand |
 | 0-29 | VULNERABLE | High exposure + low pay + declining demand |
+
+### V1.1 Additions: Impact Type & Risk Bands
+
+Inspired by [AI Work Index](https://aiworkindex.pages.dev/) (Singapore) by [@kirso](https://github.com/kirso).
+
+#### Impact Type (2×2 Classification)
+
+The impact type separates **displacement** (AI replaces human) from **augmentation** (AI amplifies human):
+
+```python
+def calculate_impact_type(tasks: list, exposure: float) -> dict:
+    """
+    Calculate displacement vs augmentation from task mix.
+    
+    Bottleneck = ratio of augmentation-oriented to automation-oriented tasks.
+    Higher bottleneck = more tasks require human judgment/presence.
+    """
+    total_aug = sum(t['augmentation_pct'] for t in tasks)
+    total_auto = sum(t['automation_pct'] for t in tasks)
+    
+    bottleneck = total_aug / (total_aug + total_auto) if (total_aug + total_auto) > 0 else 0.5
+    
+    displacement = exposure * (1 - bottleneck)
+    augmentation = exposure * bottleneck
+    
+    # 2×2 classification thresholds
+    high_displacement = displacement >= 0.25
+    high_augmentation = augmentation >= 0.12
+    
+    if high_displacement and high_augmentation:
+        return {'type': 'MIXED', 'label': 'Mixed Signals'}
+    elif high_displacement:
+        return {'type': 'AT_RISK', 'label': 'At Risk'}
+    elif high_augmentation:
+        return {'type': 'AUGMENTED', 'label': 'AI Augmented'}
+    else:
+        return {'type': 'STABLE', 'label': 'Stable'}
+```
+
+**Impact Type Matrix:**
+
+|  | Low Augmentation | High Augmentation |
+|--|------------------|-------------------|
+| **High Displacement** | At Risk | Mixed |
+| **Low Displacement** | Stable | Augmented |
+
+#### Risk Bands
+
+Five-tier scale replacing the simple High/Medium/Low classification:
+
+| Band | Exposure Range | Meaning |
+|------|----------------|---------|
+| Very Low | 0-5% | Negligible AI impact |
+| Low | 5-15% | Limited impact; AI assists at margins |
+| Moderate | 15-30% | Mixed impact; some tasks changing |
+| High | 30-50% | Significant impact; active adaptation needed |
+| Very High | 50%+ | Major disruption; fundamental role change |
+
+#### Data Confidence
+
+Indicates the quality of underlying data:
+
+| Level | Definition | Task Sources |
+|-------|------------|--------------|
+| High | >50% empirical data | Anthropic + O*NET matched |
+| Medium | Mixed sources | Combination of empirical + synthetic |
+| Low | >50% synthetic | LLM-generated tasks |
 
 ---
 
@@ -755,6 +825,7 @@ If you use this methodology in research, please cite:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1 | 2026-03-21 | Added Impact Type (2×2 classification), Risk Bands, Data Confidence. Inspired by AI Work Index. |
 | 1.0 | 2026-03-21 | Initial release |
 
 ---
