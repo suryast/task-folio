@@ -60,14 +60,5 @@ export async function getTasksForOccupation(db: D1Database, code: string) {
   return { anzsco_code: code, task_count: results.length, tasks: results }
 }
 
-export async function storeAnalysis(
-  db: D1Database,
-  jobTitle: string,
-  jobDescription: string | null,
-  analysisJson: string
-) {
-  await db
-    .prepare('INSERT INTO user_analyses (job_title, job_description, analysis_json) VALUES (?, ?, ?)')
-    .bind(jobTitle, jobDescription, analysisJson)
-    .run()
-}
+// REMOVED: storeAnalysis - no longer storing user job descriptions to avoid PII concerns
+// Custom analyses are cached in KV only (with TTL) instead of permanent D1 storage

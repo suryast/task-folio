@@ -1,5 +1,6 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
+import { secureHeaders } from 'hono/secure-headers'
 import type { Bindings } from './types'
 import { occupationsRouter } from './routes/occupations'
 import { tasksRouter } from './routes/tasks'
@@ -7,8 +8,19 @@ import { analyzeRouter } from './routes/analyze'
 
 const app = new Hono<{ Bindings: Bindings }>()
 
-// Middleware
-app.use('/*', cors())
+// Security headers
+app.use('/*', secureHeaders())
+
+// CORS - restrict to allowed origins
+app.use('/*', cors({
+  origin: [
+    'https://ai-job-exposure.setiyaputra.me',
+    'https://taskfolio-au.pages.dev',
+    'http://localhost:3000', // dev
+  ],
+  allowMethods: ['GET', 'POST', 'OPTIONS'],
+  allowHeaders: ['Content-Type'],
+}))
 
 // Health check
 app.get('/health', (c) =>

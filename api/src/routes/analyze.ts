@@ -2,8 +2,8 @@ import { Hono } from 'hono'
 import { z } from 'zod'
 import type { Bindings } from '../types'
 import { decomposeJob, scoreExposure } from '../lib/anthropic'
-import { storeAnalysis } from '../lib/db'
 import { getCached, setCache, TTL } from '../lib/cache'
+import { checkRateLimit } from '../lib/ratelimit'
 
 export const analyzeRouter = new Hono<{ Bindings: Bindings }>()
 
@@ -14,6 +14,21 @@ const JobInputSchema = z.object({
 
 // POST / — Custom job decomposition + scoring
 analyzeRouter.post('/', async (c) => {
+  // Rate limiting
+  const ip = c.req.header('cf-connecting-ip') ?? c.req.header('x-forwarded-for') ?? 'unknown'
+  const { allowed, remaining, resetAt } = await checkRateLimit(c.env.CACHE, ip)
+  
+  c.header('X-RateLimit-Remaining', remaining.toString())
+  c.header('X-RateLimit-Reset', resetAt.toString())
+  
+  if (!allowed) {
+    return c.json({ 
+      error: 'Rate limit exceeded', 
+      message: 'Maximum 10 analyses per hour. Please try again later.',
+      resetAt: new Date(resetAt * 1000).toISOString()
+    }, 429)
+  }
+
   const body = await c.req.json()
   const validation = JobInputSchema.safeParse(body)
   if (!validation.success) {
@@ -58,14 +73,13 @@ analyzeRouter.post('/', async (c) => {
       summary,
     }
 
-    // Store + cache
-    await storeAnalysis(c.env.DB, job_title, job_description ?? null, JSON.stringify(result))
+    // Cache result (don't store job_description to avoid PII storage)
     await setCache(c.env.CACHE, cacheKey, result, TTL.CUSTOM_ANALYSIS)
 
     return c.json(result)
   } catch (error) {
     console.error('[/api/analyze]', error)
-    const message = error instanceof Error ? error.message : 'Failed to analyze job'
-    return c.json({ error: message }, 500)
+    // Sanitize error message - don't leak SDK details
+    return c.json({ error: 'Analysis failed. Please try again.' }, 500)
   }
 })

@@ -22,6 +22,9 @@ occupationsRouter.get('/search', async (c) => {
   if (!query || query.length < 2) {
     return c.json({ error: 'Query must be at least 2 characters' }, 400)
   }
+  if (query.length > 100) {
+    return c.json({ error: 'Query too long (max 100 characters)' }, 400)
+  }
 
   const results = await searchOccupations(c.env.DB, query)
   return c.json(results)
