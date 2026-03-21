@@ -1,0 +1,73 @@
+================================================================================
+TASK REGENERATION - OUTPUT FILES
+================================================================================
+
+PRIMARY OUTPUT (Ready for Integration)
+--------------------------------------
+📄 data/pipeline/output/regenerated_tasks.json (307 KB)
+   → 1,116 Australian-specific tasks for 62 occupations
+   → Format: JSON array of task objects
+   → Each task: anzsco_code, title, description, automation_pct, 
+               augmentation_pct, timeframe, source
+
+SUPPORTING DATA
+---------------
+📄 data/pipeline/output/occupations_to_regenerate.json
+   → List of 62 occupations requiring regeneration
+   → Includes old/new SOC codes and confidence scores
+
+📄 data/pipeline/output/regeneration_summary.json
+   → Statistical summary of generation process
+   → Includes distributions and averages
+
+DOCUMENTATION
+-------------
+📄 REGENERATION_REPORT.md
+   → Detailed technical report
+   → Process methodology and validation
+
+📄 TASK_COMPLETION_SUMMARY.md
+   → Executive summary for stakeholders
+   → Key statistics and examples
+
+📄 OUTPUT_FILES.txt
+   → This file (quick reference)
+
+SCRIPTS (Reusable)
+------------------
+📄 identify_occupations.py
+   → Identifies occupations needing regeneration
+   → Compares old vs improved SOC mappings
+
+📄 generate_tasks.py
+   → Main task generation engine
+   → Industry templates with Australian context
+
+📄 generate_summary.py
+   → Generates statistical summaries
+
+📄 validate_output.py
+   → Validates output data integrity
+   → All checks passed ✓
+
+VALIDATION STATUS
+-----------------
+✓ All 62 occupations processed
+✓ 1,116 tasks generated (18 per occupation)
+✓ All required fields present
+✓ Valid automation/augmentation ranges
+✓ Australian regulatory context included
+✓ No errors or warnings
+
+QUICK STATS
+-----------
+Occupations: 62
+Total Tasks: 1,116
+Avg Automation: 35.1%
+Avg Augmentation: 57.1%
+Most Common Timeframe: 3-5 years (37.2%)
+
+================================================================================
+Working Directory: /home/polybot/projects/task-folio
+Generated: 2026-03-21 09:40 UTC
+================================================================================

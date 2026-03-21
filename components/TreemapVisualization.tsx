@@ -181,6 +181,9 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
       const groups = root.children as unknown as TreemapNode[]
       if (groups) {
         // Category backgrounds - brutal style
+        // Get computed colors for dark mode support
+        const strokeColor = getComputedStyle(document.documentElement).getPropertyValue('--black').trim() || '#000000'
+        
         svg.selectAll('.category-bg')
           .data(groups)
           .join('rect')
@@ -190,11 +193,14 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
           .attr('width', d => d.x1 - d.x0)
           .attr('height', d => d.y1 - d.y0)
           .attr('fill', 'none')
-          .attr('stroke', '#000000')
+          .attr('stroke', strokeColor)
           .attr('stroke-width', 2)
           .attr('rx', 5)
 
         // Category labels - bold brutal style
+        // Get computed text color for dark mode support
+        const textColor = getComputedStyle(document.documentElement).getPropertyValue('--black').trim() || '#000000'
+        
         svg.selectAll('.category-label')
           .data(groups)
           .join('text')
@@ -203,7 +209,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
           .attr('y', d => d.y0 + 18)
           .attr('font-size', 13)
           .attr('font-weight', 700)
-          .attr('fill', '#000000')
+          .attr('fill', textColor)
           .text(d => (d.data as any).name.toUpperCase())
       }
     }
@@ -220,6 +226,9 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
         router.push(`/occupations/${code}`)
       })
 
+    // Get computed colors for dark mode support (for cells that don't have category parents)
+    const cellStrokeColor = getComputedStyle(document.documentElement).getPropertyValue('--black').trim() || '#000000'
+    
     // Add rectangles - brutal style
     cell.append('rect')
       .attr('width', (d: TreemapNode) => d.x1 - d.x0)
@@ -228,7 +237,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
         const exposure = d.data.data.ai_exposure || 0
         return colorScale(exposure)
       })
-      .attr('stroke', '#000000')
+      .attr('stroke', cellStrokeColor)
       .attr('stroke-width', 2)
       .attr('rx', 5)
       .on('mouseenter', function() {
@@ -242,7 +251,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
           .attr('transform', null)
       })
 
-    // Add text labels - bold style
+    // Add text labels - bold style (text inside colored cells stays black for contrast)
     cell.append('text')
       .attr('x', 6)
       .attr('y', 16)
@@ -252,7 +261,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
         return Math.min(width / 6, height / 3, 12)
       })
       .attr('font-weight', 600)
-      .attr('fill', '#000000')
+      .attr('fill', '#000000')  // Keep black for contrast on colored backgrounds
       .attr('pointer-events', 'none')
       .text((d: TreemapNode) => {
         const width = d.x1 - d.x0
