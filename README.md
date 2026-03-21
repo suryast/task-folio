@@ -1,12 +1,12 @@
 # TaskFolio 📋
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Site](https://img.shields.io/badge/Live-taskfolio--au.pages.dev-blue)](https://taskfolio-au.pages.dev)
+[![Live Site](https://img.shields.io/badge/Live-ai--job--exposure.setiyaputra.me-blue)](https://ai-job-exposure.setiyaputra.me)
 [![Cloudflare Pages](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-orange)](https://pages.cloudflare.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
-[![Occupations](https://img.shields.io/badge/Occupations-361-green)](https://taskfolio-au.pages.dev)
-[![Tasks](https://img.shields.io/badge/Tasks-6,690-green)](https://taskfolio-au.pages.dev)
+[![Occupations](https://img.shields.io/badge/Occupations-361-green)](https://ai-job-exposure.setiyaputra.me)
+[![Tasks](https://img.shields.io/badge/Tasks-6,690-green)](https://ai-job-exposure.setiyaputra.me)
 
 **See exactly which parts of your job AI will affect — task by task, with timeframes.**
 
@@ -14,7 +14,7 @@
 
 TaskFolio is a task-level AI exposure analysis tool for the Australian job market, helping 14.4M workers understand which specific parts of their job AI will affect — and when.
 
-🌐 **Live:** [taskfolio-au.pages.dev](https://taskfolio-au.pages.dev)  
+🌐 **Live:** [ai-job-exposure.setiyaputra.me](https://ai-job-exposure.setiyaputra.me)  
 📊 **361 occupations** • **6,690 tasks**  
 🎨 **Design:** [Neobrutal UI](https://www.neobrutalui.live)
 
@@ -245,7 +245,7 @@ cd api && pnpm dev
 ## License
 
 - **Code:** MIT License
-- **Data:** Per source terms (see [Attribution](https://taskfolio-au.pages.dev/legal/attribution))
+- **Data:** Per source terms (see [Attribution](https://ai-job-exposure.setiyaputra.me/legal/attribution))
 
 ---
 
