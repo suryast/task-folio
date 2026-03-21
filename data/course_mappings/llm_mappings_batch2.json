@@ -1,0 +1,124 @@
+[
+  {
+    "course": {"code": "COMP10001", "title": "Foundations of Computing", "university_code": "MELB", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "write programs that read, process, analyse and output data", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95},
+        {"task_id": 9096, "task_description": "Design database schemas and write SQL queries", "confidence": 0.72}
+      ]},
+      {"learning_outcome": "design and evaluate programs to solve problems", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.92},
+        {"task_id": 9097, "task_description": "Conduct code reviews", "confidence": 0.70}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "COMP10002", "title": "Foundations of Algorithms", "university_code": "MELB", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "analyse and compare the time and space complexity of algorithms", "matched_tasks": [
+        {"task_id": 9102, "task_description": "Optimize application performance by profiling code", "confidence": 0.90},
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.85}
+      ]},
+      {"learning_outcome": "implement key algorithms and data structures in C", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "COMP1100", "title": "Programming as Problem Solving", "university_code": "ANU", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "Explain and use the fundamental programming concepts of data, actions and abstraction", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95}
+      ]},
+      {"learning_outcome": "Design, write and test programs using functional abstraction", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95},
+        {"task_id": 9099, "task_description": "Write automated unit, integration, and end-to-end tests", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "COMP1511", "title": "Programming Fundamentals", "university_code": "UNSW", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "apply fundamental programming concepts to solve computing problems", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95}
+      ]},
+      {"learning_outcome": "work collaboratively to help develop solutions to computing problems", "matched_tasks": [
+        {"task_id": 9101, "task_description": "Participate in agile ceremonies", "confidence": 0.80},
+        {"task_id": 9097, "task_description": "Conduct code reviews", "confidence": 0.75}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "COMP2100", "title": "Software Construction", "university_code": "ANU", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "Design, build, test and debug medium-scale programs", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95},
+        {"task_id": 9095, "task_description": "Debug production issues by analyzing logs", "confidence": 0.90},
+        {"task_id": 9099, "task_description": "Write automated tests", "confidence": 0.88}
+      ]},
+      {"learning_outcome": "Apply software engineering practices", "matched_tasks": [
+        {"task_id": 9097, "task_description": "Conduct code reviews", "confidence": 0.88},
+        {"task_id": 9101, "task_description": "Participate in agile ceremonies", "confidence": 0.85}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "SWEN20003", "title": "Object Oriented Software Development", "university_code": "MELB", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "design and implement an object-oriented software system", "matched_tasks": [
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95},
+        {"task_id": 9111, "task_description": "Implement responsive front-end interfaces", "confidence": 0.78}
+      ]},
+      {"learning_outcome": "apply testing and debugging techniques", "matched_tasks": [
+        {"task_id": 9099, "task_description": "Write automated tests", "confidence": 0.92},
+        {"task_id": 9095, "task_description": "Debug production issues", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "SWEN30006", "title": "Software Modelling and Design", "university_code": "MELB", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "design software using design patterns and principles", "matched_tasks": [
+        {"task_id": 9108, "task_description": "Refactor legacy code to improve maintainability", "confidence": 0.90},
+        {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.85}
+      ]},
+      {"learning_outcome": "create UML diagrams for software design", "matched_tasks": [
+        {"task_id": 9105, "task_description": "Write technical documentation including architecture diagrams", "confidence": 0.92}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "INFO20003", "title": "Database Systems", "university_code": "MELB", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "design and implement a relational database", "matched_tasks": [
+        {"task_id": 9096, "task_description": "Design database schemas and write SQL queries", "confidence": 0.98}
+      ]},
+      {"learning_outcome": "write SQL queries for data manipulation and retrieval", "matched_tasks": [
+        {"task_id": 9096, "task_description": "Design database schemas and write SQL queries", "confidence": 0.98}
+      ]},
+      {"learning_outcome": "apply normalization principles to database design", "matched_tasks": [
+        {"task_id": 9096, "task_description": "Design database schemas", "confidence": 0.92}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "DATA1001", "title": "Foundations of Data Science", "university_code": "USYD", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "analyse and visualise data using statistical software", "matched_tasks": [
+        {"task_id": 8852, "task_description": "Analyse statistical data using software packages", "confidence": 0.92}
+      ]},
+      {"learning_outcome": "interpret and communicate data analysis results", "matched_tasks": [
+        {"task_id": 8853, "task_description": "Prepare reports summarising statistical findings", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "DATA2001", "title": "Data Science: Big Data and Data Diversity", "university_code": "USYD", "faculty": "Computing"},
+    "mappings": [
+      {"learning_outcome": "work with large-scale datasets using distributed computing", "matched_tasks": [
+        {"task_id": 9096, "task_description": "Design database schemas optimized for cloud databases", "confidence": 0.85},
+        {"task_id": 9100, "task_description": "Deploy applications to cloud platforms", "confidence": 0.78}
+      ]}
+    ]
+  }
+]

@@ -1,0 +1,4697 @@
+[
+  {
+    "socCode": "15-1252.00",
+    "title": "Software Developers",
+    "anzscoCode": "261312",
+    "anzscoTitle": "Software Engineer",
+    "description": "Research, design, and develop computer and network software or specialized utility programs.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze user needs to determine software requirements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Design and write code for software programs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Test software and identify and correct errors",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Consult with engineering staff to evaluate software-hardware interfaces",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Modify existing software to correct errors and adapt to new hardware",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Perform or direct software testing",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Analyze information to determine, recommend, and plan the use of new technologies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t8",
+        "name": "Coordinate software system installation and monitor equipment functioning",
+        "category": "administrative"
+      },
+      {
+        "id": "t9",
+        "name": "Write documentation for software systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t10",
+        "name": "Collaborate with team members in code reviews",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Git",
+      "SQL",
+      "Docker",
+      "AWS"
+    ]
+  },
+  {
+    "socCode": "15-1211.00",
+    "title": "Computer Systems Analysts",
+    "anzscoCode": "261111",
+    "anzscoTitle": "ICT Business Analyst",
+    "description": "Analyze science, engineering, business, and other data processing problems to develop and implement solutions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze information processing or computation needs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Read manuals, periodicals, and technical reports to learn new technologies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Plan and prepare technical reports, memoranda, and instructional manuals",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Confer with personnel to analyze current computer systems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Review and analyze computer printouts and performance indicators",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Develop and implement system requirements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Document requirements and specifications",
+        "category": "administrative"
+      },
+      {
+        "id": "t8",
+        "name": "Coordinate and link computer systems within an organization",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "SQL",
+      "Python",
+      "Jira",
+      "Confluence",
+      "Tableau",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "15-1221.00",
+    "title": "Computer and Information Research Scientists",
+    "anzscoCode": "261313",
+    "anzscoTitle": "Software Test Engineer",
+    "description": "Conduct research into fundamental computer and information science as theorists, designers, or inventors.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Assign or schedule tasks to meet work priorities and goals",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Apply theoretical expertise and innovation to create or apply new technology",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Design experiments, analyze and interpret data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Publish or present research findings",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with engineers to design, develop, and test solutions",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Consult with users, management, and technical staff",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "R",
+      "MATLAB",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "socCode": "11-3021.00",
+    "title": "Computer and Information Systems Managers",
+    "anzscoCode": "135111",
+    "anzscoTitle": "Chief Information Officer",
+    "description": "Plan, direct, or coordinate activities in such fields as electronic data processing, information systems, systems analysis, and computer programming.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct daily operations of the department, analyzing workflow and planning",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Develop computer information resources, providing for data security and control",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop and interpret organizational goals, policies, and procedures",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Review project plans to plan and coordinate project activity",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Recruit, hire, train, and supervise staff",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Review and approve hardware and software acquisitions and maintenance contracts",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Stay abreast of advances in technology",
+        "category": "cognitive"
+      },
+      {
+        "id": "t8",
+        "name": "Prepare and review operational reports or project progress reports",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Jira",
+      "Confluence",
+      "AWS",
+      "Azure",
+      "Excel",
+      "PowerPoint"
+    ]
+  },
+  {
+    "socCode": "13-1111.00",
+    "title": "Management Analysts",
+    "anzscoCode": "224711",
+    "anzscoTitle": "Management Consultant",
+    "description": "Conduct organizational studies and evaluations, design systems and procedures, conduct work simplifications and measurement studies.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Gather and organize information on problems or procedures",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Analyze data gathered and develop solutions or alternative methods",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Confer with personnel to analyze current computer systems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Document findings of study and prepare recommendations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Review forms and reports and confer with management",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Develop and implement records management program",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Interview personnel to obtain information on client requirements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Present findings and recommendations to management",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "PowerPoint",
+      "Tableau",
+      "SQL",
+      "PowerBI",
+      "Jira"
+    ]
+  },
+  {
+    "socCode": "13-2011.00",
+    "title": "Accountants and Auditors",
+    "anzscoCode": "221111",
+    "anzscoTitle": "Accountant (General)",
+    "description": "Examine, analyze, and interpret accounting records to prepare financial statements, give advice, or audit and evaluate statements prepared by others.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare, examine, or analyze accounting records and financial statements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Report to management regarding the finances of establishment",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Establish tables of accounts and assign entries to proper accounts",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Develop, maintain, and analyze budgets",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Advise management about issues such as resource utilization and tax strategies",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Analyze business operations, trends, costs, revenues, and financial commitments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Survey operations to ascertain accounting needs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t8",
+        "name": "Conduct or coordinate audits of company accounts",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "QuickBooks",
+      "SAP",
+      "Xero",
+      "MYOB",
+      "PowerBI"
+    ]
+  },
+  {
+    "socCode": "13-2051.00",
+    "title": "Financial Analysts",
+    "anzscoCode": "222111",
+    "anzscoTitle": "Financial Investment Analyst",
+    "description": "Conduct quantitative analyses of information affecting investment programs of public or private institutions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze financial information to produce forecasts of business or industry conditions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Interpret data affecting investment programs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Identify trends in financial data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare plans of action for investment using financial analyses",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Present oral and written reports on general economic trends",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Maintain knowledge and stay abreast of developments in the fields of industrial technology",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Collaborate with investment advisors to recommend investment strategies",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Monitor developments in the fields they specialize in",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "Bloomberg Terminal",
+      "Python",
+      "R",
+      "SQL",
+      "PowerBI"
+    ]
+  },
+  {
+    "socCode": "11-2021.00",
+    "title": "Marketing Managers",
+    "anzscoCode": "131112",
+    "anzscoTitle": "Marketing Manager",
+    "description": "Plan, direct, or coordinate marketing policies and programs to generate interest in products or services.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Identify, develop, or evaluate marketing strategy",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Evaluate the financial aspects of product development",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Direct the hiring, training, or performance evaluations of marketing staff",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Coordinate or participate in promotional activities or trade shows",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Initiate market research studies and analyze findings",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Consult with product development personnel",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Negotiate contracts with vendors or distributors",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Compile lists describing product or service offerings",
+        "category": "administrative"
+      },
+      {
+        "id": "t9",
+        "name": "Use sales forecasting data to ensure sale of products",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "HubSpot",
+      "Salesforce",
+      "Google Analytics",
+      "Marketo",
+      "Excel",
+      "PowerPoint"
+    ]
+  },
+  {
+    "socCode": "13-1161.00",
+    "title": "Market Research Analysts",
+    "anzscoCode": "225113",
+    "anzscoTitle": "Market Research Analyst",
+    "description": "Research conditions in local, regional, national, or online markets to examine potential sales of a product or service.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Collect and analyze data on customer demographics and preferences",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare reports of findings, illustrating data graphically",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Gather data on competitors and analyze their prices, sales, and methods",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Monitor industry statistics and follow trends in trade literature",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Devise and evaluate methods and procedures for collecting data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Forecast and track marketing and sales trends, analyzing collected data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Measure and assess customer and employee satisfaction",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "SPSS",
+      "R",
+      "Python",
+      "Tableau",
+      "Google Analytics",
+      "Excel",
+      "Qualtrics"
+    ]
+  },
+  {
+    "socCode": "11-2022.00",
+    "title": "Sales Managers",
+    "anzscoCode": "131113",
+    "anzscoTitle": "Sales and Marketing Manager",
+    "description": "Plan, direct, or coordinate the actual distribution or movement of a product or service to the customer.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct and coordinate activities involving sales of manufactured products",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Resolve customer complaints regarding sales and service",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Review operational records and reports to project sales",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Direct, coordinate, and review activities in sales and service accounting",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Monitor customer preferences to determine focus of sales efforts",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Advise dealers and distributors on policies and operating procedures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Confer or consult with department heads to plan advertising services",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Prepare budgets and approve budget expenditures",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Salesforce",
+      "HubSpot",
+      "Excel",
+      "PowerPoint",
+      "Zoom",
+      "LinkedIn"
+    ]
+  },
+  {
+    "socCode": "13-1071.00",
+    "title": "Human Resources Specialists",
+    "anzscoCode": "223111",
+    "anzscoTitle": "Human Resource Adviser",
+    "description": "Recruit, screen, interview, or place individuals within an organization. Perform duties in the areas of compensation, benefits, and job analysis.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Interpret and explain human resources policies, procedures, laws, and standards",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Hire employees and process hiring-related paperwork",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Inform job applicants of duties and responsibilities",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Address employee relations issues, such as harassment allegations",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Schedule or conduct new employee orientations",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Maintain current knowledge of Equal Employment Opportunity laws",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Conduct exit interviews and ensure procedures are followed",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Analyze employment-related data and prepare required reports",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Workday",
+      "ADP",
+      "SAP SuccessFactors",
+      "Excel",
+      "LinkedIn Recruiter"
+    ]
+  },
+  {
+    "socCode": "13-1151.00",
+    "title": "Training and Development Specialists",
+    "anzscoCode": "223311",
+    "anzscoTitle": "Training and Development Professional",
+    "description": "Design or conduct work-related training and development programs to improve individual skills or organizational performance.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Assess training needs through surveys, interviews, or consultation",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop alternative training methods if expected improvements are not seen",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Evaluate training materials prepared by instructors",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Organize and develop training manuals and materials",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Present information using a variety of instructional techniques",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Monitor, evaluate, and record training activities or program effectiveness",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Coordinate recruitment and placement of training program participants",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "LMS",
+      "Articulate",
+      "Zoom",
+      "PowerPoint",
+      "Adobe Captivate"
+    ]
+  },
+  {
+    "socCode": "19-3011.00",
+    "title": "Economists",
+    "anzscoCode": "224411",
+    "anzscoTitle": "Economist",
+    "description": "Conduct research, prepare reports, or formulate plans to address economic problems related to the production and distribution of goods and services.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Study economic and statistical data in areas such as finance and labor",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Provide advice and recommendations for policies and plans",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Compile, analyze, and report data to explain economic phenomena",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Develop economic guidelines and standards",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Testify at regulatory or legislative hearings",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Forecast production and consumption of renewable resources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Conduct research on economic issues and disseminate research findings",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "R",
+      "Stata",
+      "Python",
+      "Excel",
+      "SAS",
+      "MATLAB"
+    ]
+  },
+  {
+    "socCode": "19-4061.00",
+    "title": "Social Science Research Assistants",
+    "anzscoCode": "272499",
+    "anzscoTitle": "Social Research",
+    "description": "Assist social scientists in laboratory, survey, and other social science research.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Compile information from sources such as administrative schedules",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Collect data and information using methods such as interviews",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Prepare tables, graphs, fact sheets, and written reports",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Verify the accuracy and completeness of survey data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Track research participants",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "SPSS",
+      "R",
+      "NVivo",
+      "Excel",
+      "Qualtrics"
+    ]
+  },
+  {
+    "socCode": "27-3011.00",
+    "title": "Broadcast Announcers and Newscasters",
+    "anzscoCode": "212412",
+    "anzscoTitle": "Journalist",
+    "description": "Announce or describe news, sports, weather, or other programming over radio or television.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Identify story ideas and gather and verify factual information",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Interview and observe people and attend events to gather information",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Write and broadcast news stories",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Present and deliver news stories",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Review and approve scripts and visual content",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Adobe Premiere",
+      "Avid",
+      "Microsoft Office",
+      "Social Media"
+    ]
+  },
+  {
+    "socCode": "27-3041.00",
+    "title": "Editors",
+    "anzscoCode": "212412",
+    "anzscoTitle": "Print Journalist",
+    "description": "Plan, coordinate, or edit content of material for publication.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Plan the contents of publications according to editorial policies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Review, rewrite, or revise written material",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Verify facts, dates, and statistics using standard reference sources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Allocate print space for story text, photos, and illustrations",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Negotiate contracts with authors",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Assign topics to writers and select manuscripts submitted for publication",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "CMS",
+      "Microsoft Office",
+      "Adobe InDesign",
+      "Grammarly"
+    ]
+  },
+  {
+    "socCode": "27-1021.00",
+    "title": "Commercial and Industrial Designers",
+    "anzscoCode": "232312",
+    "anzscoTitle": "Industrial Designer",
+    "description": "Develop and design manufactured products such as cars, home appliances, and children's toys.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Read publications and attend showings to understand the market",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Design products that satisfy functional requirements with aesthetic appeal",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Evaluate how well designs fulfill requirements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare scale drawings or detailed plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Confer with engineering, marketing, production, or sales departments",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Present designs and design details to audiences",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "Rhino",
+      "Solidworks",
+      "Adobe Illustrator",
+      "Figma",
+      "Fusion 360"
+    ]
+  },
+  {
+    "socCode": "27-1024.00",
+    "title": "Graphic Designers",
+    "anzscoCode": "232411",
+    "anzscoTitle": "Graphic Designer",
+    "description": "Design or create graphics to meet specific commercial or promotional needs.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Create designs, concepts, and sample layouts for print and digital media",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop graphics and layouts for product illustrations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Determine size and arrangement of illustrative material and copy",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Confer with clients to discuss and determine layout design",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Prepare illustrations or rough sketches of material",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Review final layouts and suggest improvements if required",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Use computer software to generate new images",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Figma",
+      "Canva"
+    ]
+  },
+  {
+    "socCode": "15-1299.08",
+    "title": "Data Scientists",
+    "anzscoCode": "261312",
+    "anzscoTitle": "Data Scientist",
+    "description": "Develop and implement a set of techniques or analytics applications to transform raw data into meaningful information.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze data using statistical techniques",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Build predictive models and machine-learning algorithms",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Clean and preprocess raw data for analysis",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Visualize data and communicate insights to stakeholders",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with engineering teams to deploy models to production",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Define metrics and monitor model performance over time",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Write documentation and reports for data science projects",
+        "category": "cognitive"
+      },
+      {
+        "id": "t8",
+        "name": "Conduct A/B experiments and analyze results",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "R",
+      "SQL",
+      "TensorFlow",
+      "PyTorch",
+      "Spark",
+      "Tableau",
+      "Jupyter"
+    ]
+  },
+  {
+    "socCode": "15-1243.00",
+    "title": "Database Administrators",
+    "anzscoCode": "262111",
+    "anzscoTitle": "Database Administrator",
+    "description": "Administer, test, and implement computer databases, applying knowledge of database management systems.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Test programs or databases, correct errors, and make necessary modifications",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Plan, coordinate, and implement security measures for databases",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop standards and guidelines to guide the use and acquisition of software",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Identify, evaluate, and resolve database performance issues",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Train users and answer questions",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Approve, schedule, plan, and supervise installation and testing of databases",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Backup and restore databases to ensure data integrity",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "PostgreSQL",
+      "MySQL",
+      "Oracle",
+      "SQL Server",
+      "MongoDB",
+      "Redis"
+    ]
+  },
+  {
+    "socCode": "15-1241.00",
+    "title": "Computer Network Architects",
+    "anzscoCode": "263111",
+    "anzscoTitle": "Computer Network and Systems Engineer",
+    "description": "Design and implement computer and information networks, such as local area networks (LAN), wide area networks (WAN), intranets, extranets, and other data communications networks.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design and implement new solutions and improving resilience of the current environment",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and implement policies and procedures for network and infrastructure management",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Communicate with management to understand and address their needs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Assess the need for any system reconfigurations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Monitor network performance and troubleshoot network problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Configure network hardware (firewalls, routers, switches)",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Cisco",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Docker"
+    ]
+  },
+  {
+    "socCode": "15-1212.00",
+    "title": "Information Security Analysts",
+    "anzscoCode": "262112",
+    "anzscoTitle": "ICT Security Specialist",
+    "description": "Plan, implement, upgrade, or monitor security measures for the protection of computer networks and information.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Monitor networks for security breaches and investigate when a breach occurs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Encrypt data transmissions and erect firewalls to conceal confidential information",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop security standards and best practices",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Conduct penetration testing",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Advise management on security issues and improvements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Prepare security reports detailing security breaches and the extent of damage",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Train staff on information security best practices",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Splunk",
+      "SIEM tools",
+      "Kali Linux",
+      "Python",
+      "Wireshark",
+      "Metasploit"
+    ]
+  },
+  {
+    "socCode": "15-1232.00",
+    "title": "Computer User Support Specialists",
+    "anzscoCode": "262211",
+    "anzscoTitle": "ICT Support Technician",
+    "description": "Provide technical assistance to computer users. Answer questions or resolve computer problems for clients in person, or via telephone or electronically.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Read technical manuals and troubleshoot programs and equipment",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Provide assistance to users troubleshooting hardware and software problems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Enter commands and observe system functioning to verify correct operations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Install and perform minor repairs on hardware and software",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Develop training materials and procedures for staff",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Maintain records of daily communications and problems solved",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Zendesk",
+      "Jira",
+      "Windows",
+      "macOS",
+      "Active Directory",
+      "ServiceNow"
+    ]
+  },
+  {
+    "socCode": "13-1041.00",
+    "title": "Compliance Officers",
+    "anzscoCode": "224211",
+    "anzscoTitle": "Compliance Officer",
+    "description": "Examine, evaluate, and investigate eligibility for or conformity with laws and regulations governing contract compliance.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare management reports regarding compliance operations and progress",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Verify that software technology is in place to adequately provide oversight",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Conduct or direct the internal investigation of compliance issues",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Advise management on compliance with laws and regulations",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Identify compliance issues that require follow-up or investigation",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Provide employee training on compliance-related topics",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Review and modify compliance procedures to ensure continual compliance",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "Governance GRC tools",
+      "PowerBI",
+      "Document Management Systems"
+    ]
+  },
+  {
+    "socCode": "13-1081.00",
+    "title": "Logisticians",
+    "anzscoCode": "133611",
+    "anzscoTitle": "Supply and Distribution Manager",
+    "description": "Analyze and coordinate the logistical functions of a firm or organization.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Maintain and develop positive business relationships with suppliers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Develop an understanding of customers' needs and take actions to ensure they are met",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Direct availability and deployment of materials and supplies",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Review logistics performance with suppliers against targets and benchmarks",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Redesign the supply chain for maximum efficiency",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with other departments to integrate logistics with business systems",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "SAP",
+      "Oracle ERP",
+      "Excel",
+      "PowerBI",
+      "Tableau"
+    ]
+  },
+  {
+    "socCode": "11-1021.00",
+    "title": "General and Operations Managers",
+    "anzscoCode": "111211",
+    "anzscoTitle": "General Manager",
+    "description": "Plan, direct, or coordinate the operations of public or private sector organizations.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Review financial statements, sales and activity reports, and other data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Direct and coordinate activities of businesses or departments",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Manage staff, preparing work schedules and assigning specific duties",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Monitor businesses or departmental performance and take corrective action",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Establish and implement policies and goals",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Determine staffing requirements and organize recruitment programs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Negotiate with stakeholders and suppliers",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "PowerPoint",
+      "ERP systems",
+      "CRM",
+      "Project Management tools"
+    ]
+  },
+  {
+    "socCode": "11-3031.00",
+    "title": "Financial Managers",
+    "anzscoCode": "132211",
+    "anzscoTitle": "Finance Manager",
+    "description": "Plan, direct, or coordinate accounting, investing, banking, insurance, securities, and other financial activities.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare or direct preparation of financial statements, business activity reports, and financial position forecasts",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Monitor financial activities and details, ensuring legal requirements are met",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Advise management on short-term and long-term financial objectives",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Develop internal control policies and procedures",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Receive cash and checks and make deposits",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Delegate authority for the receipt, disbursement, banking, and protection of funds",
+        "category": "administrative"
+      },
+      {
+        "id": "t7",
+        "name": "Evaluate data pertaining to costs to plan budgets",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "SAP",
+      "Oracle Financials",
+      "Excel",
+      "PowerBI",
+      "QuickBooks",
+      "Xero"
+    ]
+  },
+  {
+    "socCode": "23-1011.00",
+    "title": "Lawyers",
+    "anzscoCode": "271311",
+    "anzscoTitle": "Barrister",
+    "description": "Represent clients in criminal and civil litigation and other legal proceedings, draw up legal documents, or manage or advise clients on legal transactions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Advise clients concerning business transactions, claim liability, advisability of prosecuting or defending lawsuits",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Represent clients in court or before government agencies",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Examine legal data to determine advisability of defending or prosecuting lawsuit",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Gather evidence to formulate defense or initiate legal actions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Interpret laws, rulings, and regulations for individuals and businesses",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Present and summarize cases to judges and juries",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Prepare legal briefs and arguments and draft motions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t8",
+        "name": "Negotiate settlements of civil disputes",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "LexisNexis",
+      "Westlaw",
+      "Microsoft Office",
+      "Document Management Systems",
+      "Clio"
+    ]
+  },
+  {
+    "socCode": "23-2011.00",
+    "title": "Paralegals and Legal Assistants",
+    "anzscoCode": "599212",
+    "anzscoTitle": "Legal Secretary",
+    "description": "Assist lawyers by investigating facts, preparing legal documents, or researching legal precedent.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare legal documents, including briefs, pleadings, appeals, wills, and contracts",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Gather and analyze research data, such as statutes, decisions, and legal articles",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Investigate the facts and law of cases and search pertinent sources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Direct and coordinate law office activity",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Assist attorneys during trials by handling exhibits, taking notes, or reviewing trial transcripts",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Keep and organize files of all cases in progress",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "LexisNexis",
+      "Westlaw",
+      "Microsoft Office",
+      "Clio",
+      "Practice Panther"
+    ]
+  },
+  {
+    "socCode": "29-1141.00",
+    "title": "Registered Nurses",
+    "anzscoCode": "254411",
+    "anzscoTitle": "Registered Nurse (General Medical Practice)",
+    "description": "Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Monitor, record, and report symptoms or changes in patients' conditions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Maintain accurate, detailed reports and records",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Administer nursing care to ill, injured, convalescent, or disabled patients",
+        "category": "physical"
+      },
+      {
+        "id": "t4",
+        "name": "Consult and coordinate with healthcare team members",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Instruct patients and family members in proper care",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Prepare patients for and assist with examinations or treatments",
+        "category": "physical"
+      },
+      {
+        "id": "t7",
+        "name": "Assess risks, symptoms and make care recommendations",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Electronic Health Records (EHR)",
+      "Epic",
+      "Cerner",
+      "Meditech"
+    ]
+  },
+  {
+    "socCode": "29-1051.00",
+    "title": "Pharmacists",
+    "anzscoCode": "251511",
+    "anzscoTitle": "Hospital Pharmacist",
+    "description": "Dispense drugs prescribed by physicians and other health practitioners and provide information to patients about medications.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Review prescriptions to assure accuracy and determine formulas and ingredients needed",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Provide information and advice regarding drug interactions and side effects",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Compound and dispense medications as prescribed by doctors",
+        "category": "physical"
+      },
+      {
+        "id": "t4",
+        "name": "Manage pharmacy staff and train pharmacy students",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain complete and accurate records",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Pharmacy Information Systems",
+      "McKesson",
+      "Epic",
+      "Electronic prescribing software"
+    ]
+  },
+  {
+    "socCode": "25-1099.00",
+    "title": "Postsecondary Teachers",
+    "anzscoCode": "242111",
+    "anzscoTitle": "University Lecturer",
+    "description": "Teach courses in their subject area to students at universities, junior colleges, and other postsecondary institutions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare and deliver lectures to undergraduate or graduate students",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Evaluate and grade students' class work, assignments, and papers",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Conduct research in a particular field of knowledge",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Keep abreast of developments in one's field by reading publications",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Write grant proposals to procure external research funding",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with colleagues on research projects",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Advise students on academic and vocational curricula",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t8",
+        "name": "Serve on academic or administrative committees that deal with institutional policies",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "LMS (Canvas/Blackboard)",
+      "Zoom",
+      "Microsoft Office",
+      "SPSS",
+      "R",
+      "Statistical software"
+    ]
+  },
+  {
+    "socCode": "25-2021.00",
+    "title": "Elementary School Teachers",
+    "anzscoCode": "241213",
+    "anzscoTitle": "Primary School Teacher",
+    "description": "Teach academic and social skills to students in public or private schools at the kindergarten through elementary school level.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Instruct students in academic subjects using a variety of techniques",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Observe and evaluate students' performance and social development",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Prepare and adapt materials and classroom resources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Communicate with parents or guardians about their children's progress",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain student attendance records",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with other teachers to plan and develop curriculum",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Google Classroom",
+      "Zoom",
+      "Microsoft Office",
+      "Smartboards",
+      "Educational apps"
+    ]
+  },
+  {
+    "socCode": "11-1011.00",
+    "title": "Chief Executives",
+    "anzscoCode": "111111",
+    "anzscoTitle": "Chief Executive or Managing Director",
+    "description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Confer with board members, organization officials, and staff to discuss operations",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Direct or coordinate an organization's financial or budget activities",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Appoint department heads and managers and assign or delegate responsibilities to them",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Analyze operations to evaluate performance and implement changes",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Negotiate or approve contracts and agreements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Represent the organization in negotiations with government, industry, and community",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t7",
+        "name": "Review reports submitted by staff members to recommend approval or changes",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "PowerPoint",
+      "ERP systems",
+      "CRM",
+      "Board management software"
+    ]
+  },
+  {
+    "socCode": "13-1199.00",
+    "title": "Business Operations Specialists",
+    "anzscoCode": "224999",
+    "anzscoTitle": "Business Analyst",
+    "description": "Analyze and coordinate the scheduling, pricing, and marketing operations of a business.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze operational processes and prepare reports to maximize use of resources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Compile and analyze business data for strategic planning",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop procedures for coordination of activities between departments",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Review and update company procedures and policies",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Present findings and recommendations to management",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Monitor and document implementation of business process changes",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Excel",
+      "PowerBI",
+      "Tableau",
+      "Jira",
+      "Confluence",
+      "SQL",
+      "PowerPoint"
+    ]
+  },
+  {
+    "socCode": "17-2061.00",
+    "title": "Computer Hardware Engineers",
+    "anzscoCode": "233411",
+    "anzscoTitle": "Electronics Engineer",
+    "description": "Research, design, develop, or test computer or computer-related equipment for commercial, industrial, military, or scientific use.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze information to determine, recommend, and plan layout, selection of components, or systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Design, build, or test structural prototypes to improve designs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Monitor functioning of equipment to ensure system operates in conformance",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Store, retrieve, and manipulate data to solve engineering problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Write documentation for hardware designs",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "CAD software",
+      "MATLAB",
+      "LabVIEW",
+      "Verilog",
+      "VHDL",
+      "Python"
+    ]
+  },
+  {
+    "socCode": "15-1244.00",
+    "title": "Network and Computer Systems Administrators",
+    "anzscoCode": "262113",
+    "anzscoTitle": "Network Administrator",
+    "description": "Install, configure, and maintain an organization's local area network (LAN), wide area network (WAN), and Internet systems or a segment of a network system.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Maintain and administer computer networks and related computing environments",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Perform data backups and disaster recovery operations",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Diagnose, troubleshoot, and resolve hardware, software, or other network problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Configure, monitor, and maintain email applications",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Plan, coordinate, and implement network security measures",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Operate master consoles to monitor the performance of computer systems and networks",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Linux",
+      "Windows Server",
+      "AWS",
+      "Cisco",
+      "VMware",
+      "Puppet",
+      "Ansible"
+    ]
+  },
+  {
+    "socCode": "11-2011.00",
+    "title": "Advertising and Promotions Managers",
+    "anzscoCode": "131111",
+    "anzscoTitle": "Advertising Manager",
+    "description": "Plan, direct, or coordinate advertising policies and programs or produce collateral materials, such as posters, contests, coupons, or giveaways.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Plan and prepare advertising and promotional material for products or services",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Confer with clients to provide marketing advice or to understand advertising needs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Direct, motivate, and monitor the mobilization of campaign teams",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Formulate plans to extend business with established accounts",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Coordinate activities of departments such as sales, graphic arts, media, finance",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Track program budgets and expenses and campaign response rates",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "HubSpot",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Salesforce",
+      "Adobe Creative Suite"
+    ]
+  },
+  {
+    "socCode": "11-2031.00",
+    "title": "Public Relations and Fundraising Managers",
+    "anzscoCode": "131114",
+    "anzscoTitle": "Public Relations Manager",
+    "description": "Plan, direct, or coordinate activities designed to create or maintain a favorable public image for their employer or client.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Respond to requests for information from the media or designate appropriate spokesperson",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Establish and maintain effective working relationships with clients and audiences",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Plan and direct development and communication of informational programs",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Draft speeches and arrange for their delivery",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Manage communications budgets",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Write press releases and prepare information for the media",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Cision",
+      "PR Newswire",
+      "Meltwater",
+      "Microsoft Office",
+      "Social Media Management"
+    ]
+  },
+  {
+    "socCode": "41-3021.00",
+    "title": "Insurance Sales Agents",
+    "anzscoCode": "611211",
+    "anzscoTitle": "Insurance Agent or Broker",
+    "description": "Sell life, property, casualty, health, automotive, or other types of insurance.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Interview prospective clients to obtain data about their financial resources and insurance needs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Explain features, advantages, and disadvantages of various policies",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Sell various types of insurance policies to businesses and individuals",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Contact underwriter and submit forms to obtain binder coverage",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Customize insurance programs to suit individual customers",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Ensure that policy requirements are fulfilled",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "CRM",
+      "Salesforce",
+      "Agency Management Systems",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "41-3031.00",
+    "title": "Securities, Commodities, and Financial Services Sales Agents",
+    "anzscoCode": "611212",
+    "anzscoTitle": "Financial Dealer",
+    "description": "Buy and sell securities or commodities in investment and trading firms, or provide financial services to businesses and individuals.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Contact prospective clients to present information about available financial products",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Advise clients on market conditions, prices, mortgages, legal requirements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Review financial periodicals, stock and bond reports to keep abreast of market conditions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Monitor financial markets and prices",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Execute securities transactions according to plan",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Analyze market trends to determine the best time to buy or sell securities",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Bloomberg Terminal",
+      "Trading platforms",
+      "Excel",
+      "Financial modeling tools"
+    ]
+  },
+  {
+    "socCode": "43-3031.00",
+    "title": "Bookkeeping, Accounting, and Auditing Clerks",
+    "anzscoCode": "551111",
+    "anzscoTitle": "Bookkeeper",
+    "description": "Compute, classify, and record numerical data to keep financial records complete.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Operate computers to record, store, and analyze information",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Check figures, postings, and documents for correct entry and mathematical accuracy",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Reconcile or note and report discrepancies found in records",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare bank deposits by compiling data from cashiers",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Receive, record, and bank cash, checks, and vouchers",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Compile statistical, financial, accounting or auditing reports",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "QuickBooks",
+      "Xero",
+      "MYOB",
+      "Excel",
+      "Sage"
+    ]
+  },
+  {
+    "socCode": "43-4051.00",
+    "title": "Customer Service Representatives",
+    "anzscoCode": "541211",
+    "anzscoTitle": "Customer Service Representative",
+    "description": "Interact with customers to provide information in response to inquiries about products and services and to handle and resolve complaints.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Confer with customers by telephone, email or in-person to provide information",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Keep records of customer interactions, transactions, complaints and actions taken",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Check to ensure that appropriate changes are made to resolve customers' problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Refer unresolved customer grievances to designated departments for further investigation",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Determine charges for services and arrange for billing or credits",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Zendesk",
+      "Salesforce",
+      "Intercom",
+      "Help Scout",
+      "CRM systems"
+    ]
+  },
+  {
+    "socCode": "43-6014.00",
+    "title": "Secretaries and Administrative Assistants",
+    "anzscoCode": "521211",
+    "anzscoTitle": "Secretary",
+    "description": "Perform routine administrative and clerical duties necessary to run an organization efficiently.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Answer phone calls and direct calls to appropriate parties or take messages",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Greet visitors and direct them to the appropriate offices",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Open, sort, and distribute incoming correspondence",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Manage calendar, schedule appointments, and organize meetings",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Prepare drafts, letters, and reports using word processing or spreadsheet software",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "File and retrieve documents and reference materials",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Microsoft Office",
+      "Google Workspace",
+      "Zoom",
+      "Slack",
+      "Calendar software"
+    ]
+  },
+  {
+    "socCode": "17-2141.00",
+    "title": "Mechanical Engineers",
+    "anzscoCode": "233512",
+    "anzscoTitle": "Mechanical Engineer",
+    "description": "Perform engineering duties in planning and designing tools, engines, machines, and other mechanically functioning equipment.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Research, design, evaluate, install, operate, and maintain mechanical products and systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and test prototypes of devices the engineer designs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Analyze problems to see how mechanical and thermal devices can help solve a particular problem",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Investigate equipment failures to diagnose faulty operation",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Prepare technical documentation",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with project managers and team members",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "SolidWorks",
+      "ANSYS",
+      "MATLAB",
+      "Fusion 360"
+    ]
+  },
+  {
+    "socCode": "17-2071.00",
+    "title": "Electrical Engineers",
+    "anzscoCode": "233311",
+    "anzscoTitle": "Electrical Engineer",
+    "description": "Research, design, develop, test, or supervise the manufacture and installation of electrical equipment, components, or systems.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design, develop, test, and supervise electrical equipment and systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Confer with engineers to discuss existing or potential engineering projects",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Investigate complaints from customers regarding the product's performance",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare technical drawings, specifications of electrical systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Supervise or train project team members",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "MATLAB",
+      "LabVIEW",
+      "PSpice",
+      "Simulink"
+    ]
+  },
+  {
+    "socCode": "17-2051.00",
+    "title": "Civil Engineers",
+    "anzscoCode": "233211",
+    "anzscoTitle": "Civil Engineer",
+    "description": "Perform engineering duties in planning, designing, and overseeing construction and maintenance of building structures and facilities.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Manage and direct the construction, operations, or maintenance of structures, facilities, or systems",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Conduct studies of traffic patterns or environmental conditions to identify engineering problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Provide technical advice regarding design, construction, or program modifications",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Inspect project sites to monitor progress and ensure conformance to design specifications",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Test soils and materials to determine adequacy and strength of foundations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Design and plan layout of civil engineering projects",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "Civil 3D",
+      "Revit",
+      "GIS",
+      "STAAD.Pro"
+    ]
+  },
+  {
+    "socCode": "17-1011.00",
+    "title": "Architects",
+    "anzscoCode": "232111",
+    "anzscoTitle": "Architect",
+    "description": "Plan and design structures such as private residences, office buildings, theaters, factories, and other structural properties.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare information regarding design, structure specifications, materials, and construction",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Consult with clients to determine functional and spatial requirements of new structures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Integrate engineering elements into unified design",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Plan layout of project and integrating engineering elements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Conduct periodic on-site observation of work to monitor compliance with plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Direct workers involved in preparing drawings and specification documents",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "Revit",
+      "SketchUp",
+      "ArchiCAD",
+      "BIM software",
+      "Rhino"
+    ]
+  },
+  {
+    "socCode": "19-1042.00",
+    "title": "Medical Scientists",
+    "anzscoCode": "234511",
+    "anzscoTitle": "Medical Laboratory Scientist",
+    "description": "Conduct research dealing with the understanding of human diseases and the improvement of human health.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Conduct research to develop methodologies for clinical application",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Investigate cause, progress, life cycle of diseases",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Standardize drug potency, methods of manufacturing, and types of animals used in testing",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare and analyze organs, tissues, and solutions",
+        "category": "physical"
+      },
+      {
+        "id": "t5",
+        "name": "Write and publish research articles and reports",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Present and explain research findings to colleagues and stakeholders",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Laboratory Information Management System (LIMS)",
+      "R",
+      "Python",
+      "Statistical software",
+      "Microscopy software"
+    ]
+  },
+  {
+    "socCode": "15-1254.00",
+    "title": "Web Developers",
+    "anzscoCode": "261212",
+    "anzscoTitle": "Web Developer",
+    "description": "Develop and implement websites, web applications, application databases, and interactive web interfaces.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design and implement website architecture, user interface, and components",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Write, design, or edit web page content",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop and implement web application logic, databases, and server-side processes",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Test and debug websites and web applications",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Analyze user needs to implement website content, graphics, performance",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Consult with management to understand a project's scope",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PHP",
+      "Python",
+      "SQL",
+      "Git"
+    ]
+  },
+  {
+    "socCode": "15-1255.00",
+    "title": "Web and Digital Interface Designers",
+    "anzscoCode": "232413",
+    "anzscoTitle": "Web Designer",
+    "description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design or create graphics to meet specific commercial or promotional needs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and test layouts, interfaces, functionality, and navigation menus",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Conduct user interviews or user tests to discover interface likes and dislikes",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Collaborate with technical and UX teams to discover interface requirements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Create and prototype wireframes and mockups",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Maintain technical knowledge by attending educational workshops",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "HTML/CSS",
+      "Zeplin",
+      "InVision"
+    ]
+  },
+  {
+    "socCode": "13-1121.00",
+    "title": "Meeting, Convention, and Event Planners",
+    "anzscoCode": "149413",
+    "anzscoTitle": "Conference and Event Organiser",
+    "description": "Coordinate activities of staff and convention personnel to make arrangements for group meetings and conventions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Monitor event activities to ensure compliance with applicable regulations",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Confer with staff to clarify assignments and relevant issues",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Coordinate services for events such as accommodation, transportation, catering",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Arrange the availability of audio-visual equipment and other event services",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Negotiate contracts with service providers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Conduct post-event evaluations to determine how future events could be improved",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Eventbrite",
+      "Cvent",
+      "Microsoft Office",
+      "Project Management tools",
+      "CRM"
+    ]
+  },
+  {
+    "socCode": "13-1023.00",
+    "title": "Purchasing Agents",
+    "anzscoCode": "591115",
+    "anzscoTitle": "Purchasing Officer",
+    "description": "Purchase machinery, equipment, tools, parts, supplies, or services necessary for the operation of an establishment.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare purchase orders and send copies to suppliers",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Determine if inventory quantities are sufficient and order more materials when necessary",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Respond to customer and supplier inquiries",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Review catalogs, industry periodicals, and Internet sites and consult with other department personnel",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Negotiate prices and terms with suppliers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Track the status of requisitions, contracts, and orders",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "SAP",
+      "Oracle ERP",
+      "Ariba",
+      "Coupa",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "15-1253.00",
+    "title": "Software Quality Assurance Analysts and Testers",
+    "anzscoCode": "261314",
+    "anzscoTitle": "Software Tester",
+    "description": "Monitor, test, and assess software or information systems to identify and address bugs or defects.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Identify, analyze, and document problems with program function, output, online screen",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop testing programs to identify issues with software",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Monitor program performance to ensure efficient and problem-free operations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Perform initial debugging procedures by reviewing configuration files",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Document test plans, test results, and defects",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with development teams to resolve issues",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Selenium",
+      "Jira",
+      "TestRail",
+      "Postman",
+      "JMeter",
+      "Python",
+      "Cypress"
+    ]
+  },
+  {
+    "socCode": "27-3031.00",
+    "title": "Public Relations Specialists",
+    "anzscoCode": "225311",
+    "anzscoTitle": "Public Relations Professional",
+    "description": "Promote or create an intended public image for individuals, groups, or organizations.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Respond to requests for information from the media and designate a spokesperson",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Write interesting and effective press releases",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Identify audiences relevant to the organization",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Develop and maintain the organization's corporate image and identity",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Prepare media kits and develop media relationships",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Draft speeches for company executives and arrange their delivery",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Cision",
+      "Meltwater",
+      "PR Newswire",
+      "Microsoft Office",
+      "Social Media"
+    ]
+  },
+  {
+    "socCode": "27-3043.00",
+    "title": "Writers and Authors",
+    "anzscoCode": "212411",
+    "anzscoTitle": "Author",
+    "description": "Originate and prepare written material, such as scripts, stories, advertisements, and other material.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop ideas from personal interests, events, or suggestions from editors or publishers",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Conduct extensive research to prepare factual articles",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Write fiction and nonfiction prose such as short stories, novels, biographies, or articles",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Collaborate with other writers on specific projects",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Revise written material to meet personal standards or editorial policy standards",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Review, submit, and negotiate terms for written materials",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Microsoft Word",
+      "Google Docs",
+      "Scrivener",
+      "CMS",
+      "Grammarly"
+    ]
+  },
+  {
+    "socCode": "21-1012.00",
+    "title": "Educational, Guidance, and Career Counselors",
+    "anzscoCode": "272111",
+    "anzscoTitle": "Careers Counsellor",
+    "description": "Counsel individuals to maximize the use of community and other services. May assist clients in identifying available benefits and social and community services.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Counsel clients to identify strengths and barriers to career and educational goals",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and implement individualized career planning programs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Conduct individual interviews and group sessions",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Maintain records and documents",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Refer clients to community services and resources",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Evaluate the effectiveness of counseling programs",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Case management software",
+      "Microsoft Office",
+      "Zoom",
+      "Google Workspace"
+    ]
+  },
+  {
+    "socCode": "21-2011.00",
+    "title": "Clergy",
+    "anzscoCode": "272211",
+    "anzscoTitle": "Minister of Religion",
+    "description": "Conduct religious worship and perform other spiritual functions associated with beliefs and practices of religious faith or denomination.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Pray and promote spirituality within the community",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare and deliver sermons and other teachings",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Counsel individuals and groups concerning personal and social problems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Officiate at religious rites of passages",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Administer religious education programs",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Microsoft Office",
+      "Church management software",
+      "Zoom",
+      "Social Media"
+    ]
+  },
+  {
+    "socCode": "11-9033.00",
+    "title": "Education Administrators, Postsecondary",
+    "anzscoCode": "134411",
+    "anzscoTitle": "University or College Registrar",
+    "description": "Plan, direct, or coordinate student instruction, administration, and services, as well as other research and educational activities at postsecondary institutions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct activities of administrative departments",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Provide leadership and direction for academic and administrative programs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Develop and set academic standards and policies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Recruit, hire, train and supervise faculty and staff",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Review and approve departmental budgets",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Prepare reports on activities and accomplishments for boards and government agencies",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Student Information Systems",
+      "LMS",
+      "Microsoft Office",
+      "Budget management tools"
+    ]
+  },
+  {
+    "socCode": "11-9199.00",
+    "title": "Managers, All Other",
+    "anzscoCode": "139999",
+    "anzscoTitle": "Managing Supervisor (General)",
+    "description": "All managers not listed separately.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct and coordinate activities of an organization or group",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare budgets and approve budget expenditures",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Coordinate activities with other supervisors or managers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Assess organizational performance and implement improvements",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Microsoft Office",
+      "Project Management tools",
+      "ERP systems"
+    ]
+  },
+  {
+    "socCode": "15-2051.00",
+    "title": "Data Scientists and Mathematical Science Occupations",
+    "anzscoCode": "224213",
+    "anzscoTitle": "Statistician",
+    "description": "Develop and apply mathematical or statistical theory and methods to collect, organize, interpret, and summarize numerical data.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Apply mathematical theories and formulas to teach or solve problems in a business environment",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Analyze and interpret statistical data to identify significant differences in relationships among sources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Design data collection methods and tools",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Report results of statistical analyses to clients",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Design experiments to test validity of theories and hypotheses",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "R",
+      "SAS",
+      "SPSS",
+      "Python",
+      "Excel",
+      "Stata"
+    ]
+  },
+  {
+    "socCode": "41-4011.00",
+    "title": "Sales Representatives, Wholesale and Manufacturing",
+    "anzscoCode": "611312",
+    "anzscoTitle": "Technical Sales Representative",
+    "description": "Sell goods for wholesalers or manufacturers to businesses or groups of individuals. Work requires substantial knowledge of items sold.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Contact new and existing customers to discuss how their needs can be met through specific products",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Answer customers' questions about products, prices, availability, and uses",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Emphasize product features based on analyses of customers' needs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Negotiate prices and terms of sales and service agreements",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain customer records using automated systems",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Prepare sales contracts for orders obtained",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "CRM",
+      "Salesforce",
+      "HubSpot",
+      "LinkedIn Sales Navigator",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "13-1031.00",
+    "title": "Claims Adjusters, Examiners, and Investigators",
+    "anzscoCode": "599311",
+    "anzscoTitle": "Insurance Investigator",
+    "description": "Review settled claims to determine that payments and settlements are made in accordance with company practices and procedures.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Investigate claims and assess damage to determine extent of company's liability",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Communicate with claimants, witnesses, and attorneys regarding claims",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Review police reports, medical records, or property damage findings",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Negotiate settlements with claimants",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Process and file claims and related documentation",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Claims management systems",
+      "Microsoft Office",
+      "Investigation tools",
+      "CRM"
+    ]
+  },
+  {
+    "socCode": "21-1021.00",
+    "title": "Child, Family, and School Social Workers",
+    "anzscoCode": "272111",
+    "anzscoTitle": "Social Worker",
+    "description": "Provide social services and assistance to improve the social and psychological functioning of children and their families.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Interview clients individually, in families, or in groups to assess needs",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Counsel clients and assist them in developing skills to prevent problems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Develop and review service plans to meet clients' needs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Refer clients to community resources",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain case history records and prepare reports",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Collaborate with other professionals to evaluate clients' medical or physical condition",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Case management software",
+      "Microsoft Office",
+      "DCFS systems"
+    ]
+  },
+  {
+    "socCode": "13-2052.00",
+    "title": "Personal Financial Advisors",
+    "anzscoCode": "222311",
+    "anzscoTitle": "Financial Planner",
+    "description": "Advise clients on financial plans using knowledge of tax and investment strategies, securities, insurance, pension plans, and real estate.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Interview clients to determine their current income and financial goals",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Analyze financial information obtained from clients to determine strategies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Recommend strategies clients can use to achieve their financial goals",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Implement financial planning recommendations or refer clients to someone who can",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Prepare or interpret financial document summaries and income projections",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Monitor financial market trends to ensure client portfolios are positioned appropriately",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Financial planning software",
+      "Bloomberg",
+      "Excel",
+      "CRM",
+      "Portfolio management tools"
+    ]
+  },
+  {
+    "socCode": "11-3061.00",
+    "title": "Purchasing Managers",
+    "anzscoCode": "133611",
+    "anzscoTitle": "Procurement Manager",
+    "description": "Plan, direct, or coordinate the activities of buyers, purchasing officers, and related workers.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop and implement purchasing policies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Direct and coordinate the activities of buyers and purchasing agents",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Evaluate bids and award contracts for supplies and services",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Negotiate prices and terms with vendors and suppliers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Analyze market and delivery systems to assess material availability",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Prepare reports regarding market conditions and merchandise costs",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "SAP",
+      "Oracle",
+      "Ariba",
+      "Coupa",
+      "Excel",
+      "PowerBI"
+    ]
+  },
+  {
+    "socCode": "11-3051.00",
+    "title": "Industrial Production Managers",
+    "anzscoCode": "133511",
+    "anzscoTitle": "Production Manager",
+    "description": "Plan, direct, or coordinate the work activities and resources necessary for manufacturing products.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct or coordinate production, processing, distribution, or marketing activities",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Review processing schedules and production orders",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Initiate and coordinate inventory and cost control programs",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Hire, train, evaluate, or discharge staff",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Develop and implement production tracking and quality control systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Confer with management or subordinates to resolve worker problems and production bottlenecks",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "ERP systems",
+      "MES software",
+      "Excel",
+      "Lean Six Sigma tools"
+    ]
+  },
+  {
+    "socCode": "19-2031.00",
+    "title": "Chemists",
+    "anzscoCode": "234111",
+    "anzscoTitle": "Chemist",
+    "description": "Conduct qualitative and quantitative chemical analyses or experiments in laboratories for quality or process control.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze organic or inorganic compounds to determine chemical or physical properties",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and improve manufacturing processes",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Write technical papers and reports",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Direct, coordinate, and advise personnel in test procedures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain laboratory safety standards and documentation",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "LIMS",
+      "ChemDraw",
+      "MATLAB",
+      "Python",
+      "Statistical software"
+    ]
+  },
+  {
+    "socCode": "21-1013.00",
+    "title": "Marriage and Family Therapists",
+    "anzscoCode": "272311",
+    "anzscoTitle": "Counsellor (General)",
+    "description": "Diagnose and treat mental and emotional disorders, whether cognitive, affective, or behavioral, within the context of marriage and family systems.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Ask questions to understand clients' personal history and current challenges",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Develop treatment plans based on assessments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Maintain case files and records",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Guide clients through therapeutic treatments and exercises",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Evaluate the effectiveness of treatment plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Consult and collaborate with other mental health professionals",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "EHR systems",
+      "Telehealth platforms",
+      "Microsoft Office",
+      "Practice management software"
+    ]
+  },
+  {
+    "socCode": "25-1193.00",
+    "title": "Recreation and Fitness Studies Teachers",
+    "anzscoCode": "249211",
+    "anzscoTitle": "Special Education Teacher",
+    "description": "Teach courses pertaining to recreation, leisure, and fitness studies.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Prepare and deliver lectures and discussions",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Evaluate and grade student work",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Develop curriculum and course materials",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Maintain student records",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Advise students on educational and professional development",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "LMS",
+      "Microsoft Office",
+      "Video conferencing",
+      "Educational software"
+    ]
+  },
+  {
+    "socCode": "13-2072.00",
+    "title": "Loan Officers",
+    "anzscoCode": "591116",
+    "anzscoTitle": "Credit Analyst",
+    "description": "Evaluate, authorize, or recommend approval of commercial, real estate, or credit loans.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Meet with applicants to obtain information for loan applications",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Analyze applicants' financial status, credit, and property evaluations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Review and update credit and loan files",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Approve loans within specified limits and refer loan applications outside those limits",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Work with clients to identify their financial goals",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Loan origination software",
+      "CRM",
+      "Excel",
+      "Credit reporting tools",
+      "Core banking systems"
+    ]
+  },
+  {
+    "socCode": "29-1229.00",
+    "title": "Physicians and Surgeons",
+    "anzscoCode": "253999",
+    "anzscoTitle": "Medical Practitioner (General)",
+    "description": "Diagnose and provide nonsurgical treatment of diseases and injuries of internal organ systems.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Examine patients and take medical histories to diagnose illnesses",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Order and interpret diagnostic tests",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Prescribe medications, treatment plans, and follow-up care",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Discuss medical history and findings with patients and families",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain detailed and accurate medical records",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Refer patients to specialists when necessary",
+        "category": "cognitive"
+      },
+      {
+        "id": "t7",
+        "name": "Keep informed of new medical developments through study and conferences",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "EHR (Epic, Cerner)",
+      "Radiology software",
+      "Medical imaging tools",
+      "Telehealth platforms"
+    ]
+  },
+  {
+    "socCode": "15-2031.00",
+    "title": "Operations Research Analysts",
+    "anzscoCode": "224213",
+    "anzscoTitle": "Operations Research Analyst",
+    "description": "Formulate and apply mathematical modeling and other optimizing methods to develop and interpret information that assists management with decision making.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze data and other information in order to solve mathematical models",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Collaborate with senior managers and decision makers to identify and solve a variety of problems",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Develop methods to determine whether to optimize systems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Define data requirements and gather and validate information",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Present the results of the analysis to management",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "R",
+      "MATLAB",
+      "Excel",
+      "SQL",
+      "Tableau",
+      "OR software"
+    ]
+  },
+  {
+    "socCode": "25-4031.00",
+    "title": "Library Technicians and Library Assistants",
+    "anzscoCode": "224611",
+    "anzscoTitle": "Librarian",
+    "description": "Assist librarians by providing clerical, information technology services, and support with library functions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Circulate library materials to patrons",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Catalog new library materials and help to maintain existing catalogs",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Assist library patrons in checking out, renewing, and returning materials",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Sort library materials and return items to shelves",
+        "category": "physical"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain databases of library materials",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "ILS (Integrated Library System)",
+      "Microsoft Office",
+      "Digital catalog systems"
+    ]
+  },
+  {
+    "socCode": "27-1014.00",
+    "title": "Special Effects Artists and Animators",
+    "anzscoCode": "212311",
+    "anzscoTitle": "Animator or Multimedia Artist",
+    "description": "Create special effects or animation using film, video, computers, or other electronic tools and media.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Create two-dimensional and three-dimensional images depicting objects in motion",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Apply story and aesthetic principles to animations",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Create and modify 3D digital models for objects and characters",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Collaborate with directors and other animators to produce a cohesive product",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain technical knowledge of animation software",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Maya",
+      "Blender",
+      "After Effects",
+      "Photoshop",
+      "Cinema 4D",
+      "Unity",
+      "Unreal Engine"
+    ]
+  },
+  {
+    "socCode": "13-1161.01",
+    "title": "Search Marketing Strategists",
+    "anzscoCode": "225499",
+    "anzscoTitle": "Digital Marketing Specialist",
+    "description": "Develop search engine marketing strategies and implementations to improve website visibility and performance.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Research and implement SEO and SEM strategies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Monitor website analytics and performance metrics",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Manage paid search campaigns (Google Ads, Bing Ads)",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Conduct keyword research and develop content strategies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Analyze competitor search strategies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Report performance metrics to stakeholders",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Google Analytics",
+      "Google Ads",
+      "SEMrush",
+      "Ahrefs",
+      "Search Console",
+      "HubSpot"
+    ]
+  },
+  {
+    "socCode": "13-1199.04",
+    "title": "Business Continuity Planners",
+    "anzscoCode": "224999",
+    "anzscoTitle": "Risk Management Specialist",
+    "description": "Develop, maintain, or implement business continuity and disaster recovery strategies and solutions.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Review organizational and operational procedures and plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop risk assessment tools and frameworks",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Conduct business impact analyses",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Develop and test business continuity plans",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Train staff on business continuity plans and procedures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Report on risk management activities and outcomes",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Risk management software",
+      "Excel",
+      "PowerPoint",
+      "BCP software"
+    ]
+  },
+  {
+    "socCode": "15-2041.00",
+    "title": "Statisticians",
+    "anzscoCode": "224213",
+    "anzscoTitle": "Statistician",
+    "description": "Develop or apply mathematical or statistical theory and methods to collect, organize, interpret, and summarize numerical data.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze and interpret statistical data to identify significant differences",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Determine methods for finding, collecting, and organizing statistical data",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Design surveys, questionnaires, experiments, and opinion polls",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Report results and recommendations to clients",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Evaluate reliability and validity of data",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "R",
+      "Python",
+      "SPSS",
+      "SAS",
+      "Stata",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "43-3021.00",
+    "title": "Billing and Posting Clerks",
+    "anzscoCode": "551311",
+    "anzscoTitle": "Accounts Clerk",
+    "description": "Compile, compute, and record billing, accounting, statistical, and other numerical data for billing purposes.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Operate typing, adding, calculating, and billing machines",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Type billing statements, invoices, and related documents",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Review documents such as purchase orders and bank statements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Contact customers to resolve billing discrepancies",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Update accounts receivable records",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "QuickBooks",
+      "Excel",
+      "ERP systems",
+      "Billing software"
+    ]
+  },
+  {
+    "socCode": "17-3023.00",
+    "title": "Electrical and Electronic Engineering Technologists and Technicians",
+    "anzscoCode": "312311",
+    "anzscoTitle": "Electronics Technician",
+    "description": "Apply electrical and electronic theory and related knowledge to assist in the design, development, and testing of electrical and electronic equipment.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Analyze and interpret test information to resolve design-related problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Set up and operate laboratory equipment and record results of tests and experiments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Maintain records of experimental results",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Assemble experimental or prototype electronic systems",
+        "category": "physical"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with engineers to identify and resolve technical issues",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "LabVIEW",
+      "AutoCAD",
+      "Oscilloscopes",
+      "Multimeters",
+      "Electronic testing equipment"
+    ]
+  },
+  {
+    "socCode": "13-1141.00",
+    "title": "Compensation, Benefits, and Job Analysis Specialists",
+    "anzscoCode": "223112",
+    "anzscoTitle": "HR Consultant",
+    "description": "Conduct programs of compensation and benefits and job analysis for employer.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Evaluate job positions and determine classification, exemption status, and salary",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop, implement, administer, and evaluate personnel and labor relations programs",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Research job and worker requirements and structural changes in the labor market",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Plan and develop curricula for training programs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Administer employee insurance and savings plans",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "HRIS",
+      "Workday",
+      "SAP SuccessFactors",
+      "Excel",
+      "Survey tools"
+    ]
+  },
+  {
+    "socCode": "11-2012.00",
+    "title": "Advertising and Promotions Managers",
+    "anzscoCode": "225499",
+    "anzscoTitle": "Social Media Manager",
+    "description": "Plan, direct, or coordinate advertising and promotional campaigns on digital and social media platforms.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop social media strategies and campaigns",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Create and curate engaging content for social media platforms",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Monitor social media performance and analytics",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Engage with followers and respond to comments and messages",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Manage social media advertising budgets",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Report on social media metrics to management",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Hootsuite",
+      "Buffer",
+      "Sprout Social",
+      "Meta Ads Manager",
+      "Google Analytics",
+      "Canva"
+    ]
+  },
+  {
+    "socCode": "15-1259.08",
+    "title": "Machine Learning Engineers",
+    "anzscoCode": "261313",
+    "anzscoTitle": "Artificial Intelligence Specialist",
+    "description": "Design and develop machine learning systems, models, and applications.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design and develop machine learning models and algorithms",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Train and fine-tune ML models using large datasets",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Deploy and maintain ML models in production environments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Collaborate with data engineers and scientists on data pipelines",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Evaluate model performance and implement improvements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Document model architectures, experiments, and results",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Kubernetes",
+      "MLflow",
+      "AWS SageMaker",
+      "Docker"
+    ]
+  },
+  {
+    "socCode": "15-1299.09",
+    "title": "Information Technology Project Managers",
+    "anzscoCode": "135199",
+    "anzscoTitle": "ICT Project Manager",
+    "description": "Plan, initiate, and manage information technology (IT) projects.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop project scope, objectives, and milestones",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Track project progress and manage risks and issues",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Communicate project status to stakeholders",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Coordinate resources and schedules across teams",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Manage project budget and resource allocation",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Facilitate retrospectives and process improvements",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Jira",
+      "Confluence",
+      "MS Project",
+      "Asana",
+      "Trello",
+      "Slack",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "11-3121.00",
+    "title": "Human Resources Managers",
+    "anzscoCode": "132111",
+    "anzscoTitle": "Human Resources Manager",
+    "description": "Plan, direct, or coordinate human resources activities and staff of an organization.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct HR staff and coordinate all human resources activities",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Advise management on HR policies and procedures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Oversee recruitment, selection, and onboarding processes",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Manage employee relations and resolve workplace conflicts",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Plan and administer compensation and benefits programs",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Ensure compliance with labor laws and regulations",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "HRIS",
+      "Workday",
+      "ADP",
+      "SAP SuccessFactors",
+      "Excel",
+      "LinkedIn"
+    ]
+  },
+  {
+    "socCode": "19-3031.00",
+    "title": "Clinical, Counseling, and School Psychologists",
+    "anzscoCode": "272311",
+    "anzscoTitle": "Psychologist",
+    "description": "Diagnose and treat mental disorders; learning disabilities; and cognitive, behavioral, and emotional problems.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Identify psychological, emotional, or behavioral issues and diagnose disorders",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Develop and implement individual treatment plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Counsel individuals and groups regarding psychosocial issues",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Evaluate patients' progress and adjust treatment plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Maintain detailed and accurate client records",
+        "category": "administrative"
+      },
+      {
+        "id": "t6",
+        "name": "Consult with other health professionals regarding treatment options",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "EHR systems",
+      "Psychological assessment tools",
+      "Telehealth platforms",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "socCode": "53-3032.00",
+    "title": "Heavy and Tractor-Trailer Truck Drivers",
+    "anzscoCode": "733111",
+    "anzscoTitle": "Truck Driver (General)",
+    "description": "Drive a tractor-trailer combination or a truck with a capacity of at least 26,001 pounds Gross Vehicle Weight (GVW).",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Check vehicles to ensure they are in working condition",
+        "category": "physical"
+      },
+      {
+        "id": "t2",
+        "name": "Follow appropriate safety regulations while transporting goods",
+        "category": "physical"
+      },
+      {
+        "id": "t3",
+        "name": "Maintain records such as vehicle logs, records of cargo, and billing statements",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Report delays and accidents to supervisors",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Drive trucks to deliver materials or packages",
+        "category": "physical"
+      }
+    ],
+    "technologySkills": [
+      "GPS navigation",
+      "Electronic logging devices (ELD)",
+      "Fleet management software"
+    ]
+  },
+  {
+    "socCode": "11-9041.00",
+    "title": "Architectural and Engineering Managers",
+    "anzscoCode": "133211",
+    "anzscoTitle": "Engineering Manager",
+    "description": "Plan, direct, or coordinate activities in such fields as architecture and engineering.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Confer with management, production, and marketing staff to discuss project specifications",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare budgets, bids, and contracts and direct the negotiation of research contracts",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Direct, review, and approve product design and changes",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Recruit employees, assign, direct, and evaluate their work",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Develop and implement policies, standards, and procedures for the engineering and technical work",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "CAD software",
+      "Project management tools",
+      "ERP systems",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "13-1199.06",
+    "title": "Online Merchants",
+    "anzscoCode": "149211",
+    "anzscoTitle": "E-commerce Manager",
+    "description": "Conduct retail activities online, and coordinate production, payment, and delivery of products.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Manage online product catalog and ensure accurate product information",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Coordinate with suppliers, fulfillment centers, and logistics providers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Analyze sales data and identify trends and opportunities",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Develop and execute digital marketing strategies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Handle customer service inquiries and resolve issues",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Manage the online storefront and user experience",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Shopify",
+      "WooCommerce",
+      "Amazon Seller Central",
+      "Google Analytics",
+      "Excel",
+      "Social Media"
+    ]
+  },
+  {
+    "socCode": "17-2199.00",
+    "title": "Engineers, All Other",
+    "anzscoCode": "233999",
+    "anzscoTitle": "Environmental Engineer",
+    "description": "All engineers not listed separately.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design solutions to complex technical problems",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Conduct research and develop new engineering methodologies",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Test and evaluate systems and processes",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Prepare technical documentation and reports",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with team members and stakeholders",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "CAD software",
+      "MATLAB",
+      "Python",
+      "Project management tools"
+    ]
+  },
+  {
+    "socCode": "29-2052.00",
+    "title": "Pharmacy Technicians",
+    "anzscoCode": "311215",
+    "anzscoTitle": "Pharmacy Technician",
+    "description": "Prepare medications under the direction of a pharmacist.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Receive and process incoming prescriptions",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare medications for patients",
+        "category": "physical"
+      },
+      {
+        "id": "t3",
+        "name": "Maintain proper storage and security conditions for drugs",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Assist customers with questions about medications",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Order, label, and count stock of medications",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Pharmacy information systems",
+      "POS systems",
+      "Dispensing robots"
+    ]
+  },
+  {
+    "socCode": "17-1022.00",
+    "title": "Surveyors",
+    "anzscoCode": "232212",
+    "anzscoTitle": "Land Surveyor",
+    "description": "Make exact measurements and determine property boundaries.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Calculate heights, depths, relative positions, property lines, and other characteristics of terrain",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Prepare and maintain sketches, maps, reports, and legal descriptions of surveys",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Direct or conduct surveys to establish legal boundaries for properties",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Operate surveying instruments and related equipment",
+        "category": "physical"
+      },
+      {
+        "id": "t5",
+        "name": "Research legal records and titles for areas to be surveyed",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "GPS surveying equipment",
+      "AutoCAD",
+      "GIS",
+      "Trimble Total Station"
+    ]
+  },
+  {
+    "socCode": "43-9041.00",
+    "title": "Insurance Claims and Policy Processing Clerks",
+    "anzscoCode": "551211",
+    "anzscoTitle": "Insurance Clerk",
+    "description": "Process new insurance policies, modifications to existing policies, and claims forms.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Enter data on insurance policy applications and changes",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Process and review insurance claims forms",
+        "category": "administrative"
+      },
+      {
+        "id": "t3",
+        "name": "Correspond with insurance customers to verify information",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Calculate premiums and establish payment method",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Organize and file claim records and documents",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Insurance management systems",
+      "Excel",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "socCode": "19-2012.00",
+    "title": "Physicists",
+    "anzscoCode": "234112",
+    "anzscoTitle": "Physicist",
+    "description": "Conduct research into physical phenomena, develop theories on the basis of observation and experiments, and devise methods to apply physical laws.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Perform complex calculations, experiments, and analyses",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Write papers and present findings to the scientific community",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Develop experimental instruments and apparatus",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Analyze data collected from experiments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with other researchers on scientific projects",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Python",
+      "MATLAB",
+      "R",
+      "Scientific computing platforms",
+      "Lab equipment"
+    ]
+  },
+  {
+    "socCode": "27-4011.00",
+    "title": "Audio and Video Technicians",
+    "anzscoCode": "212414",
+    "anzscoTitle": "Television Presenter",
+    "description": "Set up, operate, and maintain audio and video equipment for music concerts, sports events, meetings, conventions, and news conferences.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Operate audio, video, and lighting equipment for performances and productions",
+        "category": "physical"
+      },
+      {
+        "id": "t2",
+        "name": "Edit audio and video recordings",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Synchronize recordings with picture elements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Maintain equipment and ensure technical quality of recordings",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Coordinate with directors and producers on technical specifications",
+        "category": "interpersonal"
+      }
+    ],
+    "technologySkills": [
+      "Adobe Premiere",
+      "Pro Tools",
+      "Avid",
+      "DaVinci Resolve",
+      "OBS"
+    ]
+  },
+  {
+    "socCode": "13-1199.07",
+    "title": "Security Management Specialists",
+    "anzscoCode": "224999",
+    "anzscoTitle": "Security Manager",
+    "description": "Manage security programs and security operations for organizations.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop and implement security policies and procedures",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Conduct security audits and risk assessments",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Train staff on security protocols and procedures",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Manage incident response and crisis management",
+        "category": "administrative"
+      },
+      {
+        "id": "t5",
+        "name": "Coordinate with law enforcement and external security providers",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Monitor physical and digital security systems",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "SIEM",
+      "Access control systems",
+      "CCTV systems",
+      "Incident management software"
+    ]
+  },
+  {
+    "socCode": "11-9061.00",
+    "title": "Funeral Home Managers",
+    "anzscoCode": "149999",
+    "anzscoTitle": "Funeral Director",
+    "description": "Plan, direct, or coordinate the services or resources of funeral homes.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Direct and coordinate the activities of funeral home staff",
+        "category": "administrative"
+      },
+      {
+        "id": "t2",
+        "name": "Consult with families regarding funeral arrangements and services",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t3",
+        "name": "Manage financial aspects including billing and accounts receivable",
+        "category": "administrative"
+      },
+      {
+        "id": "t4",
+        "name": "Ensure compliance with funeral regulations and standards",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Funeral management software",
+      "Microsoft Office",
+      "CRM"
+    ]
+  },
+  {
+    "socCode": "13-1199.05",
+    "title": "Sustainability Specialists",
+    "anzscoCode": "224999",
+    "anzscoTitle": "Environmental Consultant",
+    "description": "Address organizational sustainability issues, such as auditing and analyzing sustainability indicators.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Develop sustainability plans and programs",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Conduct audits and measure environmental impact",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Report on environmental performance to stakeholders",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Coordinate with teams to implement sustainability initiatives",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Research sustainability trends and best practices",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "GHG accounting tools",
+      "Excel",
+      "PowerBI",
+      "Carbon tracking software"
+    ]
+  },
+  {
+    "socCode": "15-1259.01",
+    "title": "Product Managers, Technology",
+    "anzscoCode": "135199",
+    "anzscoTitle": "Product Manager",
+    "description": "Plan, develop, and coordinate the activities related to the design and release of software or technology products.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Define product vision, strategy, and roadmap",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Gather and prioritize product and customer requirements",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Collaborate with engineering, design, and marketing teams",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t4",
+        "name": "Analyze product metrics and user data to inform decisions",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Write product specifications and user stories",
+        "category": "cognitive"
+      },
+      {
+        "id": "t6",
+        "name": "Launch products and coordinate go-to-market activities",
+        "category": "administrative"
+      }
+    ],
+    "technologySkills": [
+      "Jira",
+      "Confluence",
+      "Figma",
+      "Amplitude",
+      "Mixpanel",
+      "Looker",
+      "Excel"
+    ]
+  },
+  {
+    "socCode": "15-1259.02",
+    "title": "DevOps Engineers",
+    "anzscoCode": "261312",
+    "anzscoTitle": "DevOps Engineer",
+    "description": "Build and maintain infrastructure, tools, and pipelines to enable continuous software delivery.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Design and maintain CI/CD pipelines",
+        "category": "cognitive"
+      },
+      {
+        "id": "t2",
+        "name": "Manage cloud infrastructure and resources",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Monitor system performance and implement alerting",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Automate infrastructure provisioning with IaC tools",
+        "category": "cognitive"
+      },
+      {
+        "id": "t5",
+        "name": "Collaborate with developers to improve deployment processes",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t6",
+        "name": "Manage container orchestration and microservices",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Jenkins",
+      "GitHub Actions",
+      "AWS",
+      "Prometheus",
+      "Grafana"
+    ]
+  },
+  {
+    "socCode": "27-1025.00",
+    "title": "Interior Designers",
+    "anzscoCode": "232312",
+    "anzscoTitle": "Interior Designer",
+    "description": "Plan, design, and furnish the interiors of residential, commercial, or industrial buildings.",
+    "tasks": [
+      {
+        "id": "t1",
+        "name": "Confer with clients to determine factors affecting planning of interior environments",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t2",
+        "name": "Develop design concepts and prepare interior design plans",
+        "category": "cognitive"
+      },
+      {
+        "id": "t3",
+        "name": "Select furnishings, artwork, and accessories",
+        "category": "cognitive"
+      },
+      {
+        "id": "t4",
+        "name": "Coordinate with contractors and other professionals",
+        "category": "interpersonal"
+      },
+      {
+        "id": "t5",
+        "name": "Estimate material requirements and costs",
+        "category": "cognitive"
+      }
+    ],
+    "technologySkills": [
+      "AutoCAD",
+      "SketchUp",
+      "Revit",
+      "Adobe Creative Suite",
+      "3ds Max"
+    ]
+  }
+]

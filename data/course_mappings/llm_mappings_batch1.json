@@ -1,0 +1,250 @@
+[
+  {
+    "course": {
+      "code": "INFO1110",
+      "title": "Introduction to Programming",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "employ programming style conventions for writing consistently readable code",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code in languages such as Python, JavaScript, Java, or C#", "confidence": 0.92, "reasoning": "Directly teaches code quality and readability conventions"},
+          {"task_id": 9097, "task_description": "Conduct code reviews via GitHub/GitLab pull requests", "confidence": 0.75, "reasoning": "Understanding style conventions enables code review participation"}
+        ]
+      },
+      {
+        "learning_outcome": "design and construct new functionality to existing procedural program or function",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95, "reasoning": "Core programming skill directly applicable"},
+          {"task_id": 9108, "task_description": "Refactor legacy code to improve maintainability", "confidence": 0.70, "reasoning": "Adding functionality requires understanding existing code"}
+        ]
+      },
+      {
+        "learning_outcome": "compose a structured algorithmic design to solve the descriptive problem specification",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.90, "reasoning": "Algorithm design is foundational to programming"},
+          {"task_id": 9102, "task_description": "Optimize application performance by profiling code", "confidence": 0.65, "reasoning": "Algorithm efficiency impacts performance optimization"}
+        ]
+      },
+      {
+        "learning_outcome": "apply testing methods and assess programs through debugging",
+        "matched_tasks": [
+          {"task_id": 9099, "task_description": "Write automated unit, integration, and end-to-end tests", "confidence": 0.92, "reasoning": "Direct testing skills application"},
+          {"task_id": 9095, "task_description": "Debug production issues by analyzing logs", "confidence": 0.88, "reasoning": "Debugging skills directly applicable"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "INFO1111",
+      "title": "Computing 1A Professionalism",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "analyse and evaluate situations where ethical issues arise within IT professional activities",
+        "matched_tasks": [
+          {"task_id": 9103, "task_description": "Implement security best practices including OWASP guidelines", "confidence": 0.70, "reasoning": "Security ethics relates to professional responsibility"},
+          {"task_id": 9104, "task_description": "Collaborate with product managers and designers to clarify requirements", "confidence": 0.65, "reasoning": "Ethical considerations in requirement gathering"}
+        ]
+      },
+      {
+        "learning_outcome": "track issues, and manage group work and communication for a small scale project",
+        "matched_tasks": [
+          {"task_id": 9101, "task_description": "Participate in agile ceremonies including stand-ups, sprint planning", "confidence": 0.88, "reasoning": "Directly teaches project tracking and team collaboration"},
+          {"task_id": 9104, "task_description": "Collaborate with product managers and designers", "confidence": 0.82, "reasoning": "Communication and collaboration skills"}
+        ]
+      },
+      {
+        "learning_outcome": "formulate queries about a particular topic, research, retrieve relevant information",
+        "matched_tasks": [
+          {"task_id": 9110, "task_description": "Research and evaluate new technologies, frameworks, and tools", "confidence": 0.85, "reasoning": "Research skills directly applicable"},
+          {"task_id": 9105, "task_description": "Write technical documentation including API specs", "confidence": 0.72, "reasoning": "Research informs documentation"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "INFO1112",
+      "title": "Computing 1B OS and Network Platforms",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "understand basic functions that an operating system performs",
+        "matched_tasks": [
+          {"task_id": 9100, "task_description": "Deploy applications to cloud platforms (AWS, Azure, Google Cloud)", "confidence": 0.75, "reasoning": "OS understanding needed for deployment"},
+          {"task_id": 9107, "task_description": "Monitor application health using tools like New Relic, Datadog", "confidence": 0.72, "reasoning": "OS monitoring relates to application monitoring"}
+        ]
+      },
+      {
+        "learning_outcome": "understand basic functions that networking performs",
+        "matched_tasks": [
+          {"task_id": 9098, "task_description": "Build and maintain RESTful APIs and microservices", "confidence": 0.80, "reasoning": "Network understanding essential for API development"},
+          {"task_id": 9106, "task_description": "Integrate third-party APIs and services", "confidence": 0.78, "reasoning": "Network knowledge needed for integrations"}
+        ]
+      },
+      {
+        "learning_outcome": "write basic application functionality to interact with the operating system and the network",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.88, "reasoning": "Systems programming is core development skill"},
+          {"task_id": 9098, "task_description": "Build and maintain RESTful APIs", "confidence": 0.82, "reasoning": "Network programming for APIs"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "INFO1113",
+      "title": "Object-Oriented Programming",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "Demonstrate an understanding of Object-Orientation: classes, object instances, memory model",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code in languages such as Python, JavaScript, Java", "confidence": 0.95, "reasoning": "OOP is fundamental to modern software development"},
+          {"task_id": 9111, "task_description": "Implement responsive front-end interfaces using React, Vue, or Angular", "confidence": 0.80, "reasoning": "Component-based frameworks use OOP concepts"}
+        ]
+      },
+      {
+        "learning_outcome": "Read and interpret object-oriented design documents, including basic UML diagrams",
+        "matched_tasks": [
+          {"task_id": 9105, "task_description": "Write technical documentation including architecture diagrams", "confidence": 0.85, "reasoning": "UML reading/writing skills for documentation"},
+          {"task_id": 9104, "task_description": "Collaborate with product managers and designers to clarify requirements", "confidence": 0.70, "reasoning": "Design documents inform collaboration"}
+        ]
+      },
+      {
+        "learning_outcome": "Demonstrate experience in testing Object-Oriented programs",
+        "matched_tasks": [
+          {"task_id": 9099, "task_description": "Write automated unit, integration, and end-to-end tests", "confidence": 0.92, "reasoning": "OOP testing is core testing skill"},
+          {"task_id": 9090, "task_description": "Write unit tests using Jest and React Testing Library", "confidence": 0.85, "reasoning": "Unit testing OO components"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "INFO2222",
+      "title": "Computing 2 Usability and Security",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "understand the balance between risk, achieved security, and cost",
+        "matched_tasks": [
+          {"task_id": 9103, "task_description": "Implement security best practices including OWASP guidelines", "confidence": 0.92, "reasoning": "Directly teaches security decision-making"},
+          {"task_id": 7165, "task_description": "Conduct threat or vulnerability analyses", "confidence": 0.88, "reasoning": "Risk assessment skills"}
+        ]
+      },
+      {
+        "learning_outcome": "experience building a prototype interface",
+        "matched_tasks": [
+          {"task_id": 9078, "task_description": "Design UI mockups in Figma for client approval", "confidence": 0.88, "reasoning": "Prototyping is UI design skill"},
+          {"task_id": 9111, "task_description": "Implement responsive front-end interfaces", "confidence": 0.85, "reasoning": "Building interfaces from prototypes"}
+        ]
+      },
+      {
+        "learning_outcome": "knowledge of design guidelines and how to apply them to design user interfaces",
+        "matched_tasks": [
+          {"task_id": 9084, "task_description": "Ensure WCAG 2.1 AA accessibility compliance", "confidence": 0.90, "reasoning": "Accessibility guidelines are design guidelines"},
+          {"task_id": 9078, "task_description": "Design UI mockups in Figma", "confidence": 0.85, "reasoning": "UI design guidelines application"}
+        ]
+      },
+      {
+        "learning_outcome": "understand common security terminology in security literature",
+        "matched_tasks": [
+          {"task_id": 9103, "task_description": "Implement security best practices", "confidence": 0.82, "reasoning": "Security vocabulary needed for implementation"},
+          {"task_id": 7168, "task_description": "Write or review security-related documents", "confidence": 0.78, "reasoning": "Security documentation requires terminology"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "COMP2017",
+      "title": "Systems Programming",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "compose correct, clean code in C that allocates, deallocates and manages memory",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95, "reasoning": "Systems programming is advanced coding skill"},
+          {"task_id": 9102, "task_description": "Optimize application performance", "confidence": 0.85, "reasoning": "Memory management impacts performance"}
+        ]
+      },
+      {
+        "learning_outcome": "assess code execution using debugging tools",
+        "matched_tasks": [
+          {"task_id": 9095, "task_description": "Debug production issues by analyzing logs, reproducing errors", "confidence": 0.92, "reasoning": "Debugging tools usage directly applicable"},
+          {"task_id": 9099, "task_description": "Write automated tests", "confidence": 0.70, "reasoning": "Testing and debugging are related"}
+        ]
+      },
+      {
+        "learning_outcome": "Understand and identify security vulnerabilities in memory usage patterns",
+        "matched_tasks": [
+          {"task_id": 9103, "task_description": "Implement security best practices including OWASP guidelines", "confidence": 0.90, "reasoning": "Memory security is critical security skill"},
+          {"task_id": 7165, "task_description": "Conduct threat or vulnerability analyses", "confidence": 0.82, "reasoning": "Identifying vulnerabilities"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "COMP2123",
+      "title": "Data Structures and Algorithms",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "design an algorithmic solution to a problem, coding it, analysing its complexity",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.95, "reasoning": "Algorithm design is core development skill"},
+          {"task_id": 9102, "task_description": "Optimize application performance by profiling code", "confidence": 0.88, "reasoning": "Complexity analysis informs optimization"}
+        ]
+      },
+      {
+        "learning_outcome": "understand commonly used data structures, including lists, stacks, queues, priority queues, search trees, hash tables, and graphs",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.92, "reasoning": "Data structures are fundamental to coding"},
+          {"task_id": 9096, "task_description": "Design database schemas and write SQL queries", "confidence": 0.75, "reasoning": "Data modeling relates to data structures"}
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "code": "COMP3027",
+      "title": "Algorithm Design",
+      "university_code": "USYD",
+      "faculty": "Computing"
+    },
+    "mappings": [
+      {
+        "learning_outcome": "produce a clear account of an algorithm, that would allow others to understand and implement it",
+        "matched_tasks": [
+          {"task_id": 9105, "task_description": "Write technical documentation including API specs, architecture diagrams", "confidence": 0.88, "reasoning": "Algorithm documentation skills"},
+          {"task_id": 9109, "task_description": "Mentor junior developers through pair programming", "confidence": 0.75, "reasoning": "Explaining algorithms to others"}
+        ]
+      },
+      {
+        "learning_outcome": "demonstrate knowledge of fundamental algorithms for graph problems",
+        "matched_tasks": [
+          {"task_id": 9094, "task_description": "Write, test, and maintain code", "confidence": 0.90, "reasoning": "Graph algorithms appear in many applications"},
+          {"task_id": 9102, "task_description": "Optimize application performance", "confidence": 0.82, "reasoning": "Algorithm choice affects performance"}
+        ]
+      }
+    ]
+  }
+]

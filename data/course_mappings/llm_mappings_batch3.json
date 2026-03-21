@@ -1,0 +1,114 @@
+[
+  {
+    "course": {"code": "ACCT10001", "title": "Accounting Reports and Analysis", "university_code": "MELB", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "prepare and interpret financial statements", "matched_tasks": [
+        {"task_id": 7264, "task_description": "Prepare financial statements and management reports", "confidence": 0.98},
+        {"task_id": 7265, "task_description": "Analyse financial data to identify trends", "confidence": 0.92}
+      ]},
+      {"learning_outcome": "apply accounting standards and principles", "matched_tasks": [
+        {"task_id": 7266, "task_description": "Ensure compliance with Australian Accounting Standards", "confidence": 0.95}
+      ]},
+      {"learning_outcome": "analyse business transactions and their financial impact", "matched_tasks": [
+        {"task_id": 7265, "task_description": "Analyse financial data", "confidence": 0.90}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ACCT10002", "title": "Introductory Financial Accounting", "university_code": "MELB", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "record business transactions using double-entry bookkeeping", "matched_tasks": [
+        {"task_id": 7264, "task_description": "Prepare financial statements", "confidence": 0.92}
+      ]},
+      {"learning_outcome": "prepare financial statements for small businesses", "matched_tasks": [
+        {"task_id": 7264, "task_description": "Prepare financial statements and management reports", "confidence": 0.95}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ACCT1006", "title": "Accounting and Financial Management", "university_code": "USYD", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse and interpret accounting information for decision making", "matched_tasks": [
+        {"task_id": 7265, "task_description": "Analyse financial data to identify trends", "confidence": 0.92},
+        {"task_id": 7287, "task_description": "Prepare budgets and financial forecasts", "confidence": 0.85}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "FINC2011", "title": "Corporate Finance I", "university_code": "USYD", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "apply time value of money concepts to financial decisions", "matched_tasks": [
+        {"task_id": 7287, "task_description": "Prepare budgets and financial forecasts", "confidence": 0.88},
+        {"task_id": 7288, "task_description": "Evaluate investment opportunities", "confidence": 0.90}
+      ]},
+      {"learning_outcome": "evaluate capital budgeting decisions using NPV and IRR", "matched_tasks": [
+        {"task_id": 7288, "task_description": "Evaluate investment opportunities and ROI", "confidence": 0.95}
+      ]},
+      {"learning_outcome": "analyse risk and return relationships", "matched_tasks": [
+        {"task_id": 7289, "task_description": "Conduct market analysis and risk assessment", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "FNCE10002", "title": "Principles of Finance", "university_code": "MELB", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "apply financial mathematics to valuation problems", "matched_tasks": [
+        {"task_id": 7287, "task_description": "Prepare budgets and financial forecasts", "confidence": 0.85},
+        {"task_id": 7288, "task_description": "Evaluate investment opportunities", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ECON1001", "title": "Introductory Microeconomics", "university_code": "USYD", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse market structures and competition", "matched_tasks": [
+        {"task_id": 7289, "task_description": "Conduct market analysis", "confidence": 0.90},
+        {"task_id": 7291, "task_description": "Research economic trends and indicators", "confidence": 0.82}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ECON1002", "title": "Introductory Macroeconomics", "university_code": "USYD", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse macroeconomic indicators and policy", "matched_tasks": [
+        {"task_id": 7290, "task_description": "Analyse economic policy impacts", "confidence": 0.92},
+        {"task_id": 7291, "task_description": "Research economic trends and indicators", "confidence": 0.90}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ECON10003", "title": "Introductory Microeconomics", "university_code": "MELB", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse supply and demand in various market structures", "matched_tasks": [
+        {"task_id": 7289, "task_description": "Conduct market analysis", "confidence": 0.88}
+      ]},
+      {"learning_outcome": "evaluate the efficiency of market outcomes", "matched_tasks": [
+        {"task_id": 7291, "task_description": "Research economic trends and indicators", "confidence": 0.82}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "MGMT20001", "title": "Organisational Behaviour", "university_code": "MELB", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse individual and group behaviour in organisations", "matched_tasks": [
+        {"task_id": 7300, "task_description": "Manage team performance and development", "confidence": 0.85},
+        {"task_id": 7301, "task_description": "Resolve workplace conflicts", "confidence": 0.78}
+      ]},
+      {"learning_outcome": "apply motivation theories to workplace situations", "matched_tasks": [
+        {"task_id": 7300, "task_description": "Manage team performance", "confidence": 0.82}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "BUSN1001", "title": "Foundations of Business", "university_code": "ANU", "faculty": "Business"},
+    "mappings": [
+      {"learning_outcome": "analyse business environments and stakeholder relationships", "matched_tasks": [
+        {"task_id": 7289, "task_description": "Conduct market analysis", "confidence": 0.78},
+        {"task_id": 7300, "task_description": "Manage stakeholder relationships", "confidence": 0.75}
+      ]},
+      {"learning_outcome": "understand business functions and their interrelationships", "matched_tasks": [
+        {"task_id": 7287, "task_description": "Prepare budgets and coordinate business operations", "confidence": 0.72}
+      ]}
+    ]
+  }
+]

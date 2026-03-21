@@ -1,0 +1,666 @@
+[
+  {
+    "code": "INFO1110",
+    "title": "INFO1110: Introduction to Programming",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "employ programming style conventions for writing consistently readable code",
+      "design and construct new functionality to existing procedural program or function",
+      "compose a structured algorithmic design to solve the descriptive problem specification",
+      "compose an entire procedural program from descriptive problem specification",
+      "demonstrate an understanding of programming principles, data types, variables and operators, control-flow: simple statement, sequence, if-then-else, while, functions: stack, input/output, reference memory model",
+      "compose, analyse and trace procedural code, scoping/variable lifetime, memory of the stack, references and globals, data types, operations on data types",
+      "construct code cliches for input and manipulating arrays, including maximum, minimum, search or traverse, with actions on each element for counting or summation",
+      "construct and assess code for recursively-defined numerical functions, and for recursively described array manipulations",
+      "apply testing methods and assess programs through debugging with the ability to write a set of tests for a small program or function",
+      "explain compilation process and debugging mechanism",
+      "use standard library functions"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/INFO1110"
+  },
+  {
+    "code": "INFO1111",
+    "title": "INFO1111: Computing 1A Professionalism",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "analyse and evaluate situations where ethical issues arise within IT professional activities, and relate the choices to ethical frameworks as well as professional standards and requirements",
+      "explain the principles behind problem-solving in a professional IT environment and apply these to example problems",
+      "explain the theoretical concepts and principles of intellectual property and its protection",
+      "explain and give examples of the principles governing participation in a professional IT context including codes of practice, professional standards and legislative and statutory requirements",
+      "track issues, and manage group work and communication for a small scale project using project methodologies and tools, as well as evaluate the limits and capabilities of the project tools",
+      "negotiate and evaluate team responsibilities and team processes with respect to the various points of view of team members",
+      "execute defined project tasks within a predefined project context in small diverse teams",
+      "carry out the processes of the small team project according to professional codes and principles and then compare the process to what one would expect to find in a large-scale professional IT environment",
+      "confidently use IT specific language and concepts in communication",
+      "formulate queries about a particular topic, research, retrieve relevant information from digital and other sources, evaluate it for reliability and synthesise it for a task, as well as adapt communication to meet the format and needs of the audience (including producing a written report and delivering an oral presentation)",
+      "explain and give examples of the scope of activities and responsibilities of professionals working in the areas of information technology and how these are described by the degree major options",
+      "reflect on, and assess, own skills and attributes to create a professional development plan."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/INFO1111"
+  },
+  {
+    "code": "INFO1112",
+    "title": "INFO1112: Computing 1B OS and Network Platforms",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "manage their time and activities in a multi-week individual project",
+      "produce clear written report",
+      "extend their knowledge, acquire new knowledge, and connect to conceptual frameworks in operating systems and networks and the impact on application development, without explicit instruction",
+      "understand basic functions that an operating system performs, and know the main subcomponents of the OS",
+      "understand basic functions that networking performs, and know the most important layers/subcomponents in networking",
+      "use essential system tools to monitor OS and network status",
+      "understand additional concepts relevant for OS for server and for handhelds, including virtualisation and containers",
+      "demonstrate experience with a number of different operating systems",
+      "identify the interfaces at which users/applications can interact with the OS and the network, and identify where the OS function or network communication needs to be protected against unauthorized access",
+      "understand major ideas used in internal implementation of OS and networks, such as caching, process structures, memory mapping, layering, reliable/unreliable transport, multiplexing and packet switching",
+      "demonstrate awareness of some key algorithmic approaches that can be used in some subcomponents of OS and networking (eg routing, scheduling); also aware of alternative implementations in some cases, and of the tradeoffs involved",
+      "write basic application functionality to interact with the operating system and the network, e.g. by opening and closing files, writing to disk, and sending application-layer data to remote applications",
+      "demonstrate awareness of several major challenges that arise in distributed systems and mobile applications, e.g. failure tolerance and latency tolerance."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/INFO1112"
+  },
+  {
+    "code": "INFO1113",
+    "title": "INFO1113: Object-Oriented Programming",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate an understanding of the concept of Object-Orientation: understand and explain key concepts of object-oriented programming, including classes as encapsulating data, object instances, memory model of references, methods and calling them across objects.",
+      "Demonstrate an understanding of Object-Oriented programming language : reading, tracing and writing competence with the following elements of Java programming language: classes, methods, object creation; instance and local variables, parameters and scope; basic types; simple I/O; control flow primitives and understand, modify and add functionality to Java programs",
+      "Read and interpret object-oriented design documents, including basic UML diagrams.",
+      "Create appropriate class/data structure including the data types and methods for simple problems",
+      "Derive a computer program from a design document that uses concepts of OO and memory model, trace and write small examples of code including the following elements: inheritance, polymorphism, abstract classes and interfaces, variables and their type and the relationship between static and dynamic type, exception",
+      "Demonstrate experience in testing Object-Oriented programs, write tests for standalone objects, be able to generate and handle exceptions, create invariants for classes, methods and objects, pre- and post-conditions for methods, and assertions",
+      "Demonstrate experience in testing and debugging Object-Oriented programs, write tests for stand-alone object code, to be run automatically.",
+      "Demonstrate experience with common interfaces and collections in Java."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/INFO1113"
+  },
+  {
+    "code": "INFO2222",
+    "title": "INFO2222: Computing 2 Usability and Security",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "work effectively in a team",
+      "understand the balance between risk, achieved security, and cost; experience with threat modelling and risk analysis as tools to choose this balance for a given system",
+      "produce written reports that evaluate a web site for usability and security",
+      "experience building a prototype interface, and learning aspects of it independently from provided resources",
+      "knowledge of design guidelines and how to apply them to design user interfaces",
+      "use iterative prototyping, with design and evaluation cycles, to explore a design space",
+      "demonstrate knowledge of a core set of cognitive, physiological, organisational, and other key human factors and their implications for interface design",
+      "demonstrate awareness of the major challenges for designing effective user interfaces, including factors associated with individual users, cultural and organisational contexts",
+      "evaluate interfaces, following a user-based technique",
+      "understand common security terminology in security literature",
+      "understand different ways in which security of computer systems can be compromised, e.g. physically, remotely, operationally (esp. social engineering); and relate specific attack scenarios to the major security goals such as authentication, integrity, secrecy, non-repudiation",
+      "understand the major challenges for security of programs, information, computers and networks, and ability to avoid most egregious (typical) flaws in designing and operating IT systems",
+      "demonstrate a high-level knowledge of common approaches to achieve security goals in computer systems (environment control, communications security and OS security, secure operational practices)."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/INFO2222"
+  },
+  {
+    "code": "COMP2017",
+    "title": "COMP2017: Systems Programming",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "apply code quality strategies appropriate for C, including preprocessor techniques, and use of common idioms",
+      "use Unix commands and system calls (including usage of flags etc) from online manual system",
+      "demonstrate the approach and concepts of Unix, including its tools philosophy, processes (including pipes and redirection), the file system, and the shell",
+      "compose correct, clean code in C that allocates, deallocates and manages memory",
+      "construct correctly implement standard linked list data structures. Higher performance could involve slightly more complicated structures such as binary search trees",
+      "assess code execution using debugging tools",
+      "apply a thorough automated testing regime using tools such as make, diff, scripts to present the outcomes, and a tool to manage regression testing. Higher performance could involve ability to construct such a regime",
+      "read and write code that correctly uses the main standard library functions, especially for I/O, file handling, and string handling. Higher performance could involve elegant use of these functions, particularly avoiding idioms which are extremely inefficient.",
+      "evaluate common memory-related errors (such as memory leaks, dangling pointers) and how to avoid these. Higher performance could involve detecting errors in example code, and fixing them using debuggers",
+      "construct, debug, and evaluate parallel or concurrent programs.",
+      "Understand and identify security vulnerabilities in memory usage patterns."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP2017"
+  },
+  {
+    "code": "COMP2123",
+    "title": "COMP2123: Data Structures and Algorithms",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate proficiency in organising, presenting and discussing professional ideas and issues in oral, written and graphic formats. Thorough descriptive reporting. With thorough consideration of format and audience requirements. Fluent presentation of engineering/IT concepts and issues to professional and non-professional audiences, using a varied range of professional communication tools and formats",
+      "design an algorithmic solution to a problem, coding it, analysing its complexity, and evaluating its suitability to a context",
+      "write code that recursively performs an operation on a data structure",
+      "apply basic algorithmic techniques (e.g. divide-and-conquer, greedy) to given design tasks",
+      "use notation of big-Oh to represent asymptotic growth of cost functions",
+      "understand commonly used data structures, including lists, stacks, queues, priority queues, search trees, hash tables, and graphs. This covers the way information is represented in each structure, algorithms for manipulating the structure, and analysis of asymptotic complexity of the operations",
+      "understand basic algorithms related to data structures, such as algorithms for sorting, tree traversals, and graph traversals",
+      "use mathematical methods to evaluate the performance of an algorithm."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP2123"
+  },
+  {
+    "code": "COMP2823",
+    "title": "COMP2823: Data Structures and Algorithms (Adv)",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate proficiency in organising, presenting and discussing professional ideas and issues in oral, written and graphic formats. Thorough descriptive reporting. With thorough consideration of format and audience requirements. Fluent presentation of engineering/IT concepts and issues to professional and non-professional audiences, using a varied range of professional communication tools and formats",
+      "design an algorithmic solution to a problem, coding it, analysing its complexity, and evaluating its suitability to a context",
+      "write code that recursively performs an operation on a data structure",
+      "apply basic algorithmic techniques (e.g. divide-and-conquer, greedy) to given design tasks",
+      "use notation of big-Oh to represent asymptotic growth of cost functions",
+      "understand commonly used data structures, including lists, stacks, queues, priority queues, search trees, hash tables, and graphs. This covers the way information is represented in each structure, algorithms for manipulating the structure, and analysis of asymptotic complexity of the operations",
+      "understand basic algorithms related to data structures, such as algorithms for sorting, tree traversals, and graph traversals",
+      "use mathematical methods to evaluate the performance of an algorithm."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP2823"
+  },
+  {
+    "code": "COMP3027",
+    "title": "COMP3027: Algorithm Design",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "produce a clear account of an algorithm, that would allow others to understand and implement it",
+      "learn about new algorithms by searching for descriptions in textbooks or online",
+      "read, understand, analyze and modify a given algorithm, as well as design efficient algorithmic solutions for given problems and evaluate the proposal",
+      "demonstrate basic experience of implementing algorithms",
+      "analyze the complexity of a given algorithm",
+      "demonstrate knowledge of fundamental algorithms for several problems, especially graph problems, testing graph properties and solving optimization problems on graphs, as well as knowledge of fundamental general algorithmic design techniques, such as greedy, dynamic programming and divide-and-conquer",
+      "understand the fundamental concepts of computational hardness",
+      "understand NP-hardness and the ways of dealing with hardness as well as demonstrate knowledge of randomized algorithms and approximation algorithms",
+      "demonstrate knowledge of basic complexity classes and understanding of reductions between problems."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP3027"
+  },
+  {
+    "code": "COMP3308",
+    "title": "COMP3308: Introduction to Artificial Intelligence",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Formulate problem space description, select and apply suitable search algorithms and analyse the issues involved",
+      "Understand and apply minimax search and alpha-beta pruning in game playing",
+      "Understand the basic principles and analyse the strengths, weaknesses and applicability of some of the main AI algorithms for supervised learning, unsupervised learning and probabilistic reasoning",
+      "Gain practical experience in designing, implementing and evaluating AI algorithms",
+      "Present and interpret data and information in verbal and written form",
+      "Appreciate some of the main ideas and views in AI, achievements and shortcomings of AI and the links between AI and other computer science areas"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP3308"
+  },
+  {
+    "code": "COMP3520",
+    "title": "COMP3520: Operating Systems Internals",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate abilities in technical writing to communicate complex ideas clearly",
+      "possess knowledge of available OS systems",
+      "demonstrate ability to design algorithms to solve OS related problems",
+      "hold and understanding of OS internal components",
+      "demonstrate ability to efficiently implement OS-related algorithms",
+      "understand the significance of OS concepts and its impact on the whole computer systems",
+      "hold an understanding of a range of algorithms for OS, their performance and how and where to apply them."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/COMP3520"
+  },
+  {
+    "code": "DATA1001",
+    "title": "DATA1001: Foundations of Data Science",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "articulate the importance of statistics in a data-rich world, including current challenges such as ethics, privacy and big data",
+      "identify the study design behind a dataset and how the study design affects context specific outcomes",
+      "produce, interpret and compare graphical and numerical summaries, using base R and ggplot",
+      "apply the normal approximation to data, with consideration of measurement error",
+      "model and explain the relationship between 2 variables using linear regression",
+      "use the box model to describe chance and chance variability, including sample surveys and the central limit theorem",
+      "given real multivariate data and a problem, formulate an appropriate hypothesis and perform a range of hypothesis tests",
+      "interpret the p-value, conscious of the various pitfalls associated with testing",
+      "critique the use of statistics in media and research papers in a wide variety of data contexts, with attention to confounding and bias",
+      "perform data exploration in a team, and communicate the findings via oral presentations and reproducible reports, with interrogation."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/DATA1001"
+  },
+  {
+    "code": "DATA2001",
+    "title": "DATA2001: Data Science, Big Data and Data Variety",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "use appropriate Python libraries to automate data science activities on diverse kinds of data",
+      "Ingest, combine and summarise data from a variety of data models",
+      "demonstrate experience with handling datasets of diverse kinds of data, including relational, semi-structured, time series, geo-location, image, text, including experience to combine data of different types",
+      "understand and produce declarative queries to extract appropriate information from data sets, including competence in use of SQL",
+      "understand the main challenges analysing &#39;big data&#39;: data volume, variety, velocity, veracity",
+      "understand the impact of data volume on data processing, and have awareness of approaches to address this such as indexing, compression, data partitioning, and distributed processing frameworks (Hadoop).",
+      "demonstrate awareness of privacy issues when working with data"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/DATA2001"
+  },
+  {
+    "code": "ENGG1801",
+    "title": "ENGG1801: Engineering Computing",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Engineering",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "employ good practices in developing MATLAB and Excel applications and demonstrate awareness of the requirements for software benchmarking and validation",
+      "examine digital images represented as matrices and operations on images abstracted as operations on matrices, and demonstrate awareness of how imaging software products are based on matrix operations",
+      "demonstrate ability to carry out simple matrix computations including matrix sum, product, dot product, calculating the determinant and elementary functions on matrix",
+      "identify the appropriate product for the particular class of engineering",
+      "evaluate data in MATLAB from and in different formats, interpret and process the data to obtain meaningful results, show ability to plot data in two dimensions and use MATLAB\u2019s advanced three dimensional surface plots",
+      "reflect on basic concepts of computing such as abstraction, describing a solution of a problem as an algorithm, run MATLAB programs and demonstrate ability in using MATLAB and Excel to model engineering problems",
+      "demonstrate fundamental programming concepts such as flow of control, loops, functions and parameters passing, and demonstrate ability to use basic data structures such as arrays and structures of heterogeneous objects."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ENGG1801"
+  },
+  {
+    "code": "ENGG1810",
+    "title": "ENGG1810: Introduction to Engineering Computing",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Engineering",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Understanding computational problems and programming in an engineering context",
+      "Apply core Python constructs (data types, control flow, functions, arrays) to design programs that solve defined problems",
+      "Develop programs that process and visualise engineering data",
+      "Implement basic computing algorithms to support engineering judgements",
+      "Critically evaluate engineering problems in terms of computational procedures, limitations and implications for engineering practice"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ENGG1810"
+  },
+  {
+    "code": "MATH1002",
+    "title": "MATH1002: Linear Algebra",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "apply mathematical logic and rigour to solving problems;",
+      "represent vectors both algebraically and geometrically in two and three dimensions, and perform arithmetic with them;",
+      "use vectors to solve classical geometric problems;",
+      "perform and manipulate dot and cross products;",
+      "set up systems of linear equations;",
+      "solve systems of linear equations using Gaussian elimination;",
+      "perform matrix arithmetic and calculate matrix inverses and determinants;",
+      "find eigenvalues and eigenvectors;",
+      "diagonalise a matrix;",
+      "express mathematical ideas and arguments coherently in written form."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/MATH1002"
+  },
+  {
+    "code": "MATH1004",
+    "title": "MATH1004: Discrete Mathematics",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "identify combinatorial objects involved in counting problems",
+      "understand how to construct switching circuits representing Boolean functions",
+      "factor numbers using sieve methods and use the Euclidean algorithm to compute greatest common\ndivisors",
+      "solve linear recurrence relations by using generating functions or characteristic equations."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/MATH1004"
+  },
+  {
+    "code": "MATH1005",
+    "title": "MATH1005: Statistical Thinking with Data",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "articulate the importance of statistics in a data-rich world",
+      "identify the study design behind a dataset and how the study design affects context specific outcomes",
+      "produce, interpret and compare graphical and numerical summaries in R",
+      "apply the normal approximation to data, with consideration of measurement error",
+      "model the relationship between 2 variables using linear regression",
+      "use the box model to describe chance and chance variability, including sample surveys and the central limit theorem",
+      "given real multivariate data and a problem, formulate an appropriate hypothesis and perform a hypothesis test",
+      "interpret the p-value, conscious of the various pitfalls associated with testing",
+      "critique the use of statistics in media and research papers, with attention to confounding and bias",
+      "perform data exploration in a team, and communicate the findings via oral and oral reproducible reports"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/MATH1005"
+  },
+  {
+    "code": "STAT2011",
+    "title": "STAT2011: Probability and Estimation Theory",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "construct appropriate statistical models involving random variables for a range of modelling scenarios. Compute (or approximate with a computer if necessary) numerical characteristics of random variables in these models such as probabilities, expectations and variances",
+      "fit such models in outcome 1. to data (as appropriate) by estimating any unknown parameters",
+      "compute appropriate (both theoretically and computationally derived) measures of uncertainty for any parameter estimates",
+      "assess the goodness of fit (as appropriate) of a fitted model",
+      "apply certain mathematical results (e.g. inequalities, limiting results) to problems relating to statistical estimation theory",
+      "prove certain mathematical results (e.g. inequalities, limiting results) used in the course."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/STAT2011"
+  },
+  {
+    "code": "PHYS1001",
+    "title": "PHYS1001: Physics 1 (Regular)",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "understand the key concepts in three foundation areas of physics - mechanics, thermal physics and wave motion",
+      "apply these concepts to develop models, and to solve qualitative and quantitative problems in scientific and engineering contexts using appropriate mathematical and computing techniques as necessary",
+      "understand the nature of scientific measurement, and demonstrate skills in the measurement of physical quantities and the handling of data",
+      "find and analyze information and judge its reliability and significance",
+      "communicate scientific information appropriately, both orally and through written work",
+      "engage in team and group work for scientific investigations and for the process of learning",
+      "demonstrate a sense of responsibility, ethical behaviour and independence as a learner and as a scientist."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/PHYS1001"
+  },
+  {
+    "code": "PHYS1002",
+    "title": "PHYS1002: Physics 1 (Fundamentals)",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "understand the key concepts in two foundation areas of physics - mechanics, and wave motion - and demonstrate some familiarity with the usual language of physics",
+      "apply these concepts to develop models, and to solve qualitative and quantitative problems in scientific contexts, using appropriate mathematical and computing techniques as necessary",
+      "understand the nature of scientific measurement, and demonstrate skills in the measurement of physical quantities and the handling of data",
+      "find and analyse information and judge its reliability and significance",
+      "communicate scientific information appropriately, both orally and through written work",
+      "engage in team and group work for scientific investigations and for the process of learning",
+      "demonstrate a sense of responsibility, ethical behaviour, and independence as a learner and as a scientist."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/PHYS1002"
+  },
+  {
+    "code": "ACCT1006",
+    "title": "ACCT1006: Accounting and Financial Management",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "record the impact of basic business transactions and be able to produce financial statements across a variety of types of business organisations",
+      "analyse and interpret commercial, economic, and business information to develop solutions and responses to business problems and challenges",
+      "communicate, both orally and in writing, including the ability to negotiate and persuade in a business context",
+      "apply discipline-specific expertise, including ethical decision-making in a broad business context."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ACCT1006"
+  },
+  {
+    "code": "ACCT2011",
+    "title": "ACCT2011: Reporting on Business Performance",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "describe and understand the conceptual framework and specific standards for preparing financial statements within a regulatory and commercial context",
+      "interpret and apply specific accounting standards to transactions based on varying problems and facts, which require critical thinking and judgement",
+      "critically discuss issues in the interpretation and application of accounting standards, as these affect the information content and decision-relevance of financial statements",
+      "critique Australian accounting standards in order to evaluate financial reporting issues for a reporting entity; develop solid and defensible arguments that reflect your opinion",
+      "work collaboratively with others to analyse the requirements of an Australian accounting standard and understand how these accounting requirements can be applied to an entity&#39;s operations",
+      "recognise the requirements of different users of financial statements and appreciate the social and ethical dimensions of the choices made by financial statement preparers."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ACCT2011"
+  },
+  {
+    "code": "FINC2011",
+    "title": "FINC2011: Corporate Finance I",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "identify and explain the basic types of financial management decisions undertaken within a corporation and the role of corporate financial manager",
+      "describe and discuss the key elements of a modern financial system, including identification and discussion of the main categories of financial institutions, types of financial instruments, and functions of different financial markets",
+      "explain and apply the basic concepts underpinning the valuation of bonds and common equity securities",
+      "explain and apply the concepts of expected return, security risk, diversification, portfolio risk, \u2018beta\u2019 and the role they play underpinning asset pricing models such as the CAPM",
+      "calculate company beta, company and divisional cost of capital, and project cost of capital",
+      "explain and apply the Net Present Value (NPV) rule for corporate capital budgeting in realistic settings, as well as appraise the merits of other alternative investment criteria",
+      "discuss and explain the concept of market efficiency as well as identify instances of weak, semi-strong and strong forms of financial market efficiency."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/FINC2011"
+  },
+  {
+    "code": "FINC2012",
+    "title": "FINC2012: Corporate Finance II",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "identify the sources of value embedded in a project",
+      "use discounted cash flow analysis, sensitivity analysis and option pricing techniques to quantify a project&#39;s value",
+      "explain the nature of agency costs in the corporation and the problems of performance measurement",
+      "describe the financing methods available to a corporation",
+      "evaluate the current approaches to determining capital structure",
+      "analyse the factors that influence the payout decision",
+      "explain the impact of financing on project analysis."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/FINC2012"
+  },
+  {
+    "code": "BUSS1020",
+    "title": "BUSS1020: Quantitative Business Analysis",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "use a variety of analytical and statistical tools that are useful for analysing business data",
+      "identify and test a hypothesis from a business perspective using data",
+      "communicate quantitative and statistical findings or results in a professional and ethical manner with a focus on business context."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/BUSS1020"
+  },
+  {
+    "code": "BUSS1030",
+    "title": "BUSS1030: Accounting for Decision Making",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate an understanding of the role of accounting in business decision-making through the analysis and interpretation of accounting information",
+      "prepare and use conventional financial reports - statement of financial position, statement of financial performance and cash flow statements",
+      "apply accounting concepts and techniques to new contexts and scenarios",
+      "analyse and critically interpret accounting information to inform everyday business decisions",
+      "develop technical competency in accounting skills/techniques to demonstrate their application in business contexts and scenarios."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/BUSS1030"
+  },
+  {
+    "code": "ECON1001",
+    "title": "ECON1001: Introductory Microeconomics",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate understanding of how aggregate supply and demand result from individual and firm decisions",
+      "demonstrate understanding of the fundamental types of market structures and competition",
+      "demonstrate understanding of market failures and the roles of government in markets",
+      "explain how prices and quantities are determined in a market, leading to resource allocation in the economy",
+      "critically evaluate the assumptions and limitations of economic theories in the unit."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ECON1001"
+  },
+  {
+    "code": "ECON1002",
+    "title": "ECON1002: Introductory Macroeconomics",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "interpret the meaning and measurement of macroeconomic aggregates such as GDP, unemployment and inflation",
+      "understand how the economy behaves in the short-run using the Keynesian model",
+      "analyse critically short-run macroeconomic policies",
+      "describe the role of money and the financial system in the macroeconomy",
+      "explain what determines unemployment and inflation",
+      "understand and explain macroeconomic policies that improve standards of living",
+      "analyse the factors influencing the balance of payments and the exchange rate",
+      "understand a day-by-day macroeconomic issue and critically evaluate current macroeconomic policies."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/ECON1002"
+  },
+  {
+    "code": "PSYC1001",
+    "title": "PSYC1001: Psychology 1001",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Psychology",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Recall and discuss key concepts, theories, and empirical findings core to psychological knowledge, including the history, philosophy, and science of psychology, developmental, social, personality and individual differences, and applied psychology.",
+      "Apply basic psychological research methods and interpret psychological research, with awareness of reflexivity and multiple ways of knowing.",
+      "Communicate psychological ideas and research findings clearly and appropriately, demonstrating knowledge and application of APA style.",
+      "Recognise how psychology can help inform personal, social, and workplace experiences and practices, demonstrating awareness of ethical principles and cultural responsiveness.",
+      "Demonstrate awareness of self-regulated learning and begin to apply strategies such as goal setting, progress monitoring, and implementation of feedback, reflecting on personal strengths and areas for growth to support academic development."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/PSYC1001"
+  },
+  {
+    "code": "PSYC1002",
+    "title": "PSYC1002: Psychology 1002",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Psychology",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "understand the diverse areas of psychology taught: cognitive psychology, neuroscience, perception, mental abilities, mental health conditions, and learning and motivation",
+      "understand what binds such diverse pursuits into the single discipline of \u2018psychology\u2019 in regard to language, research methods, attitude and approach, and an appreciation of the ethical issues associated with behavioural research",
+      "understand the core research design principles and statistical approaches used throughout of psychology, and develop the ability to apply them in a critical manner",
+      "understand the APA style used for the presentation of written material, particularly research reports",
+      "appreciate how what is taught in psychology has implications for your wider personal and professional approach and identity"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/PSYC1002"
+  },
+  {
+    "code": "PSYC2012",
+    "title": "PSYC2012: Research Methods for Psychology",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Psychology",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Calculate and interpret descriptive statistics such as measures of central tendency and variability",
+      "Demonstrate understanding of graphical and tabular representations of data, and be able to use statistical tables",
+      "Conduct significance tests for statistical hypotheses relevant to Psychology",
+      "Compute and interpret confidence intervals and effect size indices",
+      "Describe, apply, and evaluate the different quantitative research methods used by psychologists",
+      "Describe and define qualitative research methods used by psychologists",
+      "Demonstrate practical skills in laboratory-based and other psychological research",
+      "Recognise potential bias in human thinking, including cultural biases in interpretation of research",
+      "Use information in an ethical manner (e.g., acknowledge and respect work and intellectual property rights of others through appropriate citations in oral and written communication); understand the ethical obligations of research scientists and understand best practice in research design"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/PSYC2012"
+  },
+  {
+    "code": "LAWS1006",
+    "title": "LAWS1006: Foundations of Law",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Law",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "identify and describe to an advanced level, the key elements of the Australian legal system",
+      "differentiate between various sources of law and articulate their interrelationship",
+      "engage critically with legal materials including cases, statutes and commentary",
+      "apply critical analysis and legal reasoning to write about legal material effectively",
+      "evaluate the complexity involved in balancing power among parliament, courts, and the executive",
+      "research and critique the persisting tension between rules and discretion in law",
+      "refine and advance oral communication skills within a legal context"
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/LAWS1006"
+  },
+  {
+    "code": "LAWS1015",
+    "title": "LAWS1015: Contracts",
+    "university": "University of Sydney",
+    "university_code": "USYD",
+    "faculty": "Law",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Evaluate and integrate detailed knowledge from case law, statutes, and secondary sources for contract law topics covered.",
+      "Analyse the practical contexts and potential challenges lawyers face in using contract law.",
+      "Critique and interpret relevant legal materials.",
+      "Develop strategies to resolve contract \nproblems and formulate contractual \nrelationships using the acquired knowledge.",
+      "Critically analyse contract law doctrines, their \nnormative underpinnings, and their \ncontemporary relevance.",
+      "Develop sound, logically structured legal arguments and communicate these to diverse audiences."
+    ],
+    "handbook_url": "https://www.sydney.edu.au/units/LAWS1015"
+  }
+]

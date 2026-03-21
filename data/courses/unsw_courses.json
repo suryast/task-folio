@@ -1,0 +1,141 @@
+[
+  {
+    "code": "COMP1511",
+    "title": "Programming Fundamentals",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Read and understand coding solutions.",
+      "Apply basic data structures, such as arrays and linked lists, to solve complex problems.",
+      "Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.",
+      "Review the produced code against specification criteria by applying testing techniques."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/COMP1511"
+  },
+  {
+    "code": "COMP1521",
+    "title": "Computer Systems Fundamentals",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Design, implement, and analyse small programs at the assembly/machine level.",
+      "Describe the components comprising, and the services offered by, an operating system.",
+      "Explain how the major components of a CPU work together, including how data and instructions are represented in a computer.",
+      "Implement simple programs involving communication and concurrency.",
+      "Describe the relationship between a high-level procedural language (C) and assembly (machine language) which implements it, including how a compiled program is executed in a classical von Neumann machine.",
+      "Describe the architectural layers (fundamental parts) of a modern computer system from hardware device (chip) levels upwards."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/COMP1521"
+  },
+  {
+    "code": "ENGG1811",
+    "title": "Computing for Engineers",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Engineering",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Implement algorithms using the Python programming language.",
+      "Write Python programs to automate many different tasks.",
+      "Use, at a simple level, the numerical computation packages of Matlab and Excel.",
+      "Design algorithms to solve computation problems."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/ENGG1811"
+  },
+  {
+    "code": "MATH1131",
+    "title": "Mathematics 1A",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Use technology as an aid to solve appropriate problems in Algebra and Calculus.",
+      "Apply concepts in Algebra and Calculus to unexpected contexts.",
+      "Communicate mathematical ideas in written form using correct terminology and using technology.",
+      "Apply concepts and techniques from Algebra and Calculus to solve problems.",
+      "Identify and construct valid mathematical arguments.",
+      "Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/MATH1131"
+  },
+  {
+    "code": "MATH1141",
+    "title": "Higher Mathematics 1A",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Communicate mathematical ideas in written and oral form using correct terminology and using technology.",
+      "Use technology as an aid to solve appropriate problems in Algebra and Calculus.",
+      "Apply concepts in Algebra and Calculus to unexpected contexts.",
+      "Identify and construct valid mathematical arguments and proofs of theorems.",
+      "Apply concepts and techniques from Algebra and Calculus to solve problems.",
+      "Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/MATH1141"
+  },
+  {
+    "code": "MATH1231",
+    "title": "Mathematics 1B",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply concepts in Algebra and Calculus to unexpected contexts.",
+      "Apply concepts and techniques from Algebra and Calculus to solve problems.",
+      "Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.",
+      "Communicate mathematical ideas in written and oral form using correct terminology and using technology.",
+      "Identify and construct valid mathematical arguments in the context of Algebra and Calculus.",
+      "Use technology as an aid to solve appropriate problems in Algebra and Calculus."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/MATH1231"
+  },
+  {
+    "code": "MATH1241",
+    "title": "Higher Mathematics 1B",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Communicate mathematical ideas in written and oral form using correct terminology and using technology.",
+      "Apply concepts and techniques from Algebra and Calculus to solve problems.",
+      "Apply concepts in Algebra and Calculus to unexpected contexts.",
+      "Identify and construct valid mathematical arguments and proofs of theorems in the context of Algebra and Calculus.",
+      "Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.",
+      "Use technology as an aid to solve appropriate problems in Algebra and Calculus."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/MATH1241"
+  },
+  {
+    "code": "ECON1101",
+    "title": "Microeconomics 1",
+    "university": "University of New South Wales",
+    "university_code": "UNSW",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Articulate how individuals and society as a whole benefit or are harmed by economic markets.",
+      "Evaluate the costs and benefits of government policies that affect economic incentives and behaviour.",
+      "Explain the assumptions that underlie standard microeconomic models of individual and collective decision-making and behaviour in a world with limited resources.",
+      "Use basic mathematical tools to demonstrate the properties and predictions of economic models and calculate the effect of changes in economic variables.",
+      "Identify appropriate economic models (e.g., models of perfectly competitive markets and various market imperfections) and apply them to analyse and predict the behaviour of individuals and firms interacting in markets."
+    ],
+    "handbook_url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2026/ECON1101"
+  }
+]

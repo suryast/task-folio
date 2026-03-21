@@ -1,0 +1,154 @@
+[
+  {
+    "course": {"code": "PSYC1001", "title": "Psychology 1A", "university_code": "USYD", "faculty": "Psychology"},
+    "mappings": [
+      {"learning_outcome": "explain major psychological theories and concepts", "matched_tasks": [
+        {"task_id": 8031, "task_description": "Apply psychological theories to assess client needs", "confidence": 0.85}
+      ]},
+      {"learning_outcome": "interpret research findings in psychology", "matched_tasks": [
+        {"task_id": 8033, "task_description": "Conduct psychological research", "confidence": 0.82},
+        {"task_id": 8034, "task_description": "Analyse and interpret research data", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "PSYC10003", "title": "Mind, Brain and Behaviour 1", "university_code": "MELB", "faculty": "Psychology"},
+    "mappings": [
+      {"learning_outcome": "describe the biological bases of behaviour", "matched_tasks": [
+        {"task_id": 8031, "task_description": "Apply psychological theories", "confidence": 0.80}
+      ]},
+      {"learning_outcome": "evaluate psychological research methods", "matched_tasks": [
+        {"task_id": 8033, "task_description": "Conduct psychological research", "confidence": 0.85},
+        {"task_id": 8034, "task_description": "Design and analyse experiments", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "PSYC2012", "title": "Statistics for Psychology", "university_code": "USYD", "faculty": "Psychology"},
+    "mappings": [
+      {"learning_outcome": "apply statistical methods to analyse psychological data", "matched_tasks": [
+        {"task_id": 8034, "task_description": "Analyse and interpret research data", "confidence": 0.95},
+        {"task_id": 8852, "task_description": "Apply statistical analysis methods", "confidence": 0.90}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "LAWS1006", "title": "Foundations of Law", "university_code": "USYD", "faculty": "Law"},
+    "mappings": [
+      {"learning_outcome": "explain the structure of the Australian legal system", "matched_tasks": [
+        {"task_id": 8211, "task_description": "Research and apply relevant legislation", "confidence": 0.88}
+      ]},
+      {"learning_outcome": "analyse legal problems and apply legal reasoning", "matched_tasks": [
+        {"task_id": 8212, "task_description": "Analyse legal documents and contracts", "confidence": 0.92},
+        {"task_id": 8211, "task_description": "Research and apply relevant legislation", "confidence": 0.90}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "LAWS1201", "title": "Foundations of Australian Law", "university_code": "ANU", "faculty": "Law"},
+    "mappings": [
+      {"learning_outcome": "understand the Australian constitutional framework", "matched_tasks": [
+        {"task_id": 8211, "task_description": "Research and apply relevant legislation", "confidence": 0.85},
+        {"task_id": 8213, "task_description": "Advise on regulatory compliance", "confidence": 0.78}
+      ]},
+      {"learning_outcome": "apply common law principles to legal problems", "matched_tasks": [
+        {"task_id": 8212, "task_description": "Analyse legal documents", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "CHEM1101", "title": "Chemistry 1A", "university_code": "ANU", "faculty": "Science"},
+    "mappings": [
+      {"learning_outcome": "apply chemical principles to solve problems", "matched_tasks": [
+        {"task_id": 8423, "task_description": "Conduct chemical analyses and experiments", "confidence": 0.90}
+      ]},
+      {"learning_outcome": "perform laboratory experiments safely", "matched_tasks": [
+        {"task_id": 8421, "task_description": "Operate laboratory equipment and conduct experiments", "confidence": 0.92}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "CHEM10003", "title": "Chemistry 1", "university_code": "MELB", "faculty": "Science"},
+    "mappings": [
+      {"learning_outcome": "understand atomic structure and chemical bonding", "matched_tasks": [
+        {"task_id": 8423, "task_description": "Conduct chemical analyses", "confidence": 0.82}
+      ]},
+      {"learning_outcome": "perform quantitative chemical calculations", "matched_tasks": [
+        {"task_id": 8423, "task_description": "Analyse chemical compositions and reactions", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "PHYS1001", "title": "Physics 1 (Regular)", "university_code": "USYD", "faculty": "Science"},
+    "mappings": [
+      {"learning_outcome": "apply physics principles to solve problems", "matched_tasks": [
+        {"task_id": 8425, "task_description": "Apply physics principles in research and analysis", "confidence": 0.90}
+      ]},
+      {"learning_outcome": "conduct physics experiments and analyse data", "matched_tasks": [
+        {"task_id": 8421, "task_description": "Operate laboratory equipment", "confidence": 0.85},
+        {"task_id": 8034, "task_description": "Analyse experimental data", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "BIOL1008", "title": "Human Biology", "university_code": "ANU", "faculty": "Science"},
+    "mappings": [
+      {"learning_outcome": "explain human physiological systems", "matched_tasks": [
+        {"task_id": 8424, "task_description": "Conduct biological research and analysis", "confidence": 0.82}
+      ]},
+      {"learning_outcome": "interpret biological data and research findings", "matched_tasks": [
+        {"task_id": 8034, "task_description": "Analyse and interpret research data", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "ENGN1211", "title": "Discovering Engineering", "university_code": "ANU", "faculty": "Engineering"},
+    "mappings": [
+      {"learning_outcome": "apply engineering problem-solving methodologies", "matched_tasks": [
+        {"task_id": 8511, "task_description": "Apply engineering principles to solve problems", "confidence": 0.92}
+      ]},
+      {"learning_outcome": "work effectively in engineering teams", "matched_tasks": [
+        {"task_id": 8513, "task_description": "Collaborate with engineering teams on projects", "confidence": 0.88}
+      ]},
+      {"learning_outcome": "design and build engineering prototypes", "matched_tasks": [
+        {"task_id": 8512, "task_description": "Design and develop engineering prototypes", "confidence": 0.92}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "MATH1131", "title": "Mathematics 1A", "university_code": "UNSW", "faculty": "Mathematics"},
+    "mappings": [
+      {"learning_outcome": "apply calculus techniques to solve problems", "matched_tasks": [
+        {"task_id": 8851, "task_description": "Apply mathematical and statistical methods", "confidence": 0.88}
+      ]},
+      {"learning_outcome": "use linear algebra in applications", "matched_tasks": [
+        {"task_id": 8851, "task_description": "Apply mathematical methods to analysis", "confidence": 0.85}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "STAT2011", "title": "Probability and Statistical Models", "university_code": "USYD", "faculty": "Mathematics"},
+    "mappings": [
+      {"learning_outcome": "apply probability theory to model uncertainty", "matched_tasks": [
+        {"task_id": 8851, "task_description": "Apply probability and statistical methods", "confidence": 0.92}
+      ]},
+      {"learning_outcome": "fit and evaluate statistical models", "matched_tasks": [
+        {"task_id": 8852, "task_description": "Develop and validate statistical models", "confidence": 0.95},
+        {"task_id": 8854, "task_description": "Create predictive models", "confidence": 0.88}
+      ]}
+    ]
+  },
+  {
+    "course": {"code": "STAT2032", "title": "Financial Mathematics", "university_code": "ANU", "faculty": "Mathematics"},
+    "mappings": [
+      {"learning_outcome": "apply financial mathematics to pricing derivatives", "matched_tasks": [
+        {"task_id": 7287, "task_description": "Conduct financial modelling and analysis", "confidence": 0.92},
+        {"task_id": 8851, "task_description": "Apply mathematical methods to financial problems", "confidence": 0.90}
+      ]},
+      {"learning_outcome": "model financial risk using stochastic processes", "matched_tasks": [
+        {"task_id": 7289, "task_description": "Assess financial risk", "confidence": 0.88},
+        {"task_id": 8854, "task_description": "Build predictive risk models", "confidence": 0.85}
+      ]}
+    ]
+  }
+]

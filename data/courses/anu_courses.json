@@ -1,0 +1,845 @@
+[
+  {
+    "code": "COMP1100",
+    "title": "Programming as Problem Solving",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply fundamental programming concepts, using a functional programming language, to solve problems.",
+      "Understand basic types and the benefits of static typing.",
+      "Describe, understand and evolve programs, via documentation, testing, and debugging.",
+      "Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.",
+      "Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).",
+      "Understand and apply the concepts of parametric and ad-hoc polymorphism"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP1100"
+  },
+  {
+    "code": "COMP1110",
+    "title": "Structured Programming",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply fundamental programming concepts, using an object-oriented programming language, to solve practical programming problems",
+      "Implement, debug, and evaluate algorithms for solving substantial problems; implement an abstract data type",
+      "Apply basic algorithmic analysis to simple algorithms; use appropriate algorithmic approaches to solve problems",
+      "Design, implement, and test data structures and code",
+      "Present, explain, evaluate, and defend choices in design and implementations of programs and algorithms",
+      "Understand their ethical responsibilities as a programmer with respect to Academic integrity,  the use of Artificial Intelligence and authorship of code."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP1110"
+  },
+  {
+    "code": "COMP1130",
+    "title": "Programming as Problem Solving (Advanced)",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply fundamental programming concepts, using a functional programming language, to solve problems.",
+      "Understand basic types and the benefits of static typing.",
+      "Describe, understand and evolve programs, via documentation, testing, and debugging.",
+      "Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.",
+      "Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).",
+      "Understand and apply the concepts of parametric and ad-hoc polymorphism.",
+      "Reflect on the fundamental mathematical concepts underlying functional programming.",
+      "Use formal proof and structural induction to reason about the correctness of functional programs.",
+      "Assessing the significance of different evaluation strategies, including laziness, for the computational behaviour of functional programs."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP1130"
+  },
+  {
+    "code": "COMP1140",
+    "title": "Structured Programming (Advanced)",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply fundamental programming concepts, using an object-oriented programming language, to solve practical programming problems",
+      "Implement, debug, and evaluate algorithms for solving substantial problems; implement an abstract data type",
+      "Apply basic algorithmic analysis to simple algorithms; use appropriate algorithmic approaches to solve problems",
+      "Design, implement, and test data structures and code",
+      "Present, explain, evaluate, and defend choices in design and implementations of programs and algorithms",
+      "Recognize advanced corner cases, employ object-oriented language features and algorithms that address them; understand their low-level aspects"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP1140"
+  },
+  {
+    "code": "COMP2100",
+    "title": "Software Construction",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply object-oriented programming concepts for medium-scale software projects&nbsp;",
+      "Understand the fundamentals of life cycle models for developing medium-scale software projects&nbsp;",
+      "Apply and Evaluate software construction principles across various life cycle stages in medium-scale software projects&nbsp;",
+      "Describe contractual specifications, analyse documentation and specifications against other\u2019s code, develop, understand, test, and evolve substantial programs using a modern IDE, and &nbsp;Understand fundamental concepts of GUIs and user interfaces&nbsp;",
+      "Understand basic concepts of intellectual property in software construction, considering ethical and social implications of technical decisions&nbsp;",
+      "Apply and Evaluate techniques for data manipulation in medium-scale software projects&nbsp;"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2100"
+  },
+  {
+    "code": "COMP2120",
+    "title": "Software Engineering",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Describe the breadth and nature of the software engineering process, including project management activities, and distinguish various phases of the process;",
+      "Evaluate other people's code contributions using modern formal code inspection approaches.",
+      "Apply correct techniques for ensuring and assessing the quality of software.",
+      "Assess the issues in constructing large software systems from their components, including considerations of cyber security and user-centred design, and evaluate the nature and design of these components.",
+      "Employ group working skills in solving software development problems;",
+      "Analyse and evaluate IT-related scenarios with reference to the software engineering code of ethics and professional practice."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2120"
+  },
+  {
+    "code": "COMP2310",
+    "title": "Systems, Networks, and Concurrency",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Model, design and program concurrent systems.",
+      "Select appropriate modeling techniques, tools and mechanisms to solve a range of problems in concurrent and distributed systems. This includes the appropriate programming language and runtime environment for the task at hand.",
+      "Analyse and debug concurrent programs.",
+      "Understand the aspects of an operating system concerning scheduling, protection and memory management.",
+      "Employ message passing locally and over networks to construct distributed systems",
+      "Distinguish as well as connect conceptual concurrency with physical parallelism at all levels of a distributed system.",
+      "Identify core aspects of operating systems and networks irrespective of the specific system at hand."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2310"
+  },
+  {
+    "code": "COMP2400",
+    "title": "Relational Databases",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "&nbsp;Describe the basic concepts of the relational model and its mathematical foundation.",
+      "Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.",
+      "Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.",
+      "Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2400"
+  },
+  {
+    "code": "COMP3310",
+    "title": "Computer Networks",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Interpret and articulate the layered protocol model.",
+      "Program network communication services for client/server and other application layouts.",
+      "Articulate, analyse and evaluate various related technical, administrative and social aspects of specific computer network protocols from standards documents and other primary materials found through research.",
+      "Design, analyse, and evaluate networks and services for homes, data centres, IoT/IoE, LANs and WANs."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP3310"
+  },
+  {
+    "code": "COMP3500",
+    "title": "Software Engineering Project",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Work as an effective member of a team that creatively identifies, implements, and delivers a software solution to a complex problem.",
+      "Develop lifelong learning through reflection, as demonstrated through continual reflection on the software development lifecycle (SDLC) and teamwork processes experienced throughout the year.",
+      "Exhibit an awareness of team formation strategies and stages leading to the development of a high-performing self-managing team.",
+      "Present, communicate, and effectively defend sound engineering decisions at project reviews, both orally and in writing, with peers, supervisors, and project stakeholders.",
+      "Demonstrate experience in project, configuration, and risk management processes when undertaking a software development project.",
+      "Demonstrate experience in the different stages of the SDLC.",
+      "Demonstrate experience in and appropriate use of standards in software development."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP3500"
+  },
+  {
+    "code": "COMP3600",
+    "title": "Algorithms",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Display a solid understanding of classical algorithms for fundamental computing problems such as sorting and searching and their analysis.",
+      "Demonstrate knowledge of various data structures, such as binary search trees and heaps, and their applications.",
+      "Design efficient algorithms using techniques such as greedy approaches and dynamic programming.",
+      "Analyse the time and space complexity of algorithms."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP3600"
+  },
+  {
+    "code": "ENGN1211",
+    "title": "Engineering Design 1: Discovering Engineering",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Engineering",
+    "faculty": "Engineering",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate  research into engineering concepts, technology and contexts.",
+      "Select  and use appropriate engineering tools to model and analyse engineering  components.",
+      "Design a  solution to an open-ended problem using an engineering process.",
+      "Identify  responsibilities within an engineering team in relation to professional  practice.",
+      "Communicate  engineering concepts and solutions effectively using different media to  professional and other audiences.",
+      "Demonstrate  self-reflection and evaluation of ideas"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/ENGN1211"
+  },
+  {
+    "code": "ENGN1217",
+    "title": "Introduction to Mechanics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Engineering",
+    "faculty": "Engineering",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Identify and manipulate forces and their resultants  in one- two- and three dimensions.",
+      "Recognise and classify moments  and couples created by forces.",
+      "Employ mechanical equilibrium and  free body diagrams to solve mechanical statics problems, including  bending moment diagrams.",
+      "Acquire skills for testing the bending of  a beam and the construction of a bridge model subject to testing.",
+      "Analyse and demonstrate the stability conditions of mechanical  equilibrium.",
+      "Define and evaluate the fundamentals of mechanical  testing of materials (tension, compression, shear)."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/ENGN1217"
+  },
+  {
+    "code": "MATH1005",
+    "title": "Discrete Mathematical Models",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Mathematical Sciences Institute",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Recall, invent, interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.",
+      "Recognise, define, explain and use terminology and notation from discrete mathematics.",
+      "Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.",
+      "Perform mathematical calculations in discrete mathematics using methods presented in the course.",
+      "Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/MATH1005"
+  },
+  {
+    "code": "MATH1013",
+    "title": "Mathematics and Applications 1",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Mathematical Sciences Institute",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate capacity for mathematical reasoning through explaining concepts from calculus and linear algebra and reproducing familiar proofs.",
+      "Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/MATH1013"
+  },
+  {
+    "code": "MATH1014",
+    "title": "Mathematics and Applications 2",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Mathematical Sciences Institute",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate capacity for mathematical reasoning through explaining concepts from calculus and linear algebra and reproducing familiar proofs.",
+      "Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/MATH1014"
+  },
+  {
+    "code": "MATH1115",
+    "title": "Advanced Mathematics and Applications 1",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Mathematical Sciences Institute",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Explain the fundamental concepts of calculus and linear algebra and their role in modern mathematics and applied contexts.",
+      "Demonstrate accurate and efficient use of calculus and linear algebra techniques.",
+      "Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from calculus and linear algebra.",
+      "Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/MATH1115"
+  },
+  {
+    "code": "MATH1116",
+    "title": "Advanced Mathematics and Applications  2",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Mathematical Sciences Institute",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from analysis and linear algebra.",
+      "Apply problem-solving using analysis and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/MATH1116"
+  },
+  {
+    "code": "STAT1003",
+    "title": "Statistical Techniques",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Summarise and graph data appropriately;",
+      "Work with random variables and probability distributions and describe the rationale behind them;",
+      "Describe and use the normal distribution appropriately;",
+      "Identify when and how to carry out basic statistical inference including confidence intervals, hypothesis testing, regression and analysis of variance; and,",
+      "Identify contexts in which particular statistical methods may be inappropriate."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/STAT1003"
+  },
+  {
+    "code": "STAT1008",
+    "title": "Quantitative Research Methods",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Use the skills developed in this course to identify problems in a variety of different disciplines to interpret and analyse results and provide solutions while engaging with external stakeholders and students from a variety of disciplines.",
+      "Work collaboratively in groups from different areas of study to analyse results, provide solutions and orally present findings and discussions to a diverse range of stakeholders from different disciplines.",
+      "Compare and contrast different sampling methodologies and assess suitability for a range of situations and contexts.",
+      "Discuss different types of variables and produce appropriate graphical and numerical descriptive statistics.",
+      "Apply probability rules and concepts to discrete and continuous random variables, including estimation techniques and the Central Limit Theorem, to solve problems across a range of disciplines.",
+      "Perform and interpret hypothesis tests and linear regression analyses, including both simple and multiple regression.",
+      "Use technology to perform statistical analysis, and interpret statistical software output in a variety of different fields of study."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/STAT1008"
+  },
+  {
+    "code": "STAT2001",
+    "title": "Introductory Mathematical Statistics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Calculate probabilities using set theory and combinatorics;",
+      "Use and describe discrete, continuous and multivariate random variables and their probability distributions;",
+      "Define sampling distributions and use the central limit theorem;",
+      "Use the method of moments and maximum likelihood estimation;",
+      "Perform confidence estimation and hypothesis testing; and",
+      "Use and describe the fundamental concepts of Bayesian statistics and Bayesian estimators."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/STAT2001"
+  },
+  {
+    "code": "CHEM1101",
+    "title": "Chemistry 1",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Chemistry",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate an understanding of the electronic structure of an atom and the concept of chemical bonding and be able to interpret the relationships between them.",
+      "Demonstrate an understanding of the laws of thermodynamics, heat changes in reactions and entropy. Be able to explain whether a reaction is spontaneous.",
+      "Demonstrate an understanding of chemical equilibria, acids and bases and the processes occurring in solution. Be able to perform quantitative calculations.",
+      "Be able to demonstrate an insight and understanding into the bonding and structure of a variety of simple organic molecules, including isomerism and stereochemistry.",
+      "Be able to demonstrate the use of chemical nomenclature and the knowledge of the classification, properties and reactions of a wide variety of organic compounds according to the functional groups they contain.",
+      "Recognise the importance of chemistry in the biological sciences and society at large . Be able to apply chemical concepts to the understanding of biological structures and processes.",
+      "Understand the concepts and procedures behind laboratory practices and interpret the results.",
+      "Demonstrate the ability to perform safe laboratory manipulations and to manipulate glassware. Be able to perform volumetric analysis and chemical synthesis following a prescribed procedure."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/CHEM1101"
+  },
+  {
+    "code": "CHEM1201",
+    "title": "Chemistry 2",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Chemistry",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate an understanding of the principles of spectroscopy and use modern spectroscopic methods to deduce structures of simple organic molecules.",
+      "Demonstrate an understanding of organic transformations and how they relate to structure.",
+      "Demonstrate an understanding of the rates of chemical reactions, including the ability to predict a rate law from a mechanism (including enzyme kinetics) or experimental data.",
+      "Demonstrate an insight and understanding into the structure and bonding of transition metal compounds including isomerism and stereochemistry, including the use of crystal field theory to rationalise the structure and properties of transition metal complexes.",
+      "Recognise the importance of metal ions in biological systems.",
+      "Calculate and use the solution concentration units molarity, molality, mole fraction and weight-percent.&nbsp;Be able to understand the solution process and colligative properties.",
+      "Demonstrate well-developed laboratory based skills in the safe handling of chemicals and performing both qualitative and quantitative analyses.",
+      "Communicate chemically relevant information in an appropriate manner."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/CHEM1201"
+  },
+  {
+    "code": "PHYS1001",
+    "title": "Foundations of Physics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Physics",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Understand the fundamental principles of classical mechanics, electric and magnetic fields and simple electrical circuits.",
+      "Be able to apply these principles to the solution of problems and to the conduct of experiments.",
+      "Have a basic understanding of uncertainty in the context of physics, and how to handle it.",
+      "Have basic laboratory skills including equipment skills, data gathering, record keeping, data analysis, experiment design, and presentation."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/PHYS1001"
+  },
+  {
+    "code": "PHYS1101",
+    "title": "Physics I",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Physics",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Construct and use appropriate physical models for complex, real-world physics problems in the fields of mechanics and thermal physics.",
+      "Measure and calculate uncertainties, and interpret uncertain data.",
+      "Use computer programs to analyse data and to model complex physical systems.Become proficient with vectors and vector fields",
+      "Use vectors and vector fields to calculate electric and magnetic fields.",
+      "Construct and analyse DC and simple AC circuits"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/PHYS1101"
+  },
+  {
+    "code": "FINM1001",
+    "title": "Foundations of Finance",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Explain basic financial transactions, institutions and markets, including money markets, stock markets, foreign exchange, derivatives markets and contracts.",
+      "Discuss the concept of time value of money and calculate the value of cash flows relating to a number of financial instruments.",
+      "Explain the concept of diversification, including the risk and return relationship and calculate optimal weights for a portfolio comprising of two financial assets.",
+      "Discuss concepts of arbitrage, and utilise derivatives for risk management purposes."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/FINM1001"
+  },
+  {
+    "code": "FINM2001",
+    "title": "Corporate Finance",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Explain the key issues facing financial managers;",
+      "Perform asset valuation and project evaluation; and,",
+      "Explain the finance theory underlying financial management."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/FINM2001"
+  },
+  {
+    "code": "FINM2002",
+    "title": "Derivatives",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Articulate options, futures, forwards, and swaps on a range of underlying assets/commodities.",
+      "Explain and be able to utilise option trading strategies.",
+      "Critically analyse the types of assets/commodities used including stocks, interest rates, foreign exchange as well as exotic instruments and weather and electricity derivatives.",
+      "Use various models to price forward, futures, swap and option contracts.",
+      "Use these pricing models for risk management.",
+      "Collect, process, interpret and communicate the outcomes of financial problems."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/FINM2002"
+  },
+  {
+    "code": "ECON1101",
+    "title": "Microeconomics 1",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Economics",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate an understanding of the economic principles that underpin modern economics;",
+      "have a basic understanding of the way budget constrained individuals make optimising choices and the way resources are allocated in private markets;",
+      "demonstrate an understanding of the role of different trading arrangements in markets and their impact on prices and the quantities traded;",
+      "use basic economic principles to evaluate the effects of government interventions and other exogenous changes in markets;",
+      "evaluate the effects of government interventions in markets;",
+      "present clearly written analysis of economic issues and problems"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/ECON1101"
+  },
+  {
+    "code": "ECON1102",
+    "title": "Macroeconomics 1",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Economics",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "demonstrate mastery of the core theoretical models used by macroeconomists, in particular the Solow growth model and the AS/AD-model;",
+      "discuss the usefulness and limitations of these models;",
+      "explain and understand some of the associated empirical implications and policy issues;",
+      "critically read and understand many newspaper and magazine articles covering current economic events;",
+      "provide evidence of knowledge and contextual understanding of key institutional features of the Australian economy and some overseas economies"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/ECON1102"
+  },
+  {
+    "code": "PSYC2008",
+    "title": "Cognition",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Medicine and Psychology",
+    "faculty": "Psychology",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Describe the fundamental concepts and major themes in cognitive psychology, and articulate the theories and scientific studies that have been used to address these, and their implications.",
+      "Compare and contrast particular approaches to studying cognition (including behavioural, neuropsychological, and neuroimaging) in light of their use to answer a particular research question.",
+      "Apply critical analysis skills to evaluate cognitive research studies and conclusions.",
+      "Analyse and synthesise cognitive research to develop a reasoned argument.",
+      "Articulate the relevance of cognitive psychology in contemporary society in oral and written formats.",
+      "Recognise and celebrate the diversity in human cognition, including cultural differences."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/PSYC2008"
+  },
+  {
+    "code": "LAWS1201",
+    "title": "Foundations of Australian Law",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "ANU Law School",
+    "faculty": "Law",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Investigate and analyse the sources of law and the legal system in Australia.",
+      "Examine the historical and social context of the institutions of the Australian legal system, incorporating a range of perspectives which recognise and value diverse culture and traditions that include developing an understanding of Aboriginal and Torres Strait Islander Peoples\u2019 knowledges and perspectives.",
+      "Formulate oral and written arguments in response to questions about the Australian legal system and the process of law-making.",
+      "Select and implement methods of legal reasoning and statutory interpretation to generate legally defensible conclusions with respect to legal problems.",
+      "Engage in legal research, legal writing and citation conventions, utilising a variety of legal research sources, including legal databases, in order to reflect critically on case law, legislation and scholarly journal articles.",
+      "Utilise feedback to critically reflect on their own developing legal skills and understanding."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/LAWS1201"
+  },
+  {
+    "code": "LAWS1202",
+    "title": "Lawyers Justice and Ethics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "ANU Law School",
+    "faculty": "Law",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "reflect critically on the roles of lawyers, the legal system and limitations on access to justice in our society. &nbsp;",
+      "explore the ethical dimensions of legal practice and evaluate the various forms of regulation of professional conduct.",
+      "identify and apply substantive rules and principles governing professional conduct in respect of lawyers\u2019 duties to: the law, the administration of justice, clients, fellow practitioners and others.",
+      "develop strategies to respond ethically to challenges that arise for practising lawyers in seeking to discharge their professional obligations.",
+      "critically analyse different conceptions of justice, including an exploration of the perspectives of Aboriginal and Torres Strait Islander Peoples.",
+      "undertake legal research and present findings to a variety of audiences, both orally and in writing which uses academic structure and expression and is supported by accurate referencing."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/LAWS1202"
+  },
+  {
+    "code": "BUSN1001",
+    "title": "Business Reporting and Analysis",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Accounting",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Illustrate the relationship of business reporting to the social and economic environment;",
+      "Explain who are the main users of business reports, and the main purposes for which the information is used;",
+      "Describe the major differences between sole traders, partnerships and companies.",
+      "Distinguish between income, expenses, assets and liabilities;",
+      "Apply the principle of duality to the accounting equation;",
+      "Prepare an income statement, balance sheet and a statement of cash flows;",
+      "Analyse financial reports with regard to key aspects of performance such as profitability, solvency and liquidity;",
+      "Explain what the planning and control processes are in relation to company objectives;",
+      "Evaluate investment opportunities, including cost-volume-profit analysis, capital investment decision making, and budgeting."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/BUSN1001"
+  },
+  {
+    "code": "BUSN1101",
+    "title": "Introduction to Commercial Law",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Research School of Accounting",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Identify the sources of law in Australia: statute and judge made law;",
+      "Explain some of the associated issues such as constitutional limitations on power, the hierarchy of courts",
+      "Find current statements of case law and legislation regarding commercial legal issues;",
+      "Apply principles of statutory interpretation in a commercial legal context;",
+      "Apply the doctrine of precedent in a commercial legal context;",
+      "Identify legal issues in a problem scenario and apply the law to resolve those issues;",
+      "Discuss the way the law will view a set of circumstances and why the law exists and also apply this to influence and inform decision making."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/BUSN1101"
+  },
+  {
+    "code": "BIOL1008",
+    "title": "Human Biology",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Biology Teaching and Learning Centre",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Recognise and describe the functions and internal processes of major organ systems in the human body;",
+      "Discuss the energy, regulatory and structural requirements for successful bodily functions;",
+      "Identify, evaluate and integrate information about how the human body responds to external and internal stimuli;",
+      "Appreciate an ethical perspective in understanding advances in human biology;",
+      "Understand how experiments can lead to new knowledge in human biology."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/BIOL1008"
+  },
+  {
+    "code": "BIOL2151",
+    "title": "Genetics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Biology Teaching and Learning Centre",
+    "faculty": "Science",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Explain the key concepts in population, evolutionary and quantitative genetics including: the basis and estimation of genetic variation; Hardy-Weinberg Equilibrium; population substructure, genetic drift; effective population size, inbreeding and inbreeding depression; genetic adaptation including epigenetics and genetic plasticity; and heritability.",
+      "Understand the range of molecular laboratory techniques used routinely in human forensic analysis and population genetic analysis including sex typing, DNA profiling, Single Nucleotide Polymorphism (SNP) detection, Sanger DNA sequencing and Next Generation Sequencing.",
+      "Perform the statistical analysis of genetic data relevant to forensic, conservation, quantitative and evolutionary genetics, and summarise and interpret the outcomes. This will be done by hand, calculator, and other statistical software including the widely-used package R.",
+      "Search the literature to identify papers relevant to the genetic data sets provided for statistical analysis and integrate and evaluate the findings in written form."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/BIOL2151"
+  },
+  {
+    "code": "BIOL2171",
+    "title": "Biochemistry and Nutrition",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Biology Teaching and Learning Centre",
+    "faculty": "Science",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Describe the major metabolic pathways involved in the metabolism of nutrients in the human body.",
+      "Apply biochemical principles in relation to the effects that human diet has on our metabolism.",
+      "Apply important chemical concepts and principles to draw conclusions concerning the basis of reactivity of biologically relevant molecules and their interactions.",
+      "Analyse and evaluate experimental data."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/BIOL2171"
+  },
+  {
+    "code": "COMP1600",
+    "title": "Foundations of Computing",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Apply the concepts of mathematical logic to formulate assertions and construct proofs or refutations in a variety of formalisms.",
+      "Prove simple properties of recursive functions on inductively defined data structures using structural induction.",
+      "Prove simple programs correct using Hoare Logic.",
+      "Understand, analyse, and describe formal languages in a variety of representations including grammars and automata and Turing machines.",
+      "Apply standard concepts of computability and complexity theory to classify computational problems."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP1600"
+  },
+  {
+    "code": "COMP2300",
+    "title": "Computer Architecture",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Understand the basics of digital circuits and principles of digital design.",
+      "Learn how a modern computer works underneath from the bottom up.",
+      "Design and implement a simple processor in a digital simulator following a principled approach.",
+      "Evaluate tradeoffs of different designs and ideas.",
+      "Debug complex systems systematically at different abstraction layers.",
+      "Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.",
+      "Write programs in assembly language and explain the relationship between high-level and assembly languages, including function calls and basic control structures."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2300"
+  },
+  {
+    "code": "COMP2550",
+    "title": "Computing R&D Methods",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Demonstrate an ability to communicate in relation to a computing project in oral, written and graphical forms, with an an appreciation of the need to pitch any communication item appropriately for the audience. This includes demonstrated skills in the writing of abstracts and research papers.",
+      "Understand the ethical considerations involved in the process of identifying and formulating research problems.",
+      "Ability to carry out literature searches and some ability to critically evaluate literature.",
+      "Design and conduct experiments, devise appropriate measurements, analyze and interpret data and form reliable conclusions.",
+      "Understanding of academic integrity and the importance of building upon and correctly attributing the work of others."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2550"
+  },
+  {
+    "code": "COMP3620",
+    "title": "Artificial Intelligence",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Identify problems that are amenable to solution by AI methods, and which AI methods may be suited to solving a given problem.",
+      "Formalise a given problem in the language/framework of different AI methods (e.g., as a search problem, as a constraint satisfaction problem, as a planning problem, etc).",
+      "Implement basic AI algorithms (e.g., standard search or constraint propagation algorithms).",
+      "Design and perform an empirical evaluation of different algorithms on a problem formalisation, and state the conclusions that the evaluation supports."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP3620"
+  },
+  {
+    "code": "COMP4300",
+    "title": "Parallel Systems",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 4,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Be proficient at programming multiple parallel machines in more than one special programming language or programming system",
+      "Be able to descriptively compare the performance of different programs and methods on one machine",
+      "Demonstrate advanced knowledge of the elements of parallel programming language and system implementation",
+      "Recall the history of parallel systems and describe the developments in the field"
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP4300"
+  },
+  {
+    "code": "COMP2710",
+    "title": "Special Topics in Computer Science",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "School of Computing",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "plan and execute project work and/or a piece of research and scholarship in the Special Topic",
+      "demonstrate an understanding of the body of knowledge and theoretical concepts within the topic in written and/or oral form to a variety of audiences",
+      "understand the Special topic and its role in modern Computing and applied contexts."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/COMP2710"
+  },
+  {
+    "code": "STAT2032",
+    "title": "Financial Mathematics",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Define and describe the use of cash flow models, simple and compound rates of interest and discount as well as compare and distinguish between nominal and effective rates of interest and discount.",
+      "Describe various types of annuities and perpetuities and use them to solve financial transaction problems.",
+      "Describe equations of value and various tools like linear interpolation and annuity tables.",
+      "Compare capital budgeting decision tools like net present values, internal rates of return and discounted payback periods.",
+      "Analyse basic fixed interest financial transactions like loan valuation, fixed interest securities (e.g. bonds) and employ the skills developed in this course to evaluate such transactions. Incorporate the effects of taxation on such financial transactions.",
+      "Demonstrate an understanding of and employ the term structure of interest rates to calculate forward and spot rates.",
+      "Define interest rate risk in terms of duration and convexity of fixed interest products, using this to define immunisation and assess its use in mitigating interest rate risk."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/STAT2032"
+  },
+  {
+    "code": "STAT3004",
+    "title": "Stochastic Processes",
+    "university": "ANU",
+    "university_code": "ANU",
+    "school": "Rsch Sch of Finance, Actuarial Studies &amp; App Stats",
+    "faculty": "Mathematics",
+    "level": 3,
+    "credit_points": 6,
+    "learning_outcomes": [
+      "Explain the fundamental concepts of probability theory, its position in modern statistical sciences and applied contexts.",
+      "Demonstrate accurate and proficient use of probability theory techniques.",
+      "Demonstrate mathematical reasoning through analysing, proving and explaining concepts from probability theory.",
+      "Apply problem-solving techniques using probabilistic methods in various situations."
+    ],
+    "handbook_url": "https://programsandcourses.anu.edu.au/course/STAT3004"
+  }
+]

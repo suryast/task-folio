@@ -1,0 +1,536 @@
+[
+  {
+    "code": "COMP10001",
+    "title": "COMP10001",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Use the fundamental programming constructs (sequence, alternation, selection)",
+      "Use the fundamental data structures (arrays, records, lists, associative arrays)",
+      "Use abstraction constructs such as functions",
+      "Understand and employ some basic program structures",
+      "Understand and employ some basic algorithmic problem-solving techniques",
+      "Read, write, and debug simple, small programs"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/comp10001"
+  },
+  {
+    "code": "COMP10002",
+    "title": "COMP10002",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Read, write and debug typical small-scale programs in a system programming language such as C",
+      "Discuss, analyse, implement, and apply standard data structures such as linked lists, binary search trees, and hash tables",
+      "Discuss, analyse, and apply a range of sorting and searching algorithms",
+      "Present logical arguments for the correctness of a given algorithm",
+      "Choose between different algorithms for simple problems by analysing their complexity",
+      "Use a command line interface and standard development tools for programming"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/comp10002"
+  },
+  {
+    "code": "COMP20003",
+    "title": "COMP20003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Present arguments for the correctness or incorrectness of a given algorithm",
+      "Reason about and evaluate the efficiency behaviour of a given algorithm",
+      "Choose appropriate data structures and algorithms for a given problem",
+      "Implement the chosen data structures and algorithms."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/comp20003"
+  },
+  {
+    "code": "COMP20007",
+    "title": "COMP20007",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Read, write and debug graph algorithms, advanced sorting algorithms, dynamic programs and greedy algorithms",
+      "Read, write and debug code using intermediate data structures",
+      "Choose between different algorithms for intermediate problems by analysing their complexity",
+      "Read, write and debug typical multi-module programs in a system programming language such as C"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/comp20007"
+  },
+  {
+    "code": "COMP30020",
+    "title": "COMP30020",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Apply declarative programming techniques",
+      "Write medium size programs in a declarative language",
+      "Write programs in which different components use different languages",
+      "Select appropriate languages for each component task in a project"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/comp30020"
+  },
+  {
+    "code": "SWEN20003",
+    "title": "SWEN20003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Apply software design principles to object-oriented design",
+      "Develop object-oriented models for a medium-sized software system",
+      "Evaluate design trade-off of different designs",
+      "Implement an object-oriented design in a suitable language",
+      "Use commonly available object-oriented design frameworks for application development",
+      "Apply knowledge of basic science and engineering fundamentals"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/swen20003"
+  },
+  {
+    "code": "SWEN30006",
+    "title": "SWEN30006",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 3,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Apply their knowledge of modelling and design to solve computing problems",
+      "Work as an Individual and in a Team, with effective communication for software engineering tasks",
+      "Evaluate and apply appropriate choices of software tools in the modelling and design process",
+      "Engage in Life-long Learning with respect to the evolution of software processes"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/swen30006"
+  },
+  {
+    "code": "INFO20003",
+    "title": "INFO20003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Computing",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Demonstrate proficiency in solving practical data-modelling tasks",
+      "Design SQL queries to interact with a relational database",
+      "Understand internal mechanisms and policies behind database systems",
+      "Apply database transactions and argue their use in the database systems",
+      "Profile and tune business analytics queries, and administer database systems. Through the combination of lectures, workshops and assignments, students will gain considerable hands-on experience in: i) modelling a number of diverse informational situations, useful to both organisations and individuals, ii) writing efficient SQL queries to analyse data"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/info20003"
+  },
+  {
+    "code": "ENGR20004",
+    "title": "ENGR20004",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Engineering",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "formulate problems in statics and dynamics by choosing suitable system boundaries and identifying relevant forces and coordinate systems;",
+      "analyse the equilibrium of systems of forces in two dimensions;",
+      "determine the loads and stresses experienced by components of common engineering structures such as frames and machines and beams;",
+      "describe and analyse the motion of particles and a rigid body using two-dimensional vectors;",
+      "apply the principles of impulse-momentum and work-energy to solve problems in the dynamics of simple machines and vibrating structures."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/engr20004"
+  },
+  {
+    "code": "MAST10005",
+    "title": "MAST10005",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "recognise functions of a single, real variable including injective and bijective functions, composition of functions and conditions under which inverse functions can be defined;",
+      "graphically represent and analyse key features of polynomial, circular, inverse circular and reciprocal functions;",
+      "manipulate simple trigonometric identities and compound and double angle formulas for sine, cosine and tangent;",
+      "calculate using the arithmetic of vectors in two and three dimensions, calculate scalar products, vector projections and resolutes, specify plane curves parametrically by a vector equation and determine the corresponding cartesian equations",
+      "extend differentiation techniques to implicit differentiation, derivatives of inverse circular functions, second and higher order derivatives and be able to apply these to problems including curve sketching;",
+      "evaluate integrals using algebraic and trigonometric substitutions, and partial fractions;",
+      "apply integration techniques to problems including the area between curves and the solution of simple ordinary differential equations;",
+      "calculate using the arithmetic of the extension of the real numbers to the set of complex numbers, including the representation of complex numbers in Cartesian and polar forms"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast10005"
+  },
+  {
+    "code": "MAST10006",
+    "title": "MAST10006",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Communicate mathematical solutions clearly and logically, using correct mathematical notation and vocabulary",
+      "Identify relevant mathematical techniques or concepts to use for a particular task",
+      "Apply techniques of calculus to solve mathematical problems",
+      "Model real world applications using calculus",
+      "Interpret mathematical solutions to applied problems in context"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast10006"
+  },
+  {
+    "code": "MAST10007",
+    "title": "MAST10007",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "use matrix techniques to represent and solve a system of simultaneous linear equations",
+      "use vectors to describe lines and planes in solid geometry",
+      "apply vector concepts to abstract vector spaces of arbitrary finite dimension",
+      "represent linear transformations via matrices and use linear transformations to solve problems",
+      "use a computer package for symbolic and numeric calculation"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast10007"
+  },
+  {
+    "code": "MAST10008",
+    "title": "MAST10008",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "use matrix techniques to represent and solve a system of simultaneous linear equations;",
+      "demonstrate understanding of the extension of vector concepts to abstract vector spaces of arbitrary finite dimension;",
+      "demonstrate understanding of linear transformations, their matrix representations and applications;",
+      "differentiate and integrate functions of two variables;",
+      "write a simple mathematical proof."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast10008"
+  },
+  {
+    "code": "MAST20004",
+    "title": "MAST20004",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "have a systematic understanding of the basic concepts of probability space, probability distribution, random variable (including the bivariate case) and expectation",
+      "be able to use conditional expectations, generating functions and other basic techniques taught in the subject;",
+      "be able to interpret a number of important probabilistic models, including simple random processes such as the Poisson process and finite discrete time Markov chains, and appreciate their relevance to real world problems;",
+      "be able to formalize simple real-life situations involving uncertainty in the form of standard probabilistic models and to analyse the latter;",
+      "develop understanding of the relevance of the probabilistic models from the subject to the important areas of applications such as statistics and actuarial studies."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast20004"
+  },
+  {
+    "code": "MAST20005",
+    "title": "MAST20005",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Demonstrate an understanding of the basic ideas of estimation and hypothesis testing;",
+      "Carry out many standard statistical procedures using a statistical computing package;",
+      "Fit statistical models to data by both estimating and testing hypotheses about model parameters."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast20005"
+  },
+  {
+    "code": "MAST20006",
+    "title": "MAST20006",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Mathematics",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Develop a systematic understanding of probability, random variables, probability distributions and probability models, and their relevance to statistical inference;",
+      "Be able to formulate standard probability models from real world applications and critically assess them;",
+      "Be able to apply the properties of probability distributions, moment generating functions, variable transformations and conditional expectations to analyse common random variables and probability models;",
+      "Be able to use a computer package to perform computational tasks in probability analyses."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mast20006"
+  },
+  {
+    "code": "CHEM10003",
+    "title": "CHEM10003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Define the role of chemistry in biology, technology and the physical environment and describe the evolution of current theories;",
+      "Illustrate how the individual concepts taught throughout this subject connect with each other to form a fundamental basis of the chemical sciences;",
+      "Execute basic laboratory experiments; analyse and interpret experimental data and write laboratory reports;",
+      "Apply health and safety regulations associated with the safe handling and disposal of laboratory chemicals;",
+      "Categorise the nature of gases and other states of matter; basic energy concepts; chemical equilibrium; acids and bases and factors that determine their strengths; properties of solutions;",
+      "Describe atomic structure theories and their connection with elementary quantum mechanics, and how they are connected to the structure and bonding of hydrocarbons and main-group molecules;",
+      "Outline the unique characteristics of carbon-based compounds including chirality, classification of important functional groups, and naming carbon-based compound classes and molecules;",
+      "Identify the general scientific research process and how to critically analyse scientific data."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/chem10003"
+  },
+  {
+    "code": "CHEM10004",
+    "title": "CHEM10004",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Define the role of chemistry in biology, technology and the physical environment, including the evolution of current theories;",
+      "Illustrate how the individual concepts taught throughout this subject connect with each other and with the concepts learned in Chemistry 1 to form a fundamental basis of the chemical sciences;",
+      "Execute basic laboratory experiments; analyse and interpret experimental data and write laboratory reports;",
+      "Apply safe handling and disposal of laboratory chemicals associated with health and safety issues;",
+      "Describe the kinetics of chemical reactions; synthetic strategies to obtain carbon-based molecules and pure metals; concepts of redox chemistry; the connection between molecular orbital theory and band structures; typical characteristics of structures of solids;",
+      "Determine chemical structures through the analysis of spectroscopic data;",
+      "Outline the unique characteristics of main-group and transition-metal compounds;",
+      "Identify the general scientific research process and how to critically analyse scientific data."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/chem10004"
+  },
+  {
+    "code": "PHYC10003",
+    "title": "PHYC10003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Understand and explain the physics principles of translational and rotational mechanics, waves, optics and special relativity;",
+      "Apply these principles using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations and problems;",
+      "Make considered and logical predictions of the outcomes of different physical situations in the context of the relevant physics principles; and",
+      "Acquire experimental data using a range of measurement instruments and interpret these data."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/phyc10003"
+  },
+  {
+    "code": "PHYC10004",
+    "title": "PHYC10004",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Science",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "understand and explain the physics principles of fluids, electricity and magnetism, quantum, atomic and nuclear physics;",
+      "apply these principles using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations and problems in the physical, technological and engineering sciences;",
+      "make considered and logical predictions of the outcomes of different physical situations in the context of the relevant physics principles; and",
+      "acquire experimental data using a range of measurement instruments and interpret these data."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/phyc10004"
+  },
+  {
+    "code": "ACCT10001",
+    "title": "ACCT10001",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Explain the nature and purpose of accounting within financial markets and business organisations;",
+      "Identify and explain different business structures and their external financial reporting requirements;",
+      "Define and describe the major categories of assets, liabilities, equity, income, expenses and cash flow activities;",
+      "Discuss recognition, measurement and disclosure issues pertaining to various line items in financial statements;",
+      "Analyse and interpret major financial statements and the accounting policy choices that influence their preparation;",
+      "Analyse cost and revenue information for internal planning and decision making;",
+      "Explain the concepts of corporate governance, ethics and &#39;good governance&#39; and its influence on accounting;",
+      "Critically evaluate the strengths and weaknesses of accounting information relative to the purposes it serves; and",
+      "Explain and apply the nature and purpose of budgeting and cost-volume-profit analysis as tools for internal decision making\u00a0."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/acct10001"
+  },
+  {
+    "code": "ACCT10002",
+    "title": "ACCT10002",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Identify the principal regulatory authorities that influence the framework for external financial reporting in Australia and explain their roles and functions in this process;",
+      "Describe the nature and objectives of General Purpose Financial Reporting;",
+      "Explain the key components of the Conceptual Framework for accounting as it applies to the preparation of general purpose financial statements;",
+      "Record accounting transactions and prepare the Trial Balance, Balance Sheet and the Income Statement;",
+      "Explain the main issues to be considered in relation to reporting of key transactions and balances reported in the Balance Sheet and Income Statement;",
+      "Describe the nature of company transactions and account for various capital transactions and profit distribution;",
+      "Describe the policy choices available to preparers and the flexibility that preparers have in applying the accounting standards;",
+      "Identify limitations in financial reporting;",
+      "Construct and analyse a Cash Flow Statement;",
+      "Apply analytical methods to assess a firm&#39;s performance and financial position in comparison with past performance and with other firms;",
+      "Identify an ethical dilemma and explain an ethical outcome; and",
+      "Explain the purpose of a firm&#39;s sustainability report."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/acct10002"
+  },
+  {
+    "code": "ACCT20001",
+    "title": "ACCT20001",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Describe a range of cost behaviour patterns and estimate costs using a range of sophisticated cost estimation techniques;",
+      "Calculate product and service costs using a variety of costing systems and cost allocation techniques;",
+      "Describe the link between resource flows and activities;",
+      "Discuss the implications of resource flow patterns for the design of costing systems in a range of organisational contexts;",
+      "Explain techniques for the management of costs to facilitate the effective use of organisational resources; and",
+      "Analyse and evaluate cost information for the purposes of making a variety of value-based decisions."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/acct20001"
+  },
+  {
+    "code": "FNCE10002",
+    "title": "FNCE10002",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Use financial mathematics to solve basic financial problems",
+      "Apply alternative capital budgeting techniques for project evaluation purposes",
+      "Explain the role of risk and return in the asset allocation decision and the pricing of risky assets",
+      "Distinguish between the different sources of financing including short term debt, long term debt and equity",
+      "Discuss the issues and choices involved in a firm\u2019s capital structure decision",
+      "Discuss the issues and choices involved in a firm\u2019s distribution decision",
+      "Explain how options can be used to manage basic financial risks"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/fnce10002"
+  },
+  {
+    "code": "MGMT20001",
+    "title": "MGMT20001",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Describe the basic theories and models within organisational behaviour;",
+      "Apply major theories and models from the field of organisational behaviour to analyse organisational problems and generate realistic solutions and recommendations, as presented in case studies;",
+      "Summarise and evaluate recent academic research and findings on a specified topic in organisational behaviour;",
+      "Describe practical application of theories and concepts in team work assignment;",
+      "Identify and critique management approaches in the field and collaboratively develop alternative models of practice;",
+      "Solve problems of management practice; and",
+      "Analyse team dynamics."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/mgmt20001"
+  },
+  {
+    "code": "ECON10003",
+    "title": "ECON10003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Explain the importance of the circular flow of income to macroeconomics;",
+      "Interpret the meaning and measurement of macroeconomic aggregates such as Gross Domestic Product;",
+      "Explain and use the Keynesian model of national income determination;",
+      "Describe the roles of money and the financial system in the macroeconomy;",
+      "Critically analyse macroeconomic policies appropriate to the achievement of the macroeconomic objectives;",
+      "Explain and apply the aggregate demand/aggregate supply model;",
+      "Explain the key features of the neoclassical model of growth; and",
+      "Analyse the factors influencing the balance of payments and the exchange rate."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/econ10003"
+  },
+  {
+    "code": "ECON10004",
+    "title": "ECON10004",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Business",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Understand the operation of the economy, and to guide decision-making by individuals, businesses and government in solving the key economic problem of meeting unlimited wants with limited resources;",
+      "Explain the concepts of market demand, supply and equilibrium; and apply the market model to explain the determination of prices, quantities and wellbeing;",
+      "Explain how market and social welfare outcomes are affected by changes in demand and supply, and by changes of government policy;",
+      "Explain in what circumstances and in what forms intervention by government in the operation of the economy can improve efficiency and social welfare;",
+      "Identify &quot;strategic situations&quot; in economic activity, and be able to analyse and predict outcomes of strategic situations;",
+      "Identify the main characteristics of different market structures, and describe and evaluate the nature of decisions and outcomes in the different market structures;",
+      "Explain the nature, role and limitations of theory and models in economic analysis; and",
+      "Proceed to the study of other economics and commerce subjects that have a knowledge of introductory microeconomics as a prerequisite."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/econ10004"
+  },
+  {
+    "code": "PSYC10003",
+    "title": "PSYC10003",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Psychology",
+    "level": 1,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "Describe the core psychological theories, models and empirical findings that underpin knowledge of behavioural neuroscience, sensation and perception, learning and memory, psychological research methods and ethics.",
+      "Critically evaluate psychological theories, models, and research.",
+      "Describe, analyse, and interpret psychological data.",
+      "Apply assessment criteria to evaluate the quality of reasoning and argumentation.",
+      "Collaborate effectively within a team to develop a research proposal to investigate a psychological research question.",
+      "Provide constructive feedback to peers about the quality of reasoning and argumentation.",
+      "Independently write a literature review or research report  responding to a psychological question."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/psyc10003"
+  },
+  {
+    "code": "PSYC20007",
+    "title": "PSYC20007",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Psychology",
+    "level": 2,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "the historical and philosophical foundations of cognitive psychology;",
+      "the key theories, models and experimental findings central to cognitive psychology;",
+      "the research methods and ethical principles appropriate to the design and analysis of research questions in Cognitive Psychology;",
+      "the core assumptions of the major competing paradigms in cognitive psychology"
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/psyc20007"
+  },
+  {
+    "code": "PSYC30013",
+    "title": "PSYC30013",
+    "university": "University of Melbourne",
+    "university_code": "MELB",
+    "faculty": "Psychology",
+    "level": 3,
+    "credit_points": 12.5,
+    "learning_outcomes": [
+      "The translation of research questions into appropriate methods of investigation.",
+      "The application of different types of quantitative methods to real-world problems.",
+      "The fundamental principles of individual and group-based psychological assessment."
+    ],
+    "handbook_url": "https://handbook.unimelb.edu.au/subjects/psyc30013"
+  }
+]
