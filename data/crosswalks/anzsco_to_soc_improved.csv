@@ -1,0 +1,347 @@
+anzsco_code,anzsco_title,soc_code,match_method
+2544,Registered Nurses,29-1141,isco_triangulation
+5311,General Clerks,43-9031,isco_triangulation
+5311,General Clerks,43-9051,isco_triangulation
+5311,General Clerks,43-9071,isco_triangulation
+5311,General Clerks,43-9061,isco_triangulation
+2211,Accountants,13-2011,isco_triangulation
+3411,Electricians,49-2094,isco_triangulation
+3411,Electricians,47-2111,isco_triangulation
+3411,Electricians,49-2095,isco_triangulation
+3411,Electricians,49-2093,isco_triangulation
+3411,Electricians,51-2022,isco_triangulation
+3411,Electricians,49-9012,isco_triangulation
+3411,Electricians,49-9011,isco_triangulation
+4211,Child Carers,39-6012,isco_triangulation
+4211,Child Carers,39-9011,isco_triangulation
+4211,Child Carers,39-6011,isco_triangulation
+8112,Commercial Cleaners,39-1011,isco_triangulation
+8112,Commercial Cleaners,47-2161,isco_triangulation
+8112,Commercial Cleaners,39-3011,isco_triangulation
+8112,Commercial Cleaners,39-1022,isco_triangulation
+8112,Commercial Cleaners,39-3012,isco_triangulation
+8112,Commercial Cleaners,37-2012,isco_triangulation
+8112,Commercial Cleaners,39-3019,isco_triangulation
+8112,Commercial Cleaners,39-1021,isco_triangulation
+5511,Accounting Clerks,43-3011,isco_triangulation
+5511,Accounting Clerks,43-3031,isco_triangulation
+5511,Accounting Clerks,43-3021,isco_triangulation
+5121,Office Managers,43-1011,isco_triangulation
+1331,Construction Managers,47-2011,isco_triangulation
+1331,Construction Managers,11-9021,isco_triangulation
+1331,Construction Managers,47-1011,isco_triangulation
+3212,Motor Mechanics,49-3011,isco_triangulation
+3212,Motor Mechanics,49-3092,isco_triangulation
+3212,Motor Mechanics,49-3022,isco_triangulation
+3212,Motor Mechanics,49-3023,isco_triangulation
+6121,Real Estate Sales Agents,41-9021,isco_triangulation
+6121,Real Estate Sales Agents,41-9022,isco_triangulation
+3341,Plumbers,47-2152,isco_triangulation
+3341,Plumbers,47-2081,isco_triangulation
+3341,Plumbers,47-2151,isco_triangulation
+1351,ICT Managers,11-3071,isco_triangulation
+1323,Human Resource Managers,11-3121,isco_triangulation
+2231,Human Resource Professionals,13-1111,isco_triangulation
+2231,Human Resource Professionals,43-9011,isco_triangulation
+5412,Information Officers,43-4051,isco_triangulation
+1322,Finance Managers,11-3031,isco_triangulation
+1322,Finance Managers,11-3011,isco_triangulation
+3131,ICT Support Technicians,15-1244,isco_triangulation
+3131,ICT Support Technicians,49-2098,isco_triangulation
+3131,ICT Support Technicians,15-1241,isco_triangulation
+6113,Sales Representatives,41-4011,isco_triangulation
+6113,Sales Representatives,41-4012,isco_triangulation
+6113,Sales Representatives,41-3011,isco_triangulation
+1112,General Managers,11-1011,isco_triangulation
+1112,General Managers,11-1021,isco_triangulation
+1335,Production Managers,51-1011,isco_triangulation
+1335,Production Managers,11-9051,isco_triangulation
+1335,Production Managers,49-1011,isco_triangulation
+1335,Production Managers,11-3051,isco_triangulation
+5321,Keyboard Operators,43-9022,isco_triangulation
+5321,Keyboard Operators,43-4041,isco_triangulation
+5321,Keyboard Operators,43-9021,isco_triangulation
+2221,Financial Brokers,41-3021,isco_triangulation
+2221,Financial Brokers,41-3031,isco_triangulation
+2221,Financial Brokers,43-9041,isco_triangulation
+7212,Earthmoving Plant Operators,53-7032,isco_triangulation
+7212,Earthmoving Plant Operators,47-2073,isco_triangulation
+7212,Earthmoving Plant Operators,53-7033,isco_triangulation
+2631,Computer Network Professionals,15-1232,isco_triangulation
+3322,Painting Trades Workers,47-2141,isco_triangulation
+6215,Retail Supervisors,41-1011,isco_triangulation
+6215,Retail Supervisors,41-1012,isco_triangulation
+2525,Physiotherapists,29-1123,isco_triangulation
+2515,Pharmacists,29-1051,isco_triangulation
+2721,Counsellors,13-1111,isco_triangulation
+2721,Counsellors,43-9011,isco_triangulation
+2721,Counsellors,25-2052,isco_triangulation
+8212,Concreters,47-2051,isco_triangulation
+8212,Concreters,47-2053,isco_triangulation
+2335,"Industrial, Mechanical and Production Engineers",17-2131,isco_triangulation
+2335,"Industrial, Mechanical and Production Engineers",17-2112,isco_triangulation
+2335,"Industrial, Mechanical and Production Engineers",17-2141,isco_triangulation
+2335,"Industrial, Mechanical and Production Engineers",13-2021,isco_triangulation
+2335,"Industrial, Mechanical and Production Engineers",17-2061,isco_triangulation
+4511,Beauty Therapists,39-4011,isco_triangulation
+4511,Beauty Therapists,39-5091,isco_triangulation
+4511,Beauty Therapists,39-5094,isco_triangulation
+4511,Beauty Therapists,39-4021,isco_triangulation
+4511,Beauty Therapists,39-4012,isco_triangulation
+4511,Beauty Therapists,39-5093,isco_triangulation
+4511,Beauty Therapists,39-5092,isco_triangulation
+4511,Beauty Therapists,39-4031,isco_triangulation
+4312,Cafe Workers,35-3031,isco_triangulation
+4312,Cafe Workers,35-3021,isco_triangulation
+4312,Cafe Workers,35-3022,isco_triangulation
+4312,Cafe Workers,35-9031,isco_triangulation
+4312,Cafe Workers,35-3041,isco_triangulation
+2422,Vocational Education Teachers,25-1011,isco_triangulation
+2422,Vocational Education Teachers,25-1021,isco_triangulation
+2422,Vocational Education Teachers,25-1032,isco_triangulation
+2422,Vocational Education Teachers,25-1031,isco_triangulation
+2422,Vocational Education Teachers,25-1022,isco_triangulation
+4521,Fitness Instructors,39-3021,isco_triangulation
+4521,Fitness Instructors,39-9031,isco_triangulation
+2333,Electrical Engineers,17-2071,isco_triangulation
+2415,Special Education Teachers,25-3011,isco_triangulation
+1332,Engineering Managers,11-9121,isco_triangulation
+2343,Environmental Scientists,33-9091,isco_triangulation
+2343,Environmental Scientists,33-9092,isco_triangulation
+2343,Environmental Scientists,33-9093,isco_triangulation
+3423,Electronics Trades Workers,49-9061,isco_triangulation
+3423,Electronics Trades Workers,49-9051,isco_triangulation
+3423,Electronics Trades Workers,49-9095,isco_triangulation
+3423,Electronics Trades Workers,49-2092,isco_triangulation
+3423,Electronics Trades Workers,49-2022,isco_triangulation
+3423,Electronics Trades Workers,27-4013,isco_triangulation
+3423,Electronics Trades Workers,49-2096,isco_triangulation
+3423,Electronics Trades Workers,27-4012,isco_triangulation
+3423,Electronics Trades Workers,49-9052,isco_triangulation
+3423,Electronics Trades Workers,49-2011,isco_triangulation
+3423,Electronics Trades Workers,49-2021,isco_triangulation
+3423,Electronics Trades Workers,27-4031,isco_triangulation
+3423,Electronics Trades Workers,27-4014,isco_triangulation
+3423,Electronics Trades Workers,49-2091,isco_triangulation
+3423,Electronics Trades Workers,27-4032,isco_triangulation
+3423,Electronics Trades Workers,49-9097,isco_triangulation
+3423,Electronics Trades Workers,49-2097,isco_triangulation
+3423,Electronics Trades Workers,27-4011,isco_triangulation
+2321,Architects and Landscape Architects,27-1025,isco_triangulation
+2321,Architects and Landscape Architects,27-1011,isco_triangulation
+2321,Architects and Landscape Architects,17-1011,isco_triangulation
+2321,Architects and Landscape Architects,17-2011,isco_triangulation
+3332,Plasterers,47-2044,isco_triangulation
+3332,Plasterers,47-2082,isco_triangulation
+5122,Practice Managers,43-6012,isco_triangulation
+5122,Practice Managers,11-3111,isco_triangulation
+5122,Practice Managers,11-9041,isco_triangulation
+5122,Practice Managers,43-6013,isco_triangulation
+5122,Practice Managers,43-1011,isco_triangulation
+5212,Secretaries,43-6014,isco_triangulation
+5212,Secretaries,43-6011,isco_triangulation
+5212,Secretaries,43-4111,isco_triangulation
+3311,Bricklayers and Stonemasons,47-2021,isco_triangulation
+3311,Bricklayers and Stonemasons,47-2022,isco_triangulation
+8322,Product Assemblers,51-2011,isco_triangulation
+8322,Product Assemblers,51-2091,isco_triangulation
+8322,Product Assemblers,51-2051,isco_triangulation
+8322,Product Assemblers,51-2031,isco_triangulation
+8322,Product Assemblers,51-2041,isco_triangulation
+8322,Product Assemblers,51-2023,isco_triangulation
+8322,Product Assemblers,51-2092,isco_triangulation
+4518,Other Personal Service Workers,39-3092,isco_triangulation
+4518,Other Personal Service Workers,39-4011,isco_triangulation
+4518,Other Personal Service Workers,39-5091,isco_triangulation
+4518,Other Personal Service Workers,39-3091,isco_triangulation
+4518,Other Personal Service Workers,39-9041,isco_triangulation
+4518,Other Personal Service Workers,39-9032,isco_triangulation
+4518,Other Personal Service Workers,39-4021,isco_triangulation
+4518,Other Personal Service Workers,39-5094,isco_triangulation
+4518,Other Personal Service Workers,39-4012,isco_triangulation
+4518,Other Personal Service Workers,39-5093,isco_triangulation
+4518,Other Personal Service Workers,39-5092,isco_triangulation
+4518,Other Personal Service Workers,39-4031,isco_triangulation
+4518,Other Personal Service Workers,39-3093,isco_triangulation
+7129,Other Stationary Plant Operators,53-7041,isco_triangulation
+7129,Other Stationary Plant Operators,43-5071,isco_triangulation
+7129,Other Stationary Plant Operators,43-4151,isco_triangulation
+7129,Other Stationary Plant Operators,43-5061,isco_triangulation
+7129,Other Stationary Plant Operators,53-7031,isco_triangulation
+7129,Other Stationary Plant Operators,51-3093,isco_triangulation
+7129,Other Stationary Plant Operators,53-4031,isco_triangulation
+7129,Other Stationary Plant Operators,53-7011,isco_triangulation
+7129,Other Stationary Plant Operators,43-5111,isco_triangulation
+7129,Other Stationary Plant Operators,53-4013,isco_triangulation
+7129,Other Stationary Plant Operators,53-6021,isco_triangulation
+7129,Other Stationary Plant Operators,49-9045,isco_triangulation
+7129,Other Stationary Plant Operators,53-4099,isco_triangulation
+7129,Other Stationary Plant Operators,53-4022,isco_triangulation
+7129,Other Stationary Plant Operators,53-4021,isco_triangulation
+7129,Other Stationary Plant Operators,53-7021,isco_triangulation
+2523,Dental Practitioners,29-1031,isco_triangulation
+2523,Dental Practitioners,29-1211,isco_triangulation
+1321,Corporate Services Managers,11-3031,isco_triangulation
+1321,Corporate Services Managers,11-3011,isco_triangulation
+1494,Transport Services Managers,11-3061,isco_triangulation
+1334,Manufacturers,11-9051,isco_triangulation
+1334,Manufacturers,11-3051,isco_triangulation
+2543,Nurse Managers,29-1141,isco_triangulation
+5992,Court and Legal Clerks,43-9031,isco_triangulation
+5992,Court and Legal Clerks,43-9051,isco_triangulation
+5992,Court and Legal Clerks,43-9071,isco_triangulation
+5992,Court and Legal Clerks,43-9061,isco_triangulation
+7123,Engineering Production Workers,51-4022,isco_triangulation
+7123,Engineering Production Workers,51-4011,isco_triangulation
+7123,Engineering Production Workers,47-2211,isco_triangulation
+7123,Engineering Production Workers,51-4035,isco_triangulation
+7123,Engineering Production Workers,51-4052,isco_triangulation
+7123,Engineering Production Workers,51-4191,isco_triangulation
+7123,Engineering Production Workers,51-4072,isco_triangulation
+7123,Engineering Production Workers,47-2171,isco_triangulation
+7123,Engineering Production Workers,51-4193,isco_triangulation
+7123,Engineering Production Workers,51-4021,isco_triangulation
+7123,Engineering Production Workers,51-4122,isco_triangulation
+7123,Engineering Production Workers,51-4194,isco_triangulation
+7123,Engineering Production Workers,51-4032,isco_triangulation
+7123,Engineering Production Workers,51-4012,isco_triangulation
+7123,Engineering Production Workers,51-4033,isco_triangulation
+7123,Engineering Production Workers,51-4051,isco_triangulation
+7123,Engineering Production Workers,51-4031,isco_triangulation
+7123,Engineering Production Workers,51-4081,isco_triangulation
+7123,Engineering Production Workers,51-4034,isco_triangulation
+7123,Engineering Production Workers,51-4023,isco_triangulation
+2222,Financial Dealers,13-2061,isco_triangulation
+2222,Financial Dealers,13-2041,isco_triangulation
+2222,Financial Dealers,13-2031,isco_triangulation
+2222,Financial Dealers,41-3031,isco_triangulation
+2222,Financial Dealers,13-2051,isco_triangulation
+6394,Ticket Salespersons,41-2011,isco_triangulation
+4421,Prison Officers,33-3052,isco_triangulation
+7121,"Crane, Hoist and Lift Operators",53-7011,isco_triangulation
+7121,"Crane, Hoist and Lift Operators",53-7021,isco_triangulation
+7121,"Crane, Hoist and Lift Operators",53-7031,isco_triangulation
+7121,"Crane, Hoist and Lift Operators",53-6021,isco_triangulation
+2325,Interior Designers,27-1011,isco_triangulation
+2325,Interior Designers,17-1011,isco_triangulation
+2325,Interior Designers,17-2011,isco_triangulation
+3613,Veterinary Nurses,39-2021,isco_triangulation
+6112,Insurance Agents,41-3021,isco_triangulation
+6112,Insurance Agents,43-9041,isco_triangulation
+2336,Mining Engineers,17-2151,isco_triangulation
+2336,Mining Engineers,17-2171,isco_triangulation
+2336,Mining Engineers,17-2121,isco_triangulation
+2113,Photographers,43-5031,isco_triangulation
+2113,Photographers,27-4021,isco_triangulation
+6212,ICT Sales Assistants,41-2021,isco_triangulation
+7119,Other Machine Operators,27-4013,isco_triangulation
+7119,Other Machine Operators,51-4023,isco_triangulation
+7119,Other Machine Operators,51-4051,isco_triangulation
+7119,Other Machine Operators,47-2161,isco_triangulation
+7119,Other Machine Operators,27-4012,isco_triangulation
+7119,Other Machine Operators,51-4022,isco_triangulation
+7119,Other Machine Operators,51-4191,isco_triangulation
+7119,Other Machine Operators,27-4032,isco_triangulation
+7119,Other Machine Operators,27-4014,isco_triangulation
+7119,Other Machine Operators,49-9045,isco_triangulation
+7119,Other Machine Operators,51-4032,isco_triangulation
+7119,Other Machine Operators,27-4031,isco_triangulation
+7119,Other Machine Operators,27-4011,isco_triangulation
+4524,Sportspersons,33-9093,isco_triangulation
+4524,Sportspersons,33-9092,isco_triangulation
+4524,Sportspersons,27-2022,isco_triangulation
+4524,Sportspersons,33-9091,isco_triangulation
+4524,Sportspersons,27-2023,isco_triangulation
+7219,Other Mobile Plant Operators,53-7041,isco_triangulation
+7219,Other Mobile Plant Operators,47-2073,isco_triangulation
+7219,Other Mobile Plant Operators,53-7031,isco_triangulation
+7219,Other Mobile Plant Operators,53-7032,isco_triangulation
+7219,Other Mobile Plant Operators,53-7011,isco_triangulation
+7219,Other Mobile Plant Operators,49-9045,isco_triangulation
+7219,Other Mobile Plant Operators,53-6021,isco_triangulation
+7219,Other Mobile Plant Operators,53-7021,isco_triangulation
+7219,Other Mobile Plant Operators,53-7033,isco_triangulation
+8213,Fencers,47-2051,isco_triangulation
+2246,Librarians,11-9121,isco_triangulation
+3321,Floor Finishers,47-2043,isco_triangulation
+3321,Floor Finishers,47-2042,isco_triangulation
+3211,Automotive Electricians,49-2094,isco_triangulation
+3211,Automotive Electricians,49-2095,isco_triangulation
+3211,Automotive Electricians,49-2093,isco_triangulation
+3211,Automotive Electricians,51-2022,isco_triangulation
+3211,Automotive Electricians,49-9012,isco_triangulation
+3211,Automotive Electricians,49-9011,isco_triangulation
+4314,Hotel Service Managers,39-1011,isco_triangulation
+4314,Hotel Service Managers,39-3011,isco_triangulation
+4314,Hotel Service Managers,39-1022,isco_triangulation
+4314,Hotel Service Managers,39-3012,isco_triangulation
+4314,Hotel Service Managers,39-3019,isco_triangulation
+4314,Hotel Service Managers,39-1021,isco_triangulation
+2514,Optometrists and Orthoptists,29-1122,isco_triangulation
+2711,Barristers,23-1012,isco_triangulation
+2711,Barristers,23-1011,isco_triangulation
+3124,"Electronic Engineering Draftspersons, Technicians",53-2031,isco_triangulation
+3124,"Electronic Engineering Draftspersons, Technicians",53-2021,isco_triangulation
+3124,"Electronic Engineering Draftspersons, Technicians",53-2022,isco_triangulation
+8219,Other Construction and Mining Labourers,47-2071,isco_triangulation
+8219,Other Construction and Mining Labourers,47-2051,isco_triangulation
+8219,Other Construction and Mining Labourers,47-2041,isco_triangulation
+8219,Other Construction and Mining Labourers,47-2072,isco_triangulation
+3331,Glaziers,47-2121,isco_triangulation
+2535,Surgeons,29-1216,isco_triangulation
+2535,Surgeons,29-1171,isco_triangulation
+2535,Surgeons,29-1241,isco_triangulation
+2535,Surgeons,29-1223,isco_triangulation
+2535,Surgeons,29-1212,isco_triangulation
+2535,Surgeons,29-1213,isco_triangulation
+2535,Surgeons,29-1218,isco_triangulation
+2535,Surgeons,29-1222,isco_triangulation
+2535,Surgeons,29-1229,isco_triangulation
+2535,Surgeons,29-1214,isco_triangulation
+2535,Surgeons,29-1224,isco_triangulation
+3233,Precision Metal Trades Workers,51-4193,isco_triangulation
+3233,Precision Metal Trades Workers,49-9063,isco_triangulation
+3233,Precision Metal Trades Workers,49-9094,isco_triangulation
+3233,Precision Metal Trades Workers,49-9062,isco_triangulation
+3233,Precision Metal Trades Workers,51-4194,isco_triangulation
+3233,Precision Metal Trades Workers,51-4192,isco_triangulation
+3233,Precision Metal Trades Workers,51-4031,isco_triangulation
+3233,Precision Metal Trades Workers,49-9064,isco_triangulation
+3233,Precision Metal Trades Workers,51-4111,isco_triangulation
+3233,Precision Metal Trades Workers,51-4062,isco_triangulation
+2534,Psychiatrists,29-1216,isco_triangulation
+2534,Psychiatrists,29-1171,isco_triangulation
+2534,Psychiatrists,29-1241,isco_triangulation
+2534,Psychiatrists,29-1223,isco_triangulation
+2534,Psychiatrists,29-1212,isco_triangulation
+2534,Psychiatrists,29-1213,isco_triangulation
+2534,Psychiatrists,29-1218,isco_triangulation
+2534,Psychiatrists,29-1222,isco_triangulation
+2534,Psychiatrists,29-1229,isco_triangulation
+2534,Psychiatrists,29-1214,isco_triangulation
+2534,Psychiatrists,29-1224,isco_triangulation
+2532,Anaesthetists,29-1216,isco_triangulation
+2532,Anaesthetists,29-1171,isco_triangulation
+2532,Anaesthetists,29-1241,isco_triangulation
+2532,Anaesthetists,29-1223,isco_triangulation
+2532,Anaesthetists,29-1212,isco_triangulation
+2532,Anaesthetists,29-1213,isco_triangulation
+2532,Anaesthetists,29-1218,isco_triangulation
+2532,Anaesthetists,29-1222,isco_triangulation
+2532,Anaesthetists,29-1229,isco_triangulation
+2532,Anaesthetists,29-1214,isco_triangulation
+2532,Anaesthetists,29-1224,isco_triangulation
+2331,Chemical and Materials Engineers,17-2131,isco_triangulation
+2331,Chemical and Materials Engineers,17-2041,isco_triangulation
+3126,Safety Inspectors,17-2131,isco_triangulation
+2334,Electronics Engineers,17-2072,isco_triangulation
+7112,Industrial Spraypainters,47-2142,isco_triangulation
+4513,Funeral Workers,39-3031,isco_triangulation
+3222,Sheetmetal Trades Workers,47-2211,isco_triangulation
+3132,Telecommunications Technical Specialists,53-2031,isco_triangulation
+3132,Telecommunications Technical Specialists,53-2021,isco_triangulation
+3132,Telecommunications Technical Specialists,53-2022,isco_triangulation
+4234,Special Care Workers,39-6012,isco_triangulation
+4234,Special Care Workers,39-9011,isco_triangulation
+4234,Special Care Workers,39-6011,isco_triangulation
+5616,Switchboard Operators,43-5032,isco_triangulation

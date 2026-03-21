@@ -227,28 +227,34 @@ function calculateImpactType(
   return { displacement, augmentation, impactType, impactLabel, badgeClass }
 }
 
-// Calculate confidence based on data sources
+// Calculate confidence based on data sources AND mapping method
 function calculateConfidence(
-  tasks: Task[]
-): { level: 'HIGH' | 'MEDIUM' | 'LOW'; label: string; badgeClass: string } {
+  tasks: Task[],
+  mappingConfidence?: { method: string; confidence: string } | null
+): { level: 'HIGH' | 'MEDIUM' | 'LOW'; label: string; badgeClass: string; method: string } {
   const sources = tasks.map(t => t.source)
   const anthropicCount = sources.filter(s => s === 'anthropic').length
   const onetCount = sources.filter(s => s === 'onet').length
   const syntheticCount = sources.filter(s => s === 'synthetic' || s === 'llm').length
   const total = tasks.length
 
-  // High: >50% from Anthropic/O*NET empirical data
+  // Check mapping method first (ISCO triangulation = higher confidence)
+  const isIscoMapped = mappingConfidence?.method === 'isco_triangulation'
+  
+  // High: ISCO mapped OR >50% from Anthropic/O*NET empirical data
   // Medium: Mixed sources
-  // Low: >50% synthetic
+  // Low: Unmapped + >50% synthetic
   const empiricalRatio = (anthropicCount + onetCount) / Math.max(total, 1)
   const syntheticRatio = syntheticCount / Math.max(total, 1)
 
-  if (empiricalRatio >= 0.5) {
-    return { level: 'HIGH', label: 'High', badgeClass: 'badge-success' }
+  if (isIscoMapped) {
+    return { level: 'HIGH', label: 'High', badgeClass: 'badge-success', method: 'ISCO Crosswalk' }
+  } else if (empiricalRatio >= 0.5) {
+    return { level: 'MEDIUM', label: 'Medium', badgeClass: 'badge-main', method: 'Empirical Match' }
   } else if (syntheticRatio >= 0.5) {
-    return { level: 'LOW', label: 'Low', badgeClass: 'badge-warning' }
+    return { level: 'LOW', label: 'Low', badgeClass: 'badge-warning', method: 'LLM Generated' }
   } else {
-    return { level: 'MEDIUM', label: 'Medium', badgeClass: 'badge-main' }
+    return { level: 'MEDIUM', label: 'Medium', badgeClass: 'badge-main', method: 'Mixed Sources' }
   }
 }
 
@@ -267,6 +273,7 @@ export default function OccupationClient() {
   const [occupation, setOccupation] = useState<Occupation | null>(null)
   const [tasks, setTasks] = useState<Task[]>([])
   const [projection, setProjection] = useState<JSAProjection | null>(null)
+  const [mappingConfidence, setMappingConfidence] = useState<{ method: string; confidence: string } | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -284,9 +291,10 @@ export default function OccupationClient() {
     Promise.all([
       fetch(`${API_URL}/api/occupations/${code}`),
       fetch(`${API_URL}/api/tasks/${code}`),
-      fetch('/data/jsa_projections.json')
+      fetch('/data/jsa_projections.json'),
+      fetch('/data/occupation_confidence.json')
     ])
-      .then(async ([occRes, tasksRes, projRes]) => {
+      .then(async ([occRes, tasksRes, projRes, confRes]) => {
         if (!occRes.ok || !tasksRes.ok) throw new Error('Load failed')
         const [occ, tasksData] = await Promise.all([occRes.json(), tasksRes.json()])
         setOccupation(occ)
@@ -296,6 +304,12 @@ export default function OccupationClient() {
         if (projRes.ok) {
           const projections = await projRes.json()
           setProjection(projections[code] || null)
+        }
+        
+        // Load mapping confidence (ISCO triangulation vs synthetic)
+        if (confRes.ok) {
+          const confidenceData = await confRes.json()
+          setMappingConfidence(confidenceData[code] || null)
         }
       })
       .catch(err => setError(err.message))
@@ -349,7 +363,7 @@ export default function OccupationClient() {
   const halfLife = Math.round(2 + (1 - (occupation.ai_exposure_weighted || 0)) * 18)
   const composite = calculateCompositeIndex(occupation, projection)
   const impact = calculateImpactType(tasks, occupation.ai_exposure_weighted || 0)
-  const confidence = calculateConfidence(tasks)
+  const confidence = calculateConfidence(tasks, mappingConfidence)
   const riskBand = getRiskBand(occupation.ai_exposure_weighted || 0)
 
   const getExposureBadge = () => {

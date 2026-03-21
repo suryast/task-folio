@@ -1,0 +1,1291 @@
+anzsco_code,anzsco_title,isco08_code,isco08_title,isco08_detail
+1,MANAGERS,,,
+111111,Chief Executive or Managing Director,1112.0,p,Senior government officials
+111111,Chief Executive or Managing Director,1114.0,p,Senior officials of special-interest organizations
+111111,Chief Executive or Managing Director,1120.0,p,Managing directors and chief executives
+111211,Corporate General Manager,1114.0,p,Senior officials of special-interest organizations
+111211,Corporate General Manager,1120.0,p,Managing directors and chief executives
+111211,Corporate General Manager,1112.0,p,Senior government officials
+111212,Defence Force Senior Officer,110.0,p,Commissioned armed forces officers
+111311,Local Government Legislator,1111.0,p,Legislators
+111312,Member of Parliament,1111.0,p,Legislators
+111399,Legislators nec,1111.0,p,Legislators
+121111,Aquaculture Farmer,1312.0,,Aquaculture and fisheries production managers
+121111,Aquaculture Farmer,6221.0,,Aquaculture workers
+121211,Cotton Grower,1311.0,p,Agricultural and forestry production managers
+121211,Cotton Grower,6111.0,p,Field crop and vegetable growers
+121212,Flower Grower,1311.0,p,Agricultural and forestry production managers
+121212,Flower Grower,6113.0,p,"Gardeners, horticultural and nursery growers"
+121213,Fruit or Nut Grower,1311.0,p,Agricultural and forestry production managers
+121213,Fruit or Nut Grower,6112.0,p,Tree and shrub crop growers
+121214,"Grain, Oilseed or Pasture Grower (Aus) / Field Crop Grower (NZ)",1311.0,p,Agricultural and forestry production managers
+121214,"Grain, Oilseed or Pasture Grower (Aus) / Field Crop Grower (NZ)",6111.0,p,Field crop and vegetable growers
+121215,Grape Grower,1311.0,p,Agricultural and forestry production managers
+121215,Grape Grower,6112.0,p,Tree and shrub crop growers
+121216,Mixed Crop Farmer,1311.0,p,Agricultural and forestry production managers
+121216,Mixed Crop Farmer,6114.0,,Mixed crop growers
+121217,Sugar Cane Grower,1311.0,p,Agricultural and forestry production managers
+121217,Sugar Cane Grower,6111.0,p,Field crop and vegetable growers
+121218,Turf Grower,6113.0,p,"Gardeners, horticultural and nursery growers"
+121221,Vegetable Grower (Aus) / Market Gardener (NZ),1311.0,p,Agricultural and forestry production managers
+121221,Vegetable Grower (Aus) / Market Gardener (NZ),6111.0,p,Field crop and vegetable growers
+121221,Vegetable Grower (Aus) / Market Gardener (NZ),6113.0,p,"Gardeners, horticultural and nursery growers"
+121299,Crop Farmers nec,6111.0,p,Field crop and vegetable growers
+121299,Crop Farmers nec,6112.0,p,Tree and shrub crop growers
+121299,Crop Farmers nec,6113.0,p,"Gardeners, horticultural and nursery growers"
+121311,Apiarist,1311.0,p,Agricultural and forestry production managers
+121311,Apiarist,6123.0,p,Apiarists and sericulturists
+121312,Beef Cattle Farmer,1311.0,p,Agricultural and forestry production managers
+121312,Beef Cattle Farmer,6121.0,p,Livestock and dairy producers
+121313,Dairy Cattle Farmer,1311.0,p,Agricultural and forestry production managers
+121313,Dairy Cattle Farmer,6121.0,p,Livestock and dairy producers
+121314,Deer Farmer,1311.0,p,Agricultural and forestry production managers
+121314,Deer Farmer,6121.0,p,Livestock and dairy producers
+121315,Goat Farmer,1311.0,p,Agricultural and forestry production managers
+121315,Goat Farmer,6121.0,p,Livestock and dairy producers
+121316,Horse Breeder,1311.0,p,Agricultural and forestry production managers
+121316,Horse Breeder,6121.0,p,Livestock and dairy producers
+121317,Mixed Livestock Farmer,1311.0,p,Agricultural and forestry production managers
+121317,Mixed Livestock Farmer,6121.0,p,Livestock and dairy producers
+121318,Pig Farmer,1311.0,p,Agricultural and forestry production managers
+121318,Pig Farmer,6121.0,p,Livestock and dairy producers
+121321,Poultry Farmer,1311.0,p,Agricultural and forestry production managers
+121321,Poultry Farmer,6122.0,,Poultry producers
+121322,Sheep Farmer,1311.0,p,Agricultural and forestry production managers
+121322,Sheep Farmer,6121.0,p,Livestock and dairy producers
+121399,Livestock Farmers nec,1311.0,p,Agricultural and forestry production managers
+121399,Livestock Farmers nec,6121.0,p,Livestock and dairy producers
+121399,Livestock Farmers nec,6123.0,p,Apiarists and sericulturists
+121399,Livestock Farmers nec,6129.0,p,Animal producers not elsewhere classified
+121411,Mixed Crop and Livestock Farmer,1311.0,p,Agricultural and forestry production managers
+121411,Mixed Crop and Livestock Farmer,6130.0,,Mixed crop and animal producers
+131112,Sales and Marketing Manager,1221.0,,Sales and marketing managers
+131113,Advertising Manager,1222.0,p,Advertising and public relations managers
+131114,Public Relations Manager,1222.0,p,Advertising and public relations managers
+132111,Corporate Services Manager,1219.0,p,Business services and administration managers not elsewhere classified
+132111,Corporate Services Manager,1211.0,p,Finance managers
+132211,Finance Manager,1211.0,p,Finance managers
+132311,Human Resource Manager,1212.0,,Human resource managers
+132411,Policy and Planning Manager,1213.0,,Policy and planning managers
+132511,Research and Development Manager,1223.0,,Research and development managers
+133111,Construction Project Manager,1323.0,p,Construction managers
+133111,Construction Project Manager,3123.0,p,Construction supervisors
+133112,Project Builder,1323.0,p,Construction managers
+133112,Project Builder,7111.0,,House builders
+133211,Engineering Manager,1349.0,p,Professional services managers not elsewhere classified
+133311,Importer or Exporter,1324.0,p,"Supply, distribution and related managers"
+133312,Wholesaler,1420.0,p,Retail and wholesale trade managers
+133411,Manufacturer,1321.0,p,Manufacturing managers
+133511,Production Manager (Forestry),1311.0,p,Agricultural and forestry production managers
+133512,Production Manager (Manufacturing),1321.0,p,Manufacturing managers
+133512,Production Manager (Manufacturing),3122.0,,Manufacturing supervisors
+133513,Production Manager (Mining),1322.0,,Mining managers
+133611,Supply and Distribution Manager,1324.0,p,"Supply, distribution and related managers"
+133612,Procurement Manager,1324.0,p,"Supply, distribution and related managers"
+134111,Child Care Centre Manager,1341.0,,Child care service managers
+134211,Medical Administrator (Aus) / Medical Superintendent (NZ),1342.0,p,Health service managers
+134212,Nursing Clinical Director,1342.0,p,Health service managers
+134213,Primary Health Organisation Manager,1342.0,p,Health service managers
+134214,Welfare Centre Manager,1344.0,p,Social welfare managers
+134299,Health and Welfare Services Managers nec,1342.0,p,Health service managers
+134299,Health and Welfare Services Managers nec,1343.0,p,Aged care service managers
+134299,Health and Welfare Services Managers nec,1344.0,p,Social welfare managers
+134311,School Principal,1345.0,p,Education managers
+134411,Faculty Head,1345.0,p,Education managers
+134412,Regional Education Manager,1345.0,p,Education managers
+134499,Education Managers nec,1345.0,p,Education managers
+135111,Chief Information Officer,1330.0,p,Information and communications technology service managers
+135112,ICT Project Manager,1330.0,p,Information and communications technology service managers
+135199,ICT Managers nec,1330.0,p,Information and communications technology service managers
+139111,Commissioned Defence Force Officer,110.0,p,Commissioned armed forces officers
+139112,Commissioned Fire Officer,1349.0,p,Professional services managers not elsewhere classified
+139113,Commissioned Police Officer,1349.0,p,Professional services managers not elsewhere classified
+139211,Senior Non-commissioned Defence Force Member,210.0,,Non-commissioned armed forces officers
+139911,Arts Administrator or Manager,1349.0,p,Professional services managers not elsewhere classified
+139912,Environmental Manager,1349.0,p,Professional services managers not elsewhere classified
+139913,Laboratory Manager,1349.0,p,Professional services managers not elsewhere classified
+139914,Quality Assurance Manager,1213.0,p,Policy and planning managers
+139914,Quality Assurance Manager,2421.0,p,Management and organisation analysts
+139915,Sports Administrator,1349.0,p,Professional services managers not elsewhere classified
+139999,Specialist Managers nec,1112.0,p,Senior government officials
+139999,Specialist Managers nec,1321.0,p,Manufacturing managers
+139999,Specialist Managers nec,1349.0,p,Professional services managers not elsewhere classified
+139999,Specialist Managers nec,2636.0,p,Religious professionals
+141111,Cafe or Restaurant Manager,1412.0,,Restaurant managers
+141211,Caravan Park and Camping Ground Manager,1439.0,p,Services managers not elsewhere classified
+141311,Hotel or Motel Manager,1411.0,p,Hotel managers
+141411,Licensed Club Manager,1439.0,p,Services managers not elsewhere classified
+141911,Bed and Breakfast Operator,5152.0,p,Domestic housekeepers
+141912,Retirement Village Manager,1343.0,p,Aged care service managers
+141999,Accommodation and Hospitality Managers nec,1411.0,p,Hotel managers
+141999,Accommodation and Hospitality Managers nec,1439.0,p,Services managers not elsewhere classified
+142111,Retail Manager (General),1420.0,p,Retail and wholesale trade managers
+142111,Retail Manager (General),5221.0,p,Shopkeepers
+142112,Antique Dealer,1420.0,p,Retail and wholesale trade managers
+142112,Antique Dealer,5221.0,p,Shopkeepers
+142113,Betting Agency Manager,1420.0,p,Retail and wholesale trade managers
+142113,Betting Agency Manager,5221.0,p,Shopkeepers
+142114,Hair or Beauty Salon Manager,1420.0,p,Retail and wholesale trade managers
+142114,Hair or Beauty Salon Manager,5221.0,p,Shopkeepers
+142115,Post Office Manager,1420.0,p,Retail and wholesale trade managers
+142115,Post Office Manager,5221.0,p,Shopkeepers
+142116,Travel Agency Manager,1439.0,p,Services managers not elsewhere classified
+149111,Amusement Centre Manager,1431.0,p,"Sports, recreation and cultural centre managers"
+149112,Fitness Centre Manager,1431.0,p,"Sports, recreation and cultural centre managers"
+149113,Sports Centre Manager,1431.0,p,"Sports, recreation and cultural centre managers"
+149211,Call or Contact Centre Manager,1439.0,p,Services managers not elsewhere classified
+149212,Customer Service Manager,1219.0,p,Business services and administration managers not elsewhere classified
+149212,Customer Service Manager,1439.0,p,Services managers not elsewhere classified
+149311,Conference and Event Organiser,3332.0,p,Conference and event planners
+149311,Conference and Event Organiser,1439.0,p,Professional Service Managers nec
+149411,Fleet Manager,1324.0,p,"Supply, distribution and related managers"
+149412,Railway Station Manager,1324.0,p,"Supply, distribution and related managers"
+149413,Transport Company Manager,1324.0,p,"Supply, distribution and related managers"
+149911,Boarding Kennel or Cattery Operator,1439.0,p,Services managers not elsewhere classified
+149912,Cinema or Theatre Manager,1431.0,p,"Sports, recreation and cultural centre managers"
+149913,Facilities Manager,1219.0,p,Business services and administration managers not elsewhere classified
+149913,Facilities Manager,1439.0,p,Services managers not elsewhere classified
+149914,Financial Institution Branch Manager,1346.0,,Financial and insurance services branch managers
+149915,Equipment Hire Manager,1439.0,p,Services managers not elsewhere classified
+149999,"Hospitality, Retail and Service Managers nec",1439.0,p,Services managers not elsewhere classified
+149999,"Hospitality, Retail and Service Managers nec",3324.0,p,Trade brokers
+2,PROFESSIONALS,,,
+211111,Actor,2655.0,p,Actors
+211112,Dancer or Choreographer,2653.0,,Dancers and choreographers
+211113,Entertainer or Variety Artist,2659.0,p,Creative and performing artists not elsewhere classified
+211113,Entertainer or Variety Artist,2652.0,p,"Musicians, singers and composers"
+211199,"Actors, Dancers and Other Entertainers nec",2655.0,p,Actors
+211199,"Actors, Dancers and Other Entertainers nec",2659.0,p,Creative and performing artists not elsewhere classified
+211199,"Actors, Dancers and Other Entertainers nec",3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+211211,Composer,2652.0,p,"Musicians, singers and composers"
+211212,Music Director,2652.0,p,"Musicians, singers and composers"
+211213,Musician (Instrumental),2652.0,p,"Musicians, singers and composers"
+211214,Singer,2652.0,p,"Musicians, singers and composers"
+211299,Music Professionals nec,2652.0,p,"Musicians, singers and composers"
+211311,Photographer,3431.0,p,Photographers
+211411,Painter (Visual Arts),2651.0,p,Visual artists
+211412,Potter or Ceramic Artist,2651.0,p,Visual artists
+211412,Potter or Ceramic Artist,7314.0,p,Potters and related workers
+211413,Sculptor,2651.0,p,Visual artists
+211499,Visual Arts and Crafts Professionals nec,7318.0,p,"Handicraft workers in textile, leather and related materials"
+211499,Visual Arts and Crafts Professionals nec,7317.0,p,"Handicraft workers in wood, basketry and related materials"
+211499,Visual Arts and Crafts Professionals nec,7319.0,,Handicraft workers not elsewhere classified
+212111,Artistic Director,2654.0,p,"Film, stage and related directors and producers"
+212112,Media Producer (excluding Video),2654.0,p,"Film, stage and related directors and producers"
+212113,Radio Presenter,2656.0,p,"Announcers on radio, television and other media"
+212114,Television Presenter,2656.0,p,"Announcers on radio, television and other media"
+212211,Author,2641.0,p,Authors and related writers
+212212,Book or Script Editor,2641.0,p,Authors and related writers
+212311,"Art Director (Film, Television or Stage)",2654.0,p,"Film, stage and related directors and producers"
+212312,"Director (Film, Television, Radio or Stage)",2654.0,p,"Film, stage and related directors and producers"
+212313,Director of Photography,2654.0,p,"Film, stage and related directors and producers"
+212314,Film and Video Editor,2654.0,p,"Film, stage and related directors and producers"
+212315,Program Director (Television or Radio),2654.0,p,"Film, stage and related directors and producers"
+212316,Stage Manager,3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+212317,Technical Director,2654.0,p,"Film, stage and related directors and producers"
+212318,Video Producer,2654.0,p,"Film, stage and related directors and producers"
+212399,"Film, Television, Radio and Stage Directors nec",2654.0,p,"Film, stage and related directors and producers"
+212411,Copywriter,2431.0,p,Advertising and marketing professionals
+212411,Copywriter,2432.0,p,Public relations professionals
+212412,Newspaper or Periodical Editor,2642.0,p,Journalists
+212413,Print Journalist,2642.0,p,Journalists
+212414,Radio Journalist,2642.0,p,Journalists
+212415,Technical Writer,2641.0,p,Authors and related writers
+212416,Television Journalist,2642.0,p,Journalists
+212499,Journalists and Other Writers nec,2641.0,p,Authors and related writers
+212499,Journalists and Other Writers nec,2642.0,p,Journalists
+221111,Accountant (General),2411.0,p,Accountants
+221112,Management Accountant,2411.0,p,Accountants
+221113,Taxation Accountant,2411.0,p,Accountants
+221211,Company Secretary,1211.0,p,Finance managers
+221212,Corporate Treasurer,1211.0,p,Finance managers
+221213,External Auditor,2411.0,p,Accountants
+221214,Internal Auditor,2411.0,p,Accountants
+222111,Commodities Trader,3324.0,p,Trade brokers
+222112,Finance Broker,3311.0,p,Securities and finance dealers and brokers
+222113,Insurance Broker,3321.0,,Insurance representatives
+222199,Financial Brokers nec,3311.0,p,Securities and finance dealers and brokers
+222199,Financial Brokers nec,3339.0,p,Business service agents not elsewhere classified
+222211,Financial Market Dealer,3311.0,p,Securities and finance dealers and brokers
+222212,Futures Trader,3324.0,p,Trade brokers
+222213,Stockbroking Dealer,3311.0,p,Securities and finance dealers and brokers
+222299,Financial Dealers nec,2413.0,p,Financial analysts
+222299,Financial Dealers nec,3311.0,p,Securities and finance dealers and brokers
+222311,Financial Investment Adviser,2412.0,p,Financial and investment advisers
+222312,Financial Investment Manager,2412.0,p,Financial and investment advisers
+223111,Human Resource Adviser,2423.0,p,Personnel and career professionals
+223112,Recruitment Consultant,2423.0,p,Personnel and career professionals
+223112,Recruitment Consultant,3333.0,,Employment agents and contractors
+223112,Recruitment Consultant,3339.0,p,Business service agents not elsewhere classified
+223113,Workplace Relations Adviser,2423.0,,Personnel and career professionals
+223211,ICT Trainer,2356.0,,Information technology trainers
+223311,Training and Development Professional,2424.0,,Training and staff development professionals
+224111,Actuary,2120.0,p,"Mathematicians, actuaries and statisticians"
+224112,Mathematician,2120.0,p,"Mathematicians, actuaries and statisticians"
+224113,Statistician,2120.0,p,"Mathematicians, actuaries and statisticians"
+224211,Archivist,2621.0,p,Archivists and curators
+224212,Gallery or Museum Curator,2621.0,p,Archivists and curators
+224213,Health Information Manager,3252.0,p,Medical records and health information technicians
+224214,Records Manager,2621.0,p,Archivists and curators
+224214,Records Manager,2622.0,p,Librarians and related information professionals
+224311,Economist,2631.0,p,Economists
+224411,Intelligence Officer,2422.0,p,Policy administration professionals
+224412,Policy Analyst,2422.0,p,Policy administration professionals
+224511,Land Economist,2631.0,p,Economists
+224512,Valuer,3315.0,p,Valuers and loss assessors
+224611,Librarian,1349.0,p,Professional services managers not elsewhere classified
+224611,Librarian,2622.0,,Librarians and related information professionals
+224711,Management Consultant,2421.0,p,Management and organization analysts
+224712,Organisation and Methods Analyst,2421.0,p,Management and organization analysts
+224911,Electorate Officer,2422.0,p,Policy administration professionals
+224912,Liaison Officer,3339.0,p,Business service agents not elsewhere classified
+224912,Liaison Officer,3412.0,p,Social work associate professionals
+224912,Liaison Officer,2432.0,p,Public relations professionals
+224913,Migration Agent (Aus) / Immigration Consultant (NZ),2619.0,p,Legal professionals not elsewhere classified
+224914,Patents Examiner,3359.0,p,Government regulatory associate professionals not elsewhere classified
+224999,Information and Organisation Professionals nec,3339.0,p,Business service agents not elsewhere classified
+224999,Information and Organisation Professionals nec,2622.0,p,Librarians and related information professionals
+224999,Information and Organisation Professionals nec,3412.0,p,Social work associate professionals
+225111,Advertising Specialist,2431.0,p,Advertising and marketing professionals
+225112,Market Research Analyst,2431.0,p,Advertising and marketing professionals
+225113,Marketing Specialist,2431.0,p,Advertising and marketing professionals
+225211,ICT Account Manager,2434.0,p,Information and communication technology sales professionals
+225212,ICT Business Development Manager,2434.0,p,Information and communication technology sales professionals
+225213,ICT Sales Representative,2434.0,p,Information and communication technology sales professionals
+225311,Public Relations Professional,2432.0,p,Public relations professionals
+225411,Sales Representative (Industrial Products),2433.0,p,Technical and medical sales professionals (excluding ICT)
+225412,Sales Representative (Medical and Pharmaceutical Products),2433.0,p,Technical and medical sales professionals (excluding ICT)
+225499,Technical Sales Representatives nec,2433.0,p,Technical and medical sales professionals (excluding ICT)
+231111,Aeroplane Pilot,3153.0,p,Aircraft pilots and related associate professionals
+231112,Air Traffic Controller,3154.0,,Air traffic controllers
+231113,Flying Instructor,3153.0,p,Aircraft pilots and related associate professionals
+231114,Helicopter Pilot,3153.0,p,Aircraft pilots and related associate professionals
+231199,Air Transport Professionals nec,3153.0,p,Aircraft pilots and related associate professionals
+231211,Master Fisher,6222.0,p,Inland and coastal waters fishery workers
+231211,Master Fisher,6223.0,p,Deep-sea fishery workers
+231212,Ship's Engineer,3151.0,p,Ships' engineers
+231213,Ship's Master,3152.0,p,Ships' deck officers and pilots
+231214,Ship's Officer,3152.0,p,Ships' deck officers and pilots
+231215,Marine Surveyor,3115.0,p,Mechanical engineering technicians
+231299,Marine Transport Professionals nec,3152.0,p,Ships' deck officers and pilots
+232111,Architect,2161.0,p,Building architects
+232112,Landscape Architect,2162.0,,Landscape architects
+232212,Surveyor,2165.0,p,Cartographers and surveyors
+232213,Cartographer,2165.0,p,Cartographers and surveyors
+232214,Other Spatial Scientist,2165.0,p,Cartographers and surveyors
+232311,Fashion Designer,2163.0,p,Product and garment designers
+232312,Industrial Designer,2163.0,p,Product and garment designers
+232313,Jewellery Designer,2163.0,p,Product and garment designers
+232411,Graphic Designer,2166.0,p,Graphic and multimedia designers
+232412,Illustrator,2166.0,p,Graphic and multimedia designers
+232412,Illustrator,2651.0,p,Visual artists
+232413,Multimedia Designer,2166.0,p,Graphic and multimedia designers
+232414,Web Designer,2166.0,p,Graphic and multimedia designers
+232511,Interior Designer,2161.0,p,Building architects
+232511,Interior Designer,3432.0,p,Interior designers and decorators
+232611,Urban and Regional Planner,2164.0,,Town and traffic planners
+233111,Chemical Engineer,2145.0,p,Chemical engineers
+233112,Materials Engineer,2149.0,p,Engineering professionals not elsewhere classified
+233211,Civil Engineer,2142.0,p,Civil engineers
+233212,Geotechnical Engineer,2142.0,p,Civil engineers
+233213,Quantity Surveyor,2149.0,p,Engineering professionals not elsewhere classified
+233214,Structural Engineer,2142.0,p,Civil engineers
+233215,Transport Engineer,2142.0,p,Civil engineers
+233311,Electrical Engineer,2151.0,,Electrical engineers
+233411,Electronics Engineer,2152.0,,Electronics engineers
+233511,Industrial Engineer,2141.0,p,Industrial and production engineers
+233511,Industrial Engineer,2149.0,p,Engineering professionals not elsewhere classified
+233512,Mechanical Engineer,2144.0,p,Mechanical engineers
+233513,Production or Plant Engineer,2141.0,p,Industrial and production engineers
+233611,Mining Engineer (excluding Petroleum),2146.0,p,"Mining engineers, metallurgists and related professionals"
+233612,Petroleum Engineer,2146.0,p,"Mining engineers, metallurgists and related professionals"
+233911,Aeronautical Engineer,2144.0,p,Mechanical engineers
+233912,Agricultural Engineer,2144.0,p,Mechanical engineers
+233912,Agricultural Engineer,2149.0,p,Engineering professionals not elsewhere classified
+233913,Biomedical Engineer,2149.0,p,Engineering professionals not elsewhere classified
+233914,Engineering Technologist,2141.0,p,Industrial and production engineers
+233914,Engineering Technologist,2142.0,p,Civil engineers
+233914,Engineering Technologist,2144.0,p,Mechanical engineers
+233914,Engineering Technologist,2145.0,p,Chemical engineers
+233914,Engineering Technologist,2146.0,p,"Mining engineers, metallurgists and related professionals"
+233914,Engineering Technologist,2149.0,p,Engineering professionals not elsewhere classified
+233914,Engineering Technologist,2151.0,p,Electrical engineers
+233914,Engineering Technologist,2152.0,p,Electronics engineers
+233915,Environmental Engineer,2143.0,p,Environmental engineers
+233916,Naval Architect (Aus) / Marine Designer (NZ),2144.0,p,Mechanical engineers
+233999,Engineering Professionals nec,2149.0,p,Engineering professionals not elsewhere classified
+234111,Agricultural Consultant,2132.0,p,"Farming, forestry and fisheries advisers"
+234112,Agricultural Scientist,2132.0,p,"Farming, forestry and fisheries advisers"
+234113,Forester (Aus) / Forest Scientist (NZ),2132.0,p,"Farming, forestry and fisheries advisers"
+234211,Chemist,2113.0,,Chemists
+234212,Food Technologist,2145.0,p,Chemical engineers
+234213,Wine Maker,2145.0,p,Chemical engineers
+234311,Conservation Officer,2133.0,p,Environmental protection professionals
+234312,Environmental Consultant,2133.0,p,Environmental protection professionals
+234313,Environmental Research Scientist,2133.0,p,Environmental protection professionals
+234314,Park Ranger,2133.0,p,Environmental protection professionals
+234314,Park Ranger,5419.0,p,Protective services workers not elsewhere classified
+234399,Environmental Scientists nec,2132.0,p,"Farming, forestry and fisheries advisers"
+234399,Environmental Scientists nec,2133.0,p,Environmental protection professionals
+234411,Geologist,2114.0,p,Geologists and geophysicists
+234412,Geophysicist,2114.0,p,Geologists and geophysicists
+234413,Hydrogeologist,2114.0,p,Geologists and geophysicists
+234511,Life Scientist (General),2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234513,Biochemist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234514,Biotechnologist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234515,Botanist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234516,Marine Biologist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234517,Microbiologist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234518,Zoologist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234599,Life Scientists nec,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234611,Medical Laboratory Scientist,2131.0,p,"Biologists, botanists, zoologists and related professionals"
+234611,Medical Laboratory Scientist,3212.0,p,Medical and pathology laboratory technicians
+234711,Veterinarian,2250.0,,Veterinarians
+234911,Conservator,2621.0,p,Archivists and curators
+234912,Metallurgist,2146.0,p,"Mining engineers, metallurgists and related professionals"
+234913,Meteorologist,2112.0,,Meteorologists
+234914,Physicist,2111.0,p,Physicists and astronomers
+234915,Exercise Physiologist,2269.0,p,Health professionals not elsewhere classified 
+234999,Natural and Physical Science Professionals nec,2146.0,p,"Mining engineers, metallurgists and related professionals"
+234999,Natural and Physical Science Professionals nec,2269.0,p,Health professionals not elsewhere classified
+241111,Early Childhood (Pre-primary School) Teacher,2342.0,p,Early childhood educators
+241112,Kaiako Kohanga Reo (Mäori Language Nest Teacher),2342.0,p,Early childhood educators
+241211,Kaiako Kura Kaupapa Mäori (Mäori-medium Primary School Teacher),2341.0,p,Primary school teachers
+241212,Pouako Kura Kaupapa Mäori (Mäori-medium Primary School Senior Teacher),2341.0,p,Primary school teachers
+241213,Primary School Teacher,2341.0,p,Primary school teachers
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2330.0,p,Secondary education teachers
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2341.0,p,Primary school teachers
+241411,Secondary School Teacher,2330.0,p,Secondary education teachers
+241511,Special Needs Teacher,2352.0,p,Special needs teachers
+241512,Teacher of the Hearing Impaired,2352.0,p,Special needs teachers
+241513,Teacher of the Sight Impaired,2352.0,p,Special needs teachers
+241599,Special Education Teachers nec,2352.0,p,Special needs teachers
+242111,University Lecturer,2310.0,p,University and higher education teachers
+242112,University Tutor,2310.0,p,University and higher education teachers
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2320.0,p,Vocational education teachers
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310.0,p,University and higher education teachers
+249111,Education Adviser,2351.0,p,Education methods specialists
+249112,Education Reviewer,2351.0,p,Education methods specialists
+249211,Art Teacher (Private Tuition),2355.0,p,Other arts teachers
+249212,Dance Teacher (Private Tuition),2355.0,p,Other arts teachers
+249213,Drama Teacher (Private Tuition),2355.0,p,Other arts teachers
+249214,Music Teacher (Private Tuition),2354.0,,Other music teachers
+249299,Private Tutors and Teachers nec ,2353.0,p,Other language teachers
+249299,Private Tutors and Teachers nec,2359.0,p,Teaching professionals not elsewhere classified
+249311,Teacher of English to Speakers of Other Languages,2353.0,p,Other language teachers
+251111,Dietitian,2265.0,p,Dieticians and nutritionists
+251112,Nutritionist,2265.0,p,Dieticians and nutritionists
+251211,Medical Diagnostic Radiographer,3211.0,p,Medical imaging and therapeutic equipment technicians
+251212,Medical Radiation Therapist,3211.0,p,Medical imaging and therapeutic equipment technicians
+251213,Nuclear Medicine Technologist,3211.0,p,Medical imaging and therapeutic equipment technicians
+251214,Sonographer,3211.0,p,Medical imaging and therapeutic equipment technicians
+251311,Environmental Health Officer,2263.0,p,Environmental and occupational health and hygiene professionals
+251311,Environmental Health Officer,3257.0,p ,Environmental and occupational health inspectors and associates
+251312,Occupational Health and Safety Adviser,2263.0,p,Environmental and occupational health and hygiene professionals
+251411,Optometrist,2267.0,p,Optometrists and ophthalmic opticians
+251412,Orthoptist,2267.0,p,Optometrists and ophthalmic opticians
+251511,Hospital Pharmacist,2262.0,p,Pharmacists
+251512,Industrial Pharmacist,2262.0,p,Pharmacists
+251513,Retail Pharmacist,2262.0,p,Pharmacists
+251911,Health Promotion Officer,3253.0,p,Community health workers
+251912,Orthotist or Prosthetist,3214.0,p,Medical and dental prosthetic technicians
+251999,Health Diagnostic and Promotion Professionals nec,2269.0,p,Health professionals not elsewhere classified
+252111,Chiropractor,2269.0,p,Health professionals not elsewhere classified
+252112,Osteopath,2269.0,p,Health professionals not elsewhere classified
+252211,Acupuncturist,2230.0,p,Traditional and complementary medicine professionals
+252212,Homoeopath,2230.0,p,Traditional and complementary medicine professionals
+252213,Naturopath,2230.0,p,Traditional and complementary medicine professionals
+252214,Traditional Chinese Medicine Practitioner,2230.0,p,Traditional and complementary medicine professionals
+252215,Traditional Mäori Health Practitioner,2230.0,p,Traditional and complementary medicine professionals
+252299,Complementary Health Therapists nec,2230.0,p,Traditional and complementary medicine professionals
+252299,Complementary Health Therapists nec,2269.0,p,Health professionals not elsewhere classified
+252299,Complementary Health Therapists nec,3259.0,p,Health associate professionals not elsewhere classified
+252311,Dental Specialist,2261.0,p,Dentists
+252312,Dentist,2261.0,p,Dentists
+252411,Occupational Therapist,2269.0,p,Health professionals not elsewhere classified
+252511,Physiotherapist,2264.0,,Physiotherapists 
+252611,Podiatrist,2269.0,p,Health professionals not elsewhere classified
+252711,Audiologist,2266.0,p,Audiologists and speech therapists
+252712,Speech Pathologist (Aus) \ Speech Language Therapist (NZ),2266.0,p,Audiologists and speech therapists
+253111,General Practitioner,2211.0,p,Generalist medical practitioners 
+253112,Resident Medical Officer,2211.0,p,Generalist medical practitioners 
+253211,Anaesthetist,2212.0,p,Specialist medical practitioners 
+253311,Specialist Physician (General Medicine),2212.0,p,Specialist medical practitioners 
+253312,Cardiologist,2212.0,p,Specialist medical practitioners 
+253313,Clinical Haematologist,2212.0,p,Specialist medical practitioners 
+253314,Medical Oncologist,2212.0,p,Specialist medical practitioners 
+253315,Endocrinologist,2212.0,p,Specialist medical practitioners 
+253316,Gastroenterologist,2212.0,p,Specialist medical practitioners 
+253317,Intensive Care Specialist,2212.0,p,Specialist medical practitioners 
+253318,Neurologist,2212.0,p,Specialist medical practitioners 
+253321,Paediatrician,2212.0,p,Specialist medical practitioners 
+253322,Renal Medicine Specialist,2212.0,p,Specialist medical practitioners 
+253323,Rheumatologist,2212.0,p,Specialist medical practitioners 
+253324,Thoracic Medicine Specialist,2212.0,p,Specialist medical practitioners 
+253399,Specialist Physicians nec,2212.0,p,Specialist medical practitioners 
+253411,Psychiatrist,2212.0,p,Specialist medical practitioners 
+253511,Surgeon (General),2212.0,p,Specialist medical practitioners 
+253512,Cardiothoracic Surgeon,2212.0,p,Specialist medical practitioners 
+253513,Neurosurgeon,2212.0,p,Specialist medical practitioners 
+253514,Orthopaedic Surgeon,2212.0,p,Specialist medical practitioners 
+253515,Otorhinolaryngologist,2212.0,p,Specialist medical practitioners 
+253516,Paediatric Surgeon,2212.0,p,Specialist medical practitioners 
+253517,Plastic and Reconstructive Surgeon,2212.0,p,Specialist medical practitioners 
+253518,Urologist,2212.0,p,Specialist medical practitioners 
+253521,Vascular Surgeon,2212.0,p,Specialist medical practitioners 
+253911,Dermatologist,2212.0,p,Specialist medical practitioners 
+253912,Emergency Medicine Specialist,2212.0,p,Specialist medical practitioners 
+253913,Obstetrician and Gynaecologist,2212.0,p,Specialist medical practitioners 
+253914,Ophthalmologist,2212.0,p,Specialist medical practitioners 
+253915,Pathologist,2212.0,p,Specialist medical practitioners 
+253917,Diagnostic and Interventional Radiologist,2212.0,p,Specialist medical practitioners 
+253918,Radiation Oncologist,2212.0,p,Specialist medical practitioners 
+253999,Medical Practitioners nec,2212.0,p,Specialist medical practitioners 
+254111,Midwife,2222.0,,Midwifery professionals
+254211,Nurse Educator,2221.0,p,Nursing professionals
+254212,Nurse Researcher,2221.0,p,Nursing professionals
+254311,Nurse Manager,2221.0,p,Nursing professionals
+254411,Nurse Practitioner,2221.0,p,Nursing professionals
+254412,Registered Nurse (Aged Care),2221.0,p,Nursing professionals
+254413,Registered Nurse (Child and Family Health),2221.0,p,Nursing professionals
+254414,Registered Nurse (Community Health),2221.0,p,Nursing professionals
+254415,Registered Nurse (Critical Care and Emergency),2221.0,p,Nursing professionals
+254416,Registered Nurse (Developmental Disability),2221.0,p,Nursing professionals
+254417,Registered Nurse (Disability and Rehabilitation),2221.0,p,Nursing professionals
+254418,Registered Nurse (Medical),2221.0,p,Nursing professionals
+254421,Registered Nurse (Medical Practice),2221.0,p,Nursing professionals
+254422,Registered Nurse (Mental Health),2221.0,p,Nursing professionals
+254423,Registered Nurse (Perioperative),2221.0,p,Nursing professionals
+254424,Registered Nurse (Surgical),2221.0,p,Nursing professionals
+254425,Registered Nurse (Paediatrics),2221.0,p,Nursing professionals
+254499,Registered Nurses nec,2221.0,p,Nursing professionals
+261111,ICT Business Analyst,2511.0,p,Systems analysts
+261112,Systems Analyst,2511.0,p,Systems analysts
+261211,Multimedia Specialist,2513.0,p,Web and multimedia developers
+261212,Web Developer,2513.0,p,Web and multimedia developers
+261311,Analyst Programmer,2512.0,p,Software developers
+261312,Developer Programmer,2514.0,,Applications programmers
+261313,Software Engineer,2512.0,,Software developers
+261314,Software Tester,2519.0,p,Software and applications developers and analysts not elsewhere classified
+261399,Software and Applications Programmers nec,2519.0,p,Software and applications developers and analysts not elsewhere classified
+262111,Database Administrator,2521.0,,Database designers and administrators
+262112,ICT Security Specialist,2529.0,,Database and network professionals not elsewhere classified
+262113,Systems Administrator,2522.0,p,Systems administrators
+263111,Computer Network and Systems Engineer,2523.0,p,Computer network professionals
+263112,Network Administrator,2522.0,p,Systems administrators
+263113,Network Analyst,2523.0,p,Computer network professionals
+263211,ICT Quality Assurance Engineer,2519.0,p,Software and applications developers and analysts not elsewhere classified
+263212,ICT Support Engineer,2519.0,p,Software and applications developers and analysts not elsewhere classified
+263213,ICT Systems Test Engineer,2519.0,p,Software and applications developers and analysts not elsewhere classified
+263299,ICT Support and Test Engineers nec,2519.0,p,Software and applications developers and analysts not elsewhere classified
+263311,Telecommunications Engineer,2153.0,p,Telecommunications engineers
+263312,Telecommunications Network Engineer,2153.0,p,Telecommunications engineers
+271111,Barrister,2611.0,p,Lawyers
+271211,Judge,2612.0,p,Judges
+271212,Magistrate,2612.0,p,Judges
+271213,Tribunal Member,2619.0,p,Legal professionals not elsewhere classified
+271214,Intellectual Property Lawyer,2611.0,p,Lawyers
+271299,Judicial and Other Legal Professionals nec,2619.0,p,Legal professionals not elsewhere classified
+271311,Solicitor,2611.0,p,Lawyers
+272111,Careers Counsellor,2423.0,p,Personnel and career professionals
+272112,Drug and Alcohol Counsellor,2635.0,p,Social work and counselling professionals
+272113,Family and Marriage Counsellor,2635.0,p,Social work and counselling professionals
+272114,Rehabilitation Counsellor,2635.0,p,Social work and counselling professionals
+272115,Student Counsellor,2359.0,p,Teaching professionals not elsewhere classified
+272199,Counsellors nec,2635.0,p,Social work and counselling professionals
+272211,Minister of Religion,2636.0,,Religious professionals
+272211,Minister of Religion,3413.0,p,Religious associate professionals
+272311,Clinical Psychologist,2634.0,p,Psychologists
+272312,Educational Psychologist,2634.0,p,Psychologists
+272313,Organisational Psychologist,2634.0,p,Psychologists
+272314,Psychotherapist,2634.0,p,Psychologists
+272399,Psychologists nec,2634.0,p,Psychologists
+272411,Historian,2633.0,p,"Philosophers, historians and political scientists"
+272412,Interpreter,2643.0,p,"Translators, interpreters and other linguists"
+272413,Translator,2643.0,p,"Translators, interpreters and other linguists"
+272414,Archaeologist,2632.0,p,"Sociologists, anthropologists and related professionals"
+272499,Social Professionals nec,2632.0,p,"Sociologists, anthropologists and related professionals"
+272499,Social Professionals nec,2633.0,p,"Philosophers, historians and political scientists"
+272499,Social Professionals nec,2643.0,p,"Translators, interpreters and other linguists"
+272511,Social Worker,2635.0,p,Social work and counselling professionals
+272611,Community Arts Worker,2635.0,p,Social work and counselling professionals
+272612,Recreation Officer (Aus) / Recreation Coordinator (NZ),2635.0,p,Social work and counselling professionals
+272613,Welfare Worker,2635.0,p,Social work and counselling professionals
+3,TECHNICIANS AND TRADES WORKERS,,,
+311111,Agricultural Technician,3142.0,,Agricultural technicians
+311111,Agricultural Technician,3143.0,p,Forestry technicians
+311211,Anaesthetic Technician,3259.0,p,Health associate professionals not elsewhere classified
+311212,Cardiac Technician,3211.0,p,Medical imaging and therapeutic equipment technicians
+311212,Cardiac Technician,3259.0,p,Health associate professionals not elsewhere classified
+311213,Medical Laboratory Technician,3212.0,,Medical and pathology laboratory technicians 
+311214,Operating Theatre Technician,3259.0,p,Health associate professionals not elsewhere classified
+311215,Pharmacy Technician,3213.0,,Pharmaceutical technicians and assistants
+311216,Pathology Collector (Aus) / Phlebotomist (NZ),5329.0,p,Personal care workers in health services not elsewhere classified
+311299,Medical Technicians nec,3214.0,p,Medical and dental prosthetic technicians
+311299,Medical Technicians nec,3256.0,p,Medical assistants
+311299,Medical Technicians nec,3259.0,p,Health associate professionals not elsewhere classified
+311311,Fisheries Officer,3359.0,p,Government regulatory associate professionals not elsewhere classified
+311312,Meat Inspector,3257.0,p,Environmental and occupational health inspectors and associates
+311313,Quarantine Officer,3359.0,p,Government regulatory associate professionals not elsewhere classified
+311313,Quarantine Officer,3351.0,p,Customs and border inspectors
+311399,Primary Products Inspectors nec,3257.0,p,Environmental and occupational health inspectors and associates
+311399,Primary Products Inspectors nec,3359.0,p,Government regulatory associate professionals not elsewhere classified
+311411,Chemistry Technician,3111.0,p,Chemical and physical science technicians
+311412,Earth Science Technician,3111.0,p,Chemical and physical science technicians
+311413,Life Science Technician,3141.0,p,Life science technicians (excluding medical)
+311413,Life Science Technician,3143.0,,Forestry technicians
+311413,Life Science Technician,3240.0,p,Veterinary technicians and assistants
+311414,School Laboratory Technician,3111.0,p,Chemical and physical science technicians
+311415,Hydrographer,3111.0,p,Chemical and physical science technicians
+311499,Science Technicians nec,3111.0,p,Chemical and physical science technicians
+311499,Science Technicians nec,3119.0,p,Physical and engineering science technicians not elsewhere classified
+312111,Architectural Draftsperson,3118.0,p,Draughtspersons
+312112,Building Associate,3112.0,p,Civil engineering technicians
+312112,Building Associate,3123.0,,Construction supervisors
+312113,Building Inspector,3112.0,p,Civil engineering technicians
+312114,Construction Estimator,3112.0,p,Civil engineering technicians
+312115,Plumbing Inspector,3359.0,p,Government regulatory associate professionals not elsewhere classified
+312116,Surveying or Spatial Science Technician,3112.0,p,Civil engineering technicians
+312116,Surveying or Spatial Science Technician,3118.0,p,Draughtspersons
+312199,"Architectural, Building and Surveying Technicians nec",3119.0,p,Physical and engineering science technicians not elsewhere classified
+312211,Civil Engineering Draftsperson,3118.0,p,Draughtspersons
+312212,Civil Engineering Technician,3112.0,p,Civil engineering technicians
+312311,Electrical Engineering Draftsperson,3118.0,p,Draughtspersons
+312312,Electrical Engineering Technician,3113.0,,Electrical engineering technicians
+312411,Electronic Engineering Draftsperson,3118.0,p,Draughtspersons
+312412,Electronic Engineering Technician,3114.0,,Electronics engineering technicians
+312412,Electronic Engineering Technician,3155.0,,Air traffic safety electronics technicians
+312511,Mechanical Engineering Draftsperson,3118.0,p,Draughtspersons
+312512,Mechanical Engineering Technician,3115.0,p,Mechanical engineering technicians
+312611,Safety Inspector,2149.0,p,Engineering professionals not elsewhere classified
+312611,Safety Inspector,3117.0,p,Mining and metallurgical technicians
+312611,Safety Inspector,3257.0,p,Environmental and occupational health inspectors and associates
+312911,Maintenance Planner,4322.0,p,Production clerks
+312912,Metallurgical or Materials Technician,3117.0,p,Mining and metallurgical technicians
+312912,Metallurgical or Materials Technician,3119.0,p,Physical and engineering science technicians not elsewhere classified
+312913,Mine Deputy,3117.0,p,Mining and metallurgical technicians
+312913,Mine Deputy,3121.0,,Mining supervisors
+312999,Building and Engineering Technicians nec,3116.0,,Chemical engineering technicians
+312999,Building and Engineering Technicians nec,3118.0,p,Draughtspersons
+312999,Building and Engineering Technicians nec,3119.0,p,Physical and engineering science technicians not elsewhere classified
+313111,Hardware Technician,7422.0,p,Information and communications technology installers and servicers
+313112,ICT Customer Support Officer,3512.0,,Information and communications technology user support technicians
+313112,ICT Customer Support Officer,3513.0,p,Computer network and systems technicians
+313113,Web Administrator,3514.0,,Web technicians
+313199,ICT Support Technicians nec,3511.0,p,Information and communications technology operations technicians
+313199,ICT Support Technicians nec,7422.0,p,Information and communications technology installers and servicers
+313211,Radiocommunications Technician,3155.0,,Air traffic safety electronics technicians
+313211,Radiocommunications Technician,3522.0,,Telecommunications engineering technicians
+313212,Telecommunications Field Engineer,3522.0,p,Telecommunications engineering technicians
+313213,Telecommunications Network Planner,3522.0,p,Telecommunications engineering technicians
+313214,Telecommunications Technical Officer or Technologist,3522.0,p,Telecommunications engineering technicians
+321111,Automotive Electrician,7412.0,p,Electrical mechanics and fitters
+321211,Motor Mechanic (General),7231.0,p,Motor vehicle mechanics and repairers
+321212,Diesel Motor Mechanic,7231.0,p,Motor vehicle mechanics and repairers
+321213,Motorcycle Mechanic,7231.0,p,Motor vehicle mechanics and repairers
+321214,Small Engine Mechanic,7231.0,p,Motor vehicle mechanics and repairers
+322111,Blacksmith,7221.0,p,"Blacksmiths, hammersmiths and forging press workers"
+322112,Electroplater,8122.0,p,"Metal finishing, plating and coating machine operators"
+322113,Farrier,7221.0,p,"Blacksmiths, hammersmiths and forging press workers"
+322114,Metal Casting Trades Worker,7211.0,,Metal moulders and coremakers
+322115,Metal Polisher,7224.0,p,"Metal polishers, wheel grinders and tool sharpeners"
+322211,Sheetmetal Trades Worker,7213.0,p,Sheet metal workers
+322311,Metal Fabricator,7212.0,p,Welders and flamecutters
+322311,Metal Fabricator,7213.0,p,Sheet metal workers
+322311,Metal Fabricator,7214.0,p,Structural metal preparers and erectors
+322312,Pressure Welder,7212.0,p,Welders and flamecutters
+322313,Welder (First Class) (Aus) / Welder (NZ),7212.0,p,Welders and flamecutters
+323111,Aircraft Maintenance Engineer (Avionics),7421.0,p,Electronics mechanics and servicers
+323112,Aircraft Maintenance Engineer (Mechanical),7232.0,,Aircraft engine mechanics and repairers
+323113,Aircraft Maintenance Engineer (Structures),7213.0,p,Sheet metal workers
+323211,Fitter (General),7233.0,p,Agricultural and industrial machinery mechanics and repairers
+323211,Fitter (General),7223.0,p,Metal working machine tool setters and operators
+323212,Fitter and Turner,7223.0,,Metal working machine tool setters and operators
+323213,Fitter-Welder,7212.0,p,Welders and flamecutters
+323214,Metal Machinist (First Class),7223.0,p,Metal working machine tool setters and operators
+323215,"Textile, Clothing and Footwear Mechanic",7233.0,p,Agricultural and industrial machinery mechanics and repairers
+323299,Metal Fitters and Machinists nec,7233.0,p,Agricultural and industrial machinery mechanics and repairers
+323311,Engraver,7316.0,p,"Sign writers, decorative painters, engravers and etchers"
+323312,Gunsmith,7222.0,p,Toolmakers and related workers
+323313,Locksmith,7222.0,p,Toolmakers and related workers
+323314,Precision Instrument Maker and Repairer,7311.0,p,Precision-instrument makers and repairers
+323315,Saw Maker and Repairer,7222.0,p,Toolmakers and related workers
+323315,Saw Maker and Repairer,7224.0,p,"Metal polishers, wheel grinders and tool sharpeners"
+323316,Watch and Clock Maker and Repairer,7311.0,p,Precision-instrument makers and repairers
+323411,Engineering Patternmaker,7222.0,p,Toolmakers and related workers
+323412,Toolmaker,7222.0,p,Toolmakers and related workers
+324111,Panelbeater,7213.0,p,Sheet metal workers
+324211,Vehicle Body Builder,7213.0,p,Sheet metal workers
+324212,Vehicle Trimmer,7534.0,p,Upholsterers and related workers
+324311,Vehicle Painter,7132.0,p,Spray painters and varnishers
+331111,Bricklayer,7112.0,,Bricklayers and related workers
+331112,Stonemason,7113.0,,"Stonemasons, stone cutters, splitters and carvers"
+331211,Carpenter and Joiner,7115.0,p,Carpenters and joiners
+331212,Carpenter,7115.0,p,Carpenters and joiners
+331212,Carpenter,7111.0,,House Builders
+331213,Joiner,7115.0,p,Carpenters and joiners
+332111,Floor Finisher,7122.0,p,Floor layers and tile setters
+332211,Painting Trades Worker,7131.0,,Painters and related workers
+333111,Glazier,7125.0,p,Glaziers
+333211,Fibrous Plasterer,7123.0,p,Plasterers
+333212,Solid Plasterer,7123.0,p,Plasterers
+333311,Roof Tiler,7121.0,p,Roofers
+333411,Wall and Floor Tiler,7122.0,p,Floor layers and tile setters
+334111,Plumber (General),7126.0,p,Plumbers and pipe fitters
+334112,Airconditioning and Mechanical Services Plumber,7126.0,p,Plumbers and pipe fitters
+334113,Drainer (Aus) / Drainlayer (NZ),7126.0,p,Plumbers and pipe fitters
+334114,Gasfitter,7126.0,p,Plumbers and pipe fitters
+334115,Roof Plumber,7121.0,p,Roofers
+334115,Roof Plumber,7126.0,p,Plumbers and pipe fitters
+341111,Electrician (General),7411.0,p,Building and related electricians
+341111,Electrician (General),7412.0,p,Electrical mechanics and fitters
+341112,Electrician (Special Class),7411.0,p,Building and related electricians
+341113,Lift Mechanic,7412.0,p,Electrical mechanics and fitters
+342111,Airconditioning and Refrigeration Mechanic,7127.0,,Air conditioning and refrigeration mechanics
+342211,Electrical Linesworker (Aus) / Electrical Line Mechanic (NZ),7413.0,p,Electrical line installers and repairers 
+342212,Technical Cable Jointer,7413.0,p,Electrical line installers and repairers 
+342311,Business Machine Mechanic,7421.0,p,Electronics mechanics and servicers
+342312,Communications Operator,3521.0,p,Broadcasting and audio-visual technicians
+342313,Electronic Equipment Trades Worker,7421.0,p,Electronics mechanics and servicers
+342314,Electronic Instrument Trades Worker (General),7421.0,p,Electronics mechanics and servicers
+342315,Electronic Instrument Trades Worker (Special Class),7421.0,p,Electronics mechanics and servicers
+342411,Cabler (Data and Telecommunications),7422.0,p,Information and communications technology installers and servicers
+342412,Telecommunications Cable Jointer,7422.0,p,Information and communications technology installers and servicers
+342413,Telecommunications Linesworker (Aus) / Telecommunications Line Mechanic (NZ),7422.0,p,Information and communications technology installers and servicers
+342414,Telecommunications Technician,7422.0,p,Information and communications technology installers and servicers
+351111,Baker,7512.0,p,"Bakers, pastry-cooks and confectionery makers"
+351112,Pastrycook,7512.0,p,"Bakers, pastry-cooks and confectionery makers"
+351211,Butcher or Smallgoods Maker,7511.0,p,"Butchers, fishmongers and related food preparers"
+351311,Chef,3434.0,p,Chefs
+351411,Cook,5120.0,,Cooks
+361111,Dog Handler or Trainer,5164.0,p,Pet groomers and animal care workers
+361112,Horse Trainer,5164.0,p,Pet groomers and animal care workers
+361113,Pet Groomer,5164.0,p,Pet groomers and animal care workers
+361114,Zookeeper,5164.0,p,Pet groomers and animal care workers
+361115,Kennel Hand,5164.0,p,Pet groomers and animal care workers
+361199,Animal Attendants and Trainers nec,5164.0,p,Pet groomers and animal care workers
+361211,Shearer,6121.0,p,Livestock and dairy producers
+361311,Veterinary Nurse,3240.0,p,Veterinary technicians and assistants
+361311,Veterinary Nurse,5164.0,p,Pet groomers and animal care workers
+362111,Florist,7549.0,p,Craft and related workers not elsewhere classified
+362211,Gardener (General),6113.0,p,"Gardeners, horticultural and nursery growers"
+362212,Arborist,6113.0,p,"Gardeners, horticultural and nursery growers"
+362213,Landscape Gardener,6113.0,p,"Gardeners, horticultural and nursery growers"
+362311,Greenkeeper,6113.0,p,"Gardeners, horticultural and nursery growers"
+362411,Nurseryperson,6113.0,p,"Gardeners, horticultural and nursery growers"
+391111,Hairdresser,5141.0,,Hairdressers
+392111,Print Finisher,7323.0,,Print finishing and binding workers
+392112,Screen Printer,7322.0,p,Printers 
+392211,Graphic Pre-press Trades Worker,7321.0,,Pre-press technicians
+392311,Printing Machinist,7322.0,p,Printers 
+392312,Small Offset Printer,7322.0,p,Printers 
+393111,Canvas Goods Fabricator ,7533.0,p,"Sewing, embroidery and related workers"
+393112,Leather Goods Maker,7533.0,p,"Sewing, embroidery and related workers"
+393112,Leather Goods Maker,7536.0,p,Shoemakers and related workers
+393113,Sail Maker,7533.0,p,"Sewing, embroidery and related workers"
+393114,Shoemaker,7536.0,p,Shoemakers and related workers
+393211,Apparel Cutter,7532.0,p,Garment and related patternmakers and cutters
+393212,Clothing Patternmaker,7532.0,p,Garment and related patternmakers and cutters
+393213,Dressmaker or Tailor,7531.0,p,"Tailors, dressmakers, furriers and hatters"
+393299,Clothing Trades Workers nec,7531.0,p,"Tailors, dressmakers, furriers and hatters"
+393311,Upholsterer,7534.0,p,Upholsterers and related workers
+394111,Cabinetmaker,7522.0,p,Cabinet-makers and related workers
+394211,Furniture Finisher,7522.0,p,Cabinet-makers and related workers
+394212,Picture Framer,7522.0,p,Cabinet-makers and related workers
+394213,Wood Machinist,7523.0,p,Woodworking machine tool setters and operators
+394214,Wood Turner,7523.0,p,Woodworking machine tool setters and operators
+394299,Wood Machinists and Other Wood Trades Workers nec,7317.0,p,"Handicraft workers in wood, basketry and related materials"
+399111,Boat Builder and Repairer,7115.0,p,Carpenters and joiners
+399111,Boat Builder and Repairer,7213.0,p,Sheet metal workers
+399111,Boat Builder and Repairer,7215.0,p,Riggers and cable splicers
+399111,Boat Builder and Repairer,8142.0,p,Plastic products machine operators
+399112,Shipwright,7115.0,p,Carpenters and joiners
+399112,Shipwright,7214.0,p,Structural metal preparers and erectors
+399112,Shipwright,7215.0,p,Riggers and cable splicers
+399211,Chemical Plant Operator,3133.0,,Chemical processing plant controllers
+399212,Gas or Petroleum Operator,3134.0,,Petroleum and natural gas refining plant operators
+399212,Gas or Petroleum Operator,3131.0,,Power production plant operators
+399213,Power Generation Plant Operator,3131.0,,Power production plant operators
+399311,Gallery or Museum Technician,3433.0,p,"Gallery, museum and library technicians"
+399312,Library Technician,3433.0,p,"Gallery, museum and library technicians"
+399411,Jeweller,7313.0,p,Jewellery and precious metal workers
+399511,Broadcast Transmitter Operator,3521.0,p,Broadcasting and audio-visual technicians
+399512,"Camera Operator (Film, Television or Video)",3521.0,p,Broadcasting and audio-visual technicians
+399513,Light Technician,3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+399514,Make Up Artist,5142.0,p,Beauticians and related workers
+399515,Musical Instrument Maker or Repairer,7312.0,,Musical instrument makers and repairers
+399516,Sound Technician,3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+399516,Sound Technician,3521.0,p,Broadcasting and audio-visual technicians
+399517,Television Equipment Operator,3521.0,p,Broadcasting and audio-visual technicians
+399599,Performing Arts Technicians nec,3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+399599,Performing Arts Technicians nec,3521.0,p,Broadcasting and audio-visual technicians
+399611,Signwriter,7316.0,p,"Sign writers, decorative painters, engravers and etchers"
+399911,Diver,7541.0,,Underwater divers
+399912,Interior Decorator,3432.0,p,Interior designers and decorators
+399913,Optical Dispenser (Aus) / Dispensing Optician (NZ),3254.0,,Dispensing opticians
+399914,Optical Mechanic,7549.0,p,Craft and related workers not elsewhere classified
+399914,Optical Mechanic,7315.0,,"Glass makers, cutters, grinders and finishers"
+399915,Photographer's Assistant,3431.0,p,Photographers
+399915,Photographer's Assistant,8132.0,p,Photographic products machine operators
+399916,Plastics Technician,3119.0,p,Physical and engineering science technicians not elsewhere classified
+399917,Wool Classer,7543.0,p,Product graders and testers (excluding foods and beverages)
+399918,Fire Protection Equipment Technician,3119.0,p,Physical and engineering science technicians not elsewhere classified
+399999,Technicians and Trades Workers nec,7233.0,p,Agricultural and industrial machinery mechanics and repairers
+399999,Technicians and Trades Workers nec,7234.0,p,Bicycle and related workers
+399999,Technicians and Trades Workers nec,7315.0,p,"Glass makers, cutters, grinders and finishers"
+399999,Technicians and Trades Workers nec,7535.0,p,"Pelt dressers, tanners and fellmongers"
+399999,Technicians and Trades Workers nec,7543.0,p,Product graders and testers (excluding foods and beverages)
+399999,Technicians and Trades Workers nec,7549.0,p,Craft and related workers not elsewhere classified
+4,COMMUNITY AND PERSONAL SERVICE WORKERS,,,
+411111,Ambulance Officer,3258.0,p,Ambulance workers
+411111,Ambulance Officer,8322.0,p,"Car, taxi and van drivers"
+411112,Intensive Care Ambulance Paramedic (Aus) / Ambulance Paramedic (NZ),3258.0,p,Ambulance workers
+411211,Dental Hygienist,3251.0,p,Dental assistants and therapists
+411212,Dental Prosthetist,3214.0,p,Medical and dental prosthetic technicians
+411213,Dental Technician,3214.0,p,Medical and dental prosthetic technicians
+411214,Dental Therapist,3251.0,p,Dental assistants and therapists
+411311,Diversional Therapist,3259.0,p,Health associate professionals not elsewhere classified
+411411,Enrolled Nurse,3221.0,p,Nursing associate professionals
+411412,Mothercraft Nurse,3222.0,p,Midwifery associate professionals
+411511,Aboriginal and Torres Strait Islander Health Worker,3253.0,p,Community health workers
+411512,Kaiäwhina (Hauora) (Mäori Health Assistant),3253.0,p,Community health workers
+411611,Massage Therapist,3255.0,p,Physiotherapy technicians and assistants
+411711,Community Worker,3412.0,p,Social work associate professionals
+411712,Disabilities Services Officer,3412.0,p,Social work associate professionals
+411713,Family Support Worker,3412.0,p,Social work associate professionals
+411714,Parole or Probation Officer,2635.0,p,Social work and counselling professionals
+411715,Residential Care Officer,3412.0,p,Social work associate professionals
+411716,Youth Worker,3412.0,p,Social work associate professionals
+421111,Child Care Worker,5311.0,p,Child care workers
+421112,Family Day Care Worker,5311.0,p,Child care workers
+421113,Nanny,5311.0,p,Child care workers
+421114,Out of School Hours Care Worker,5311.0,p,Child care workers
+422111,Aboriginal and Torres Strait Islander Education Worker,5312.0,p,Teachers' aides
+422112,Integration Aide,5312.0,p,Teachers' aides
+422113,Kaiäwhina Kohanga Reo (Mäori Language Nest Assistant),2341.0,p,Primary school teachers
+422113,Kaiäwhina Kohanga Reo (Mäori Language Nest Assistant),5312.0,p,Teachers' aides
+422114,Kaiäwhina Kura Kaupapa Mäori (Mäori-medium School Assistant),2341.0,p,Primary school teachers
+422114,Kaiäwhina Kura Kaupapa Mäori (Mäori-medium School Assistant),5312.0,p,Teachers' aides
+422115,Preschool Aide,5312.0,p,Teachers' aides
+422116,Teachers' Aide,5312.0,p,Teachers' aides
+423111,Aged or Disabled Carer,5162.0,p,Companion and valets
+423111,Aged or Disabled Carer,5322.0,p,Home-based personal care workers
+423211,Dental Assistant,3251.0,p,Dental assistants and therapists
+423211,Dental Assistant,5329.0,p,Personal care workers in health services not elsewhere classified
+423311,Hospital Orderly,5329.0,p,Personal care workers in health services not elsewhere classified
+423312,Nursing Support Worker,5321.0,p,Health care assistants
+423313,Personal Care Assistant,5321.0,p,Health care assistants
+423314,Therapy Aide,3255.0,p,Physiotherapy technicians and assistants
+423314,Therapy Aide,3259.0,p,Health associate professionals not elsewhere classified
+423411,Child or Youth Residential Care Assistant,5311.0,p,Child care  workers
+423412,Hostel Parent,5311.0,p,Child care workers
+423413,Refuge Worker,3412.0,p,Social work associate professionals
+431111,Bar Attendant,5132.0,p,Bartenders
+431112,Barista,5132.0,p,Bartenders
+431211,Cafe Worker,5131.0,p,Waiters
+431211,Cafe Worker,5246.0,p,Food service counter attendants
+431311,Gaming Worker,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+431411,Hotel Service Manager,5151.0,p,"Cleaning and housekeeping supervisors in offices, hotels and other establishments"
+431511,Waiter,5131.0,,Waiters
+431911,Bar Useful or Busser,9112.0,p,"Cleaners and helpers in offices, hotels and other establishments"
+431912,Doorperson or Luggage Porter,9621.0,p,"Messengers, package deliverers and luggage porters"
+431999,Hospitality Workers nec,5169.0,p,Personal services workers not elsewhere classified
+431999,Hospitality Workers nec,9629.0,p,Elementary workers not elsewhere classified
+441111,Defence Force Member - Other Ranks,310.0,,"Armed forces occupations, other ranks"
+441211,Emergency Service Worker,5419.0,p,Protective services workers not elsewhere classified
+441212,Fire Fighter,5411.0,,Fire fighters
+441311,Detective,3355.0,p,Police inspectors and detectives
+441312,Police Officer,5412.0,,Police officers
+442111,Prison Officer,5413.0,,Prison guards
+442211,"Alarm, Security or Surveillance Monitor",5414.0,p,Security guards
+442212,Armoured Car Escort,5414.0,p,Security guards
+442213,Crowd Controller,5414.0,p,Security guards
+442214,Private Investigator,3411.0,p,Legal and related associate professionals
+442215,Retail Loss Prevention Officer,5414.0,p,Security guards
+442216,Security Consultant,3339.0,p,Business service agents not elsewhere classified
+442217,Security Officer,5414.0,p,Security guards
+442299,Security Officers and Guards nec,5414.0,p,Security guards
+442299,Security Officers and Guards nec,5419.0,p,Protective services workers not elsewhere classified
+451111,Beauty Therapist,5142.0,p,Beauticians and related workers
+451211,Driving Instructor,5165.0,,Driving instructors
+451311,Funeral Director,5163.0,p,Undertakers and embalmers
+451399,Funeral Workers nec,5163.0,p,Undertakers and embalmers
+451411,Gallery or Museum Guide,5113.0,p,Travel guides
+451412,Tour Guide,5113.0,p,Travel guides
+451511,Natural Remedy Consultant,3230.0,p,Traditional and complementary medicine associate professionals
+451512,Weight Loss Consultant,5142.0,p,Beauticians and related workers
+451513,Herbalist (Western),3230.0,p,Traditional and complementary medicine associate professionals
+451611,Tourist Information Officer,4221.0,p,Travel consultants and clerks
+451612,Travel Consultant,4221.0,p,Travel consultants and clerks
+451711,Flight Attendant,5111.0,p,Travel attendants and travel stewards
+451799,Travel Attendants nec,5111.0,p,Travel attendants and travel stewards
+451811,Civil Celebrant,5169.0,p,Personal services workers not elsewhere classified
+451812,Hair or Beauty Salon Assistant,5142.0,p,Beauticians and related workers
+451813,Sex Worker or Escort,5169.0,p,Personal services workers not elsewhere classified
+451814,Body Artist,3435.0,p,Artistic and cultural associate professionals not elsewhere classified
+451815,First Aid Trainer,5169.0,p,Personal services workers not elsewhere classified
+451816,Religious Assistant,3413.0,p,Religious associate professionals
+451899,Personal Service Workers nec,3413.0,p  ,Religious associate professionals
+451899,Personal Service Workers nec,5152.0,p,Domestic housekeepers
+451899,Personal Service Workers nec,5161.0,p,"Astrologers, fortune-tellers and related workers"
+451899,Personal Service Workers nec,5169.0,p,Personal services workers not elsewhere classified
+451899,Personal Service Workers nec,5329.0,p,Personal care workers in health services not elsewhere classified
+452111,Fitness Instructor,3423.0,p,Fitness and recreation instructors and program leaders
+452211,Bungy Jump Master,3423.0,p,Fitness and recreation instructors and program leaders
+452212,Fishing Guide,3423.0,p,Fitness and recreation instructors and program leaders
+452213,Hunting Guide,3423.0,p,Fitness and recreation instructors and program leaders
+452214,Mountain or Glacier Guide,3423.0,p,Fitness and recreation instructors and program leaders
+452215,Outdoor Adventure Instructor,3423.0,p,Fitness and recreation instructors and program leaders
+452216,Trekking Guide,3423.0,p,Fitness and recreation instructors and program leaders
+452217,Whitewater Rafting Guide,3423.0,p,Fitness and recreation instructors and program leaders
+452299,Outdoor Adventure Guides nec,3423.0,p,Fitness and recreation instructors and program leaders
+452311,Diving Instructor (Open Water),3422.0,p,"Sports coaches, instructors and officials"
+452312,Gymnastics Coach or Instructor,3422.0,p,"Sports coaches, instructors and officials"
+452313,Horse Riding Coach or Instructor,3423.0,p,Fitness and recreation instructors and program leaders
+452314,Snowsport Instructor,3422.0,p,"Sports coaches, instructors and officials"
+452315,Swimming Coach or Instructor,3422.0,p,"Sports coaches, instructors and officials"
+452316,Tennis Coach,3422.0,p,"Sports coaches, instructors and officials"
+452317,Other Sports Coach or Instructor,3422.0,p,"Sports coaches, instructors and officials"
+452318,Dog or Horse Racing Official,3422.0,p,"Sports coaches, instructors and officials"
+452321,Sports Development Officer,3422.0,p,"Sports coaches, instructors and officials"
+452322,Sports Umpire,3422.0,p,"Sports coaches, instructors and officials"
+452323,Other Sports Official,3422.0,p,"Sports coaches, instructors and officials"
+452411,Footballer,3421.0,p,Athletes and sports players
+452412,Golfer,3421.0,p,Athletes and sports players
+452413,Jockey,3421.0,p,Athletes and sports players
+452414,Lifeguard,5419.0,p,Protective services workers not elsewhere classified
+452499,Sportspersons nec,3421.0,p,Athletes and sports players
+5,CLERICAL AND ADMINISTRATIVE WORKERS NEC,,,
+511111,Contract Administrator,3339.0,p,Business service agents not elsewhere classified
+511112,Program or Project Administrator,3339.0,p,Business service agents not elsewhere classified
+512111,Office Manager,3341.0,p,Office supervisors
+512211,Health Practice Manager,1342.0,p,Health services managers
+512211,Health Practice Manager,3344.0,p,Medical secretaries
+512299,Practice Managers nec,3341.0,p,Office supervisors
+512299,Practice Managers nec,3342.0,p,Legal secretaries
+521111,Personal Assistant,3343.0,p,Administrative and executive secretaries
+521211,Secretary (General),3343.0,p,Administrative and executive secretaries
+521211,Secretary (General),4120.0,,Secretaries (general)
+521212,Legal Secretary,3342.0,p,Legal secretaries
+531111,General Clerk,4110.0,,General office clerks
+532111,Data Entry Operator,4132.0,,Data entry clerks
+532112,Machine Shorthand Reporter,3343.0,p,Administrative and executive secretaries
+532113,Word Processing Operator,4131.0,p,Typists and word processing operators
+541111,Call or Contact Centre Team Leader,3341.0,p,Office supervisors
+541112,Call or Contact Centre Operator,4222.0,,Contact centre information clerks
+541211,Information Officer,4225.0,,Enquiry clerks
+542111,Receptionist (General),4226.0,p,Receptionists (general)
+542112,Admissions Clerk,4229.0,p,Client information workers not elsewhere classified
+542113,Hotel or Motel Receptionist,4224.0,,Hotel receptionists
+542114,Medical Receptionist,3344.0,p,Medical secretaries
+542114,Medical Receptionist,4226.0,p,Receptionists (general)
+551111,Accounts Clerk,4311.0,p,Accounting and bookkeeping clerks
+551112,Cost Clerk,4311.0,p,Accounting and bookkeeping clerks
+551211,Bookkeeper,3313.0,p,Accounting associate professionals
+551211,Bookkeeper,4311.0,p,Accounting and bookkeeping clerks
+551311,Payroll Clerk,4313.0,,Payroll clerks
+552111,Bank Worker,4211.0,p,Bank tellers and related clerks
+552211,Credit or Loans Officer (Aus) / Finance Clerk (NZ) ,3312.0,,Credit and loans officers
+552311,Bookmaker,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+552312,Insurance Consultant,3321.0,p,Insurance representatives
+552312,Insurance Consultant,4312.0,p,"Statistical, finance and insurance clerks"
+552313,Money Market Clerk,4312.0,p,"Statistical, finance and insurance clerks"
+552314,Statistical Clerk,3314.0,p,"Statistical, mathematical and related associate professionals"
+552314,Statistical Clerk,4312.0,p,"Statistical, finance and insurance clerks"
+552314,Statistical Clerk,3313.0,,Accounting associate professionals
+561111,Betting Agency Counter Clerk,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+561112,Bookmaker's Clerk,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+561113,Telephone Betting Clerk,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+561199,Betting Clerks nec,4212.0,p,"Bookmakers, croupiers and related gaming workers"
+561211,Courier,8321.0,p,Motorcycle drivers
+561211,Courier,8322.0,p,"Car, taxi and van drivers"
+561211,Courier,9331.0,p,Hand and pedal vehicle drivers
+561211,Courier,9621.0,p,"Messengers, package deliverers and luggage porters"
+561212,Postal Delivery Officer,4412.0,p,Mail carriers and sorting clerks
+561311,Filing or Registry Clerk,3252.0,p,Medical records and health information technicians
+561311,Filing or Registry Clerk,4415.0,,Filing and copying clerks
+561411,Mail Clerk,4412.0,p,Mail carriers and sorting clerks
+561412,Postal Sorting Officer,4412.0,p,Mail carriers and sorting clerks
+561511,Survey Interviewer,4227.0,,Survey and market research interviewers
+561611,Switchboard Operator,4223.0,,Telephone switchboard operators
+561911,Classified Advertising Clerk,4419.0,p,Clerical support workers not elsewhere classified
+561912,Meter Reader,9623.0,p,Meter readers and vending-machine collectors
+561913,Parking Inspector,3359.0,p,Government regulatory associate professionals not elsewhere classified
+561999,Clerical and Office Support Workers nec,4419.0,p,Clerical support workers not elsewhere classified
+591112,Production Clerk,4322.0,p,Production clerks
+591113,Purchasing Officer,4321.0,p,Stock clerks
+591115,Stock Clerk,4321.0,p,Stock clerks
+591116,Warehouse Administrator,4321.0,,Stock clerks
+591117,Order Clerk,4321.0,p,Stock clerks
+591211,Despatching and Receiving Clerk,4321.0,p,Stock clerks
+591211,Despatching and Receiving Clerk,4323.0,p,Transport clerks
+591212,Import-Export Clerk,3331.0,,Clearing and forwarding agents
+599111,Conveyancer,3411.0,p,Legal and related associate professionals
+599112,Legal Executive,3411.0,p,Legal and related associate professionals
+599211,Clerk of Court,3411.0,p,Legal and related associate professionals
+599212,Court Bailiff or Sheriff (Aus) / Court Collections Officer (NZ),3411.0,p,Legal and related associate professionals
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),3411.0,p,Legal and related associate professionals
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),4110.0,p,General office clerks
+599214,Law Clerk,3411.0,p,Legal and related associate professionals
+599215,Trust Officer,3411.0,p,Legal and related associate professionals
+599311,Debt Collector,4214.0,p,Debt-collectors and related workers
+599411,Human Resources Clerk,4416.0,,Personnel clerks
+599511,Customs Officer,3351.0,p,Customs and border inspectors
+599512,Immigration Officer,3351.0,p,Customs and border inspectors
+599513,Motor Vehicle Licence Examiner,3354.0,p,Government licensing officials
+599514,Noxious Weeds and Pest Inspector,3257.0,p,Environmental and occupational health inspectors and associates
+599515,Social Security Assessor,3353.0,,Government social benefits officials
+599516,Taxation Inspector,3352.0,,Government tax and excise officials
+599517,Train Examiner,3359.0,,Government regulatory associate professionals not elsewhere classified
+599518,Transport Operations Inspector,4323.0,,Transport clerks
+599521,Water Inspector,3257.0,p,Environmental and occupational health inspectors and associates
+599599,Inspectors and Regulatory Officers nec,3257.0,p,Environmental and occupational health inspectors and associates
+599599,Inspectors and Regulatory Officers nec,3354.0,p,Government licensing officials
+599599,Inspectors and Regulatory Officers nec,3359.0,p,Government regulatory associate professionals not elsewhere classified
+599599,Inspectors and Regulatory Officers nec,5419.0,p,Protective services workers not elsewhere classified
+599611,Insurance Investigator,3315.0,p,Valuers and loss assessors
+599612,Insurance Loss Adjuster,3315.0,p,Valuers and loss assessors
+599613,Insurance Risk Surveyor,3315.0,p,Valuers and loss assessors
+599711,Library Assistant,4411.0,,Library clerks
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521.0,p,Broadcasting and audio-visual technicians
+599913,Proof Reader,4413.0,p,"Coding, proof-reading and related clerks"
+599914,Radio Despatcher,4229.0,p,Client information workers not elsewhere classified
+599915,Clinical Coder,3252.0,p,Medical records and health information technicians
+599916,Facilities Administrator,3339.0,p,Business service agents not elsewhere classified
+599999,Clerical and Administrative Workers nec,3354.0,p,Government licensing officials
+599999,Clerical and Administrative Workers nec,4323.0,,Transport clerks
+599999,Clerical and Administrative Workers nec,4413.0,p,"Coding, proof-reading and related clerks"
+599999,Clerical and Administrative Workers nec,4414.0,p,Scribes and related workers
+599999,Clerical and Administrative Workers nec,4419.0,p,Clerical support workers not elsewhere classified
+6,SALES WORKERS,,,
+611111,Auctioneer,3339.0,p,Business service agents not elsewhere classified
+611112,Stock and Station Agent,3339.0,p,Business service agents not elsewhere classified
+611211,Insurance Agent,3321.0,p,Insurance representatives
+611311,Sales Representative (Building and Plumbing Supplies),3322.0,p,Commercial sales representatives
+611312,Sales Representative (Business Services),3322.0,p,Commercial sales representatives
+611312,Sales Representative (Business Services),3339.0,p,Business service agents not elsewhere classified
+611313,Sales Representative (Motor Vehicle Parts and Accessories),3322.0,p,Commercial sales representatives
+611314,Sales Representative (Personal and Household Goods),3322.0,p,Commercial sales representatives
+611399,Sales Representatives nec,3322.0,p,Commercial sales representatives
+612111,Business Broker,3334.0,p,Real estate agents and property managers
+612112,Property Manager,3334.0,p,Real estate agents and property managers
+612113,Real Estate Agency Principal (Aus) / Real Estate Agency Licensee (NZ),3334.0,p,Real estate agents and property managers
+612114,Real Estate Agent,3334.0,p,Real estate agents and property managers
+612115,Real Estate Representative,3334.0,p,Real estate agents and property managers
+621111,Sales Assistant (General),4211.0,p,Bank tellers and related clerks
+621111,Sales Assistant (General),4213.0,p,Pawnbrokers and money-lenders
+621111,Sales Assistant (General),5223.0,p,Shop sales assistants
+621111,Sales Assistant (General),5246.0,p,Food service counter attendants
+621111,Sales Assistant (General),5142.0,,Beauticians and related workers
+621211,ICT Sales Assistant,5223.0,p,Shop sales assistants
+621311,Motor Vehicle or Caravan Salesperson,5223.0,p,Shop sales assistants
+621312,Motor Vehicle Parts Interpreter (Aus) / Automotive Parts Salesperson (NZ),5223.0,p,Shop sales assistants
+621411,Pharmacy Sales Assistant,5223.0,p,Shop sales assistants
+621511,Retail Supervisor,5222.0,,Shop supervisors
+621611,Service Station Attendant,5245.0,,Service station attendants
+621711,Cash Van Salesperson,5249.0,p,Sales workers not elsewhere classified
+621711,Cash Van Salesperson,9520.0,,Street vendors (excluding food)
+621712,Door-to-door Salesperson,5243.0,,Door to door salespersons
+621713,Street Vendor,5211.0,,Stall and market salespersons
+621713,Street Vendor,5212.0,,Street food salespersons
+621713,Street Vendor,9520.0,,Street vendors (excluding food)
+621911,Materials Recycler,9612.0,p,Refuse sorters
+621912,Rental Salesperson,5249.0,p,Sales workers not elsewhere classified
+621999,Sales Assistants and Salespersons nec,5249.0,p,Sales workers not elsewhere classified
+631111,Checkout Operator,5230.0,p,Cashiers and ticket clerks
+631112,Office Cashier,5230.0,p,Cashiers and ticket clerks
+639111,Model,5241.0,,Fashion and other models
+639112,Sales Demonstrator,5242.0,,Sales demonstrators
+639211,Retail Buyer,3323.0,p,Buyers
+639212,Wool Buyer,3323.0,p,Buyers
+639311,Telemarketer,5244.0,,Contact centre salespersons
+639411,Ticket Seller,4221.0,p,Travel consultants and clerks
+639411,Ticket Seller,5230.0,p,Cashiers and ticket clerks
+639412,Transport Conductor,5112.0,,Transport conductors
+639511,Visual Merchandiser,3432.0,p,Interior designers and decorators
+639911,Other Sales Support Worker,3323.0,p,Buyers
+639911,Other Sales Support Worker,5249.0,p,Sales workers not elsewhere classified
+7,MACHINERY OPERATORS AND DRIVERS,,,
+711111,Clay Products Machine Operator,8181.0,p,Glass and ceramic plant operators
+711112,Concrete Products Machine Operator,8114.0,p,"Cement, stone and other mineral products machine operators"
+711113,Glass Production Machine Operator,8181.0,p,Glass and ceramic plant operators
+711114,Stone Processing Machine Operator,8114.0,p,"Cement, stone and other mineral products machine operators"
+711199,"Clay, Concrete, Glass and Stone Processing Machine Operators nec",8114.0,p,"Cement, stone and other mineral products machine operators"
+711211,Industrial Spraypainter,7132.0,p,Spray painters and varnishers
+711311,Paper Products Machine Operator,8143.0,,Paper products machine operators
+711313,Sawmilling Operator,8172.0,p,Wood processing plant operators
+711314,Other Wood Processing Machine Operator,8172.0,p,Wood processing plant operators
+711411,Photographic Developer and Printer,5329.0,p,Personal care workers in health services not elsewhere classified
+711411,Photographic Developer and Printer,8132.0,p,Photographic products machine operators
+711511,Plastic Cablemaking Machine Operator,8142.0,p,Plastic products machine operators
+711512,Plastic Compounding and Reclamation Machine Operator,8142.0,p,Plastic products machine operators
+711513,Plastics Fabricator or Welder,8142.0,p,Plastic products machine operators
+711514,Plastics Production Machine Operator (General),8142.0,p,Plastic products machine operators
+711515,Reinforced Plastic and Composite Production Worker,8142.0,p,Plastic products machine operators
+711516,Rubber Production Machine Operator,8141.0,p,Rubber products machine operators
+711599,Plastics and Rubber Production Machine Operators nec,8142.0,p,Plastic products machine operators
+711611,Sewing Machinist,8153.0,,Sewing machine operators
+711711,Footwear Production Machine Operator,8156.0,p,Shoemaking and related machine operators
+711712,Hide and Skin Processing Machine Operator,7535.0,p,"Pelt dressers, tanners and fellmongers"
+711712,Hide and Skin Processing Machine Operator,8155.0,,Fur and leather preparing machine operators
+711713,Knitting Machine Operator,8152.0,p,Weaving and knitting machine operators
+711714,Textile Dyeing and Finishing Machine Operator,8154.0,,"Bleaching, dyeing and fabric cleaning machine operators"
+711715,Weaving Machine Operator,8152.0,p,Weaving and knitting machine operators
+711716,Yarn Carding and Spinning Machine Operator,8151.0,,"Fibre preparing, spinning and winding machine operators"
+711799,Textile and Footwear Production Machine Operators nec,8151.0,p,"Fibre preparing, spinning and winding machine operators"
+711799,Textile and Footwear Production Machine Operators nec,8152.0,p,Weaving and knitting machine operators
+711799,Textile and Footwear Production Machine Operators nec,8159.0,p,"Textile, fur and leather products machine operators not elsewhere classified"
+711911,Chemical Production Machine Operator,8131.0,,Chemical products plant and machine operators
+711912,Motion Picture Projectionist,3521.0,,Broadcasting and audio-visual technicians
+711913,Sand Blaster,8122.0,p,"Metal finishing, plating and coating machine operators"
+711913,Sand Blaster,7133.0,p,Building structure cleaners
+711914,Sterilisation Technician,5329.0,p,Personal care workers in health services not elsewhere classified
+711999,Machine Operators nec,8132.0,p,Photographic products machine operators
+711999,Machine Operators nec,8189.0,p,Stationary plant and machine operators not elsewhere classified
+712111,"Crane, Hoist or Lift Operator",8343.0,,"Crane, hoist and related plant operators"
+712211,Driller,8111.0,p,Miners and quarriers
+712211,Driller,8113.0,,Well drillers and borers and related workers
+712212,Miner,8111.0,,Miners and quarriers
+712213,Shot Firer,7542.0,,Shotfirers and blasters
+712311,Engineering Production Worker,3135.0,,Metal production process controllers
+712311,Engineering Production Worker,7212.0,p,Welders and flamecutters
+712311,Engineering Production Worker,7213.0,p,Sheet metal workers
+712311,Engineering Production Worker,7223.0,p,Metal working machine tool setters and operators
+712311,Engineering Production Worker,7224.0,p,"Metal polishers, wheel grinders and tool sharpeners"
+712311,Engineering Production Worker,8121.0,p,Metal processing plant operators
+712311,Engineering Production Worker,8122.0,p,"Metal finishing, plating and coating machine operators"
+712911,Boiler or Engine Operator,8182.0,p,Steam engine and boiler operators
+712912,Bulk Materials Handling Plant Operator,9333.0,p,Freight handlers
+712913,Cement Production Plant Operator,8114.0,p,"Cement, stone and other mineral products machine operators"
+712914,Concrete Batching Plant Operator,8114.0,p,"Cement, stone and other mineral products machine operators"
+712915,Concrete Pump Operator,8114.0,p,"Cement, stone and other mineral products machine operators"
+712916,Paper and Pulp Mill Operator,3139.0,p,Process control technicians not elsewhere classified
+712916,Paper and Pulp Mill Operator,8171.0,,Pulp and papermaking plant operators
+712917,Railway Signal Operator,8312.0,p,"Railway brake, signal and switch operators"
+712918,Train Controller,8312.0,p,"Railway brake, signal and switch operators"
+712921,Waste Water or Water Plant Operator,3132.0,,Incinerator and water treatment plant operators
+712922,Weighbridge Operator,4321.0,,Stock clerks
+712999,Stationary Plant Operators nec,8343.0,,"Crane, hoist and related plant operators"
+712999,Stationary Plant Operators nec,8172.0,,Wood processing plant operators
+712999,Stationary Plant Operators nec,8131.0,,Chemical products plant and machine operators
+712999,Stationary Plant Operators nec,3132.0,,Incinerator and water treatment plant operators
+712999,Stationary Plant Operators nec,8160.0,,Food and related products machine operators
+712999,Stationary Plant Operators nec,7521.0,p,Wood treaters
+712999,Stationary Plant Operators nec,8112.0,p,Mineral and stone processing plant operators
+712999,Stationary Plant Operators nec,8189.0,p,Stationary plant and machine operators not elsewhere classified
+721111,Agricultural and Horticultural Mobile Plant Operator,8341.0,p,Mobile farm and forestry plant operators
+721112,Logging Plant Operator,8341.0,p,Mobile farm and forestry plant operators
+721211,Earthmoving Plant Operator (General),8342.0,p,Earthmoving and related plant operators
+721212,Backhoe Operator,8342.0,p,Earthmoving and related plant operators
+721213,Bulldozer Operator,8342.0,p,Earthmoving and related plant operators
+721214,Excavator Operator,8342.0,p,Earthmoving and related plant operators
+721215,Grader Operator,8342.0,p,Earthmoving and related plant operators
+721216,Loader Operator,8342.0,p,Earthmoving and related plant operators
+721311,Forklift Driver,8344.0,,Lifting truck operators
+721911,Aircraft Baggage Handler and Airline Ground Crew,9333.0,p,Freight handlers
+721912,Linemarker,8189.0,,Stationary plant and machine operators not elsewhere classified
+721913,Paving Plant Operator,8342.0,p,Earthmoving and related plant operators
+721914,Railway Track Plant Operator,8342.0,p,Earthmoving and related plant operators
+721915,Road Roller Operator,8342.0,p,Earthmoving and related plant operators
+721916,Streetsweeper Operator,8342.0,p,Earthmoving and related plant operators
+721999,Mobile Plant Operators nec,8343.0,p,"Crane, hoist and related plant operators"
+721999,Mobile Plant Operators nec,8342.0,p,Earthmoving and related plant operators
+731111,Chauffeur,8322.0,p,"Car, taxi and van drivers"
+731112,Taxi Driver,8322.0,p,"Car, taxi and van drivers"
+731199,Automobile Drivers nec,8322.0,p,"Car, taxi and van drivers"
+731211,Bus Driver,8331.0,p,Bus and tram drivers
+731212,Charter and Tour Bus Driver,8331.0,p,Bus and tram drivers
+731213,Passenger Coach Driver,8331.0,p,Bus and tram drivers
+731311,Train Driver,8311.0,,Locomotive engine drivers
+731312,Tram Driver,8331.0,p,Bus and tram drivers
+732111,Delivery Driver,8322.0,p,"Car, taxi and van drivers"
+733111,Truck Driver (General),8332.0,p,Heavy truck and lorry drivers
+733112,Aircraft Refueller,8332.0,p,Heavy truck and lorry drivers
+733113,Furniture Removalist,8332.0,p,Heavy truck and lorry drivers
+733114,Tanker Driver,8332.0,p,Heavy truck and lorry drivers
+733115,Tow Truck Driver,8332.0,p,Heavy truck and lorry drivers
+741111,Storeperson,9329.0,p,Manufacturing labourers not elsewhere classified
+741111,Storeperson,9333.0,p,Freight handlers
+741111,Storeperson,4321.0,p,Stock clerks
+8,LABOURERS,,,
+811111,Car Detailer,9122.0,,Vehicle cleaners
+811211,Commercial Cleaner,5151.0,p,"Cleaning and housekeeping supervisors in offices, hotels and other establishments"
+811211,Commercial Cleaner,9112.0,p,"Cleaners and helpers in offices, hotels and other establishments"
+811211,Commercial Cleaner,7133.0,p,Building structure cleaners
+811311,Domestic Cleaner,9111.0,,Domestic cleaners and helpers
+811411,Commercial Housekeeper,5151.0,p,"Cleaning and housekeeping supervisors in offices, hotels and other establishments"
+811411,Commercial Housekeeper,9112.0,p,"Cleaners and helpers in offices, hotels and other establishments"
+811412,Domestic Housekeeper,5152.0,p,Domestic housekeepers
+811511,Laundry Worker (General),8157.0,p,Laundry machine operators
+811511,Laundry Worker (General),9121.0,p,Hand launderers and pressers
+811512,Drycleaner,8157.0,p,Laundry machine operators
+811512,Drycleaner,9121.0,p,Hand launderers and pressers
+811513,Ironer or Presser,8157.0,p,Laundry machine operators
+811513,Ironer or Presser,9121.0,p,Hand launderers and pressers
+811611,Carpet Cleaner,9129.0,p,Other cleaning workers
+811612,Window Cleaner,9123.0,,Window cleaners
+811699,Cleaners nec,7133.0,p,Building structure cleaners
+811699,Cleaners nec,9129.0,p,Other cleaning workers
+811699,Cleaners nec,9613.0,p,Sweepers and related labourers
+821111,Builder's Labourer,9313.0,p,Building construction labourers
+821112,"Drainage, Sewerage and Stormwater Labourer",9312.0,p,Civil engineering labourers
+821113,Earthmoving Labourer,9312.0,p,Civil engineering labourers
+821114,Plumber's Assistant,9313.0,p,Building construction labourers
+821211,Concreter,7114.0,p,"Concrete placers, concrete finishers and related workers"
+821211,Concreter,9313.0,p,Building construction labourers
+821311,Fencer,9313.0,p,Building construction labourers
+821411,Building Insulation Installer,7124.0,p,Insulation workers
+821412,Home Improvement Installer,7111.0,p,House Builders
+821412,Home Improvement Installer,7115.0,p,Carpenters and joiners
+821412,Home Improvement Installer,9313.0,p,Building construction labourers
+821511,Paving and Surfacing Labourer,9312.0,p,Civil engineering labourers
+821611,Railway Track Worker,9312.0,p,Civil engineering labourers
+821711,Construction Rigger,7215.0,p,Riggers and cable splicers
+821712,Scaffolder,7119.0,p,Building frame and related trades workers not elsewhere classified
+821713,Steel Fixer,9313.0,p,Building construction labourers
+821714,Structural Steel Erector,7214.0,p,Structural metal preparers and erectors
+821911,Crane Chaser,9313.0,p,Building construction labourers
+821912,Driller's Assistant,9311.0,p,Mining and quarrying labourers
+821913,Lagger,7124.0,p,Insulation workers
+821914,Mining Support Worker,9311.0,p,Mining and quarrying labourers
+821915,Surveyor's Assistant,9312.0,p,Civil engineering labourers
+831111,Baking Factory Worker,8160.0,p,Food and related products machine operators
+831112,Brewery Worker,8160.0,p,Food and related products machine operators
+831113,Confectionery Maker,7512.0,p,"Bakers, pastry-cooks and confectionery makers"
+831113,Confectionery Maker,8160.0,p,Food and related products machine operators
+831114,Dairy Products Maker,7513.0,,Dairy products makers
+831114,Dairy Products Maker,8160.0,p,Food and related products machine operators
+831115,Fruit and Vegetable Factory Worker,8160.0,p,Food and related products machine operators
+831116,Grain Mill Worker,8160.0,p,Food and related products machine operators
+831117,Sugar Mill Worker,8160.0,p,Food and related products machine operators
+831118,Winery Cellar Hand,8160.0,p,Food and related products machine operators
+831199,Food and Drink Factory Workers nec,7514.0,,"Fruit, vegetable and related preservers"
+831199,Food and Drink Factory Workers nec,7515.0,p,Food and beverage tasters and graders
+831199,Food and Drink Factory Workers nec,7516.0,p,Tobacco preparers and tobacco makers
+831199,Food and Drink Factory Workers nec,8160.0,p,Food and related products machine operators
+831211,Meat Boner and Slicer,7511.0,p,"Butchers, fishmongers and related food preparers"
+831212,Slaughterer,7511.0,p,"Butchers, fishmongers and related food preparers"
+831311,Meat Process Worker,7511.0,p,"Butchers, fishmongers and related food preparers"
+831311,Meat Process Worker,8160.0,p,Food and related products machine operators
+831312,Poultry Process Worker,7511.0,p,"Butchers, fishmongers and related food preparers"
+831312,Poultry Process Worker,8160.0,p,Food and related products machine operators
+831313,Seafood Process Worker,7511.0,p,"Butchers, fishmongers and related food preparers"
+831313,Seafood Process Worker,8160.0,p,Food and related products machine operators
+832111,Chocolate Packer,8183.0,p,"Packing, bottling and labelling machine operators"
+832111,Chocolate Packer,9321.0,p,Hand packers
+832112,Container Filler,8183.0,p,"Packing, bottling and labelling machine operators"
+832112,Container Filler,9321.0,p,Hand packers
+832113,Fruit and Vegetable Packer,8183.0,p,"Packing, bottling and labelling machine operators"
+832113,Fruit and Vegetable Packer,9321.0,p,Hand packers
+832114,Meat Packer,8183.0,p,"Packing, bottling and labelling machine operators"
+832114,Meat Packer,9321.0,p,Hand packers
+832115,Seafood Packer,8183.0,p,"Packing, bottling and labelling machine operators"
+832115,Seafood Packer,9321.0,p,Hand packers
+832199,Packers nec,8183.0,p,"Packing, bottling and labelling machine operators"
+832199,Packers nec,9321.0,p,Hand packers
+832211,Product Assembler,3139.0,p,Process control technicians not elsewhere classified
+832211,Product Assembler,8211.0,,Mechanical machinery assemblers
+832211,Product Assembler,8212.0,,Electrical and electronic equipment assemblers
+832211,Product Assembler,8219.0,,Assemblers not elsewhere classified
+839111,Metal Engineering Process Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839211,Plastics Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839212,Rubber Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839311,Product Examiner,7543.0,p,Product graders and testers (excluding foods and beverages)
+839312,Product Grader,7515.0,p,Food and beverage tasters and graders
+839312,Product Grader,7543.0,p,Product graders and testers (excluding foods and beverages)
+839313,Product Tester,7515.0,p,Food and beverage tasters and graders
+839313,Product Tester,7543.0,p,Product graders and testers (excluding foods and beverages)
+839411,Paper and Pulp Mill Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839412,Sawmill or Timber Yard Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839413,Wood and Wood Products Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839911,Cement and Concrete Plant Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839912,Chemical Plant Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839913,Clay Processing Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839914,Fabric and Textile Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839915,Footwear Factory Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839916,Glass Processing Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+839917,Hide and Skin Processing Worker,7535.0,p,"Pelt dressers, tanners and fellmongers"
+839918,Recycling Worker,9612.0,p,Refuse sorters
+839999,Factory Process Workers nec,9329.0,p,Manufacturing labourers not elsewhere classified
+841111,Aquaculture Worker,9216.0,,Fishery and aquaculture labourers
+841211,Fruit or Nut Farm Worker,9211.0,p,Crop farm labourers
+841212,Fruit or Nut Picker,9211.0,p,Crop farm labourers
+841213,"Grain, Oilseed or Pasture Farm Worker (Aus) / Field Crop Farm Worker (NZ)",9211.0,p,Crop farm labourers
+841214,Vegetable Farm Worker (Aus) / Market Garden Worker (NZ),9211.0,p,Crop farm labourers
+841215,Vegetable Picker,9211.0,p,Crop farm labourers
+841216,Vineyard Worker,9211.0,p,Crop farm labourers
+841217,Mushroom Picker,9211.0,p,Crop farm labourers
+841299,Crop Farm Workers nec,9211.0,p,Crop farm labourers
+841311,Forestry Worker,6210.0,p,Forestry and related workers
+841311,Forestry Worker,9215.0,p,Forestry labourers
+841312,Logging Assistant,6210.0,p,Forestry and related workers
+841312,Logging Assistant,9215.0,p,Forestry labourers
+841313,Tree Faller,6210.0,p,Forestry and related workers
+841313,Tree Faller,9215.0,p,Forestry labourers
+841411,Garden Labourer,9214.0,p,Garden and horticultural labourers
+841412,Horticultural Nursery Assistant,9214.0,p,Garden and horticultural labourers
+841511,Beef Cattle Farm Worker,6121.0,p,Livestock and dairy producers
+841511,Beef Cattle Farm Worker,9212.0,p,Livestock farm labourers
+841512,Dairy Cattle Farm Worker,6121.0,p,Livestock and dairy producers
+841512,Dairy Cattle Farm Worker,9212.0,p,Livestock farm labourers
+841513,Mixed Livestock Farm Worker,6121.0,p,Livestock and dairy producers
+841513,Mixed Livestock Farm Worker,9212.0,p,Livestock farm labourers
+841514,Poultry Farm Worker,9212.0,p,Livestock farm labourers
+841515,Sheep Farm Worker,6121.0,p,Livestock and dairy producers
+841515,Sheep Farm Worker,9212.0,p,Livestock farm labourers
+841516,Stablehand,9212.0,p,Livestock farm labourers
+841517,Wool Handler,9212.0,p,Livestock farm labourers
+841599,Livestock Farm Workers nec,6121.0,p,Livestock and dairy producers
+841599,Livestock Farm Workers nec,9212.0,p,Livestock farm labourers
+841611,Mixed Crop and Livestock Farm Worker,9213.0,,Mixed crop and livestock farm labourers
+841911,Hunter-Trapper,6224.0,,Hunters and trappers
+841913,Pest Controller,7544.0,p,Fumigators and other pest and weed controllers
+841999,"Farm, Forestry and Garden Workers nec",7544.0,p,Fumigators and other pest and weed controllers
+851111,Fast Food Cook,9411.0,,Fast food preparers
+851211,Pastrycook's Assistant,9412.0,p,Kitchen helpers
+851299,Food Trades Assistants nec,9412.0,p,Kitchen helpers
+851311,Kitchenhand,9412.0,p,Kitchen helpers
+891111,Freight Handler (Rail or Road),9333.0,p,Freight handlers
+891112,Truck Driver's Offsider,9333.0,p,Freight handlers
+891113,Waterside Worker,9333.0,p,Freight handlers
+891211,Shelf Filler,9334.0,,Shelf fillers
+899111,Caretaker,5153.0,,Building caretakers
+899211,Deck Hand,8350.0,,Ships' deck crews and related workers
+899212,Fishing Hand,6222.0,p,Inland and coastal waters fishery workers
+899212,Fishing Hand,6223.0,p,Deep-sea fishery workers
+899311,Handyperson,9622.0,,Odd job persons
+899411,Motor Vehicle Parts and Accessories Fitter (General),7231.0,p,Motor vehicle mechanics and repairers
+899412,Autoglazier,7125.0,p,Glaziers
+899413,Exhaust and Muffler Repairer,7231.0,p,Motor vehicle mechanics and repairers
+899414,Radiator Repairer,7231.0,p,Motor vehicle mechanics and repairers
+899415,Tyre Fitter,7231.0,p,Motor vehicle mechanics and repairers
+899511,Printer's Assistant,9329.0,,Manufacturing labourers not elsewhere classified
+899512,Printing Table Worker,7323.0,p,Print finishing and binding workers
+899512,Printing Table Worker,9329.0,p,Manufacturing labourers not elsewhere classified
+899611,Recycling or Rubbish Collector,9611.0,,Garbage and recycling collectors
+899711,Vending Machine Attendant,9623.0,p,Meter readers and vending-machine collectors
+899911,Bicycle Mechanic,7234.0,p,Bicycle and related repairers
+899912,Car Park Attendant,9629.0,p,Elementary workers not elsewhere classified
+899913,Crossing Supervisor,5419.0,p,Protective services workers not elsewhere classified
+899914,Electrical or Telecommunications Trades Assistant,9313.0,,Building construction labourers
+899915,Leaflet or Newspaper Deliverer,9621.0,p,"Messengers, package deliverers and luggage porters"
+899916,Mechanic's Assistant,9629.0,p,Elementary workers not elsewhere classified
+899917,Railways Assistant,9629.0,p,Elementary workers not elsewhere classified
+899918,Sign Erector,9629.0,p,Elementary workers not elsewhere classified
+899921,Ticket Collector or Usher,9629.0,p,Elementary workers not elsewhere classified
+899922,Trolley Collector,9629.0,p,Elementary workers not elsewhere classified
+899923,Road Traffic Controller,5419.0,p,Protective services workers not elsewhere classified
+899999,Labourers nec,6210.0,p,Forestry and related workers
+899999,Labourers nec,9332.0,,Drivers of animal-drawn vehicles and machinery
+899999,Labourers nec,9510.0,p,Street and related service workers
+899999,Labourers nec,9629.0,p,Elementary workers not elsewhere classified
+0,NO CORRESPONDENCE,,,
+0,No Correspondence,1113.0,,Traditional chiefs and heads of villages
+0,No Correspondence,2240.0,,Paramedical practitioners
+0,No Correspondence,6310.0,,Subsistence crop farmers
+0,No Correspondence,6320.0,,Subsistence livestock farmers
+0,No Correspondence,6330.0,,Subsistence mixed crop and livestock farmers
+0,No Correspondence,6340.0,,"Subsistence fishers, hunters, trappers and gatherers"
+0,No Correspondence,9624.0,,Water and firewood collectors
+© Commonwealth of Australia 2013,,,,
+© Crown Copyright New Zealand 2013,,,,

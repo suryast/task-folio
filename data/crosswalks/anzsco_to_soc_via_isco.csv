@@ -1,0 +1,1778 @@
+anzsco_code,anzsco_title,isco08_code,soc_code,match_method
+111111,Chief Executive or Managing Director,1120,11-1011,isco_triangulation
+111111,Chief Executive or Managing Director,1120,11-1021,isco_triangulation
+111211,Corporate General Manager,1120,11-1011,isco_triangulation
+111211,Corporate General Manager,1120,11-1021,isco_triangulation
+131112,Sales and Marketing Manager,1221,11-2021,isco_triangulation
+131112,Sales and Marketing Manager,1221,11-2022,isco_triangulation
+132111,Corporate Services Manager,1211,11-3011,isco_triangulation
+132111,Corporate Services Manager,1211,11-3031,isco_triangulation
+132211,Finance Manager,1211,11-3011,isco_triangulation
+132211,Finance Manager,1211,11-3031,isco_triangulation
+132311,Human Resource Manager,1212,11-3121,isco_triangulation
+132411,Policy and Planning Manager,1213,11-3021,isco_triangulation
+133111,Construction Project Manager,1323,11-9021,isco_triangulation
+133111,Construction Project Manager,3123,47-1011,isco_triangulation
+133112,Project Builder,1323,11-9021,isco_triangulation
+133112,Project Builder,7111,47-2011,isco_triangulation
+133211,Engineering Manager,1349,11-9121,isco_triangulation
+133311,Importer or Exporter,1324,11-3061,isco_triangulation
+133411,Manufacturer,1321,11-3051,isco_triangulation
+133411,Manufacturer,1321,11-9051,isco_triangulation
+133512,Production Manager (Manufacturing),1321,11-3051,isco_triangulation
+133512,Production Manager (Manufacturing),1321,11-9051,isco_triangulation
+133512,Production Manager (Manufacturing),3122,49-1011,isco_triangulation
+133512,Production Manager (Manufacturing),3122,51-1011,isco_triangulation
+133611,Supply and Distribution Manager,1324,11-3061,isco_triangulation
+133612,Procurement Manager,1324,11-3061,isco_triangulation
+134211,Medical Administrator (Aus) / Medical Superintendent (NZ),1342,11-3111,isco_triangulation
+134211,Medical Administrator (Aus) / Medical Superintendent (NZ),1342,11-9041,isco_triangulation
+134212,Nursing Clinical Director,1342,11-3111,isco_triangulation
+134212,Nursing Clinical Director,1342,11-9041,isco_triangulation
+134213,Primary Health Organisation Manager,1342,11-3111,isco_triangulation
+134213,Primary Health Organisation Manager,1342,11-9041,isco_triangulation
+134299,Health and Welfare Services Managers nec,1342,11-3111,isco_triangulation
+134299,Health and Welfare Services Managers nec,1342,11-9041,isco_triangulation
+134299,Health and Welfare Services Managers nec,1343,11-9111,isco_triangulation
+135111,Chief Information Officer,1330,11-3071,isco_triangulation
+135112,ICT Project Manager,1330,11-3071,isco_triangulation
+135199,ICT Managers nec,1330,11-3071,isco_triangulation
+139112,Commissioned Fire Officer,1349,11-9121,isco_triangulation
+139113,Commissioned Police Officer,1349,11-9121,isco_triangulation
+139911,Arts Administrator or Manager,1349,11-9121,isco_triangulation
+139912,Environmental Manager,1349,11-9121,isco_triangulation
+139913,Laboratory Manager,1349,11-9121,isco_triangulation
+139914,Quality Assurance Manager,1213,11-3021,isco_triangulation
+139915,Sports Administrator,1349,11-9121,isco_triangulation
+139999,Specialist Managers nec,1321,11-3051,isco_triangulation
+139999,Specialist Managers nec,1321,11-9051,isco_triangulation
+139999,Specialist Managers nec,1349,11-9121,isco_triangulation
+141912,Retirement Village Manager,1343,11-9111,isco_triangulation
+149111,Amusement Centre Manager,1431,11-9031,isco_triangulation
+149112,Fitness Centre Manager,1431,11-9031,isco_triangulation
+149113,Sports Centre Manager,1431,11-9031,isco_triangulation
+149411,Fleet Manager,1324,11-3061,isco_triangulation
+149412,Railway Station Manager,1324,11-3061,isco_triangulation
+149413,Transport Company Manager,1324,11-3061,isco_triangulation
+149912,Cinema or Theatre Manager,1431,11-9031,isco_triangulation
+149999,"Hospitality, Retail and Service Managers nec",3324,41-3031,isco_triangulation
+211112,Dancer or Choreographer,2653,27-2031,isco_triangulation
+211112,Dancer or Choreographer,2653,27-2032,isco_triangulation
+211113,Entertainer or Variety Artist,2659,27-1019,isco_triangulation
+211113,Entertainer or Variety Artist,2652,27-2011,isco_triangulation
+211113,Entertainer or Variety Artist,2652,27-2012,isco_triangulation
+211113,Entertainer or Variety Artist,2652,27-2021,isco_triangulation
+211113,Entertainer or Variety Artist,2652,27-2041,isco_triangulation
+211113,Entertainer or Variety Artist,2652,27-2042,isco_triangulation
+211199,"Actors, Dancers and Other Entertainers nec",2659,27-1019,isco_triangulation
+211211,Composer,2652,27-2011,isco_triangulation
+211211,Composer,2652,27-2012,isco_triangulation
+211211,Composer,2652,27-2021,isco_triangulation
+211211,Composer,2652,27-2041,isco_triangulation
+211211,Composer,2652,27-2042,isco_triangulation
+211212,Music Director,2652,27-2011,isco_triangulation
+211212,Music Director,2652,27-2012,isco_triangulation
+211212,Music Director,2652,27-2021,isco_triangulation
+211212,Music Director,2652,27-2041,isco_triangulation
+211212,Music Director,2652,27-2042,isco_triangulation
+211213,Musician (Instrumental),2652,27-2011,isco_triangulation
+211213,Musician (Instrumental),2652,27-2012,isco_triangulation
+211213,Musician (Instrumental),2652,27-2021,isco_triangulation
+211213,Musician (Instrumental),2652,27-2041,isco_triangulation
+211213,Musician (Instrumental),2652,27-2042,isco_triangulation
+211214,Singer,2652,27-2011,isco_triangulation
+211214,Singer,2652,27-2012,isco_triangulation
+211214,Singer,2652,27-2021,isco_triangulation
+211214,Singer,2652,27-2041,isco_triangulation
+211214,Singer,2652,27-2042,isco_triangulation
+211299,Music Professionals nec,2652,27-2011,isco_triangulation
+211299,Music Professionals nec,2652,27-2012,isco_triangulation
+211299,Music Professionals nec,2652,27-2021,isco_triangulation
+211299,Music Professionals nec,2652,27-2041,isco_triangulation
+211299,Music Professionals nec,2652,27-2042,isco_triangulation
+211311,Photographer,3431,43-5031,isco_triangulation
+211311,Photographer,3431,27-4021,isco_triangulation
+211411,Painter (Visual Arts),2651,27-1012,isco_triangulation
+211411,Painter (Visual Arts),2651,27-1013,isco_triangulation
+211411,Painter (Visual Arts),2651,27-1014,isco_triangulation
+211412,Potter or Ceramic Artist,2651,27-1012,isco_triangulation
+211412,Potter or Ceramic Artist,2651,27-1013,isco_triangulation
+211412,Potter or Ceramic Artist,2651,27-1014,isco_triangulation
+211413,Sculptor,2651,27-1012,isco_triangulation
+211413,Sculptor,2651,27-1013,isco_triangulation
+211413,Sculptor,2651,27-1014,isco_triangulation
+212113,Radio Presenter,2656,27-3012,isco_triangulation
+212114,Television Presenter,2656,27-3012,isco_triangulation
+212211,Author,2641,27-3011,isco_triangulation
+212211,Author,2641,27-3023,isco_triangulation
+212211,Author,2641,27-3041,isco_triangulation
+212211,Author,2641,27-3042,isco_triangulation
+212211,Author,2641,27-3043,isco_triangulation
+212212,Book or Script Editor,2641,27-3011,isco_triangulation
+212212,Book or Script Editor,2641,27-3023,isco_triangulation
+212212,Book or Script Editor,2641,27-3041,isco_triangulation
+212212,Book or Script Editor,2641,27-3042,isco_triangulation
+212212,Book or Script Editor,2641,27-3043,isco_triangulation
+212412,Newspaper or Periodical Editor,2642,27-3021,isco_triangulation
+212412,Newspaper or Periodical Editor,2642,27-3022,isco_triangulation
+212412,Newspaper or Periodical Editor,2642,27-3091,isco_triangulation
+212413,Print Journalist,2642,27-3021,isco_triangulation
+212413,Print Journalist,2642,27-3022,isco_triangulation
+212413,Print Journalist,2642,27-3091,isco_triangulation
+212414,Radio Journalist,2642,27-3021,isco_triangulation
+212414,Radio Journalist,2642,27-3022,isco_triangulation
+212414,Radio Journalist,2642,27-3091,isco_triangulation
+212415,Technical Writer,2641,27-3011,isco_triangulation
+212415,Technical Writer,2641,27-3023,isco_triangulation
+212415,Technical Writer,2641,27-3041,isco_triangulation
+212415,Technical Writer,2641,27-3042,isco_triangulation
+212415,Technical Writer,2641,27-3043,isco_triangulation
+212416,Television Journalist,2642,27-3021,isco_triangulation
+212416,Television Journalist,2642,27-3022,isco_triangulation
+212416,Television Journalist,2642,27-3091,isco_triangulation
+212499,Journalists and Other Writers nec,2641,27-3011,isco_triangulation
+212499,Journalists and Other Writers nec,2641,27-3023,isco_triangulation
+212499,Journalists and Other Writers nec,2641,27-3041,isco_triangulation
+212499,Journalists and Other Writers nec,2641,27-3042,isco_triangulation
+212499,Journalists and Other Writers nec,2641,27-3043,isco_triangulation
+212499,Journalists and Other Writers nec,2642,27-3021,isco_triangulation
+212499,Journalists and Other Writers nec,2642,27-3022,isco_triangulation
+212499,Journalists and Other Writers nec,2642,27-3091,isco_triangulation
+221111,Accountant (General),2411,13-2011,isco_triangulation
+221112,Management Accountant,2411,13-2011,isco_triangulation
+221113,Taxation Accountant,2411,13-2011,isco_triangulation
+221211,Company Secretary,1211,11-3011,isco_triangulation
+221211,Company Secretary,1211,11-3031,isco_triangulation
+221212,Corporate Treasurer,1211,11-3011,isco_triangulation
+221212,Corporate Treasurer,1211,11-3031,isco_triangulation
+221213,External Auditor,2411,13-2011,isco_triangulation
+221214,Internal Auditor,2411,13-2011,isco_triangulation
+222111,Commodities Trader,3324,41-3031,isco_triangulation
+222113,Insurance Broker,3321,41-3021,isco_triangulation
+222113,Insurance Broker,3321,43-9041,isco_triangulation
+222212,Futures Trader,3324,41-3031,isco_triangulation
+222299,Financial Dealers nec,2413,13-2031,isco_triangulation
+222299,Financial Dealers nec,2413,13-2041,isco_triangulation
+222299,Financial Dealers nec,2413,13-2051,isco_triangulation
+222299,Financial Dealers nec,2413,13-2061,isco_triangulation
+223111,Human Resource Adviser,2423,13-1111,isco_triangulation
+223111,Human Resource Adviser,2423,43-9011,isco_triangulation
+223112,Recruitment Consultant,2423,13-1111,isco_triangulation
+223112,Recruitment Consultant,2423,43-9011,isco_triangulation
+223113,Workplace Relations Adviser,2423,13-1111,isco_triangulation
+223113,Workplace Relations Adviser,2423,43-9011,isco_triangulation
+224111,Actuary,2120,15-2011,isco_triangulation
+224111,Actuary,2120,15-2021,isco_triangulation
+224111,Actuary,2120,15-2031,isco_triangulation
+224112,Mathematician,2120,15-2011,isco_triangulation
+224112,Mathematician,2120,15-2021,isco_triangulation
+224112,Mathematician,2120,15-2031,isco_triangulation
+224113,Statistician,2120,15-2011,isco_triangulation
+224113,Statistician,2120,15-2021,isco_triangulation
+224113,Statistician,2120,15-2031,isco_triangulation
+224611,Librarian,1349,11-9121,isco_triangulation
+224913,Migration Agent (Aus) / Immigration Consultant (NZ),2619,23-2011,isco_triangulation
+231111,Aeroplane Pilot,3153,53-1043,isco_triangulation
+231111,Aeroplane Pilot,3153,53-2011,isco_triangulation
+231111,Aeroplane Pilot,3153,53-2012,isco_triangulation
+231112,Air Traffic Controller,3154,53-1044,isco_triangulation
+231113,Flying Instructor,3153,53-1043,isco_triangulation
+231113,Flying Instructor,3153,53-2011,isco_triangulation
+231113,Flying Instructor,3153,53-2012,isco_triangulation
+231114,Helicopter Pilot,3153,53-1043,isco_triangulation
+231114,Helicopter Pilot,3153,53-2011,isco_triangulation
+231114,Helicopter Pilot,3153,53-2012,isco_triangulation
+231199,Air Transport Professionals nec,3153,53-1043,isco_triangulation
+231199,Air Transport Professionals nec,3153,53-2011,isco_triangulation
+231199,Air Transport Professionals nec,3153,53-2012,isco_triangulation
+231212,Ship's Engineer,3151,53-1041,isco_triangulation
+231213,Ship's Master,3152,53-1042,isco_triangulation
+231213,Ship's Master,3152,53-5011,isco_triangulation
+231213,Ship's Master,3152,53-5021,isco_triangulation
+231213,Ship's Master,3152,53-5022,isco_triangulation
+231213,Ship's Master,3152,53-5031,isco_triangulation
+231214,Ship's Officer,3152,53-1042,isco_triangulation
+231214,Ship's Officer,3152,53-5011,isco_triangulation
+231214,Ship's Officer,3152,53-5021,isco_triangulation
+231214,Ship's Officer,3152,53-5022,isco_triangulation
+231214,Ship's Officer,3152,53-5031,isco_triangulation
+231299,Marine Transport Professionals nec,3152,53-1042,isco_triangulation
+231299,Marine Transport Professionals nec,3152,53-5011,isco_triangulation
+231299,Marine Transport Professionals nec,3152,53-5021,isco_triangulation
+231299,Marine Transport Professionals nec,3152,53-5022,isco_triangulation
+231299,Marine Transport Professionals nec,3152,53-5031,isco_triangulation
+232111,Architect,2161,17-1011,isco_triangulation
+232111,Architect,2161,17-2011,isco_triangulation
+232111,Architect,2161,27-1011,isco_triangulation
+232112,Landscape Architect,2162,27-1025,isco_triangulation
+232311,Fashion Designer,2163,27-1021,isco_triangulation
+232311,Fashion Designer,2163,27-1023,isco_triangulation
+232311,Fashion Designer,2163,27-1026,isco_triangulation
+232311,Fashion Designer,2163,27-1027,isco_triangulation
+232311,Fashion Designer,2163,27-1029,isco_triangulation
+232312,Industrial Designer,2163,27-1021,isco_triangulation
+232312,Industrial Designer,2163,27-1023,isco_triangulation
+232312,Industrial Designer,2163,27-1026,isco_triangulation
+232312,Industrial Designer,2163,27-1027,isco_triangulation
+232312,Industrial Designer,2163,27-1029,isco_triangulation
+232313,Jewellery Designer,2163,27-1021,isco_triangulation
+232313,Jewellery Designer,2163,27-1023,isco_triangulation
+232313,Jewellery Designer,2163,27-1026,isco_triangulation
+232313,Jewellery Designer,2163,27-1027,isco_triangulation
+232313,Jewellery Designer,2163,27-1029,isco_triangulation
+232411,Graphic Designer,2166,27-1022,isco_triangulation
+232411,Graphic Designer,2166,27-1024,isco_triangulation
+232412,Illustrator,2166,27-1022,isco_triangulation
+232412,Illustrator,2166,27-1024,isco_triangulation
+232412,Illustrator,2651,27-1012,isco_triangulation
+232412,Illustrator,2651,27-1013,isco_triangulation
+232412,Illustrator,2651,27-1014,isco_triangulation
+232413,Multimedia Designer,2166,27-1022,isco_triangulation
+232413,Multimedia Designer,2166,27-1024,isco_triangulation
+232414,Web Designer,2166,27-1022,isco_triangulation
+232414,Web Designer,2166,27-1024,isco_triangulation
+232511,Interior Designer,2161,17-1011,isco_triangulation
+232511,Interior Designer,2161,17-2011,isco_triangulation
+232511,Interior Designer,2161,27-1011,isco_triangulation
+233111,Chemical Engineer,2145,17-2041,isco_triangulation
+233112,Materials Engineer,2149,17-2131,isco_triangulation
+233211,Civil Engineer,2142,17-2031,isco_triangulation
+233211,Civil Engineer,2142,17-2051,isco_triangulation
+233212,Geotechnical Engineer,2142,17-2031,isco_triangulation
+233212,Geotechnical Engineer,2142,17-2051,isco_triangulation
+233213,Quantity Surveyor,2149,17-2131,isco_triangulation
+233214,Structural Engineer,2142,17-2031,isco_triangulation
+233214,Structural Engineer,2142,17-2051,isco_triangulation
+233215,Transport Engineer,2142,17-2031,isco_triangulation
+233215,Transport Engineer,2142,17-2051,isco_triangulation
+233311,Electrical Engineer,2151,17-2071,isco_triangulation
+233411,Electronics Engineer,2152,17-2072,isco_triangulation
+233511,Industrial Engineer,2141,13-2021,isco_triangulation
+233511,Industrial Engineer,2141,17-2112,isco_triangulation
+233511,Industrial Engineer,2149,17-2131,isco_triangulation
+233512,Mechanical Engineer,2144,17-2061,isco_triangulation
+233512,Mechanical Engineer,2144,17-2141,isco_triangulation
+233513,Production or Plant Engineer,2141,13-2021,isco_triangulation
+233513,Production or Plant Engineer,2141,17-2112,isco_triangulation
+233611,Mining Engineer (excluding Petroleum),2146,17-2121,isco_triangulation
+233611,Mining Engineer (excluding Petroleum),2146,17-2151,isco_triangulation
+233611,Mining Engineer (excluding Petroleum),2146,17-2171,isco_triangulation
+233612,Petroleum Engineer,2146,17-2121,isco_triangulation
+233612,Petroleum Engineer,2146,17-2151,isco_triangulation
+233612,Petroleum Engineer,2146,17-2171,isco_triangulation
+233911,Aeronautical Engineer,2144,17-2061,isco_triangulation
+233911,Aeronautical Engineer,2144,17-2141,isco_triangulation
+233912,Agricultural Engineer,2144,17-2061,isco_triangulation
+233912,Agricultural Engineer,2144,17-2141,isco_triangulation
+233912,Agricultural Engineer,2149,17-2131,isco_triangulation
+233913,Biomedical Engineer,2149,17-2131,isco_triangulation
+233914,Engineering Technologist,2141,13-2021,isco_triangulation
+233914,Engineering Technologist,2141,17-2112,isco_triangulation
+233914,Engineering Technologist,2142,17-2031,isco_triangulation
+233914,Engineering Technologist,2142,17-2051,isco_triangulation
+233914,Engineering Technologist,2144,17-2061,isco_triangulation
+233914,Engineering Technologist,2144,17-2141,isco_triangulation
+233914,Engineering Technologist,2145,17-2041,isco_triangulation
+233914,Engineering Technologist,2146,17-2121,isco_triangulation
+233914,Engineering Technologist,2146,17-2151,isco_triangulation
+233914,Engineering Technologist,2146,17-2171,isco_triangulation
+233914,Engineering Technologist,2149,17-2131,isco_triangulation
+233914,Engineering Technologist,2151,17-2071,isco_triangulation
+233914,Engineering Technologist,2152,17-2072,isco_triangulation
+233915,Environmental Engineer,2143,17-2021,isco_triangulation
+233915,Environmental Engineer,2143,17-2081,isco_triangulation
+233915,Environmental Engineer,2143,17-2111,isco_triangulation
+233915,Environmental Engineer,2143,17-2161,isco_triangulation
+233916,Naval Architect (Aus) / Marine Designer (NZ),2144,17-2061,isco_triangulation
+233916,Naval Architect (Aus) / Marine Designer (NZ),2144,17-2141,isco_triangulation
+233999,Engineering Professionals nec,2149,17-2131,isco_triangulation
+234212,Food Technologist,2145,17-2041,isco_triangulation
+234213,Wine Maker,2145,17-2041,isco_triangulation
+234314,Park Ranger,5419,33-9091,isco_triangulation
+234314,Park Ranger,5419,33-9092,isco_triangulation
+234314,Park Ranger,5419,33-9093,isco_triangulation
+234912,Metallurgist,2146,17-2121,isco_triangulation
+234912,Metallurgist,2146,17-2151,isco_triangulation
+234912,Metallurgist,2146,17-2171,isco_triangulation
+234914,Physicist,2111,15-2041,isco_triangulation
+234999,Natural and Physical Science Professionals nec,2146,17-2121,isco_triangulation
+234999,Natural and Physical Science Professionals nec,2146,17-2151,isco_triangulation
+234999,Natural and Physical Science Professionals nec,2146,17-2171,isco_triangulation
+241211,Kaiako Kura Kaupapa Mäori (Mäori-medium Primary School Teacher),2341,25-2011,isco_triangulation
+241211,Kaiako Kura Kaupapa Mäori (Mäori-medium Primary School Teacher),2341,25-2012,isco_triangulation
+241211,Kaiako Kura Kaupapa Mäori (Mäori-medium Primary School Teacher),2341,25-2021,isco_triangulation
+241212,Pouako Kura Kaupapa Mäori (Mäori-medium Primary School Senior Teacher),2341,25-2011,isco_triangulation
+241212,Pouako Kura Kaupapa Mäori (Mäori-medium Primary School Senior Teacher),2341,25-2012,isco_triangulation
+241212,Pouako Kura Kaupapa Mäori (Mäori-medium Primary School Senior Teacher),2341,25-2021,isco_triangulation
+241213,Primary School Teacher,2341,25-2011,isco_triangulation
+241213,Primary School Teacher,2341,25-2012,isco_triangulation
+241213,Primary School Teacher,2341,25-2021,isco_triangulation
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2330,25-2022,isco_triangulation
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2330,25-2031,isco_triangulation
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2341,25-2011,isco_triangulation
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2341,25-2012,isco_triangulation
+241311,Middle School Teacher (Aus) / Intermediate School Teacher (NZ),2341,25-2021,isco_triangulation
+241411,Secondary School Teacher,2330,25-2022,isco_triangulation
+241411,Secondary School Teacher,2330,25-2031,isco_triangulation
+241511,Special Needs Teacher,2352,25-3011,isco_triangulation
+241512,Teacher of the Hearing Impaired,2352,25-3011,isco_triangulation
+241513,Teacher of the Sight Impaired,2352,25-3011,isco_triangulation
+241599,Special Education Teachers nec,2352,25-3011,isco_triangulation
+242111,University Lecturer,2310,25-1011,isco_triangulation
+242111,University Lecturer,2310,25-1021,isco_triangulation
+242111,University Lecturer,2310,25-1022,isco_triangulation
+242111,University Lecturer,2310,25-1031,isco_triangulation
+242111,University Lecturer,2310,25-1032,isco_triangulation
+242112,University Tutor,2310,25-1011,isco_triangulation
+242112,University Tutor,2310,25-1021,isco_triangulation
+242112,University Tutor,2310,25-1022,isco_triangulation
+242112,University Tutor,2310,25-1031,isco_triangulation
+242112,University Tutor,2310,25-1032,isco_triangulation
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310,25-1011,isco_triangulation
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310,25-1021,isco_triangulation
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310,25-1022,isco_triangulation
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310,25-1031,isco_triangulation
+242211,Vocational Education Teacher (Aus) / Polytechnic Teacher (NZ),2310,25-1032,isco_triangulation
+249111,Education Adviser,2351,25-9031,isco_triangulation
+249112,Education Reviewer,2351,25-9031,isco_triangulation
+249299,Private Tutors and Teachers nec ,2353,25-3021,isco_triangulation
+249299,Private Tutors and Teachers nec ,2353,25-3031,isco_triangulation
+249299,Private Tutors and Teachers nec,2359,25-2052,isco_triangulation
+249311,Teacher of English to Speakers of Other Languages,2353,25-3021,isco_triangulation
+249311,Teacher of English to Speakers of Other Languages,2353,25-3031,isco_triangulation
+251411,Optometrist,2267,29-1122,isco_triangulation
+251412,Orthoptist,2267,29-1122,isco_triangulation
+251511,Hospital Pharmacist,2262,29-1051,isco_triangulation
+251512,Industrial Pharmacist,2262,29-1051,isco_triangulation
+251513,Retail Pharmacist,2262,29-1051,isco_triangulation
+252311,Dental Specialist,2261,29-1211,isco_triangulation
+252311,Dental Specialist,2261,29-1031,isco_triangulation
+252312,Dentist,2261,29-1211,isco_triangulation
+252312,Dentist,2261,29-1031,isco_triangulation
+252511,Physiotherapist,2264,29-1123,isco_triangulation
+252711,Audiologist,2266,29-1127,isco_triangulation
+252712,Speech Pathologist (Aus) \ Speech Language Therapist (NZ),2266,29-1127,isco_triangulation
+253111,General Practitioner,2211,29-1215,isco_triangulation
+253111,General Practitioner,2211,29-1221,isco_triangulation
+253112,Resident Medical Officer,2211,29-1215,isco_triangulation
+253112,Resident Medical Officer,2211,29-1221,isco_triangulation
+253211,Anaesthetist,2212,29-1171,isco_triangulation
+253211,Anaesthetist,2212,29-1212,isco_triangulation
+253211,Anaesthetist,2212,29-1213,isco_triangulation
+253211,Anaesthetist,2212,29-1214,isco_triangulation
+253211,Anaesthetist,2212,29-1216,isco_triangulation
+253211,Anaesthetist,2212,29-1218,isco_triangulation
+253211,Anaesthetist,2212,29-1222,isco_triangulation
+253211,Anaesthetist,2212,29-1223,isco_triangulation
+253211,Anaesthetist,2212,29-1224,isco_triangulation
+253211,Anaesthetist,2212,29-1229,isco_triangulation
+253211,Anaesthetist,2212,29-1241,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1171,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1212,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1213,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1214,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1216,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1218,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1222,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1223,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1224,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1229,isco_triangulation
+253311,Specialist Physician (General Medicine),2212,29-1241,isco_triangulation
+253312,Cardiologist,2212,29-1171,isco_triangulation
+253312,Cardiologist,2212,29-1212,isco_triangulation
+253312,Cardiologist,2212,29-1213,isco_triangulation
+253312,Cardiologist,2212,29-1214,isco_triangulation
+253312,Cardiologist,2212,29-1216,isco_triangulation
+253312,Cardiologist,2212,29-1218,isco_triangulation
+253312,Cardiologist,2212,29-1222,isco_triangulation
+253312,Cardiologist,2212,29-1223,isco_triangulation
+253312,Cardiologist,2212,29-1224,isco_triangulation
+253312,Cardiologist,2212,29-1229,isco_triangulation
+253312,Cardiologist,2212,29-1241,isco_triangulation
+253313,Clinical Haematologist,2212,29-1171,isco_triangulation
+253313,Clinical Haematologist,2212,29-1212,isco_triangulation
+253313,Clinical Haematologist,2212,29-1213,isco_triangulation
+253313,Clinical Haematologist,2212,29-1214,isco_triangulation
+253313,Clinical Haematologist,2212,29-1216,isco_triangulation
+253313,Clinical Haematologist,2212,29-1218,isco_triangulation
+253313,Clinical Haematologist,2212,29-1222,isco_triangulation
+253313,Clinical Haematologist,2212,29-1223,isco_triangulation
+253313,Clinical Haematologist,2212,29-1224,isco_triangulation
+253313,Clinical Haematologist,2212,29-1229,isco_triangulation
+253313,Clinical Haematologist,2212,29-1241,isco_triangulation
+253314,Medical Oncologist,2212,29-1171,isco_triangulation
+253314,Medical Oncologist,2212,29-1212,isco_triangulation
+253314,Medical Oncologist,2212,29-1213,isco_triangulation
+253314,Medical Oncologist,2212,29-1214,isco_triangulation
+253314,Medical Oncologist,2212,29-1216,isco_triangulation
+253314,Medical Oncologist,2212,29-1218,isco_triangulation
+253314,Medical Oncologist,2212,29-1222,isco_triangulation
+253314,Medical Oncologist,2212,29-1223,isco_triangulation
+253314,Medical Oncologist,2212,29-1224,isco_triangulation
+253314,Medical Oncologist,2212,29-1229,isco_triangulation
+253314,Medical Oncologist,2212,29-1241,isco_triangulation
+253315,Endocrinologist,2212,29-1171,isco_triangulation
+253315,Endocrinologist,2212,29-1212,isco_triangulation
+253315,Endocrinologist,2212,29-1213,isco_triangulation
+253315,Endocrinologist,2212,29-1214,isco_triangulation
+253315,Endocrinologist,2212,29-1216,isco_triangulation
+253315,Endocrinologist,2212,29-1218,isco_triangulation
+253315,Endocrinologist,2212,29-1222,isco_triangulation
+253315,Endocrinologist,2212,29-1223,isco_triangulation
+253315,Endocrinologist,2212,29-1224,isco_triangulation
+253315,Endocrinologist,2212,29-1229,isco_triangulation
+253315,Endocrinologist,2212,29-1241,isco_triangulation
+253316,Gastroenterologist,2212,29-1171,isco_triangulation
+253316,Gastroenterologist,2212,29-1212,isco_triangulation
+253316,Gastroenterologist,2212,29-1213,isco_triangulation
+253316,Gastroenterologist,2212,29-1214,isco_triangulation
+253316,Gastroenterologist,2212,29-1216,isco_triangulation
+253316,Gastroenterologist,2212,29-1218,isco_triangulation
+253316,Gastroenterologist,2212,29-1222,isco_triangulation
+253316,Gastroenterologist,2212,29-1223,isco_triangulation
+253316,Gastroenterologist,2212,29-1224,isco_triangulation
+253316,Gastroenterologist,2212,29-1229,isco_triangulation
+253316,Gastroenterologist,2212,29-1241,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1171,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1212,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1213,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1214,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1216,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1218,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1222,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1223,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1224,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1229,isco_triangulation
+253317,Intensive Care Specialist,2212,29-1241,isco_triangulation
+253318,Neurologist,2212,29-1171,isco_triangulation
+253318,Neurologist,2212,29-1212,isco_triangulation
+253318,Neurologist,2212,29-1213,isco_triangulation
+253318,Neurologist,2212,29-1214,isco_triangulation
+253318,Neurologist,2212,29-1216,isco_triangulation
+253318,Neurologist,2212,29-1218,isco_triangulation
+253318,Neurologist,2212,29-1222,isco_triangulation
+253318,Neurologist,2212,29-1223,isco_triangulation
+253318,Neurologist,2212,29-1224,isco_triangulation
+253318,Neurologist,2212,29-1229,isco_triangulation
+253318,Neurologist,2212,29-1241,isco_triangulation
+253321,Paediatrician,2212,29-1171,isco_triangulation
+253321,Paediatrician,2212,29-1212,isco_triangulation
+253321,Paediatrician,2212,29-1213,isco_triangulation
+253321,Paediatrician,2212,29-1214,isco_triangulation
+253321,Paediatrician,2212,29-1216,isco_triangulation
+253321,Paediatrician,2212,29-1218,isco_triangulation
+253321,Paediatrician,2212,29-1222,isco_triangulation
+253321,Paediatrician,2212,29-1223,isco_triangulation
+253321,Paediatrician,2212,29-1224,isco_triangulation
+253321,Paediatrician,2212,29-1229,isco_triangulation
+253321,Paediatrician,2212,29-1241,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1171,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1212,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1213,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1214,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1216,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1218,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1222,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1223,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1224,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1229,isco_triangulation
+253322,Renal Medicine Specialist,2212,29-1241,isco_triangulation
+253323,Rheumatologist,2212,29-1171,isco_triangulation
+253323,Rheumatologist,2212,29-1212,isco_triangulation
+253323,Rheumatologist,2212,29-1213,isco_triangulation
+253323,Rheumatologist,2212,29-1214,isco_triangulation
+253323,Rheumatologist,2212,29-1216,isco_triangulation
+253323,Rheumatologist,2212,29-1218,isco_triangulation
+253323,Rheumatologist,2212,29-1222,isco_triangulation
+253323,Rheumatologist,2212,29-1223,isco_triangulation
+253323,Rheumatologist,2212,29-1224,isco_triangulation
+253323,Rheumatologist,2212,29-1229,isco_triangulation
+253323,Rheumatologist,2212,29-1241,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1171,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1212,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1213,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1214,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1216,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1218,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1222,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1223,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1224,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1229,isco_triangulation
+253324,Thoracic Medicine Specialist,2212,29-1241,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1171,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1212,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1213,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1214,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1216,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1218,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1222,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1223,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1224,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1229,isco_triangulation
+253399,Specialist Physicians nec,2212,29-1241,isco_triangulation
+253411,Psychiatrist,2212,29-1171,isco_triangulation
+253411,Psychiatrist,2212,29-1212,isco_triangulation
+253411,Psychiatrist,2212,29-1213,isco_triangulation
+253411,Psychiatrist,2212,29-1214,isco_triangulation
+253411,Psychiatrist,2212,29-1216,isco_triangulation
+253411,Psychiatrist,2212,29-1218,isco_triangulation
+253411,Psychiatrist,2212,29-1222,isco_triangulation
+253411,Psychiatrist,2212,29-1223,isco_triangulation
+253411,Psychiatrist,2212,29-1224,isco_triangulation
+253411,Psychiatrist,2212,29-1229,isco_triangulation
+253411,Psychiatrist,2212,29-1241,isco_triangulation
+253511,Surgeon (General),2212,29-1171,isco_triangulation
+253511,Surgeon (General),2212,29-1212,isco_triangulation
+253511,Surgeon (General),2212,29-1213,isco_triangulation
+253511,Surgeon (General),2212,29-1214,isco_triangulation
+253511,Surgeon (General),2212,29-1216,isco_triangulation
+253511,Surgeon (General),2212,29-1218,isco_triangulation
+253511,Surgeon (General),2212,29-1222,isco_triangulation
+253511,Surgeon (General),2212,29-1223,isco_triangulation
+253511,Surgeon (General),2212,29-1224,isco_triangulation
+253511,Surgeon (General),2212,29-1229,isco_triangulation
+253511,Surgeon (General),2212,29-1241,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1171,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1212,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1213,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1214,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1216,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1218,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1222,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1223,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1224,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1229,isco_triangulation
+253512,Cardiothoracic Surgeon,2212,29-1241,isco_triangulation
+253513,Neurosurgeon,2212,29-1171,isco_triangulation
+253513,Neurosurgeon,2212,29-1212,isco_triangulation
+253513,Neurosurgeon,2212,29-1213,isco_triangulation
+253513,Neurosurgeon,2212,29-1214,isco_triangulation
+253513,Neurosurgeon,2212,29-1216,isco_triangulation
+253513,Neurosurgeon,2212,29-1218,isco_triangulation
+253513,Neurosurgeon,2212,29-1222,isco_triangulation
+253513,Neurosurgeon,2212,29-1223,isco_triangulation
+253513,Neurosurgeon,2212,29-1224,isco_triangulation
+253513,Neurosurgeon,2212,29-1229,isco_triangulation
+253513,Neurosurgeon,2212,29-1241,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1171,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1212,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1213,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1214,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1216,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1218,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1222,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1223,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1224,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1229,isco_triangulation
+253514,Orthopaedic Surgeon,2212,29-1241,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1171,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1212,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1213,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1214,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1216,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1218,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1222,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1223,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1224,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1229,isco_triangulation
+253515,Otorhinolaryngologist,2212,29-1241,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1171,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1212,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1213,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1214,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1216,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1218,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1222,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1223,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1224,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1229,isco_triangulation
+253516,Paediatric Surgeon,2212,29-1241,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1171,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1212,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1213,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1214,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1216,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1218,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1222,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1223,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1224,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1229,isco_triangulation
+253517,Plastic and Reconstructive Surgeon,2212,29-1241,isco_triangulation
+253518,Urologist,2212,29-1171,isco_triangulation
+253518,Urologist,2212,29-1212,isco_triangulation
+253518,Urologist,2212,29-1213,isco_triangulation
+253518,Urologist,2212,29-1214,isco_triangulation
+253518,Urologist,2212,29-1216,isco_triangulation
+253518,Urologist,2212,29-1218,isco_triangulation
+253518,Urologist,2212,29-1222,isco_triangulation
+253518,Urologist,2212,29-1223,isco_triangulation
+253518,Urologist,2212,29-1224,isco_triangulation
+253518,Urologist,2212,29-1229,isco_triangulation
+253518,Urologist,2212,29-1241,isco_triangulation
+253521,Vascular Surgeon,2212,29-1171,isco_triangulation
+253521,Vascular Surgeon,2212,29-1212,isco_triangulation
+253521,Vascular Surgeon,2212,29-1213,isco_triangulation
+253521,Vascular Surgeon,2212,29-1214,isco_triangulation
+253521,Vascular Surgeon,2212,29-1216,isco_triangulation
+253521,Vascular Surgeon,2212,29-1218,isco_triangulation
+253521,Vascular Surgeon,2212,29-1222,isco_triangulation
+253521,Vascular Surgeon,2212,29-1223,isco_triangulation
+253521,Vascular Surgeon,2212,29-1224,isco_triangulation
+253521,Vascular Surgeon,2212,29-1229,isco_triangulation
+253521,Vascular Surgeon,2212,29-1241,isco_triangulation
+253911,Dermatologist,2212,29-1171,isco_triangulation
+253911,Dermatologist,2212,29-1212,isco_triangulation
+253911,Dermatologist,2212,29-1213,isco_triangulation
+253911,Dermatologist,2212,29-1214,isco_triangulation
+253911,Dermatologist,2212,29-1216,isco_triangulation
+253911,Dermatologist,2212,29-1218,isco_triangulation
+253911,Dermatologist,2212,29-1222,isco_triangulation
+253911,Dermatologist,2212,29-1223,isco_triangulation
+253911,Dermatologist,2212,29-1224,isco_triangulation
+253911,Dermatologist,2212,29-1229,isco_triangulation
+253911,Dermatologist,2212,29-1241,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1171,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1212,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1213,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1214,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1216,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1218,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1222,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1223,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1224,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1229,isco_triangulation
+253912,Emergency Medicine Specialist,2212,29-1241,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1171,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1212,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1213,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1214,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1216,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1218,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1222,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1223,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1224,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1229,isco_triangulation
+253913,Obstetrician and Gynaecologist,2212,29-1241,isco_triangulation
+253914,Ophthalmologist,2212,29-1171,isco_triangulation
+253914,Ophthalmologist,2212,29-1212,isco_triangulation
+253914,Ophthalmologist,2212,29-1213,isco_triangulation
+253914,Ophthalmologist,2212,29-1214,isco_triangulation
+253914,Ophthalmologist,2212,29-1216,isco_triangulation
+253914,Ophthalmologist,2212,29-1218,isco_triangulation
+253914,Ophthalmologist,2212,29-1222,isco_triangulation
+253914,Ophthalmologist,2212,29-1223,isco_triangulation
+253914,Ophthalmologist,2212,29-1224,isco_triangulation
+253914,Ophthalmologist,2212,29-1229,isco_triangulation
+253914,Ophthalmologist,2212,29-1241,isco_triangulation
+253915,Pathologist,2212,29-1171,isco_triangulation
+253915,Pathologist,2212,29-1212,isco_triangulation
+253915,Pathologist,2212,29-1213,isco_triangulation
+253915,Pathologist,2212,29-1214,isco_triangulation
+253915,Pathologist,2212,29-1216,isco_triangulation
+253915,Pathologist,2212,29-1218,isco_triangulation
+253915,Pathologist,2212,29-1222,isco_triangulation
+253915,Pathologist,2212,29-1223,isco_triangulation
+253915,Pathologist,2212,29-1224,isco_triangulation
+253915,Pathologist,2212,29-1229,isco_triangulation
+253915,Pathologist,2212,29-1241,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1171,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1212,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1213,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1214,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1216,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1218,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1222,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1223,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1224,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1229,isco_triangulation
+253917,Diagnostic and Interventional Radiologist,2212,29-1241,isco_triangulation
+253918,Radiation Oncologist,2212,29-1171,isco_triangulation
+253918,Radiation Oncologist,2212,29-1212,isco_triangulation
+253918,Radiation Oncologist,2212,29-1213,isco_triangulation
+253918,Radiation Oncologist,2212,29-1214,isco_triangulation
+253918,Radiation Oncologist,2212,29-1216,isco_triangulation
+253918,Radiation Oncologist,2212,29-1218,isco_triangulation
+253918,Radiation Oncologist,2212,29-1222,isco_triangulation
+253918,Radiation Oncologist,2212,29-1223,isco_triangulation
+253918,Radiation Oncologist,2212,29-1224,isco_triangulation
+253918,Radiation Oncologist,2212,29-1229,isco_triangulation
+253918,Radiation Oncologist,2212,29-1241,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1171,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1212,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1213,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1214,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1216,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1218,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1222,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1223,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1224,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1229,isco_triangulation
+253999,Medical Practitioners nec,2212,29-1241,isco_triangulation
+254211,Nurse Educator,2221,29-1141,isco_triangulation
+254212,Nurse Researcher,2221,29-1141,isco_triangulation
+254311,Nurse Manager,2221,29-1141,isco_triangulation
+254411,Nurse Practitioner,2221,29-1141,isco_triangulation
+254412,Registered Nurse (Aged Care),2221,29-1141,isco_triangulation
+254413,Registered Nurse (Child and Family Health),2221,29-1141,isco_triangulation
+254414,Registered Nurse (Community Health),2221,29-1141,isco_triangulation
+254415,Registered Nurse (Critical Care and Emergency),2221,29-1141,isco_triangulation
+254416,Registered Nurse (Developmental Disability),2221,29-1141,isco_triangulation
+254417,Registered Nurse (Disability and Rehabilitation),2221,29-1141,isco_triangulation
+254418,Registered Nurse (Medical),2221,29-1141,isco_triangulation
+254421,Registered Nurse (Medical Practice),2221,29-1141,isco_triangulation
+254422,Registered Nurse (Mental Health),2221,29-1141,isco_triangulation
+254423,Registered Nurse (Perioperative),2221,29-1141,isco_triangulation
+254424,Registered Nurse (Surgical),2221,29-1141,isco_triangulation
+254425,Registered Nurse (Paediatrics),2221,29-1141,isco_triangulation
+254499,Registered Nurses nec,2221,29-1141,isco_triangulation
+261111,ICT Business Analyst,2511,15-1211,isco_triangulation
+261111,ICT Business Analyst,2511,15-1231,isco_triangulation
+261112,Systems Analyst,2511,15-1211,isco_triangulation
+261112,Systems Analyst,2511,15-1231,isco_triangulation
+261211,Multimedia Specialist,2513,15-1254,isco_triangulation
+261211,Multimedia Specialist,2513,15-1255,isco_triangulation
+261212,Web Developer,2513,15-1254,isco_triangulation
+261212,Web Developer,2513,15-1255,isco_triangulation
+261311,Analyst Programmer,2512,15-1221,isco_triangulation
+261311,Analyst Programmer,2512,15-1251,isco_triangulation
+261311,Analyst Programmer,2512,15-1252,isco_triangulation
+261312,Developer Programmer,2514,15-1253,isco_triangulation
+261313,Software Engineer,2512,15-1221,isco_triangulation
+261313,Software Engineer,2512,15-1251,isco_triangulation
+261313,Software Engineer,2512,15-1252,isco_triangulation
+261314,Software Tester,2519,15-1299,isco_triangulation
+261399,Software and Applications Programmers nec,2519,15-1299,isco_triangulation
+262111,Database Administrator,2521,15-2051,isco_triangulation
+262112,ICT Security Specialist,2529,15-1212,isco_triangulation
+263111,Computer Network and Systems Engineer,2523,15-1232,isco_triangulation
+263113,Network Analyst,2523,15-1232,isco_triangulation
+263211,ICT Quality Assurance Engineer,2519,15-1299,isco_triangulation
+263212,ICT Support Engineer,2519,15-1299,isco_triangulation
+263213,ICT Systems Test Engineer,2519,15-1299,isco_triangulation
+263299,ICT Support and Test Engineers nec,2519,15-1299,isco_triangulation
+271111,Barrister,2611,23-1011,isco_triangulation
+271111,Barrister,2611,23-1012,isco_triangulation
+271211,Judge,2612,23-1021,isco_triangulation
+271211,Judge,2612,23-1022,isco_triangulation
+271211,Judge,2612,23-1023,isco_triangulation
+271212,Magistrate,2612,23-1021,isco_triangulation
+271212,Magistrate,2612,23-1022,isco_triangulation
+271212,Magistrate,2612,23-1023,isco_triangulation
+271213,Tribunal Member,2619,23-2011,isco_triangulation
+271214,Intellectual Property Lawyer,2611,23-1011,isco_triangulation
+271214,Intellectual Property Lawyer,2611,23-1012,isco_triangulation
+271299,Judicial and Other Legal Professionals nec,2619,23-2011,isco_triangulation
+271311,Solicitor,2611,23-1011,isco_triangulation
+271311,Solicitor,2611,23-1012,isco_triangulation
+272111,Careers Counsellor,2423,13-1111,isco_triangulation
+272111,Careers Counsellor,2423,43-9011,isco_triangulation
+272115,Student Counsellor,2359,25-2052,isco_triangulation
+272412,Interpreter,2643,27-3031,isco_triangulation
+272413,Translator,2643,27-3031,isco_triangulation
+272499,Social Professionals nec,2643,27-3031,isco_triangulation
+311313,Quarantine Officer,3351,33-3011,isco_triangulation
+311313,Quarantine Officer,3351,33-3012,isco_triangulation
+312112,Building Associate,3123,47-1011,isco_triangulation
+312412,Electronic Engineering Technician,3155,53-2021,isco_triangulation
+312412,Electronic Engineering Technician,3155,53-2022,isco_triangulation
+312412,Electronic Engineering Technician,3155,53-2031,isco_triangulation
+312611,Safety Inspector,2149,17-2131,isco_triangulation
+313111,Hardware Technician,7422,49-2098,isco_triangulation
+313112,ICT Customer Support Officer,3512,15-1244,isco_triangulation
+313199,ICT Support Technicians nec,3511,15-1241,isco_triangulation
+313199,ICT Support Technicians nec,7422,49-2098,isco_triangulation
+313211,Radiocommunications Technician,3155,53-2021,isco_triangulation
+313211,Radiocommunications Technician,3155,53-2022,isco_triangulation
+313211,Radiocommunications Technician,3155,53-2031,isco_triangulation
+321111,Automotive Electrician,7412,49-2093,isco_triangulation
+321111,Automotive Electrician,7412,49-2094,isco_triangulation
+321111,Automotive Electrician,7412,49-2095,isco_triangulation
+321111,Automotive Electrician,7412,49-9011,isco_triangulation
+321111,Automotive Electrician,7412,49-9012,isco_triangulation
+321111,Automotive Electrician,7412,51-2022,isco_triangulation
+321211,Motor Mechanic (General),7231,49-3011,isco_triangulation
+321211,Motor Mechanic (General),7231,49-3022,isco_triangulation
+321211,Motor Mechanic (General),7231,49-3023,isco_triangulation
+321211,Motor Mechanic (General),7231,49-3092,isco_triangulation
+321212,Diesel Motor Mechanic,7231,49-3011,isco_triangulation
+321212,Diesel Motor Mechanic,7231,49-3022,isco_triangulation
+321212,Diesel Motor Mechanic,7231,49-3023,isco_triangulation
+321212,Diesel Motor Mechanic,7231,49-3092,isco_triangulation
+321213,Motorcycle Mechanic,7231,49-3011,isco_triangulation
+321213,Motorcycle Mechanic,7231,49-3022,isco_triangulation
+321213,Motorcycle Mechanic,7231,49-3023,isco_triangulation
+321213,Motorcycle Mechanic,7231,49-3092,isco_triangulation
+321214,Small Engine Mechanic,7231,49-3011,isco_triangulation
+321214,Small Engine Mechanic,7231,49-3022,isco_triangulation
+321214,Small Engine Mechanic,7231,49-3023,isco_triangulation
+321214,Small Engine Mechanic,7231,49-3092,isco_triangulation
+322111,Blacksmith,7221,51-4041,isco_triangulation
+322112,Electroplater,8122,51-4022,isco_triangulation
+322112,Electroplater,8122,51-4023,isco_triangulation
+322112,Electroplater,8122,51-4032,isco_triangulation
+322112,Electroplater,8122,51-4051,isco_triangulation
+322112,Electroplater,8122,51-4191,isco_triangulation
+322113,Farrier,7221,51-4041,isco_triangulation
+322115,Metal Polisher,7224,51-4031,isco_triangulation
+322115,Metal Polisher,7224,51-4193,isco_triangulation
+322115,Metal Polisher,7224,51-4194,isco_triangulation
+322211,Sheetmetal Trades Worker,7213,47-2211,isco_triangulation
+322311,Metal Fabricator,7212,47-2171,isco_triangulation
+322311,Metal Fabricator,7212,51-4122,isco_triangulation
+322311,Metal Fabricator,7213,47-2211,isco_triangulation
+322311,Metal Fabricator,7214,47-2181,isco_triangulation
+322311,Metal Fabricator,7214,47-2221,isco_triangulation
+322311,Metal Fabricator,7214,51-4061,isco_triangulation
+322311,Metal Fabricator,7214,51-4071,isco_triangulation
+322311,Metal Fabricator,7214,51-4121,isco_triangulation
+322312,Pressure Welder,7212,47-2171,isco_triangulation
+322312,Pressure Welder,7212,51-4122,isco_triangulation
+322313,Welder (First Class) (Aus) / Welder (NZ),7212,47-2171,isco_triangulation
+322313,Welder (First Class) (Aus) / Welder (NZ),7212,51-4122,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2011,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2021,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2022,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2091,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2092,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2096,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-2097,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-9051,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-9052,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-9061,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-9095,isco_triangulation
+323111,Aircraft Maintenance Engineer (Avionics),7421,49-9097,isco_triangulation
+323113,Aircraft Maintenance Engineer (Structures),7213,47-2211,isco_triangulation
+323211,Fitter (General),7233,49-3021,isco_triangulation
+323211,Fitter (General),7233,49-3031,isco_triangulation
+323211,Fitter (General),7233,49-3042,isco_triangulation
+323211,Fitter (General),7233,49-3093,isco_triangulation
+323211,Fitter (General),7233,49-9031,isco_triangulation
+323211,Fitter (General),7233,49-9041,isco_triangulation
+323211,Fitter (General),7233,49-9043,isco_triangulation
+323211,Fitter (General),7233,49-9044,isco_triangulation
+323211,Fitter (General),7233,49-9071,isco_triangulation
+323211,Fitter (General),7233,49-9091,isco_triangulation
+323211,Fitter (General),7233,49-9092,isco_triangulation
+323211,Fitter (General),7233,49-9096,isco_triangulation
+323211,Fitter (General),7223,51-4011,isco_triangulation
+323211,Fitter (General),7223,51-4012,isco_triangulation
+323211,Fitter (General),7223,51-4033,isco_triangulation
+323211,Fitter (General),7223,51-4034,isco_triangulation
+323211,Fitter (General),7223,51-4035,isco_triangulation
+323212,Fitter and Turner,7223,51-4011,isco_triangulation
+323212,Fitter and Turner,7223,51-4012,isco_triangulation
+323212,Fitter and Turner,7223,51-4033,isco_triangulation
+323212,Fitter and Turner,7223,51-4034,isco_triangulation
+323212,Fitter and Turner,7223,51-4035,isco_triangulation
+323213,Fitter-Welder,7212,47-2171,isco_triangulation
+323213,Fitter-Welder,7212,51-4122,isco_triangulation
+323214,Metal Machinist (First Class),7223,51-4011,isco_triangulation
+323214,Metal Machinist (First Class),7223,51-4012,isco_triangulation
+323214,Metal Machinist (First Class),7223,51-4033,isco_triangulation
+323214,Metal Machinist (First Class),7223,51-4034,isco_triangulation
+323214,Metal Machinist (First Class),7223,51-4035,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-3021,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-3031,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-3042,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-3093,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9031,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9041,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9043,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9044,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9071,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9091,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9092,isco_triangulation
+323215,"Textile, Clothing and Footwear Mechanic",7233,49-9096,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-3021,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-3031,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-3042,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-3093,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9031,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9041,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9043,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9044,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9071,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9091,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9092,isco_triangulation
+323299,Metal Fitters and Machinists nec,7233,49-9096,isco_triangulation
+323312,Gunsmith,7222,51-4062,isco_triangulation
+323312,Gunsmith,7222,51-4111,isco_triangulation
+323312,Gunsmith,7222,51-4192,isco_triangulation
+323313,Locksmith,7222,51-4062,isco_triangulation
+323313,Locksmith,7222,51-4111,isco_triangulation
+323313,Locksmith,7222,51-4192,isco_triangulation
+323314,Precision Instrument Maker and Repairer,7311,49-9062,isco_triangulation
+323314,Precision Instrument Maker and Repairer,7311,49-9063,isco_triangulation
+323314,Precision Instrument Maker and Repairer,7311,49-9064,isco_triangulation
+323314,Precision Instrument Maker and Repairer,7311,49-9094,isco_triangulation
+323315,Saw Maker and Repairer,7222,51-4062,isco_triangulation
+323315,Saw Maker and Repairer,7222,51-4111,isco_triangulation
+323315,Saw Maker and Repairer,7222,51-4192,isco_triangulation
+323315,Saw Maker and Repairer,7224,51-4031,isco_triangulation
+323315,Saw Maker and Repairer,7224,51-4193,isco_triangulation
+323315,Saw Maker and Repairer,7224,51-4194,isco_triangulation
+323316,Watch and Clock Maker and Repairer,7311,49-9062,isco_triangulation
+323316,Watch and Clock Maker and Repairer,7311,49-9063,isco_triangulation
+323316,Watch and Clock Maker and Repairer,7311,49-9064,isco_triangulation
+323316,Watch and Clock Maker and Repairer,7311,49-9094,isco_triangulation
+323411,Engineering Patternmaker,7222,51-4062,isco_triangulation
+323411,Engineering Patternmaker,7222,51-4111,isco_triangulation
+323411,Engineering Patternmaker,7222,51-4192,isco_triangulation
+323412,Toolmaker,7222,51-4062,isco_triangulation
+323412,Toolmaker,7222,51-4111,isco_triangulation
+323412,Toolmaker,7222,51-4192,isco_triangulation
+324111,Panelbeater,7213,47-2211,isco_triangulation
+324211,Vehicle Body Builder,7213,47-2211,isco_triangulation
+324311,Vehicle Painter,7132,47-2142,isco_triangulation
+331111,Bricklayer,7112,47-2021,isco_triangulation
+331112,Stonemason,7113,47-2022,isco_triangulation
+331211,Carpenter and Joiner,7115,47-2031,isco_triangulation
+331212,Carpenter,7115,47-2031,isco_triangulation
+331212,Carpenter,7111,47-2011,isco_triangulation
+331213,Joiner,7115,47-2031,isco_triangulation
+332111,Floor Finisher,7122,47-2042,isco_triangulation
+332111,Floor Finisher,7122,47-2043,isco_triangulation
+332211,Painting Trades Worker,7131,47-2141,isco_triangulation
+333111,Glazier,7125,47-2121,isco_triangulation
+333211,Fibrous Plasterer,7123,47-2044,isco_triangulation
+333211,Fibrous Plasterer,7123,47-2082,isco_triangulation
+333212,Solid Plasterer,7123,47-2044,isco_triangulation
+333212,Solid Plasterer,7123,47-2082,isco_triangulation
+333411,Wall and Floor Tiler,7122,47-2042,isco_triangulation
+333411,Wall and Floor Tiler,7122,47-2043,isco_triangulation
+334111,Plumber (General),7126,47-2081,isco_triangulation
+334111,Plumber (General),7126,47-2151,isco_triangulation
+334111,Plumber (General),7126,47-2152,isco_triangulation
+334112,Airconditioning and Mechanical Services Plumber,7126,47-2081,isco_triangulation
+334112,Airconditioning and Mechanical Services Plumber,7126,47-2151,isco_triangulation
+334112,Airconditioning and Mechanical Services Plumber,7126,47-2152,isco_triangulation
+334113,Drainer (Aus) / Drainlayer (NZ),7126,47-2081,isco_triangulation
+334113,Drainer (Aus) / Drainlayer (NZ),7126,47-2151,isco_triangulation
+334113,Drainer (Aus) / Drainlayer (NZ),7126,47-2152,isco_triangulation
+334114,Gasfitter,7126,47-2081,isco_triangulation
+334114,Gasfitter,7126,47-2151,isco_triangulation
+334114,Gasfitter,7126,47-2152,isco_triangulation
+334115,Roof Plumber,7126,47-2081,isco_triangulation
+334115,Roof Plumber,7126,47-2151,isco_triangulation
+334115,Roof Plumber,7126,47-2152,isco_triangulation
+341111,Electrician (General),7411,47-2111,isco_triangulation
+341111,Electrician (General),7412,49-2093,isco_triangulation
+341111,Electrician (General),7412,49-2094,isco_triangulation
+341111,Electrician (General),7412,49-2095,isco_triangulation
+341111,Electrician (General),7412,49-9011,isco_triangulation
+341111,Electrician (General),7412,49-9012,isco_triangulation
+341111,Electrician (General),7412,51-2022,isco_triangulation
+341112,Electrician (Special Class),7411,47-2111,isco_triangulation
+341113,Lift Mechanic,7412,49-2093,isco_triangulation
+341113,Lift Mechanic,7412,49-2094,isco_triangulation
+341113,Lift Mechanic,7412,49-2095,isco_triangulation
+341113,Lift Mechanic,7412,49-9011,isco_triangulation
+341113,Lift Mechanic,7412,49-9012,isco_triangulation
+341113,Lift Mechanic,7412,51-2022,isco_triangulation
+342111,Airconditioning and Refrigeration Mechanic,7127,47-2131,isco_triangulation
+342111,Airconditioning and Refrigeration Mechanic,7127,47-2132,isco_triangulation
+342111,Airconditioning and Refrigeration Mechanic,7127,49-9021,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2011,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2021,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2022,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2091,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2092,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2096,isco_triangulation
+342311,Business Machine Mechanic,7421,49-2097,isco_triangulation
+342311,Business Machine Mechanic,7421,49-9051,isco_triangulation
+342311,Business Machine Mechanic,7421,49-9052,isco_triangulation
+342311,Business Machine Mechanic,7421,49-9061,isco_triangulation
+342311,Business Machine Mechanic,7421,49-9095,isco_triangulation
+342311,Business Machine Mechanic,7421,49-9097,isco_triangulation
+342312,Communications Operator,3521,27-4011,isco_triangulation
+342312,Communications Operator,3521,27-4012,isco_triangulation
+342312,Communications Operator,3521,27-4013,isco_triangulation
+342312,Communications Operator,3521,27-4014,isco_triangulation
+342312,Communications Operator,3521,27-4031,isco_triangulation
+342312,Communications Operator,3521,27-4032,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2011,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2021,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2022,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2091,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2092,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2096,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-2097,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-9051,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-9052,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-9061,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-9095,isco_triangulation
+342313,Electronic Equipment Trades Worker,7421,49-9097,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2011,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2021,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2022,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2091,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2092,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2096,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-2097,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-9051,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-9052,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-9061,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-9095,isco_triangulation
+342314,Electronic Instrument Trades Worker (General),7421,49-9097,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2011,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2021,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2022,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2091,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2092,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2096,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-2097,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-9051,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-9052,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-9061,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-9095,isco_triangulation
+342315,Electronic Instrument Trades Worker (Special Class),7421,49-9097,isco_triangulation
+342411,Cabler (Data and Telecommunications),7422,49-2098,isco_triangulation
+342412,Telecommunications Cable Jointer,7422,49-2098,isco_triangulation
+342413,Telecommunications Linesworker (Aus) / Telecommunications Line Mechanic (NZ),7422,49-2098,isco_triangulation
+342414,Telecommunications Technician,7422,49-2098,isco_triangulation
+351111,Baker,7512,51-3011,isco_triangulation
+351111,Baker,7512,51-3092,isco_triangulation
+351112,Pastrycook,7512,51-3011,isco_triangulation
+351112,Pastrycook,7512,51-3092,isco_triangulation
+351411,Cook,5120,35-1011,isco_triangulation
+351411,Cook,5120,35-1012,isco_triangulation
+351411,Cook,5120,35-2011,isco_triangulation
+351411,Cook,5120,35-2012,isco_triangulation
+351411,Cook,5120,35-2013,isco_triangulation
+351411,Cook,5120,35-2014,isco_triangulation
+351411,Cook,5120,35-2015,isco_triangulation
+351411,Cook,5120,35-2019,isco_triangulation
+361111,Dog Handler or Trainer,5164,39-2021,isco_triangulation
+361112,Horse Trainer,5164,39-2021,isco_triangulation
+361113,Pet Groomer,5164,39-2021,isco_triangulation
+361114,Zookeeper,5164,39-2021,isco_triangulation
+361115,Kennel Hand,5164,39-2021,isco_triangulation
+361199,Animal Attendants and Trainers nec,5164,39-2021,isco_triangulation
+361311,Veterinary Nurse,5164,39-2021,isco_triangulation
+391111,Hairdresser,5141,39-5011,isco_triangulation
+391111,Hairdresser,5141,39-5012,isco_triangulation
+399111,Boat Builder and Repairer,7115,47-2031,isco_triangulation
+399111,Boat Builder and Repairer,7213,47-2211,isco_triangulation
+399112,Shipwright,7115,47-2031,isco_triangulation
+399112,Shipwright,7214,47-2181,isco_triangulation
+399112,Shipwright,7214,47-2221,isco_triangulation
+399112,Shipwright,7214,51-4061,isco_triangulation
+399112,Shipwright,7214,51-4071,isco_triangulation
+399112,Shipwright,7214,51-4121,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4011,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4012,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4013,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4014,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4031,isco_triangulation
+399511,Broadcast Transmitter Operator,3521,27-4032,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4011,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4012,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4013,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4014,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4031,isco_triangulation
+399512,"Camera Operator (Film, Television or Video)",3521,27-4032,isco_triangulation
+399514,Make Up Artist,5142,39-4011,isco_triangulation
+399514,Make Up Artist,5142,39-4012,isco_triangulation
+399514,Make Up Artist,5142,39-4021,isco_triangulation
+399514,Make Up Artist,5142,39-4031,isco_triangulation
+399514,Make Up Artist,5142,39-5091,isco_triangulation
+399514,Make Up Artist,5142,39-5092,isco_triangulation
+399514,Make Up Artist,5142,39-5093,isco_triangulation
+399514,Make Up Artist,5142,39-5094,isco_triangulation
+399516,Sound Technician,3521,27-4011,isco_triangulation
+399516,Sound Technician,3521,27-4012,isco_triangulation
+399516,Sound Technician,3521,27-4013,isco_triangulation
+399516,Sound Technician,3521,27-4014,isco_triangulation
+399516,Sound Technician,3521,27-4031,isco_triangulation
+399516,Sound Technician,3521,27-4032,isco_triangulation
+399517,Television Equipment Operator,3521,27-4011,isco_triangulation
+399517,Television Equipment Operator,3521,27-4012,isco_triangulation
+399517,Television Equipment Operator,3521,27-4013,isco_triangulation
+399517,Television Equipment Operator,3521,27-4014,isco_triangulation
+399517,Television Equipment Operator,3521,27-4031,isco_triangulation
+399517,Television Equipment Operator,3521,27-4032,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4011,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4012,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4013,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4014,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4031,isco_triangulation
+399599,Performing Arts Technicians nec,3521,27-4032,isco_triangulation
+399915,Photographer's Assistant,3431,43-5031,isco_triangulation
+399915,Photographer's Assistant,3431,27-4021,isco_triangulation
+399917,Wool Classer,7543,51-2021,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-3021,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-3031,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-3042,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-3093,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9031,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9041,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9043,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9044,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9071,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9091,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9092,isco_triangulation
+399999,Technicians and Trades Workers nec,7233,49-9096,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3041,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3043,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3051,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3052,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3053,isco_triangulation
+399999,Technicians and Trades Workers nec,7234,49-3091,isco_triangulation
+399999,Technicians and Trades Workers nec,7543,51-2021,isco_triangulation
+411111,Ambulance Officer,8322,53-3031,isco_triangulation
+411111,Ambulance Officer,8322,53-3041,isco_triangulation
+421111,Child Care Worker,5311,39-6011,isco_triangulation
+421111,Child Care Worker,5311,39-6012,isco_triangulation
+421111,Child Care Worker,5311,39-9011,isco_triangulation
+421112,Family Day Care Worker,5311,39-6011,isco_triangulation
+421112,Family Day Care Worker,5311,39-6012,isco_triangulation
+421112,Family Day Care Worker,5311,39-9011,isco_triangulation
+421113,Nanny,5311,39-6011,isco_triangulation
+421113,Nanny,5311,39-6012,isco_triangulation
+421113,Nanny,5311,39-9011,isco_triangulation
+421114,Out of School Hours Care Worker,5311,39-6011,isco_triangulation
+421114,Out of School Hours Care Worker,5311,39-6012,isco_triangulation
+421114,Out of School Hours Care Worker,5311,39-9011,isco_triangulation
+422113,Kaiäwhina Kohanga Reo (Mäori Language Nest Assistant),2341,25-2011,isco_triangulation
+422113,Kaiäwhina Kohanga Reo (Mäori Language Nest Assistant),2341,25-2012,isco_triangulation
+422113,Kaiäwhina Kohanga Reo (Mäori Language Nest Assistant),2341,25-2021,isco_triangulation
+422114,Kaiäwhina Kura Kaupapa Mäori (Mäori-medium School Assistant),2341,25-2011,isco_triangulation
+422114,Kaiäwhina Kura Kaupapa Mäori (Mäori-medium School Assistant),2341,25-2012,isco_triangulation
+422114,Kaiäwhina Kura Kaupapa Mäori (Mäori-medium School Assistant),2341,25-2021,isco_triangulation
+423111,Aged or Disabled Carer,5322,39-9021,isco_triangulation
+423411,Child or Youth Residential Care Assistant,5311,39-6011,isco_triangulation
+423411,Child or Youth Residential Care Assistant,5311,39-6012,isco_triangulation
+423411,Child or Youth Residential Care Assistant,5311,39-9011,isco_triangulation
+423412,Hostel Parent,5311,39-6011,isco_triangulation
+423412,Hostel Parent,5311,39-6012,isco_triangulation
+423412,Hostel Parent,5311,39-9011,isco_triangulation
+431111,Bar Attendant,5132,35-3011,isco_triangulation
+431112,Barista,5132,35-3011,isco_triangulation
+431211,Cafe Worker,5131,35-3021,isco_triangulation
+431211,Cafe Worker,5131,35-3031,isco_triangulation
+431211,Cafe Worker,5131,35-3041,isco_triangulation
+431211,Cafe Worker,5246,35-3022,isco_triangulation
+431211,Cafe Worker,5246,35-9031,isco_triangulation
+431411,Hotel Service Manager,5151,39-1011,isco_triangulation
+431411,Hotel Service Manager,5151,39-1021,isco_triangulation
+431411,Hotel Service Manager,5151,39-1022,isco_triangulation
+431411,Hotel Service Manager,5151,39-3011,isco_triangulation
+431411,Hotel Service Manager,5151,39-3012,isco_triangulation
+431411,Hotel Service Manager,5151,39-3019,isco_triangulation
+431511,Waiter,5131,35-3021,isco_triangulation
+431511,Waiter,5131,35-3031,isco_triangulation
+431511,Waiter,5131,35-3041,isco_triangulation
+431911,Bar Useful or Busser,9112,37-2012,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,43-5052,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-6051,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-6061,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7061,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7063,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7064,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7072,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7073,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7081,isco_triangulation
+431912,Doorperson or Luggage Porter,9621,53-7121,isco_triangulation
+431999,Hospitality Workers nec,5169,39-3092,isco_triangulation
+431999,Hospitality Workers nec,5169,39-3093,isco_triangulation
+431999,Hospitality Workers nec,5169,39-9032,isco_triangulation
+431999,Hospitality Workers nec,5169,39-9041,isco_triangulation
+441211,Emergency Service Worker,5419,33-9091,isco_triangulation
+441211,Emergency Service Worker,5419,33-9092,isco_triangulation
+441211,Emergency Service Worker,5419,33-9093,isco_triangulation
+441212,Fire Fighter,5411,33-2011,isco_triangulation
+441212,Fire Fighter,5411,33-2021,isco_triangulation
+441212,Fire Fighter,5411,33-2022,isco_triangulation
+441311,Detective,3355,33-1011,isco_triangulation
+441311,Detective,3355,33-1012,isco_triangulation
+441311,Detective,3355,33-1021,isco_triangulation
+441311,Detective,3355,33-3021,isco_triangulation
+441312,Police Officer,5412,33-3031,isco_triangulation
+441312,Police Officer,5412,33-3041,isco_triangulation
+441312,Police Officer,5412,33-3051,isco_triangulation
+442111,Prison Officer,5413,33-3052,isco_triangulation
+442211,"Alarm, Security or Surveillance Monitor",5414,33-9011,isco_triangulation
+442211,"Alarm, Security or Surveillance Monitor",5414,33-9021,isco_triangulation
+442211,"Alarm, Security or Surveillance Monitor",5414,33-9031,isco_triangulation
+442211,"Alarm, Security or Surveillance Monitor",5414,33-9032,isco_triangulation
+442212,Armoured Car Escort,5414,33-9011,isco_triangulation
+442212,Armoured Car Escort,5414,33-9021,isco_triangulation
+442212,Armoured Car Escort,5414,33-9031,isco_triangulation
+442212,Armoured Car Escort,5414,33-9032,isco_triangulation
+442213,Crowd Controller,5414,33-9011,isco_triangulation
+442213,Crowd Controller,5414,33-9021,isco_triangulation
+442213,Crowd Controller,5414,33-9031,isco_triangulation
+442213,Crowd Controller,5414,33-9032,isco_triangulation
+442215,Retail Loss Prevention Officer,5414,33-9011,isco_triangulation
+442215,Retail Loss Prevention Officer,5414,33-9021,isco_triangulation
+442215,Retail Loss Prevention Officer,5414,33-9031,isco_triangulation
+442215,Retail Loss Prevention Officer,5414,33-9032,isco_triangulation
+442217,Security Officer,5414,33-9011,isco_triangulation
+442217,Security Officer,5414,33-9021,isco_triangulation
+442217,Security Officer,5414,33-9031,isco_triangulation
+442217,Security Officer,5414,33-9032,isco_triangulation
+442299,Security Officers and Guards nec,5414,33-9011,isco_triangulation
+442299,Security Officers and Guards nec,5414,33-9021,isco_triangulation
+442299,Security Officers and Guards nec,5414,33-9031,isco_triangulation
+442299,Security Officers and Guards nec,5414,33-9032,isco_triangulation
+442299,Security Officers and Guards nec,5419,33-9091,isco_triangulation
+442299,Security Officers and Guards nec,5419,33-9092,isco_triangulation
+442299,Security Officers and Guards nec,5419,33-9093,isco_triangulation
+451111,Beauty Therapist,5142,39-4011,isco_triangulation
+451111,Beauty Therapist,5142,39-4012,isco_triangulation
+451111,Beauty Therapist,5142,39-4021,isco_triangulation
+451111,Beauty Therapist,5142,39-4031,isco_triangulation
+451111,Beauty Therapist,5142,39-5091,isco_triangulation
+451111,Beauty Therapist,5142,39-5092,isco_triangulation
+451111,Beauty Therapist,5142,39-5093,isco_triangulation
+451111,Beauty Therapist,5142,39-5094,isco_triangulation
+451311,Funeral Director,5163,39-3031,isco_triangulation
+451399,Funeral Workers nec,5163,39-3031,isco_triangulation
+451411,Gallery or Museum Guide,5113,39-2011,isco_triangulation
+451412,Tour Guide,5113,39-2011,isco_triangulation
+451512,Weight Loss Consultant,5142,39-4011,isco_triangulation
+451512,Weight Loss Consultant,5142,39-4012,isco_triangulation
+451512,Weight Loss Consultant,5142,39-4021,isco_triangulation
+451512,Weight Loss Consultant,5142,39-4031,isco_triangulation
+451512,Weight Loss Consultant,5142,39-5091,isco_triangulation
+451512,Weight Loss Consultant,5142,39-5092,isco_triangulation
+451512,Weight Loss Consultant,5142,39-5093,isco_triangulation
+451512,Weight Loss Consultant,5142,39-5094,isco_triangulation
+451811,Civil Celebrant,5169,39-3092,isco_triangulation
+451811,Civil Celebrant,5169,39-3093,isco_triangulation
+451811,Civil Celebrant,5169,39-9032,isco_triangulation
+451811,Civil Celebrant,5169,39-9041,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-4011,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-4012,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-4021,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-4031,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-5091,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-5092,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-5093,isco_triangulation
+451812,Hair or Beauty Salon Assistant,5142,39-5094,isco_triangulation
+451813,Sex Worker or Escort,5169,39-3092,isco_triangulation
+451813,Sex Worker or Escort,5169,39-3093,isco_triangulation
+451813,Sex Worker or Escort,5169,39-9032,isco_triangulation
+451813,Sex Worker or Escort,5169,39-9041,isco_triangulation
+451815,First Aid Trainer,5169,39-3092,isco_triangulation
+451815,First Aid Trainer,5169,39-3093,isco_triangulation
+451815,First Aid Trainer,5169,39-9032,isco_triangulation
+451815,First Aid Trainer,5169,39-9041,isco_triangulation
+451899,Personal Service Workers nec,5161,39-3091,isco_triangulation
+451899,Personal Service Workers nec,5169,39-3092,isco_triangulation
+451899,Personal Service Workers nec,5169,39-3093,isco_triangulation
+451899,Personal Service Workers nec,5169,39-9032,isco_triangulation
+451899,Personal Service Workers nec,5169,39-9041,isco_triangulation
+452111,Fitness Instructor,3423,39-3021,isco_triangulation
+452111,Fitness Instructor,3423,39-9031,isco_triangulation
+452211,Bungy Jump Master,3423,39-3021,isco_triangulation
+452211,Bungy Jump Master,3423,39-9031,isco_triangulation
+452212,Fishing Guide,3423,39-3021,isco_triangulation
+452212,Fishing Guide,3423,39-9031,isco_triangulation
+452213,Hunting Guide,3423,39-3021,isco_triangulation
+452213,Hunting Guide,3423,39-9031,isco_triangulation
+452214,Mountain or Glacier Guide,3423,39-3021,isco_triangulation
+452214,Mountain or Glacier Guide,3423,39-9031,isco_triangulation
+452215,Outdoor Adventure Instructor,3423,39-3021,isco_triangulation
+452215,Outdoor Adventure Instructor,3423,39-9031,isco_triangulation
+452216,Trekking Guide,3423,39-3021,isco_triangulation
+452216,Trekking Guide,3423,39-9031,isco_triangulation
+452217,Whitewater Rafting Guide,3423,39-3021,isco_triangulation
+452217,Whitewater Rafting Guide,3423,39-9031,isco_triangulation
+452299,Outdoor Adventure Guides nec,3423,39-3021,isco_triangulation
+452299,Outdoor Adventure Guides nec,3423,39-9031,isco_triangulation
+452313,Horse Riding Coach or Instructor,3423,39-3021,isco_triangulation
+452313,Horse Riding Coach or Instructor,3423,39-9031,isco_triangulation
+452411,Footballer,3421,27-2022,isco_triangulation
+452411,Footballer,3421,27-2023,isco_triangulation
+452412,Golfer,3421,27-2022,isco_triangulation
+452412,Golfer,3421,27-2023,isco_triangulation
+452413,Jockey,3421,27-2022,isco_triangulation
+452413,Jockey,3421,27-2023,isco_triangulation
+452414,Lifeguard,5419,33-9091,isco_triangulation
+452414,Lifeguard,5419,33-9092,isco_triangulation
+452414,Lifeguard,5419,33-9093,isco_triangulation
+452499,Sportspersons nec,3421,27-2022,isco_triangulation
+452499,Sportspersons nec,3421,27-2023,isco_triangulation
+512111,Office Manager,3341,43-1011,isco_triangulation
+512211,Health Practice Manager,1342,11-3111,isco_triangulation
+512211,Health Practice Manager,1342,11-9041,isco_triangulation
+512211,Health Practice Manager,3344,43-6012,isco_triangulation
+512211,Health Practice Manager,3344,43-6013,isco_triangulation
+512299,Practice Managers nec,3341,43-1011,isco_triangulation
+521211,Secretary (General),4120,43-4111,isco_triangulation
+521211,Secretary (General),4120,43-6011,isco_triangulation
+521211,Secretary (General),4120,43-6014,isco_triangulation
+531111,General Clerk,4110,43-9031,isco_triangulation
+531111,General Clerk,4110,43-9051,isco_triangulation
+531111,General Clerk,4110,43-9061,isco_triangulation
+531111,General Clerk,4110,43-9071,isco_triangulation
+532111,Data Entry Operator,4132,43-9021,isco_triangulation
+532113,Word Processing Operator,4131,43-4041,isco_triangulation
+532113,Word Processing Operator,4131,43-9022,isco_triangulation
+541111,Call or Contact Centre Team Leader,3341,43-1011,isco_triangulation
+541112,Call or Contact Centre Operator,4222,43-4161,isco_triangulation
+541112,Call or Contact Centre Operator,4222,43-4171,isco_triangulation
+541211,Information Officer,4225,43-4051,isco_triangulation
+542111,Receptionist (General),4226,43-4011,isco_triangulation
+542113,Hotel or Motel Receptionist,4224,43-4181,isco_triangulation
+542114,Medical Receptionist,3344,43-6012,isco_triangulation
+542114,Medical Receptionist,3344,43-6013,isco_triangulation
+542114,Medical Receptionist,4226,43-4011,isco_triangulation
+551111,Accounts Clerk,4311,43-3011,isco_triangulation
+551111,Accounts Clerk,4311,43-3021,isco_triangulation
+551111,Accounts Clerk,4311,43-3031,isco_triangulation
+551112,Cost Clerk,4311,43-3011,isco_triangulation
+551112,Cost Clerk,4311,43-3021,isco_triangulation
+551112,Cost Clerk,4311,43-3031,isco_triangulation
+551211,Bookkeeper,4311,43-3011,isco_triangulation
+551211,Bookkeeper,4311,43-3021,isco_triangulation
+551211,Bookkeeper,4311,43-3031,isco_triangulation
+552211,Credit or Loans Officer (Aus) / Finance Clerk (NZ) ,3312,13-2071,isco_triangulation
+552211,Credit or Loans Officer (Aus) / Finance Clerk (NZ) ,3312,13-2072,isco_triangulation
+552211,Credit or Loans Officer (Aus) / Finance Clerk (NZ) ,3312,43-4131,isco_triangulation
+552312,Insurance Consultant,3321,41-3021,isco_triangulation
+552312,Insurance Consultant,3321,43-9041,isco_triangulation
+552312,Insurance Consultant,4312,43-3051,isco_triangulation
+552312,Insurance Consultant,4312,43-3061,isco_triangulation
+552312,Insurance Consultant,4312,43-4141,isco_triangulation
+552312,Insurance Consultant,4312,43-9111,isco_triangulation
+552313,Money Market Clerk,4312,43-3051,isco_triangulation
+552313,Money Market Clerk,4312,43-3061,isco_triangulation
+552313,Money Market Clerk,4312,43-4141,isco_triangulation
+552313,Money Market Clerk,4312,43-9111,isco_triangulation
+552314,Statistical Clerk,4312,43-3051,isco_triangulation
+552314,Statistical Clerk,4312,43-3061,isco_triangulation
+552314,Statistical Clerk,4312,43-4141,isco_triangulation
+552314,Statistical Clerk,4312,43-9111,isco_triangulation
+561211,Courier,8322,53-3031,isco_triangulation
+561211,Courier,8322,53-3041,isco_triangulation
+561211,Courier,9621,43-5052,isco_triangulation
+561211,Courier,9621,53-6051,isco_triangulation
+561211,Courier,9621,53-6061,isco_triangulation
+561211,Courier,9621,53-7061,isco_triangulation
+561211,Courier,9621,53-7063,isco_triangulation
+561211,Courier,9621,53-7064,isco_triangulation
+561211,Courier,9621,53-7072,isco_triangulation
+561211,Courier,9621,53-7073,isco_triangulation
+561211,Courier,9621,53-7081,isco_triangulation
+561211,Courier,9621,53-7121,isco_triangulation
+561212,Postal Delivery Officer,4412,43-5011,isco_triangulation
+561212,Postal Delivery Officer,4412,43-5021,isco_triangulation
+561212,Postal Delivery Officer,4412,43-5051,isco_triangulation
+561212,Postal Delivery Officer,4412,43-5053,isco_triangulation
+561311,Filing or Registry Clerk,4415,43-5041,isco_triangulation
+561311,Filing or Registry Clerk,4415,43-9081,isco_triangulation
+561411,Mail Clerk,4412,43-5011,isco_triangulation
+561411,Mail Clerk,4412,43-5021,isco_triangulation
+561411,Mail Clerk,4412,43-5051,isco_triangulation
+561411,Mail Clerk,4412,43-5053,isco_triangulation
+561412,Postal Sorting Officer,4412,43-5011,isco_triangulation
+561412,Postal Sorting Officer,4412,43-5021,isco_triangulation
+561412,Postal Sorting Officer,4412,43-5051,isco_triangulation
+561412,Postal Sorting Officer,4412,43-5053,isco_triangulation
+561611,Switchboard Operator,4223,43-5032,isco_triangulation
+561911,Classified Advertising Clerk,4419,43-4031,isco_triangulation
+561912,Meter Reader,9623,53-7065,isco_triangulation
+561999,Clerical and Office Support Workers nec,4419,43-4031,isco_triangulation
+591113,Purchasing Officer,4321,43-4151,isco_triangulation
+591113,Purchasing Officer,4321,43-5061,isco_triangulation
+591113,Purchasing Officer,4321,43-5071,isco_triangulation
+591113,Purchasing Officer,4321,43-5111,isco_triangulation
+591115,Stock Clerk,4321,43-4151,isco_triangulation
+591115,Stock Clerk,4321,43-5061,isco_triangulation
+591115,Stock Clerk,4321,43-5071,isco_triangulation
+591115,Stock Clerk,4321,43-5111,isco_triangulation
+591116,Warehouse Administrator,4321,43-4151,isco_triangulation
+591116,Warehouse Administrator,4321,43-5061,isco_triangulation
+591116,Warehouse Administrator,4321,43-5071,isco_triangulation
+591116,Warehouse Administrator,4321,43-5111,isco_triangulation
+591117,Order Clerk,4321,43-4151,isco_triangulation
+591117,Order Clerk,4321,43-5061,isco_triangulation
+591117,Order Clerk,4321,43-5071,isco_triangulation
+591117,Order Clerk,4321,43-5111,isco_triangulation
+591211,Despatching and Receiving Clerk,4321,43-4151,isco_triangulation
+591211,Despatching and Receiving Clerk,4321,43-5061,isco_triangulation
+591211,Despatching and Receiving Clerk,4321,43-5071,isco_triangulation
+591211,Despatching and Receiving Clerk,4321,43-5111,isco_triangulation
+591211,Despatching and Receiving Clerk,4323,43-4071,isco_triangulation
+591211,Despatching and Receiving Clerk,4323,43-4081,isco_triangulation
+591211,Despatching and Receiving Clerk,4323,53-6031,isco_triangulation
+591211,Despatching and Receiving Clerk,4323,53-6041,isco_triangulation
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),4110,43-9031,isco_triangulation
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),4110,43-9051,isco_triangulation
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),4110,43-9061,isco_triangulation
+599213,Court Orderly (Aus) / Court Registry Officer (NZ),4110,43-9071,isco_triangulation
+599511,Customs Officer,3351,33-3011,isco_triangulation
+599511,Customs Officer,3351,33-3012,isco_triangulation
+599512,Immigration Officer,3351,33-3011,isco_triangulation
+599512,Immigration Officer,3351,33-3012,isco_triangulation
+599513,Motor Vehicle Licence Examiner,3354,43-4121,isco_triangulation
+599518,Transport Operations Inspector,4323,43-4071,isco_triangulation
+599518,Transport Operations Inspector,4323,43-4081,isco_triangulation
+599518,Transport Operations Inspector,4323,53-6031,isco_triangulation
+599518,Transport Operations Inspector,4323,53-6041,isco_triangulation
+599599,Inspectors and Regulatory Officers nec,3354,43-4121,isco_triangulation
+599599,Inspectors and Regulatory Officers nec,5419,33-9091,isco_triangulation
+599599,Inspectors and Regulatory Officers nec,5419,33-9092,isco_triangulation
+599599,Inspectors and Regulatory Officers nec,5419,33-9093,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4011,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4012,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4013,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4014,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4031,isco_triangulation
+599912,"Production Assistant (Film, Television, Radio or Stage)",3521,27-4032,isco_triangulation
+599999,Clerical and Administrative Workers nec,3354,43-4121,isco_triangulation
+599999,Clerical and Administrative Workers nec,4323,43-4071,isco_triangulation
+599999,Clerical and Administrative Workers nec,4323,43-4081,isco_triangulation
+599999,Clerical and Administrative Workers nec,4323,53-6031,isco_triangulation
+599999,Clerical and Administrative Workers nec,4323,53-6041,isco_triangulation
+599999,Clerical and Administrative Workers nec,4419,43-4031,isco_triangulation
+611211,Insurance Agent,3321,41-3021,isco_triangulation
+611211,Insurance Agent,3321,43-9041,isco_triangulation
+611311,Sales Representative (Building and Plumbing Supplies),3322,41-3011,isco_triangulation
+611311,Sales Representative (Building and Plumbing Supplies),3322,41-4011,isco_triangulation
+611311,Sales Representative (Building and Plumbing Supplies),3322,41-4012,isco_triangulation
+611312,Sales Representative (Business Services),3322,41-3011,isco_triangulation
+611312,Sales Representative (Business Services),3322,41-4011,isco_triangulation
+611312,Sales Representative (Business Services),3322,41-4012,isco_triangulation
+611313,Sales Representative (Motor Vehicle Parts and Accessories),3322,41-3011,isco_triangulation
+611313,Sales Representative (Motor Vehicle Parts and Accessories),3322,41-4011,isco_triangulation
+611313,Sales Representative (Motor Vehicle Parts and Accessories),3322,41-4012,isco_triangulation
+611314,Sales Representative (Personal and Household Goods),3322,41-3011,isco_triangulation
+611314,Sales Representative (Personal and Household Goods),3322,41-4011,isco_triangulation
+611314,Sales Representative (Personal and Household Goods),3322,41-4012,isco_triangulation
+611399,Sales Representatives nec,3322,41-3011,isco_triangulation
+611399,Sales Representatives nec,3322,41-4011,isco_triangulation
+611399,Sales Representatives nec,3322,41-4012,isco_triangulation
+612111,Business Broker,3334,41-9021,isco_triangulation
+612111,Business Broker,3334,41-9022,isco_triangulation
+612112,Property Manager,3334,41-9021,isco_triangulation
+612112,Property Manager,3334,41-9022,isco_triangulation
+612113,Real Estate Agency Principal (Aus) / Real Estate Agency Licensee (NZ),3334,41-9021,isco_triangulation
+612113,Real Estate Agency Principal (Aus) / Real Estate Agency Licensee (NZ),3334,41-9022,isco_triangulation
+612114,Real Estate Agent,3334,41-9021,isco_triangulation
+612114,Real Estate Agent,3334,41-9022,isco_triangulation
+612115,Real Estate Representative,3334,41-9021,isco_triangulation
+612115,Real Estate Representative,3334,41-9022,isco_triangulation
+621111,Sales Assistant (General),5223,41-2021,isco_triangulation
+621111,Sales Assistant (General),5246,35-3022,isco_triangulation
+621111,Sales Assistant (General),5246,35-9031,isco_triangulation
+621111,Sales Assistant (General),5142,39-4011,isco_triangulation
+621111,Sales Assistant (General),5142,39-4012,isco_triangulation
+621111,Sales Assistant (General),5142,39-4021,isco_triangulation
+621111,Sales Assistant (General),5142,39-4031,isco_triangulation
+621111,Sales Assistant (General),5142,39-5091,isco_triangulation
+621111,Sales Assistant (General),5142,39-5092,isco_triangulation
+621111,Sales Assistant (General),5142,39-5093,isco_triangulation
+621111,Sales Assistant (General),5142,39-5094,isco_triangulation
+621211,ICT Sales Assistant,5223,41-2021,isco_triangulation
+621311,Motor Vehicle or Caravan Salesperson,5223,41-2021,isco_triangulation
+621312,Motor Vehicle Parts Interpreter (Aus) / Automotive Parts Salesperson (NZ),5223,41-2021,isco_triangulation
+621411,Pharmacy Sales Assistant,5223,41-2021,isco_triangulation
+621511,Retail Supervisor,5222,41-1011,isco_triangulation
+621511,Retail Supervisor,5222,41-1012,isco_triangulation
+621713,Street Vendor,5211,41-2031,isco_triangulation
+631111,Checkout Operator,5230,41-2011,isco_triangulation
+631112,Office Cashier,5230,41-2011,isco_triangulation
+639411,Ticket Seller,5230,41-2011,isco_triangulation
+711211,Industrial Spraypainter,7132,47-2142,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4011,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4012,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4013,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4014,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4031,isco_triangulation
+711912,Motion Picture Projectionist,3521,27-4032,isco_triangulation
+711913,Sand Blaster,8122,51-4022,isco_triangulation
+711913,Sand Blaster,8122,51-4023,isco_triangulation
+711913,Sand Blaster,8122,51-4032,isco_triangulation
+711913,Sand Blaster,8122,51-4051,isco_triangulation
+711913,Sand Blaster,8122,51-4191,isco_triangulation
+711913,Sand Blaster,7133,47-2161,isco_triangulation
+711999,Machine Operators nec,8189,49-9045,isco_triangulation
+712111,"Crane, Hoist or Lift Operator",8343,53-6021,isco_triangulation
+712111,"Crane, Hoist or Lift Operator",8343,53-7011,isco_triangulation
+712111,"Crane, Hoist or Lift Operator",8343,53-7021,isco_triangulation
+712111,"Crane, Hoist or Lift Operator",8343,53-7031,isco_triangulation
+712311,Engineering Production Worker,7212,47-2171,isco_triangulation
+712311,Engineering Production Worker,7212,51-4122,isco_triangulation
+712311,Engineering Production Worker,7213,47-2211,isco_triangulation
+712311,Engineering Production Worker,7223,51-4011,isco_triangulation
+712311,Engineering Production Worker,7223,51-4012,isco_triangulation
+712311,Engineering Production Worker,7223,51-4033,isco_triangulation
+712311,Engineering Production Worker,7223,51-4034,isco_triangulation
+712311,Engineering Production Worker,7223,51-4035,isco_triangulation
+712311,Engineering Production Worker,7224,51-4031,isco_triangulation
+712311,Engineering Production Worker,7224,51-4193,isco_triangulation
+712311,Engineering Production Worker,7224,51-4194,isco_triangulation
+712311,Engineering Production Worker,8121,51-4021,isco_triangulation
+712311,Engineering Production Worker,8121,51-4052,isco_triangulation
+712311,Engineering Production Worker,8121,51-4072,isco_triangulation
+712311,Engineering Production Worker,8121,51-4081,isco_triangulation
+712311,Engineering Production Worker,8122,51-4022,isco_triangulation
+712311,Engineering Production Worker,8122,51-4023,isco_triangulation
+712311,Engineering Production Worker,8122,51-4032,isco_triangulation
+712311,Engineering Production Worker,8122,51-4051,isco_triangulation
+712311,Engineering Production Worker,8122,51-4191,isco_triangulation
+712912,Bulk Materials Handling Plant Operator,9333,53-7041,isco_triangulation
+712917,Railway Signal Operator,8312,53-4013,isco_triangulation
+712917,Railway Signal Operator,8312,53-4021,isco_triangulation
+712917,Railway Signal Operator,8312,53-4022,isco_triangulation
+712917,Railway Signal Operator,8312,53-4031,isco_triangulation
+712917,Railway Signal Operator,8312,53-4099,isco_triangulation
+712918,Train Controller,8312,53-4013,isco_triangulation
+712918,Train Controller,8312,53-4021,isco_triangulation
+712918,Train Controller,8312,53-4022,isco_triangulation
+712918,Train Controller,8312,53-4031,isco_triangulation
+712918,Train Controller,8312,53-4099,isco_triangulation
+712922,Weighbridge Operator,4321,43-4151,isco_triangulation
+712922,Weighbridge Operator,4321,43-5061,isco_triangulation
+712922,Weighbridge Operator,4321,43-5071,isco_triangulation
+712922,Weighbridge Operator,4321,43-5111,isco_triangulation
+712999,Stationary Plant Operators nec,8343,53-6021,isco_triangulation
+712999,Stationary Plant Operators nec,8343,53-7011,isco_triangulation
+712999,Stationary Plant Operators nec,8343,53-7021,isco_triangulation
+712999,Stationary Plant Operators nec,8343,53-7031,isco_triangulation
+712999,Stationary Plant Operators nec,8160,51-3093,isco_triangulation
+712999,Stationary Plant Operators nec,8189,49-9045,isco_triangulation
+721111,Agricultural and Horticultural Mobile Plant Operator,8341,53-6011,isco_triangulation
+721112,Logging Plant Operator,8341,53-6011,isco_triangulation
+721211,Earthmoving Plant Operator (General),8342,47-2073,isco_triangulation
+721211,Earthmoving Plant Operator (General),8342,53-7032,isco_triangulation
+721211,Earthmoving Plant Operator (General),8342,53-7033,isco_triangulation
+721212,Backhoe Operator,8342,47-2073,isco_triangulation
+721212,Backhoe Operator,8342,53-7032,isco_triangulation
+721212,Backhoe Operator,8342,53-7033,isco_triangulation
+721213,Bulldozer Operator,8342,47-2073,isco_triangulation
+721213,Bulldozer Operator,8342,53-7032,isco_triangulation
+721213,Bulldozer Operator,8342,53-7033,isco_triangulation
+721214,Excavator Operator,8342,47-2073,isco_triangulation
+721214,Excavator Operator,8342,53-7032,isco_triangulation
+721214,Excavator Operator,8342,53-7033,isco_triangulation
+721215,Grader Operator,8342,47-2073,isco_triangulation
+721215,Grader Operator,8342,53-7032,isco_triangulation
+721215,Grader Operator,8342,53-7033,isco_triangulation
+721216,Loader Operator,8342,47-2073,isco_triangulation
+721216,Loader Operator,8342,53-7032,isco_triangulation
+721216,Loader Operator,8342,53-7033,isco_triangulation
+721311,Forklift Driver,8344,53-7051,isco_triangulation
+721911,Aircraft Baggage Handler and Airline Ground Crew,9333,53-7041,isco_triangulation
+721912,Linemarker,8189,49-9045,isco_triangulation
+721913,Paving Plant Operator,8342,47-2073,isco_triangulation
+721913,Paving Plant Operator,8342,53-7032,isco_triangulation
+721913,Paving Plant Operator,8342,53-7033,isco_triangulation
+721914,Railway Track Plant Operator,8342,47-2073,isco_triangulation
+721914,Railway Track Plant Operator,8342,53-7032,isco_triangulation
+721914,Railway Track Plant Operator,8342,53-7033,isco_triangulation
+721915,Road Roller Operator,8342,47-2073,isco_triangulation
+721915,Road Roller Operator,8342,53-7032,isco_triangulation
+721915,Road Roller Operator,8342,53-7033,isco_triangulation
+721916,Streetsweeper Operator,8342,47-2073,isco_triangulation
+721916,Streetsweeper Operator,8342,53-7032,isco_triangulation
+721916,Streetsweeper Operator,8342,53-7033,isco_triangulation
+721999,Mobile Plant Operators nec,8343,53-6021,isco_triangulation
+721999,Mobile Plant Operators nec,8343,53-7011,isco_triangulation
+721999,Mobile Plant Operators nec,8343,53-7021,isco_triangulation
+721999,Mobile Plant Operators nec,8343,53-7031,isco_triangulation
+721999,Mobile Plant Operators nec,8342,47-2073,isco_triangulation
+721999,Mobile Plant Operators nec,8342,53-7032,isco_triangulation
+721999,Mobile Plant Operators nec,8342,53-7033,isco_triangulation
+731111,Chauffeur,8322,53-3031,isco_triangulation
+731111,Chauffeur,8322,53-3041,isco_triangulation
+731112,Taxi Driver,8322,53-3031,isco_triangulation
+731112,Taxi Driver,8322,53-3041,isco_triangulation
+731199,Automobile Drivers nec,8322,53-3031,isco_triangulation
+731199,Automobile Drivers nec,8322,53-3041,isco_triangulation
+731211,Bus Driver,8331,53-1031,isco_triangulation
+731211,Bus Driver,8331,53-3011,isco_triangulation
+731211,Bus Driver,8331,53-3021,isco_triangulation
+731211,Bus Driver,8331,53-3022,isco_triangulation
+731211,Bus Driver,8331,53-3051,isco_triangulation
+731211,Bus Driver,8331,53-3052,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-1031,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-3011,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-3021,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-3022,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-3051,isco_triangulation
+731212,Charter and Tour Bus Driver,8331,53-3052,isco_triangulation
+731213,Passenger Coach Driver,8331,53-1031,isco_triangulation
+731213,Passenger Coach Driver,8331,53-3011,isco_triangulation
+731213,Passenger Coach Driver,8331,53-3021,isco_triangulation
+731213,Passenger Coach Driver,8331,53-3022,isco_triangulation
+731213,Passenger Coach Driver,8331,53-3051,isco_triangulation
+731213,Passenger Coach Driver,8331,53-3052,isco_triangulation
+731311,Train Driver,8311,53-4011,isco_triangulation
+731311,Train Driver,8311,53-4012,isco_triangulation
+731312,Tram Driver,8331,53-1031,isco_triangulation
+731312,Tram Driver,8331,53-3011,isco_triangulation
+731312,Tram Driver,8331,53-3021,isco_triangulation
+731312,Tram Driver,8331,53-3022,isco_triangulation
+731312,Tram Driver,8331,53-3051,isco_triangulation
+731312,Tram Driver,8331,53-3052,isco_triangulation
+732111,Delivery Driver,8322,53-3031,isco_triangulation
+732111,Delivery Driver,8322,53-3041,isco_triangulation
+733111,Truck Driver (General),8332,53-3032,isco_triangulation
+733111,Truck Driver (General),8332,53-3033,isco_triangulation
+733111,Truck Driver (General),8332,53-3053,isco_triangulation
+733112,Aircraft Refueller,8332,53-3032,isco_triangulation
+733112,Aircraft Refueller,8332,53-3033,isco_triangulation
+733112,Aircraft Refueller,8332,53-3053,isco_triangulation
+733113,Furniture Removalist,8332,53-3032,isco_triangulation
+733113,Furniture Removalist,8332,53-3033,isco_triangulation
+733113,Furniture Removalist,8332,53-3053,isco_triangulation
+733114,Tanker Driver,8332,53-3032,isco_triangulation
+733114,Tanker Driver,8332,53-3033,isco_triangulation
+733114,Tanker Driver,8332,53-3053,isco_triangulation
+733115,Tow Truck Driver,8332,53-3032,isco_triangulation
+733115,Tow Truck Driver,8332,53-3033,isco_triangulation
+733115,Tow Truck Driver,8332,53-3053,isco_triangulation
+741111,Storeperson,9333,53-7041,isco_triangulation
+741111,Storeperson,4321,43-4151,isco_triangulation
+741111,Storeperson,4321,43-5061,isco_triangulation
+741111,Storeperson,4321,43-5071,isco_triangulation
+741111,Storeperson,4321,43-5111,isco_triangulation
+811211,Commercial Cleaner,5151,39-1011,isco_triangulation
+811211,Commercial Cleaner,5151,39-1021,isco_triangulation
+811211,Commercial Cleaner,5151,39-1022,isco_triangulation
+811211,Commercial Cleaner,5151,39-3011,isco_triangulation
+811211,Commercial Cleaner,5151,39-3012,isco_triangulation
+811211,Commercial Cleaner,5151,39-3019,isco_triangulation
+811211,Commercial Cleaner,9112,37-2012,isco_triangulation
+811211,Commercial Cleaner,7133,47-2161,isco_triangulation
+811411,Commercial Housekeeper,5151,39-1011,isco_triangulation
+811411,Commercial Housekeeper,5151,39-1021,isco_triangulation
+811411,Commercial Housekeeper,5151,39-1022,isco_triangulation
+811411,Commercial Housekeeper,5151,39-3011,isco_triangulation
+811411,Commercial Housekeeper,5151,39-3012,isco_triangulation
+811411,Commercial Housekeeper,5151,39-3019,isco_triangulation
+811411,Commercial Housekeeper,9112,37-2012,isco_triangulation
+811611,Carpet Cleaner,9129,37-2019,isco_triangulation
+811699,Cleaners nec,7133,47-2161,isco_triangulation
+811699,Cleaners nec,9129,37-2019,isco_triangulation
+811699,Cleaners nec,9613,37-2021,isco_triangulation
+821111,Builder's Labourer,9313,47-2051,isco_triangulation
+821112,"Drainage, Sewerage and Stormwater Labourer",9312,47-2071,isco_triangulation
+821112,"Drainage, Sewerage and Stormwater Labourer",9312,47-2072,isco_triangulation
+821113,Earthmoving Labourer,9312,47-2071,isco_triangulation
+821113,Earthmoving Labourer,9312,47-2072,isco_triangulation
+821114,Plumber's Assistant,9313,47-2051,isco_triangulation
+821211,Concreter,7114,47-2053,isco_triangulation
+821211,Concreter,9313,47-2051,isco_triangulation
+821311,Fencer,9313,47-2051,isco_triangulation
+821411,Building Insulation Installer,7124,47-2041,isco_triangulation
+821412,Home Improvement Installer,7111,47-2011,isco_triangulation
+821412,Home Improvement Installer,7115,47-2031,isco_triangulation
+821412,Home Improvement Installer,9313,47-2051,isco_triangulation
+821511,Paving and Surfacing Labourer,9312,47-2071,isco_triangulation
+821511,Paving and Surfacing Labourer,9312,47-2072,isco_triangulation
+821611,Railway Track Worker,9312,47-2071,isco_triangulation
+821611,Railway Track Worker,9312,47-2072,isco_triangulation
+821712,Scaffolder,7119,47-2061,isco_triangulation
+821713,Steel Fixer,9313,47-2051,isco_triangulation
+821714,Structural Steel Erector,7214,47-2181,isco_triangulation
+821714,Structural Steel Erector,7214,47-2221,isco_triangulation
+821714,Structural Steel Erector,7214,51-4061,isco_triangulation
+821714,Structural Steel Erector,7214,51-4071,isco_triangulation
+821714,Structural Steel Erector,7214,51-4121,isco_triangulation
+821911,Crane Chaser,9313,47-2051,isco_triangulation
+821913,Lagger,7124,47-2041,isco_triangulation
+821915,Surveyor's Assistant,9312,47-2071,isco_triangulation
+821915,Surveyor's Assistant,9312,47-2072,isco_triangulation
+831111,Baking Factory Worker,8160,51-3093,isco_triangulation
+831112,Brewery Worker,8160,51-3093,isco_triangulation
+831113,Confectionery Maker,7512,51-3011,isco_triangulation
+831113,Confectionery Maker,7512,51-3092,isco_triangulation
+831113,Confectionery Maker,8160,51-3093,isco_triangulation
+831114,Dairy Products Maker,7513,51-3021,isco_triangulation
+831114,Dairy Products Maker,7513,51-3022,isco_triangulation
+831114,Dairy Products Maker,7513,51-3023,isco_triangulation
+831114,Dairy Products Maker,8160,51-3093,isco_triangulation
+831115,Fruit and Vegetable Factory Worker,8160,51-3093,isco_triangulation
+831116,Grain Mill Worker,8160,51-3093,isco_triangulation
+831117,Sugar Mill Worker,8160,51-3093,isco_triangulation
+831118,Winery Cellar Hand,8160,51-3093,isco_triangulation
+831199,Food and Drink Factory Workers nec,7514,51-3091,isco_triangulation
+831199,Food and Drink Factory Workers nec,8160,51-3093,isco_triangulation
+831311,Meat Process Worker,8160,51-3093,isco_triangulation
+831312,Poultry Process Worker,8160,51-3093,isco_triangulation
+831313,Seafood Process Worker,8160,51-3093,isco_triangulation
+832211,Product Assembler,8211,51-2011,isco_triangulation
+832211,Product Assembler,8219,51-2023,isco_triangulation
+832211,Product Assembler,8219,51-2031,isco_triangulation
+832211,Product Assembler,8219,51-2041,isco_triangulation
+832211,Product Assembler,8219,51-2051,isco_triangulation
+832211,Product Assembler,8219,51-2091,isco_triangulation
+832211,Product Assembler,8219,51-2092,isco_triangulation
+839311,Product Examiner,7543,51-2021,isco_triangulation
+839312,Product Grader,7543,51-2021,isco_triangulation
+839313,Product Tester,7543,51-2021,isco_triangulation
+841411,Garden Labourer,9214,37-3011,isco_triangulation
+841411,Garden Labourer,9214,37-3012,isco_triangulation
+841411,Garden Labourer,9214,37-3013,isco_triangulation
+841412,Horticultural Nursery Assistant,9214,37-3011,isco_triangulation
+841412,Horticultural Nursery Assistant,9214,37-3012,isco_triangulation
+841412,Horticultural Nursery Assistant,9214,37-3013,isco_triangulation
+851211,Pastrycook's Assistant,9412,35-2021,isco_triangulation
+851211,Pastrycook's Assistant,9412,35-9011,isco_triangulation
+851211,Pastrycook's Assistant,9412,35-9021,isco_triangulation
+851211,Pastrycook's Assistant,9412,37-2011,isco_triangulation
+851299,Food Trades Assistants nec,9412,35-2021,isco_triangulation
+851299,Food Trades Assistants nec,9412,35-9011,isco_triangulation
+851299,Food Trades Assistants nec,9412,35-9021,isco_triangulation
+851299,Food Trades Assistants nec,9412,37-2011,isco_triangulation
+851311,Kitchenhand,9412,35-2021,isco_triangulation
+851311,Kitchenhand,9412,35-9011,isco_triangulation
+851311,Kitchenhand,9412,35-9021,isco_triangulation
+851311,Kitchenhand,9412,37-2011,isco_triangulation
+891111,Freight Handler (Rail or Road),9333,53-7041,isco_triangulation
+891112,Truck Driver's Offsider,9333,53-7041,isco_triangulation
+891113,Waterside Worker,9333,53-7041,isco_triangulation
+899111,Caretaker,5153,39-1012,isco_triangulation
+899111,Caretaker,5153,39-7011,isco_triangulation
+899111,Caretaker,5153,39-7012,isco_triangulation
+899111,Caretaker,5153,37-1011,isco_triangulation
+899111,Caretaker,5153,37-1012,isco_triangulation
+899211,Deck Hand,8350,53-4041,isco_triangulation
+899311,Handyperson,9622,53-7062,isco_triangulation
+899411,Motor Vehicle Parts and Accessories Fitter (General),7231,49-3011,isco_triangulation
+899411,Motor Vehicle Parts and Accessories Fitter (General),7231,49-3022,isco_triangulation
+899411,Motor Vehicle Parts and Accessories Fitter (General),7231,49-3023,isco_triangulation
+899411,Motor Vehicle Parts and Accessories Fitter (General),7231,49-3092,isco_triangulation
+899412,Autoglazier,7125,47-2121,isco_triangulation
+899413,Exhaust and Muffler Repairer,7231,49-3011,isco_triangulation
+899413,Exhaust and Muffler Repairer,7231,49-3022,isco_triangulation
+899413,Exhaust and Muffler Repairer,7231,49-3023,isco_triangulation
+899413,Exhaust and Muffler Repairer,7231,49-3092,isco_triangulation
+899414,Radiator Repairer,7231,49-3011,isco_triangulation
+899414,Radiator Repairer,7231,49-3022,isco_triangulation
+899414,Radiator Repairer,7231,49-3023,isco_triangulation
+899414,Radiator Repairer,7231,49-3092,isco_triangulation
+899415,Tyre Fitter,7231,49-3011,isco_triangulation
+899415,Tyre Fitter,7231,49-3022,isco_triangulation
+899415,Tyre Fitter,7231,49-3023,isco_triangulation
+899415,Tyre Fitter,7231,49-3092,isco_triangulation
+899611,Recycling or Rubbish Collector,9611,53-7111,isco_triangulation
+899711,Vending Machine Attendant,9623,53-7065,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3041,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3043,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3051,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3052,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3053,isco_triangulation
+899911,Bicycle Mechanic,7234,49-3091,isco_triangulation
+899913,Crossing Supervisor,5419,33-9091,isco_triangulation
+899913,Crossing Supervisor,5419,33-9092,isco_triangulation
+899913,Crossing Supervisor,5419,33-9093,isco_triangulation
+899914,Electrical or Telecommunications Trades Assistant,9313,47-2051,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,43-5052,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-6051,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-6061,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7061,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7063,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7064,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7072,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7073,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7081,isco_triangulation
+899915,Leaflet or Newspaper Deliverer,9621,53-7121,isco_triangulation
+899923,Road Traffic Controller,5419,33-9091,isco_triangulation
+899923,Road Traffic Controller,5419,33-9092,isco_triangulation
+899923,Road Traffic Controller,5419,33-9093,isco_triangulation

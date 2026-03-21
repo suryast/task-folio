@@ -1,0 +1,737 @@
+{
+  "2544": {
+    "soc_code": "29-1141",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5311": {
+    "soc_code": "43-9031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1421": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2211": {
+    "soc_code": "13-2011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3411": {
+    "soc_code": "49-2094",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4211": {
+    "soc_code": "39-6012",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "8112": {
+    "soc_code": "39-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5511": {
+    "soc_code": "43-3011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5121": {
+    "soc_code": "43-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1331": {
+    "soc_code": "47-2011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3212": {
+    "soc_code": "49-3011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "6121": {
+    "soc_code": "41-9021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3341": {
+    "soc_code": "47-2152",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1351": {
+    "soc_code": "11-3071",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1323": {
+    "soc_code": "11-3121",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3622": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2231": {
+    "soc_code": "13-1111",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5412": {
+    "soc_code": "43-4051",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1322": {
+    "soc_code": "11-3031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3131": {
+    "soc_code": "15-1244",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "6113": {
+    "soc_code": "41-4011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1112": {
+    "soc_code": "11-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1335": {
+    "soc_code": "51-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1411": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "8321": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "5321": {
+    "soc_code": "43-9022",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2221": {
+    "soc_code": "41-3021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7212": {
+    "soc_code": "53-7032",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5211": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2631": {
+    "soc_code": "15-1232",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3322": {
+    "soc_code": "47-2141",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2725": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "6215": {
+    "soc_code": "41-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2525": {
+    "soc_code": "29-1123",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2515": {
+    "soc_code": "29-1051",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2721": {
+    "soc_code": "13-1111",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "8212": {
+    "soc_code": "47-2051",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2244": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3129": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2335": {
+    "soc_code": "17-2131",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3112": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4511": {
+    "soc_code": "39-4011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4312": {
+    "soc_code": "35-3031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2422": {
+    "soc_code": "25-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4521": {
+    "soc_code": "39-3021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2524": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2333": {
+    "soc_code": "17-2071",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2233": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2415": {
+    "soc_code": "25-3011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1332": {
+    "soc_code": "11-9121",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2343": {
+    "soc_code": "33-9091",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3423": {
+    "soc_code": "49-9061",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2253": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2321": {
+    "soc_code": "27-1025",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3332": {
+    "soc_code": "47-2044",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3941": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "5122": {
+    "soc_code": "43-6012",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5212": {
+    "soc_code": "43-6014",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3311": {
+    "soc_code": "47-2021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4232": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2254": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "8322": {
+    "soc_code": "51-2011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4518": {
+    "soc_code": "39-3092",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7129": {
+    "soc_code": "53-7041",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2523": {
+    "soc_code": "29-1031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5994": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "1321": {
+    "soc_code": "11-3031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3114": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "1494": {
+    "soc_code": "11-3061",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1334": {
+    "soc_code": "11-9051",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2322": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2543": {
+    "soc_code": "29-1141",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5992": {
+    "soc_code": "43-9031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7123": {
+    "soc_code": "51-4022",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2222": {
+    "soc_code": "13-2061",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4116": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "1325": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2541": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2326": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "6394": {
+    "soc_code": "41-2011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4421": {
+    "soc_code": "33-3052",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7121": {
+    "soc_code": "53-7011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2325": {
+    "soc_code": "27-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "8115": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3613": {
+    "soc_code": "39-2021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1344": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "6112": {
+    "soc_code": "41-3021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2336": {
+    "soc_code": "17-2151",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2347": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2113": {
+    "soc_code": "43-5031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "6212": {
+    "soc_code": "41-2021",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2633": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3122": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "7119": {
+    "soc_code": "27-4013",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3623": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4524": {
+    "soc_code": "33-9093",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7219": {
+    "soc_code": "53-7041",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "8213": {
+    "soc_code": "47-2051",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2246": {
+    "soc_code": "11-9121",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3321": {
+    "soc_code": "47-2043",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3211": {
+    "soc_code": "49-2094",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4517": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3123": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3923": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3333": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4314": {
+    "soc_code": "39-1011",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2345": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2514": {
+    "soc_code": "29-1122",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2711": {
+    "soc_code": "23-1012",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3124": {
+    "soc_code": "53-2031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "8219": {
+    "soc_code": "47-2071",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3331": {
+    "soc_code": "47-2121",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2535": {
+    "soc_code": "29-1216",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3233": {
+    "soc_code": "51-4193",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1414": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2534": {
+    "soc_code": "29-1216",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "5997": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2532": {
+    "soc_code": "29-1216",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2331": {
+    "soc_code": "17-2131",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2526": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3126": {
+    "soc_code": "17-2131",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "4113": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2334": {
+    "soc_code": "17-2072",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7116": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "7112": {
+    "soc_code": "47-2142",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "7113": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3621": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3125": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "6393": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4513": {
+    "soc_code": "39-3031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3994": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "2243": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4313": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3222": {
+    "soc_code": "47-2211",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "3132": {
+    "soc_code": "53-2031",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "2232": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "4234": {
+    "soc_code": "39-6012",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1113": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3111": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "5616": {
+    "soc_code": "43-5032",
+    "method": "isco_triangulation",
+    "confidence": "high"
+  },
+  "1211": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "8413": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3933": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "5611": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "1312": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "3119": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  },
+  "8411": {
+    "soc_code": null,
+    "method": "unmapped",
+    "confidence": "low"
+  }
+}
