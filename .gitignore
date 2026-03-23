@@ -59,3 +59,4 @@ sql/import_*.sql
 
 # Personal profiler reports
 scripts/reports/
+__pycache__/
