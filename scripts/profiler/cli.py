@@ -1,7 +1,6 @@
 """Interactive CLI for TaskFolio personal risk profiler."""
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 from .occupation_search import load_occupations, search_occupations
 from .questionnaire import get_tasks_for_occupation, build_profile, calculate_personalised_score
@@ -30,7 +29,7 @@ def run():
 
     print("\nMatches:")
     for i, m in enumerate(matches, 1):
-        print(f"  {i}. {m['anzsco_title']} (ANZSCO {m['anzsco_code']})")
+        print(f"  {i}. {m['occupation_title']} (ANZSCO {m['anzsco_code']})")
 
     choice = input(f"\nSelect [1-{len(matches)}]: ").strip()
     try:
@@ -43,20 +42,19 @@ def run():
 
     # Step 2: Task questionnaire
     tasks = get_tasks_for_occupation(anzsco)
-    print(f"\n📋 {selected_occ['anzsco_title']} has {len(tasks)} tasks.\n")
+    print(f"\n📋 {selected_occ['occupation_title']} has {len(tasks)} tasks.\n")
 
-    # Quick mode: show tasks, user picks which they do
     print("Which of these tasks do you perform? (y/n/s to skip rest)\n")
 
     selections = {}
     selected_tasks = []
     for i, task in enumerate(tasks, 1):
-        ans = input(f"  {i}/{len(tasks)}: {task['task_description']}\n         [y/n/s] > ").strip().lower()
+        ans = input(f"  {i}/{len(tasks)}: {task['description']}\n         [y/n/s] > ").strip().lower()
         if ans == "s":
             break
         if ans == "y":
             selected_tasks.append(task)
-            selections[task["task_description"]] = {"does_task": True, "time_pct": 0}
+            selections[task["id"]] = {"does_task": True, "time_pct": 0}
 
     if not selected_tasks:
         print("No tasks selected. Exiting.")
@@ -66,7 +64,7 @@ def run():
     print(f"\n⏱️  Allocate your time across {len(selected_tasks)} selected tasks (must total 100%):\n")
     remaining = 100
     for i, task in enumerate(selected_tasks):
-        desc_short = task["task_description"][:60]
+        desc_short = task["description"][:60]
         if i == len(selected_tasks) - 1:
             pct = remaining
             print(f"  {desc_short}... → {pct}% (remainder)")
@@ -76,7 +74,7 @@ def run():
                 pct = min(int(pct_input), remaining)
             except ValueError:
                 pct = remaining // (len(selected_tasks) - i)
-        selections[task["task_description"]]["time_pct"] = pct
+        selections[task["id"]]["time_pct"] = pct
         remaining -= pct
 
     # Step 3: Build profile + score
@@ -108,7 +106,7 @@ def run():
     if save != "n":
         out_dir = Path("reports")
         out_dir.mkdir(exist_ok=True)
-        slug = selected_occ["anzsco_title"].lower().replace(" ", "-").replace("/", "-")
+        slug = selected_occ["occupation_title"].lower().replace(" ", "-").replace("/", "-")
 
         md_path = out_dir / f"{slug}-report.md"
         md_path.write_text(md)

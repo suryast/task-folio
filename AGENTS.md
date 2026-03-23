@@ -161,8 +161,8 @@ For more details, see README.md and docs/QUICKSTART.md.
 TaskFolio includes a local personal risk profiler that agents can run for users.
 
 ### Data
-- Master dataset: `data/pipeline/output/taskfolio_master_data.json` (6,690 tasks across 361 occupations)
-- Each task has: `task_description`, `automation_pct`, `augmentation_pct`, `timeframe`, `confidence`, `source`
+- Master dataset: `public/data/pipeline/output/tasks_cache.json` (6,690 tasks across 361 occupations)
+- Each task has: `id`, `description`, `automation_pct`, `augmentation_pct`, `timeframe`, `occupation_title`, `anzsco_code`
 - Occupations use ANZSCO codes (Australian) with O*NET crosswalk
 
 ### Running the Profiler
@@ -185,7 +185,7 @@ matches = search_occupations(occs, "registered nurse")
 
 # 2. Get tasks + build profile
 tasks = get_tasks_for_occupation(matches[0]["anzsco_code"])
-selections = {t["task_description"]: {"does_task": True, "time_pct": 100/len(tasks)} for t in tasks}
+selections = {t["id"]: {"does_task": True, "time_pct": 100/len(tasks)} for t in tasks}
 profile = build_profile(matches[0]["anzsco_code"], selections)
 profile["score"] = calculate_personalised_score(profile)
 

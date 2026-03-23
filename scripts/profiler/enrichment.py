@@ -63,10 +63,10 @@ def enrich_profile(
     """Enrich a profile with LLM-generated insights. Fails gracefully."""
     try:
         task_summary = "\n".join(
-            f"- {t['task_description']} ({t['time_pct']}% of time, auto={t['automation_pct']}, aug={t['augmentation_pct']})"
+            f"- {t['description']} ({t['time_pct']}% of time, auto={t['automation_pct']}, aug={t['augmentation_pct']})"
             for t in profile["selected_tasks"]
         )
-        user_msg = f"Occupation: {profile['anzsco_title']}\n\nTasks:\n{task_summary}"
+        user_msg = f"Occupation: {profile['occupation_title']}\n\nTasks:\n{task_summary}"
 
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT},
