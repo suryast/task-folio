@@ -31,6 +31,34 @@ Existing tools show occupation-level AI exposure ("Software Developer: 9/10") wi
 
 ---
 
+## 🎯 Personal Risk Profiler
+
+Get a personalised AI exposure analysis for YOUR specific job:
+
+```bash
+git clone https://github.com/suryast/task-folio.git
+cd task-folio/scripts
+python3 -m profiler
+```
+
+**What it does:**
+1. Search for your occupation (fuzzy matching across 361 jobs)
+2. Select which tasks you actually perform
+3. Allocate your time across tasks
+4. (Optional) Enrich with a local LLM for custom insights
+5. Get a personalised Markdown + HTML report
+
+**No API keys. No data leaves your machine. No services to run.**
+
+### Requirements
+- Python 3.11+
+- (Optional) [Ollama](https://ollama.ai) or any OpenAI-compatible local LLM for enrichment
+
+### For AI Agents
+See `AGENTS.md` for programmatic usage — point your coding agent at the repo and it can generate personalised reports using the Python modules directly.
+
+---
+
 ## System Architecture
 
 ```mermaid

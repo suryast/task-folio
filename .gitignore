@@ -56,3 +56,6 @@ api/.wrangler/
 
 # SQL import files (generated)
 sql/import_*.sql
+
+# Personal profiler reports
+scripts/reports/
