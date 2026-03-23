@@ -155,3 +155,52 @@ For more details, see README.md and docs/QUICKSTART.md.
 - `bd update <id> --status closed` when done
 - Never work on tasks without claiming them first
 - Check `bd list` to avoid conflicts with other agents
+
+## Personal Risk Profiler
+
+TaskFolio includes a local personal risk profiler that agents can run for users.
+
+### Data
+- Master dataset: `data/pipeline/output/taskfolio_master_data.json` (6,690 tasks across 361 occupations)
+- Each task has: `task_description`, `automation_pct`, `augmentation_pct`, `timeframe`, `confidence`, `source`
+- Occupations use ANZSCO codes (Australian) with O*NET crosswalk
+
+### Running the Profiler
+```bash
+cd scripts && python3 -m profiler
+```
+
+### Agent Workflow (non-interactive)
+For coding agents that can't do interactive prompts, use the modules directly:
+
+```python
+from profiler.occupation_search import load_occupations, search_occupations
+from profiler.questionnaire import get_tasks_for_occupation, build_profile, calculate_personalised_score
+from profiler.enrichment import enrich_profile
+from profiler.report import generate_markdown, generate_html
+
+# 1. Find occupation
+occs = load_occupations()
+matches = search_occupations(occs, "registered nurse")
+
+# 2. Get tasks + build profile
+tasks = get_tasks_for_occupation(matches[0]["anzsco_code"])
+selections = {t["task_description"]: {"does_task": True, "time_pct": 100/len(tasks)} for t in tasks}
+profile = build_profile(matches[0]["anzsco_code"], selections)
+profile["score"] = calculate_personalised_score(profile)
+
+# 3. Optional: enrich with local LLM
+# profile = enrich_profile(profile, endpoint="http://localhost:11434/v1")
+
+# 4. Generate reports
+print(generate_markdown(profile))
+html = generate_html(profile)
+```
+
+### Enrichment
+The profiler can optionally call any OpenAI-compatible endpoint (Ollama, llama.cpp, LM Studio) to:
+- Suggest custom tasks not in the standard list
+- Infer workplace context from task selections
+- Adjust automation scores based on user's specific situation
+
+No API key needed for local models. No data leaves the machine.
