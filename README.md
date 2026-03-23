@@ -49,13 +49,41 @@ python3 -m profiler
 
 That's it. No `npm install`, no `pip install`, no API keys. The profiler uses only Python standard library and reads data directly from the repo.
 
-### What it does
+### What You Get
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎯  YOUR PERSONAL AI EXPOSURE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Software Engineer  (ANZSCO 2613)
+  Analyzing 8 of 18 tasks
+
+──────────────────────────────────────────────────────────────
+  📊 EXPOSURE SCORES
+──────────────────────────────────────────────────────────────
+
+  Overall Exposure    ████████████████░░░░░░░░░░░░░░  53%  🟡 MEDIUM
+  🤖 Automation Risk  ██████░░░░░░░░░░░░░░░░░░░░░░░░  18%
+  🧠 Augmentation     ██████████░░░░░░░░░░░░░░░░░░░░  35%
+
+──────────────────────────────────────────────────────────────
+  ⏳ WHEN WILL AI AFFECT YOUR WORK?
+──────────────────────────────────────────────────────────────
+
+  ⚡ Happening now    █████████░░░░░░░░░░░░░░░░  38%
+  📅 1-2 years        ████████░░░░░░░░░░░░░░░░░  30%
+  🔮 3-5 years        █████░░░░░░░░░░░░░░░░░░░░  22%
+  🌅 5-10 years       ██░░░░░░░░░░░░░░░░░░░░░░░  10%
+```
+
+### How It Works
 
 1. **Search** for your occupation (fuzzy matching across 361 Australian jobs)
 2. **Select** which tasks you actually perform day-to-day
 3. **Allocate** your time across selected tasks
 4. **(Optional)** Enrich with a local LLM for personalised insights
-5. **Get** a Markdown + self-contained HTML report with your personalised AI exposure score
+5. **Get** a colour-coded terminal report + Markdown + self-contained HTML
 
 ### Requirements
 
@@ -64,7 +92,9 @@ That's it. No `npm install`, no `pip install`, no API keys. The profiler uses on
 
 ### For AI Coding Agents
 
-Point your agent (Claude Code, Cursor, Codex, etc.) at this repo. See [`AGENTS.md`](AGENTS.md) for programmatic usage — agents can import the profiler modules directly to generate personalised reports without the interactive CLI.
+Point your agent (Claude Code, Cursor, Codex, etc.) at this repo. See [`AGENTS.md`](AGENTS.md) for:
+- **Chat-based profiling** — agents ask you questions conversationally and build your profile through dialogue
+- **Programmatic API** — import the profiler modules directly for scripting
 
 ---
 
