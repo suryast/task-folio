@@ -215,10 +215,10 @@ export default function Home() {
             </h2>
             <div className="space-y-2.5">
               {[
+                { date: '2026-03-24', text: 'V1.3: Regenerated 2,858 tasks — 90% of all tasks now backed by verified O*NET mappings', tag: 'data' },
                 { date: '2026-03-24', text: 'V1.3: Enhanced matching — 93% of occupations now have verified O*NET mappings (up from 41%)', tag: 'feature' },
                 { date: '2026-03-24', text: 'Added Data Confidence grouping to treemap visualization', tag: 'feature' },
-                { date: '2026-03-24', text: 'Fixed Data Confidence widget + backfilled 1,362 missing task scores', tag: 'fix' },
-                { date: '2026-03-24', text: 'Normalized source labels across D1, frontend, and pipeline', tag: 'fix' },
+                { date: '2026-03-24', text: 'Fixed Data Confidence widget + backfilled missing task scores', tag: 'fix' },
                 { date: '2026-03-21', text: 'Regenerated AU-specific tasks for 62 mis-mapped occupations', tag: 'data' },
               ].map((entry, i) => (
                 <div key={i} className="flex gap-2 sm:gap-3 items-start">

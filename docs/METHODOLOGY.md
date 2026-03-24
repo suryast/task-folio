@@ -271,7 +271,37 @@ def triangulate_anzsco_to_soc(anzsco_code):
     return soc_codes  # May return multiple valid SOC matches
 ```
 
-### Results (V1.2)
+### Results (V1.3)
+
+| Method | Occupations | Confidence |
+|--------|-------------|------------|
+| ISCO Triangulation | 92 | High (official crosswalks) |
+| Manual Override (V1.3) | 95 | High (hand-verified mappings) |
+| Enhanced Fuzzy Match (V1.3) | 19 | Medium (weighted multi-algorithm) |
+| Fuzzy Fallback | 15 | Low (basic title matching) |
+| Unmapped (AU-specific) | 40 | Low (no O\*NET equivalent) |
+
+**Total coverage: 93% mapped** (321/361 occupations).
+
+### V1.3 Task Regeneration
+
+With 174 newly-mapped occupations, we regenerated tasks to replace synthetic (LLM-only) data with O\*NET-backed, Australian-context tasks:
+
+| Source | Before V1.3 | After V1.3 |
+|--------|-------------|------------|
+| `onet` (empirical) | 1,362 | 4,220 |
+| `anthropic` (empirical) | 1,097 | 1,097 |
+| `synthetic` (LLM-only) | 3,616 | 601 |
+
+**Empirical task coverage: 90%** (5,317/5,918 tasks).
+
+Regeneration used Claude Sonnet 4.5 with prompts including:
+- The mapped O\*NET SOC code and description as reference
+- Australian regulatory context (TGA, ASIC, APRA, Fair Work, SafeWork, state licensing)
+- Instruction to adapt for AU industry norms, not copy US tasks verbatim
+- 15-20 tasks per occupation with automation/augmentation/timeframe estimates
+
+### V1.2 Results (Historical)
 
 | Method | Occupations | Confidence |
 |--------|-------------|------------|
