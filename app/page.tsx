@@ -14,6 +14,7 @@ interface Occupation {
   ai_exposure: number
   outlook: string
   source: string
+  mapping_confidence: number | null
 }
 
 export default function Home() {

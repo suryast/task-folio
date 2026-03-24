@@ -4,7 +4,7 @@ export async function listOccupations(db: D1Database, limit = 500) {
   const { results } = await db
     .prepare(`
       SELECT anzsco_code, title, employment, median_pay_aud, outlook,
-             COALESCE(ai_exposure_weighted, 0) as ai_exposure, source
+             COALESCE(ai_exposure_weighted, 0) as ai_exposure, source, mapping_confidence
       FROM occupations
       ORDER BY employment DESC
       LIMIT ?

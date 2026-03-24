@@ -12,6 +12,7 @@ interface Occupation {
   ai_exposure: number
   outlook: string
   source: string
+  mapping_confidence: number | null
 }
 
 interface TreemapNode extends d3.HierarchyRectangularNode<any> {
@@ -31,7 +32,7 @@ interface TreemapProps {
   occupations: Occupation[]
 }
 
-type SortOption = 'employment' | 'ai_exposure' | 'category' | 'disruption'
+type SortOption = 'employment' | 'ai_exposure' | 'category' | 'disruption' | 'confidence'
 
 // Extract category from ANZSCO code (first digit = major group)
 function getCategory(code: string): string {
@@ -139,6 +140,37 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
             }))
         }))
       }
+    } else if (sortBy === 'confidence') {
+      // Group by data confidence: High (mapping_confidence >= 0.8), Medium (0.7-0.8), Low (null/unmapped)
+      const getConfidenceGroup = (confidence: number | null): string => {
+        if (confidence === null || confidence === undefined) return '⬜ Low Confidence'
+        if (confidence >= 0.8) return '🟩 High Confidence'
+        return '🟨 Medium Confidence'
+      }
+      const buckets: Record<string, typeof occupations> = {
+        '🟩 High Confidence': [],
+        '🟨 Medium Confidence': [],
+        '⬜ Low Confidence': [],
+      }
+      occupations.forEach(occ => {
+        const group = getConfidenceGroup(occ.mapping_confidence)
+        buckets[group].push(occ)
+      })
+      const order = ['🟩 High Confidence', '🟨 Medium Confidence', '⬜ Low Confidence']
+      hierarchyData = {
+        name: 'root',
+        children: order.filter(g => buckets[g].length > 0).map(group => ({
+          name: group,
+          children: buckets[group]
+            .sort((a, b) => (b.mapping_confidence || 0) - (a.mapping_confidence || 0))
+            .map(occ => ({
+              name: occ.title,
+              value: occ.employment || 1,
+              data: occ,
+              category: group
+            }))
+        }))
+      }
     } else if (sortBy === 'disruption') {
       // Size by disruption impact (employment × exposure = workers affected)
       hierarchyData = {
@@ -172,6 +204,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
       .paddingInner((sortBy === 'employment' || sortBy === 'disruption') ? 3 : 4)
       .paddingOuter(6)
       .paddingTop((sortBy === 'employment' || sortBy === 'disruption') ? 6 : 28)
+
       .round(true)
 
     treemap(root)
@@ -324,6 +357,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
               <option value="disruption">Disruption Impact</option>
               <option value="ai_exposure">AI Exposure</option>
               <option value="category">Job Category</option>
+              <option value="confidence">Data Confidence</option>
             </select>
             <span id="sort-description" className="sr-only">Changes how occupations are grouped in the visualization</span>
           </div>
@@ -339,7 +373,7 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
       
       {/* SVG container with brutal border */}
       <div className="border-2 border-black rounded-[5px] overflow-hidden overflow-x-auto">
-        <svg ref={svgRef} className="min-w-[600px] sm:min-w-0" role="img" aria-label={`Treemap showing ${occupations.length} Australian occupations grouped by ${sortBy === 'employment' ? 'workforce size' : sortBy === 'disruption' ? 'disruption impact' : sortBy === 'ai_exposure' ? 'AI exposure level' : 'job category'}. Each box represents an occupation - larger boxes mean ${sortBy === 'disruption' ? 'more workers affected by AI' : 'more workers'}, color indicates AI exposure risk. Click any box for details.`}></svg>
+        <svg ref={svgRef} className="min-w-[600px] sm:min-w-0" role="img" aria-label={`Treemap showing ${occupations.length} Australian occupations grouped by ${sortBy === 'employment' ? 'workforce size' : sortBy === 'disruption' ? 'disruption impact' : sortBy === 'ai_exposure' ? 'AI exposure level' : sortBy === 'confidence' ? 'data confidence' : 'job category'}. Each box represents an occupation - larger boxes mean ${sortBy === 'disruption' ? 'more workers affected by AI' : 'more workers'}, color indicates AI exposure risk. Click any box for details.`}></svg>
       </div>
       
       <p className="mt-2 sm:mt-3 text-xs sm:text-sm font-medium text-black" id="treemap-help">
