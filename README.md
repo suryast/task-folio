@@ -283,6 +283,28 @@ ANZSCO (AU) ──→ ISCO-08 (ILO) ──→ SOC (US/O*NET)
 
 The bottleneck factor is calculated from the ratio of augmentation-oriented vs automation-oriented tasks in each occupation.
 
+### V1.3: Enhanced Occupation Matching (2026-03-24)
+
+Major improvement to ANZSCO → O\*NET SOC mapping accuracy:
+
+| Confidence Tier | Before | After | Change |
+|-----------------|--------|-------|--------|
+| 🟩 High (≥0.8) | 63 | **210** | +147 |
+| 🟨 Medium (0.7-0.8) | 84 | **111** | +27 |
+| ⬜ Low (unmapped) | 214 | **40** | -174 |
+
+**Coverage: 93% of occupations now have verified O\*NET mappings** (up from 41%).
+
+Improvements:
+- **Manual overrides** for 95 high-employment AU occupations (Sales Assistants → Retail Salespersons, Truck Drivers → Heavy Truck Drivers, Software Programmers → Software Developers, etc.)
+- **Enhanced fuzzy matching** with weighted multi-strategy scoring (token_sort + token_set + partial_ratio)
+- **Full O\*NET occupation list** (1,016 SOC codes) used as matching target
+- **New treemap grouping** — "Group by: Data Confidence" shows mapping quality distribution
+- **Backfilled taskfolio_score** for 1,362 O\*NET tasks that were missing scores
+- **Normalized source labels** — canonical `onet`, `anthropic`, `synthetic` across D1, frontend, and pipeline
+
+Remaining 40 unmapped occupations are AU-specific roles with no clean O\*NET equivalent (e.g., Aboriginal Health Workers, specific AU regulatory roles). These continue using LLM-generated task data.
+
 ### V1.2.1: Data Source Label Fix (2026-03-24)
 
 Fixed a bug where the **Data Confidence** widget on occupation pages showed `0/N` for both Empirical and Synthetic task counts. The frontend was filtering for legacy source labels (`onet`, `synthetic`, `llm`) that no longer matched the D1 data after the O\*NET v2 regeneration:
