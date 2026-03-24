@@ -206,6 +206,29 @@ export default function Home() {
           <TreemapVisualization occupations={occupations} />
         </section>
 
+        {/* Changelog Section */}
+        <section className="mt-8 mb-8">
+          <div className="border-4 border-black dark:border-white bg-white dark:bg-zinc-900 p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,0.3)]">
+            <h2 className="text-lg font-black uppercase tracking-wide mb-4 flex items-center gap-2">
+              <span>🔧</span> Latest Updates
+            </h2>
+            <div className="space-y-3">
+              {[
+                { date: '2026-03-24', text: 'Normalized data source labels across D1, frontend, and pipeline (onet_v2→onet, claude_generated→synthetic)' },
+                { date: '2026-03-24', text: 'Fixed Data Confidence widget showing 0/N for all occupations — source label mismatch after O*NET v2 regeneration' },
+                { date: '2026-03-24', text: 'Backfilled taskfolio_score for 1,362 O*NET tasks that were missing scores' },
+                { date: '2026-03-21', text: 'Regenerated AU-specific tasks for 62 mis-mapped occupations using O*NET crosswalk (1,362 tasks)' },
+                { date: '2026-03-20', text: 'Added ISCO Triangulation mapping for 92 occupations (62.6% high-confidence coverage)' },
+              ].map((entry, i) => (
+                <div key={i} className="flex gap-3 items-start">
+                  <span className="text-xs font-mono text-black/50 dark:text-white/50 whitespace-nowrap mt-0.5">{entry.date}</span>
+                  <span className="text-sm text-black/80 dark:text-white/80">{entry.text}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Footer */}
         <Footer />
       </div>
