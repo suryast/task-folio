@@ -215,11 +215,11 @@ export default function Home() {
             </h2>
             <div className="space-y-2.5">
               {[
-                { date: '2026-03-24', text: 'Added Data Confidence grouping to treemap — see how mapping quality varies across occupations', tag: 'feature' },
-                { date: '2026-03-24', text: 'Fixed Data Confidence counts and backfilled scores for 1,362 O*NET tasks', tag: 'fix' },
-                { date: '2026-03-24', text: 'Normalized data source labels across D1, frontend, and pipeline', tag: 'fix' },
-                { date: '2026-03-21', text: 'Regenerated AU-specific tasks for 62 mis-mapped occupations using O*NET crosswalk', tag: 'data' },
-                { date: '2026-03-20', text: 'Added ISCO Triangulation mapping — 92 occupations at high confidence', tag: 'feature' },
+                { date: '2026-03-24', text: 'V1.3: Enhanced matching — 93% of occupations now have verified O*NET mappings (up from 41%)', tag: 'feature' },
+                { date: '2026-03-24', text: 'Added Data Confidence grouping to treemap visualization', tag: 'feature' },
+                { date: '2026-03-24', text: 'Fixed Data Confidence widget + backfilled 1,362 missing task scores', tag: 'fix' },
+                { date: '2026-03-24', text: 'Normalized source labels across D1, frontend, and pipeline', tag: 'fix' },
+                { date: '2026-03-21', text: 'Regenerated AU-specific tasks for 62 mis-mapped occupations', tag: 'data' },
               ].map((entry, i) => (
                 <div key={i} className="flex gap-2 sm:gap-3 items-start">
                   <span className="font-mono text-[10px] sm:text-xs whitespace-nowrap mt-0.5" style={{ color: 'var(--black)', opacity: 0.45 }}>{entry.date}</span>
