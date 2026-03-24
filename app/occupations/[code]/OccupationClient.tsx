@@ -234,8 +234,8 @@ function calculateConfidence(
 ): { level: 'HIGH' | 'MEDIUM' | 'LOW'; label: string; badgeClass: string; method: string } {
   const sources = tasks.map(t => t.source)
   const anthropicCount = sources.filter(s => s === 'anthropic').length
-  const onetCount = sources.filter(s => s === 'onet').length
-  const syntheticCount = sources.filter(s => s === 'synthetic' || s === 'llm').length
+  const onetCount = sources.filter(s => s === 'onet' || s === 'onet_v2').length
+  const syntheticCount = sources.filter(s => s === 'synthetic' || s === 'llm' || s === 'claude_generated').length
   const total = tasks.length
 
   // Check mapping method first (ISCO triangulation = higher confidence)
@@ -537,13 +537,13 @@ export default function OccupationClient() {
               <div className="flex justify-between items-center">
                 <span className="text-[10px] font-medium text-black/60">Empirical (Anthropic + O*NET)</span>
                 <span className="text-[10px] font-bold">
-                  {tasks.filter(t => t.source === 'anthropic' || t.source === 'onet').length}/{tasks.length} tasks
+                  {tasks.filter(t => t.source === 'anthropic' || t.source === 'onet' || t.source === 'onet_v2').length}/{tasks.length} tasks
                 </span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-[10px] font-medium text-black/60">Synthetic (LLM-generated)</span>
                 <span className="text-[10px] font-bold">
-                  {tasks.filter(t => t.source === 'synthetic' || t.source === 'llm').length}/{tasks.length} tasks
+                  {tasks.filter(t => t.source === 'synthetic' || t.source === 'llm' || t.source === 'claude_generated').length}/{tasks.length} tasks
                 </span>
               </div>
             </div>
