@@ -253,7 +253,11 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
           .attr('font-size', 13)
           .attr('font-weight', 700)
           .attr('fill', textColor)
-          .text(d => (d.data as any).name.toUpperCase())
+          .text(d => {
+            const name = (d.data as any).name.toUpperCase()
+            const childCount = d.children ? d.children.length : 0
+            return childCount > 0 ? `${name} (${childCount})` : name
+          })
       }
     }
 
