@@ -384,6 +384,31 @@ export function TreemapVisualization({ occupations }: TreemapProps) {
         <span className="hidden sm:inline">Box size = workforce size • Color = AI exposure • Click any occupation for task breakdown</span>
         <span className="sm:hidden">Tap any box for details</span>
       </p>
+      
+      {/* Screen reader accessible table fallback */}
+      <div className="sr-only">
+        <table>
+          <caption>Australian occupations by AI exposure and employment</caption>
+          <thead>
+            <tr>
+              <th scope="col">Occupation</th>
+              <th scope="col">Category</th>
+              <th scope="col">Employment</th>
+              <th scope="col">AI Exposure</th>
+            </tr>
+          </thead>
+          <tbody>
+            {occupations.slice(0, 50).map(occ => (
+              <tr key={occ.anzsco_code}>
+                <td><a href={`/occupations/${occ.anzsco_code}`}>{occ.title}</a></td>
+                <td>{getCategory(occ.anzsco_code)}</td>
+                <td>{occ.employment?.toLocaleString()}</td>
+                <td>{Math.round((occ.ai_exposure || 0) * 100)}%</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

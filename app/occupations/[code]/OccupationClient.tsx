@@ -78,36 +78,47 @@ function ShareButton({ title, exposureScore }: { title: string; exposureScore: n
         onClick={handleShare}
         className="px-4 py-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] transition-all text-xs sm:text-sm font-bold flex items-center gap-2 shrink-0"
         aria-label="Share this occupation"
+        aria-haspopup="menu"
+        aria-expanded={showMenu}
       >
         <span aria-hidden="true">📤</span>
         {copied ? 'Copied!' : 'Share'}
       </button>
       
       {showMenu && (
-        <div className="absolute right-0 mt-2 w-48 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-50">
+        <div 
+          className="absolute right-0 mt-2 w-48 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-50"
+          role="menu"
+          aria-label="Share options"
+          onKeyDown={(e) => { if (e.key === 'Escape') setShowMenu(false) }}
+        >
           <button
             onClick={handleCopy}
             className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+            role="menuitem"
           >
-            📋 Copy link
+            <span aria-hidden="true">📋</span> Copy link
           </button>
           <button
             onClick={shareToTwitter}
             className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+            role="menuitem"
           >
-            𝕏 Share on X
+            <span aria-hidden="true">𝕏</span> Share on X
           </button>
           <button
             onClick={shareToLinkedIn}
             className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2 border-b border-black/10"
+            role="menuitem"
           >
-            💼 Share on LinkedIn
+            <span aria-hidden="true">💼</span> Share on LinkedIn
           </button>
           <button
             onClick={shareToThreads}
             className="w-full px-4 py-3 text-left text-sm hover:bg-main/30 flex items-center gap-2"
+            role="menuitem"
           >
-            🧵 Share on Threads
+            <span aria-hidden="true">🧵</span> Share on Threads
           </button>
         </div>
       )}
@@ -461,7 +472,7 @@ export default function OccupationClient() {
             </div>
             
             {/* 2x2 Matrix Visual */}
-            <div className="grid grid-cols-2 gap-1 mt-2">
+            <div className="grid grid-cols-2 gap-1 mt-2" role="img" aria-label={`Impact type: ${impact.impactLabel}. Displacement ${Math.round(impact.displacement * 100)}%, Augmentation ${Math.round(impact.augmentation * 100)}%`}>
               <div 
                 className="p-2 text-center text-[10px] font-bold border-2"
                 style={{ 
@@ -510,7 +521,7 @@ export default function OccupationClient() {
                 <span>Displacement: {Math.round(impact.displacement * 100)}%</span>
                 <span>Augmentation: {Math.round(impact.augmentation * 100)}%</span>
               </div>
-              <div className="h-3 rounded-full overflow-hidden flex border-2 border-black" style={{ backgroundColor: 'var(--bg-alt)' }}>
+              <div className="h-3 rounded-full overflow-hidden flex border-2 border-black" style={{ backgroundColor: 'var(--bg-alt)' }} role="img" aria-hidden="true">
                 <div 
                   className="h-full" 
                   style={{ width: `${impact.displacement * 100}%`, backgroundColor: 'var(--danger)' }}
@@ -557,7 +568,7 @@ export default function OccupationClient() {
                 </span>
               </div>
               {/* Risk band scale - uses CSS vars */}
-              <div className="flex gap-0.5 mt-2">
+              <div className="flex gap-0.5 mt-2" role="img" aria-label={`Risk band: ${riskBand.band}`}>
                 {[0, 1, 2, 3, 4].map((i) => (
                   <div 
                     key={i}
@@ -579,7 +590,7 @@ export default function OccupationClient() {
         </section>
 
         {/* Quick Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mt-3 sm:mt-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mt-3 sm:mt-4" role="list" aria-label="Quick statistics">
           <div className="card-brutal p-2 sm:p-3" style={{ backgroundColor: 'var(--bg-alt)' }}>
             <span className="text-[10px] sm:text-xs font-bold text-black/60">EMPLOYMENT</span>
             <p className="text-sm sm:text-lg font-bold">{occupation.employment?.toLocaleString() || 'N/A'}</p>
@@ -659,7 +670,7 @@ export default function OccupationClient() {
               </div>
               
               {/* Growth bar */}
-              <div className="mt-4">
+              <div className="mt-4" role="img" aria-label={`Employment growth: ${projection.growth_10yr_pct >= 0 ? '+' : ''}${projection.growth_10yr_pct}% over 10 years`}>
                 <div className="h-3 bg-gray-200 rounded-full overflow-hidden border-2 border-black">
                   <div 
                     className={`h-full transition-all ${

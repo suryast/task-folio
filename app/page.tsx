@@ -106,8 +106,11 @@ export default function Home() {
               placeholder="Search occupations... (e.g. Software Developer, Nurse)"
               className="w-full sm:w-96 px-4 py-2 text-sm sm:text-base border-2 border-black bg-white rounded-none focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
               aria-label="Search occupations"
+              role="combobox"
+              aria-autocomplete="list"
               aria-expanded={showDropdown && filteredOccupations.length > 0}
               aria-controls="search-results"
+              aria-activedescendant=""
             />
             {showDropdown && filteredOccupations.length > 0 && (
               <ul 
@@ -121,12 +124,16 @@ export default function Home() {
                       onClick={() => handleSelect(o.anzsco_code)}
                       className="w-full px-4 py-3 text-left hover:bg-main/30 focus:bg-main/30 focus:outline-none border-b border-black/10 last:border-b-0"
                       role="option"
+                      aria-selected={false}
                     >
                       <div className="font-bold text-sm">{o.title}</div>
                       <div className="text-xs text-black/60 flex gap-2 mt-1">
                         <span>{o.anzsco_code}</span>
                         <span>•</span>
-                        <span className={o.ai_exposure > 0.6 ? 'text-red-600' : o.ai_exposure > 0.3 ? 'text-yellow-600' : 'text-green-600'}>
+                        <span 
+                          className={o.ai_exposure > 0.6 ? 'text-red-600' : o.ai_exposure > 0.3 ? 'text-yellow-600' : 'text-green-600'}
+                          aria-label={`${Math.round(o.ai_exposure * 100)}% AI exposure, ${o.ai_exposure > 0.6 ? 'high' : o.ai_exposure > 0.3 ? 'medium' : 'low'} risk`}
+                        >
                           {Math.round(o.ai_exposure * 100)}% AI exposure
                         </span>
                       </div>
@@ -144,10 +151,10 @@ export default function Home() {
             <span className="badge-brutal bg-white text-[10px] sm:text-xs">
               6,690 tasks
             </span>
-            <span className="badge-brutal bg-white text-[10px] sm:text-xs hidden sm:inline-flex">
+            <span className="badge-brutal bg-white text-[10px] sm:text-xs hidden sm:inline-flex" aria-hidden="true">
               Click to explore
             </span>
-            <span className="badge-brutal bg-white text-[10px] sm:text-xs sm:hidden">
+            <span className="badge-brutal bg-white text-[10px] sm:text-xs sm:hidden" aria-hidden="true">
               Tap to explore
             </span>
           </div>
@@ -208,10 +215,10 @@ export default function Home() {
         </section>
 
         {/* Changelog Section */}
-        <section className="mt-8 mb-8">
+        <section className="mt-8 mb-8" aria-label="Latest updates">
           <div className="card-brutal p-5 sm:p-6">
             <h2 className="text-base sm:text-lg font-black uppercase tracking-wide mb-4 flex items-center gap-2" style={{ color: 'var(--black)' }}>
-              <span>🔧</span> Latest Updates
+              <span aria-hidden="true">🔧</span> Latest Updates
             </h2>
             <div className="space-y-2.5">
               {[
