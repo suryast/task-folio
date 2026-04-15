@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://taskfolio-au.pages.dev/sitemap.xml
+Sitemap: https://ai-job-exposure.setiyaputra.me/sitemap.xml

@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ai-job-exposure.setiyaputra.me"),
+  alternates: {
+    canonical: '/',
+  },
   title: "TaskFolio - See which tasks AI will automate in your job",
   description: "Task-level AI exposure analysis for 361 Australian occupations. See exactly which parts of your job AI will affect, when it will happen, and how much impact it will have. Built with data from 1M real AI conversations.",
   keywords: ["AI job impact", "automation", "task analysis", "Australian jobs", "ANZSCO", "job automation", "AI exposure"],
