@@ -1,10 +1,13 @@
+import { statSync } from 'node:fs'
+import { resolve } from 'node:path'
 import { MetadataRoute } from 'next'
 import occupationConfidence from '@/public/data/occupation_confidence.json'
 
 export const dynamic = 'force-static'
 
 const baseUrl = 'https://ai-job-exposure.setiyaputra.me'
-const sitemapLastModified = new Date()
+const occupationDataPath = resolve(process.cwd(), 'public/data/occupation_confidence.json')
+const sitemapLastModified = statSync(occupationDataPath).mtime.toISOString()
 const occupationsApiUrl = 'https://taskfolio-au-api.hello-bb8.workers.dev/api/occupations'
 
 async function getOccupationCodes(): Promise<string[]> {
