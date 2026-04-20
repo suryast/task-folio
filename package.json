@@ -20,7 +20,7 @@
     "@takumi-rs/image-response": "^0.73.1",
     "d3": "^7.9.0",
     "d3-hierarchy": "^3.1.2",
-    "drizzle-orm": "^0.45.1",
+    "drizzle-orm": "^0.45.2",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
